@@ -5,8 +5,8 @@ import urllib
 from urllib import request
 
 def get_international_data():
-    url_2 = "https://www.linternational.fr/agenda"   
-    request_text = request.urlopen(url_2).read()
+    url = "https://www.linternational.fr/agenda"   
+    request_text = request.urlopen(url).read()
     page = bs4.BeautifulSoup(request_text, "lxml")
     exhibitions = page.find_all('div', class_ = "Zz5cHg")
     information = ['nom', 'date','heure','prix','etablissement','adresse','arrondissement']
