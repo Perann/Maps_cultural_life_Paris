@@ -11,12 +11,14 @@ def get_international_data():
     exhibitions = page.find_all('div', class_ = "Zz5cHg")
     information = ['nom', 'date','heure','prix','etablissement','adresse','arrondissement']
     D = {key:[] for key in information}
-
+    id_inter = 0
     for exhibition in exhibitions:                                 
         info = exhibition.img.get('alt').split(' - ')
+        D['nom'] = id_inter
         D['date'].append(info[0])
         D['heure'].append(info[1])
         D['prix'].append(info[2])
+        id_inter = id_inter + 1
     n = len(D['date'])
 
     p = []                                                     #On enlève le '€' des prix
@@ -25,7 +27,6 @@ def get_international_data():
     D['prix'] = p
 
     D['etablissement'] = ["L'international"]*n                  #On complète les infos qu'on a pas pour pouvoir faire un data_frame
-    D['nom'] = ['unknown']*n
     D['adresse'] = ["5 rue Moret"]*n
     D['arrondissement'] = [11]*n
 
