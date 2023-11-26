@@ -38,21 +38,27 @@ def get_OFS_data():
         url_salle_indiv.append(hyperl)
 
     Address = []
+    Locality = []
 
     for url in url_salle_indiv: ## prend du temps à tourner
         try : 
     
             request_text_salle = request.urlopen(url).read()
             page_indiv = bs4.BeautifulSoup(request_text_salle, "lxml")
-            address_indiv = page_indiv.find('span',{'itemprop' : 'streetAddress'})
-            Address.append(address_indiv.text.strip())
+            address_indiv = [page_indiv.find('span',{'itemprop' : 'streetAddress'}), page_indiv.find('span',{'itemprop' : 'addressLocality'})]
+            Address.append(address_indiv[0].text.strip())
+            Locality.append(address_indiv[1].text.strip())
 
         except Exception as e:  ### on a un probleme avec l'adesse 29 
 
             Address.append("61 rue du Chateau d'Eau") ## the url for this element didn' work, here is their website : https://www.etoiles.paris/contact
+            Locality.append("Paris 10e")
+
 
     
     Data_concert_hall['Rue'] = Address
+    Data_concert_hall['Arrondissement'] = Locality
+
     
     return Data_concert_hall
 
