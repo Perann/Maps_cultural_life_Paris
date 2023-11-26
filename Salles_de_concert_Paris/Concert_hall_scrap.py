@@ -30,6 +30,30 @@ def get_OFS_data():
 
     Data_concert_hall.columns = titles[1:]
 
+    url_salle_indiv = [] ## on recupere les URL des salles 
+    for row in table_rows:
+        hyp_finder = row.find('td').find('a') ## a indique un lien hypertext 
+        hyperl = hyp_finder['href'] ## maniere d'acceder à l'URL
+        hyperl = 'https://www.offi.fr' + hyperl ## on ajoute l'adresse generique pour permettre la recherche
+        url_salle_indiv.append(hyperl)
+
+    Address = []
+
+    for url in url_salle_indiv: ## prend du temps à tourner
+        try : 
+    
+            request_text_salle = request.urlopen(url).read()
+            page_indiv = bs4.BeautifulSoup(request_text_salle, "lxml")
+            address_indiv = page_indiv.find('span',{'itemprop' : 'streetAddress'})
+            Address.append(address_indiv.text.strip())
+
+        except Exception as e:  ### on a un probleme avec l'adesse 29 
+
+            Address.append("61 rue du Chateau d'Eau") ## the url for this element didn' work, here is their website : https://www.etoiles.paris/contact
+
+    
+    Data_concert_hall['Rue'] = Address
+    
     return Data_concert_hall
 
 if __name__ == '__main__':
