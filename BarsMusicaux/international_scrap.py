@@ -14,7 +14,7 @@ def get_international_data():
     id_inter = 0
     for exhibition in exhibitions:                                 
         info = exhibition.img.get('alt').split(' - ')
-        D['nom'] = id_inter
+        D['nom'].append(id_inter) 
         D['date'].append(info[0])
         D['heure'].append(info[1])
         D['prix'].append(info[2])

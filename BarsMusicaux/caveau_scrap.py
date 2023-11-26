@@ -49,7 +49,7 @@ def get_caveau_datas():
                 D['date'].append( str(day) + ' ' + month)
                 D['nom'].append(carac[1])
 
-        D['prix'] = ['k']*len(D['nom'])
+        D['prix'] = [14]*len(D['nom'])
         D['etablissement'] = ['Caveau de la Huchette']*len(D['nom'])
         D['heure'] =['21h30']*len(D['nom'])
         D['adresse'] = ['5 rue de la Huchette']*len(D['nom'])
