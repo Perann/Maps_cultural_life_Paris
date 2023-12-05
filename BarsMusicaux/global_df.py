@@ -8,9 +8,9 @@ df_caveau = get_caveau_datas()
 df_belleville = get_belleville_data()
 
 
-df_final = pd.concat([df_inter, df_caveau, df_belleville], ignore_index = True)
+global_df = pd.concat([df_inter, df_caveau, df_belleville], ignore_index = True)
 
-df_final.to_csv('DataBarsMusicaux.csv', index = False)
+global_df.to_csv('DataBarsMusicaux.csv', index = False)
 
 
   
