@@ -4,6 +4,7 @@ import bs4
 import numpy as np
 import lxml
 import pandas as pd
+import requests 
 
 url = 'https://www.offi.fr/theatre/pieces-de-theatre.html?criterion_sch_ville=75'                                       #Récupération des liens des pages
 site = request.urlopen(url).read()
@@ -23,12 +24,7 @@ for p in range(start_page+1, end_page):
 #le dictionnaire links contient les liens de chacune des pages, 
 # on va maintenant boucler sur les pages pour datascrapper chaque spectacle
 
-for link in links.values():
-    url = link
-    site = request.urlopen(url).read()
-    page = bs4.BeautifulSoup(site, 'lxml')
-    information = page.find_all('div', class_ = "mini-fiche-details d-flex has-padding-20")
-    print(information)
+print(links)
 
 
 
