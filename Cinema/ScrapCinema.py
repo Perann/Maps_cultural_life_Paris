@@ -16,11 +16,9 @@ for html in list[:-4]:
     link = html.get('href')
     LinksCinema[name] = link
 
-DataBase ={}
+
 for cinema in LinksCinema.keys():
-    DataBase[cinema] = []
+    
     requests.get(LinksCinema[cinema], headers= HEADERS)
     soup = bs4.BeautifulSoup(r.content,'lxml')
 
-print(DataBase)
-    
