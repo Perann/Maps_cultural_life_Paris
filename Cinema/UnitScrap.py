@@ -23,7 +23,7 @@ def UnitScrapCinema(url, date, cinema,HEADERS = HEADERS_IOS):
             Database['heure'].append(time.text)
             Database['nom'].append(title)
     
-    print(Database)
+    
     Database['date'] = [date]*len(Database['nom'])
     Database['etablissement'] = [cinema]*len(Database['nom'])
     Database['adresse'] = ['adresse']*len(Database['nom'])  
@@ -33,6 +33,9 @@ def UnitScrapCinema(url, date, cinema,HEADERS = HEADERS_IOS):
     return Database
 
 if __name__ == '__main__':
-    DataUgc = pd.DataFrame(UnitScrapCinema(url1,'ajd','ugc chatelet'))
+    HEADERS_IOS = {'User-Agent': 'Mozilla/5.0 (iPad; CPU OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148'}
+    url = 'https://www.cinefil.com/cinema/ugc-cine-cite-les-halles-paris/programmation'
+
+    DataUgc = pd.DataFrame(UnitScrapCinema(url,'ajd','ugc chatelet'))
     print(DataUgc.head())
     
