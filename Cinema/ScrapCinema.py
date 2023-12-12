@@ -3,11 +3,9 @@ import bs4
 import pandas as pd
 import lxml
 import numpy as np
-
+import requests
 
 url = 'https://www.cinefil.com/seances-cinema/paris'
-
-import requests
 HEADERS = {'User-Agent': 'Mozilla/5.0 (iPad; CPU OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148'}
 r = requests.get(url, headers=HEADERS)
 soup = bs4.BeautifulSoup(r.content, 'lxml')
@@ -18,4 +16,11 @@ for html in list[:-4]:
     link = html.get('href')
     LinksCinema[name] = link
 
-print(LinksCinema)
+DataBase ={}
+for cinema in LinksCinema.keys():
+    DataBase[cinema] = []
+    requests.get(LinksCinema[cinema], headers= HEADERS)
+    soup = bs4.BeautifulSoup(r.content,'lxml')
+
+print(DataBase)
+    
