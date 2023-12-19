@@ -13,6 +13,7 @@ def UnitScrapCinema(url, date, cinema,HEADERS = HEADERS_IOS):
     Database = {}
     Database['nom'] = []
     Database['heure'] = []
+    Database['arrrondissement'] = []
 
     InfoFilm = soup.find_all('div', class_ = 'fiche-film')
     for info in InfoFilm:
@@ -25,11 +26,11 @@ def UnitScrapCinema(url, date, cinema,HEADERS = HEADERS_IOS):
     
     
     Database['date'] = [date]*len(Database['nom'])
-    Database['etablissement'] = [cinema]*len(Database['nom'])
+    Database['etablissement'] = [cinema.upper()]*len(Database['nom'])
     Database['adresse'] = ['adresse']*len(Database['nom'])  
     Database['prix'] = ['variable']*len(Database['nom'])
+    Database['arrrondissement'] = ['arrondissement']*len(Database['nom'])
     
-
     return Database
 
 if __name__ == '__main__':
