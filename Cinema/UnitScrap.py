@@ -1,6 +1,7 @@
 import bs4
 import requests
 import pandas as pd
+import unidecode 
 
 HEADERS_IOS = {'User-Agent': 'Mozilla/5.0 (iPad; CPU OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148'}
     
@@ -13,8 +14,6 @@ def UnitScrapCinema(url, date, cinema,HEADERS = HEADERS_IOS):
     Database = {}
     Database['nom'] = []
     Database['heure'] = []
-    Database['arrrondissement'] = []
-
     InfoFilm = soup.find_all('div', class_ = 'fiche-film')
     for info in InfoFilm:
         title = info.find('div', class_ = 'fiche-infos').find('a').text
@@ -27,9 +26,8 @@ def UnitScrapCinema(url, date, cinema,HEADERS = HEADERS_IOS):
     
     Database['date'] = [date]*len(Database['nom'])
     Database['etablissement'] = [cinema.upper()]*len(Database['nom'])
-    Database['adresse'] = ['adresse']*len(Database['nom'])  
     Database['prix'] = ['variable']*len(Database['nom'])
-    Database['arrrondissement'] = ['arrondissement']*len(Database['nom'])
+
     
     return Database
 
