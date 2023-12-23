@@ -34,14 +34,6 @@ Data = pd.concat(df_to_merge, ignore_index= True)
 Data.to_csv('DataTheatre.csv')
 
 
-#Adding the adress and coordinates
-#import pandas as pd
-#Address = pd.read_csv('C:\\Users\\LENOVO\\Desktop\\Ou sortir à Paris\\Python_2A\\Théâtres_&_Opéras\\data_etablissements.csv')
-#unnamed_column = Address.iloc[:,0]
-#Address['etablissement'] = unnamed_column
 
-#merged = pd.merge(Data, Address, on = 'etablissement', how = 'left')
-#merged = merged.dropna(ignore_index = True)
-#columns_to_drop = ['Unnamed: 0',"Date D'Ouverture",'Nombre De Sièges','Notes','Adresse_complete']
-#merged.drop(columns = columns_to_drop, axis = 1, inplace= True)
-#merged.to_csv('DataTheatre.csv')
+
+

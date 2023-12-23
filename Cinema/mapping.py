@@ -1,7 +1,7 @@
 import folium
 import pandas as pd 
 
-program = pd.read_csv('Cinema\DataCinema.csv')
+program = pd.read_csv('Output\DataSets\DataCinema.csv')
 
 
 # Créer une carte centrée sur une position géographique
@@ -15,4 +15,4 @@ for index, row in program.iterrows():
             "<p style='font-size:16px;'>" + row['adresse'] +"</p>"
     folium.Marker(location=(lat,lon), popup = content, max_width=500).add_to(MovieMap)
 
-MovieMap.save("Cinema\MovieMapToday.html")
+MovieMap.save("MovieMapToday.html")

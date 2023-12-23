@@ -23,7 +23,18 @@ def PageScrap(url):
     for info in fiches:
         title  = info.find('div', class_ = 'event-title').find('span').text
         etablissement = info.find('div', class_ ='event-place').find('a', class_ = 'text-body')
-        prix = info.find('div', class_ = 'tags-container').find_all('span')[2].text
+        
+        span_list = info.find('div', class_ = 'tags-container').find_all('span')
+        figures =[]
+        for span in span_list:
+            if any(char.isdigit() for char in span.text):
+                figures.append(span.text)
+        
+        if figures != []:
+            prix = figures[0]
+        else:
+            prix = 'unknown'
+
     
         Data['nom'].append(title)
         Data['etablissement'].append(etablissement.text.strip())
@@ -36,10 +47,6 @@ def PageScrap(url):
         InfoAdresse = adresse.split(' - ')
         Data['adresse'] = InfoAdresse[0]
         Data['commune'] = InfoAdresse[1]
-
-
-
-
     
     DataPage = pd.DataFrame(Data)
     return DataPage
