@@ -9,7 +9,7 @@ import pandas as pd
 
 url_OFI_classique_Paris = 'https://www.offi.fr/concerts/programme.html?criterion_sch_ville=75&criterion_SRubrique=classique'
 request_text = request.urlopen(url_OFI_classique_Paris).read() ### on ouvre la page web avec les concerts de musique classique 
-page = bs4.BeautifulSoup(request_text, "lxml") ### donne du texte HTML utilisable (type bs4.BeautifulSoup)
+code_page = bs4.BeautifulSoup(request_text, "lxml") ### donne du texte HTML utilisable (type bs4.BeautifulSoup)
 
 ## récupération des balises utiles 
 
