@@ -9,4 +9,4 @@ df_to_concat = [DataCinema,DataBarsMusicaux]
 
 CulturalLifeProg = pd.concat(df_to_concat, ignore_index =  True )
 
-CulturalLifeProg.to_csv('Python_2A\DayProg.csv', encoding = 'utf-8')
+CulturalLifeProg.to_csv('Python_2A\Prog.csv', encoding = 'utf-8')
