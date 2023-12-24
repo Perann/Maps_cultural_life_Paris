@@ -7,11 +7,15 @@ from datetime import datetime
 def HourConversion(string):
     return datetime.strptime(string, '%H:%M') 
 
-def MovieMapping(data,hour):
+def MovieMapping(data,MinHour,MaxHour):
     
-    heure_formattee = datetime.strptime(str(hour), '%H')
+    HeureDebut = datetime.strptime(MinHour, "%Hh%M")
+    HeureFin = datetime.strptime(MaxHour, "%Hh%M")
+    
+    
     data['time'] = data['heure'].apply(lambda x: HourConversion(x))
-    AdjustedData = data[data['time']>= heure_formattee]
+    AdjustedData = data[data['time']>= HeureDebut]
+    AdjustedData = AdjustedData[AdjustedData['time'] <= HeureFin]
     
     MovieMap = folium.Map(location=[48.8566, 2.3522], zoom_start=12)
     GeoVisited = {}
@@ -24,14 +28,17 @@ def MovieMapping(data,hour):
                 "<p style='font-size:16px;'>" + row['etablissement'] + "</p>"\
                 "<p style='font-size:16px;'>" + row['heure'] + "</p>"
         
-            
         if (lat,lon) not in GeoVisited.keys():
             GeoVisited[(lat,lon)] = MarkerCluster().add_to(MovieMap)
             folium.Marker(location=(lat,lon), popup = content, max_width=500).add_to(GeoVisited[(lat,lon)])
         else:
             folium.Marker(location=(lat,lon), popup = content, max_width=500).add_to(GeoVisited[(lat,lon)])
     MovieMap.save("Outputs\Maps\MovieMapToday.html")
+    
+
+    html_file_path = 'Outputs\Maps\MovieMapToday.html'
+    webbrowser.open(html_file_path)
 
 if __name__ == '__main__':
     program = pd.read_csv('Outputs\DataSets\DataCinema.csv')
-    MovieMapping(program,17)
+    MovieMapping(program,'17h30','22h00')
