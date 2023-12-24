@@ -22,7 +22,7 @@ def ScrapMusiqueOFI(url):
 
     InfoDates = code_page.find_all('div', class_ = 'has-padding-left-20 has-padding-right-20 has-padding-bottom-20')
     for info in InfoDates:
-        Data['Date'].append(info.find('b').text.strip()) ### on ajoute à la liste dans le dictionnaire les dates (on trouve la première balise b, on récupère le texte et on retire les espaces)
+        Data['Date'].append(info.find('b').text.strip()) ### on ajoute à la liste dans le dictionnaire les dates (on trouve la première balise b, on récupère le texte et on retire les espaces plus tard *)
         
     ## Extraction des autres informations
 
@@ -44,13 +44,12 @@ def ScrapMusiqueOFI(url):
 
     
         Data['nom'].append(title)
-        Data['etablissement'].append(etablissement.text.strip())
+        Data['etablissement'].append(etablissement.text.strip()) ### (*) on nne strip qu'ici à cause de la ligne plus bas 
         Data['prix'].append(prix)
 
-        ### ici il y a des pbs à résoudre
         
-        link = etablissement.get('href')
-        site_etablissement = request.urlopen(link)
+        link = etablissement.get('href') ### on récupère le lien du site web de l'établissement 
+        site_etablissement = request.urlopen(link) 
         html_etablissement = bs4.BeautifulSoup(site_etablissement, 'lxml')
         adresse = html_etablissement.find('div', class_ = 'page-subtitle').text
         InfoAdresse = adresse.split(' - ')
@@ -63,6 +62,6 @@ def ScrapMusiqueOFI(url):
 
 
 if __name__ == '__main__':
-    url = 'https://www.offi.fr/theatre/pieces-de-theatre.html?criterion_sch_ville=75'
+    url = 'https://www.offi.fr/concerts/programme.html?criterion_sch_ville=75&criterion_SRubrique=classique'
     df = ScrapMusiqueOFI(url)
     df.to_csv('datatest.csv')
