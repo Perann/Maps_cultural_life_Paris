@@ -34,4 +34,4 @@ def MovieMapping(data,hour):
 
 if __name__ == '__main__':
     program = pd.read_csv('Outputs\DataSets\DataCinema.csv')
-    MovieMapping(program,20)
+    MovieMapping(program,17)
