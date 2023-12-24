@@ -10,7 +10,7 @@ df_belleville = get_belleville_data()
 
 global_df = pd.concat([df_inter, df_caveau, df_belleville], ignore_index = True)
 
-global_df.to_csv('Python_2A\BarsMusicaux\DataBarsMusicaux.csv', index = False)
+global_df.to_csv('Outputs\DataSets\DataBarsMusicaux.csv', index = False)
 
 
   
