@@ -40,7 +40,7 @@ def get_caveau_datas():
 
         programmation = balise_p[2].get_text(separator = '%', strip = True).split('%')
     
-        information = ['nom', 'date','heure','prix','etablissement','adresse','arrondissement']
+        information = ['nom', 'date','heure','prix','etablissement','adresse','arrondissement','geo']
         D ={key:[] for key in information}
         for concert in programmation:
             carac = concert.split(' : ')
@@ -54,6 +54,7 @@ def get_caveau_datas():
         D['heure'] =['21h30']*len(D['nom'])
         D['adresse'] = ['5 rue de la Huchette']*len(D['nom'])
         D['arrondissement'] = ['5']*len(D['nom'])
+        D['geo'] = [(48.85298472111753, 2.346274153798546)]*len(D['nom'])
         df_list.append(pd.DataFrame(D))
     
     return pd.concat(df_list, ignore_index= True)

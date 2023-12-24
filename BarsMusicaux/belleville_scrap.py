@@ -12,7 +12,7 @@ def get_belleville_data():
     site = request.urlopen(url)
     code_page = bs4.BeautifulSoup(site, 'lxml')
 
-    information = ['nom', 'date','heure','prix','etablissement','adresse','arrondissement']
+    information = ['nom', 'date','heure','prix','etablissement','adresse','arrondissement','geo']
     D ={key:[] for key in information}
 
     title_list = code_page.find_all('span', class_ = 'dp_pec_event_title_sp')
@@ -32,6 +32,8 @@ def get_belleville_data():
     D['etablissement'] = ['Le vieux belleville']*n
     D['adresse'] = ['12 rue des Envierges']*n
     D['arrondissement'] = [20]*n
+    D['geo'] = [(48.87177265119842, 2.3864016428038437)]*n
+
     df = pd.DataFrame(D)
     return df
 
