@@ -29,7 +29,7 @@ def ScrapMusiqueOFI(url):
     fiches = code_page.find_all('div', class_ = 'mini-fiche-details d-flex has-padding-20')     
     for fiche in fiches:
         title = fiche.find('div', class_ = 'event-title').find('span').text ### on extrait le nom de l'évènement
-        etablissement = fiche.find('div', class_ ='event-place').find('a', class_ = 'text-body').text.strip()
+        etablissement = fiche.find('div', class_ ='event-place').find('a', class_ = 'text-body')
         
         span_list = fiche.find('div', class_ = 'tags-container').find_all('span')
         figures =[]
@@ -44,8 +44,10 @@ def ScrapMusiqueOFI(url):
 
     
         Data['nom'].append(title)
-        Data['etablissement'].append(etablissement)
+        Data['etablissement'].append(etablissement.text.strip())
         Data['prix'].append(prix)
+
+        ### ici il y a des pbs à résoudre
         
         link = etablissement.get('href')
         site_etablissement = request.urlopen(link)
@@ -62,5 +64,5 @@ def ScrapMusiqueOFI(url):
 
 if __name__ == '__main__':
     url = 'https://www.offi.fr/theatre/pieces-de-theatre.html?criterion_sch_ville=75'
-    df = PageScrap(url)
+    df = ScrapMusiqueOFI(url)
     df.to_csv('datatest.csv')

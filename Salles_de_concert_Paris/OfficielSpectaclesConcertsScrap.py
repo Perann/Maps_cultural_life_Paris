@@ -13,7 +13,7 @@ code_page = bs4.BeautifulSoup(request_text, "lxml") ### donne du texte HTML util
 
 ## récupération des balises utiles 
 
-beacon_a = page.find_all('a', class_ = 'page_numero') ### on trouve toutes les balises 'a' (balise d'hyperlien) avec la classe CCS page_numero 
+beacon_a = code_page.find_all('a', class_ = 'page_numero') ### on trouve toutes les balises 'a' (balise d'hyperlien) avec la classe CCS page_numero 
 start_page, end_page = int(beacon_a[0].get('data-page')), int(beacon_a[-1].get('data-page'))  ### on récupère les pages utiles avec get depuis la liste html on la transforme en int
 
 
@@ -28,3 +28,15 @@ for p in range(start_page+1, end_page+1):
 
 
 print(links)
+
+## scrapping de la page 
+
+from ScrapMusiqueClassiqueOFI import ScrapMusiqueOFI
+
+df_to_merge = []
+for link in links.values():
+    df_to_merge.append(ScrapMusiqueOFI(link))
+    
+Data = pd.concat(df_to_merge, ignore_index= True)
+
+Data.to_csv('DataMusiqueClassique.csv')
