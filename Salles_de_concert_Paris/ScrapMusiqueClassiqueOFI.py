@@ -10,13 +10,8 @@ def ScrapMusiqueOFI(url):
 
     ## Création du dictionnaire qui va servir à générer le dataframe
 
-    Data = {} 
-    Data['nom'] = []
-    Data['etablissement'] = []
-    Data['Date'] = []
-    Data['adresse'] = []
-    Data['commune'] = []
-    Data['prix'] =[]
+    keys = ['nom','etablissement','Date','adresse','commune','prix']
+    Data = {key: [] for key in keys}
 
     ## Extraction des dates des évènements (on doit faire 2 boucles) /!\ on pourrait n'en faire qu'une avec une manip /!\
 
@@ -28,7 +23,11 @@ def ScrapMusiqueOFI(url):
 
     fiches = code_page.find_all('div', class_ = 'mini-fiche-details d-flex has-padding-20')     
     for fiche in fiches:
-        title = fiche.find('div', class_ = 'event-title').find('span').text ### on extrait le nom de l'évènement
+        if fiche.find('div', class_ = 'event-title'):                       ### on extrait le nom de l'évènement (qui n'est pas toujours précisé, d'ou le if)
+            title = fiche.find('div', class_ = 'event-title').find('span').text
+        else: 
+            title = 'unknown' 
+        
         etablissement = fiche.find('div', class_ ='event-place').find('a', class_ = 'text-body')
         
         span_list = fiche.find('div', class_ = 'tags-container').find_all('span')
@@ -44,7 +43,7 @@ def ScrapMusiqueOFI(url):
 
     
         Data['nom'].append(title)
-        Data['etablissement'].append(etablissement.text.strip()) ### (*) on nne strip qu'ici à cause de la ligne plus bas 
+        Data['etablissement'].append(etablissement.text.strip()) ### (*) on ne strip qu'ici à cause de la ligne plus bas 
         Data['prix'].append(prix)
 
         
@@ -53,9 +52,10 @@ def ScrapMusiqueOFI(url):
         html_etablissement = bs4.BeautifulSoup(site_etablissement, 'lxml')
         adresse = html_etablissement.find('div', class_ = 'page-subtitle').text
         InfoAdresse = adresse.split(' - ')
-        Data['adresse'] = InfoAdresse[0]
-        Data['commune'] = InfoAdresse[1]
+        Data['adresse'].append(InfoAdresse[0])
+        Data['commune'].append(InfoAdresse[1])
     
+    print('ok')
     DataPage = pd.DataFrame(Data)
     return DataPage
 
