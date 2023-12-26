@@ -4,6 +4,7 @@ import bs4
 import numpy as np
 import lxml
 import pandas as pd
+import time
 
 ## accès à la page web
 
@@ -27,15 +28,19 @@ for p in range(start_page+1, end_page+1):
     links[p] = 'https://www.offi.fr/concerts/programme.html?npage='+ str(p) + 'criterion_sch_ville=75&criterion_SRubrique=classique'
 
 
-print(links)
-
 ## scrapping de la page 
 
 from ScrapMusiqueClassiqueOFI import ScrapMusiqueOFI
 
 df_to_merge = []
 for link in links.values():
-    df_to_merge.append(ScrapMusiqueOFI(link))
+
+    try :
+        df_to_merge.append(ScrapMusiqueOFI(link))
+        time.sleep(np.random.normal(0,1))
+
+    except Exception as e:
+        print(link)
     
 Data = pd.concat(df_to_merge, ignore_index= True)
 
