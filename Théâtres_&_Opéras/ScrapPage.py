@@ -8,17 +8,17 @@ def PageScrap(url):
     site = request.urlopen(url)
     code_page = bs4.BeautifulSoup(site, 'lxml')
     fiches = code_page.find_all('div', class_ = 'mini-fiche-details d-flex has-padding-20')
-    Data = {}
-    Data['nom'] = []
-    Data['etablissement'] = []
-    Data['Date'] = []
-    Data['adresse'] = []
-    Data['commune'] = []
-    Data['prix'] =[]
+    
+    keys = ['nom','etablissement','Date','adresse','commune','prix']
+    Data = {key: [] for key in keys}
+   
     
     InfoDates = code_page.find_all('div', class_ = 'has-padding-left-20 has-padding-right-20 has-padding-bottom-20')
     for info in InfoDates:
-        Data['Date'].append(info.find('b'))
+        if info.find('b'):
+            Data['Date'].append(info.find('b').text)
+        else:
+            Data['Date'].append('unknown')
         
     for info in fiches:
         title  = info.find('div', class_ = 'event-title').find('span').text
@@ -45,8 +45,8 @@ def PageScrap(url):
         htmml_etablissement = bs4.BeautifulSoup(site_etablissement, 'lxml')
         adresse = htmml_etablissement.find('div', class_ = 'page-subtitle').text
         InfoAdresse = adresse.split(' - ')
-        Data['adresse'] = InfoAdresse[0]
-        Data['commune'] = InfoAdresse[1]
+        Data['adresse'].append(InfoAdresse[0])
+        Data['commune'].append(InfoAdresse[1])
     
     DataPage = pd.DataFrame(Data)
     return DataPage

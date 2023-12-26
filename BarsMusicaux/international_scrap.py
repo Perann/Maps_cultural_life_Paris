@@ -9,12 +9,12 @@ def get_international_data():
     request_text = request.urlopen(url).read()
     page = bs4.BeautifulSoup(request_text, "lxml")
     exhibitions = page.find_all('div', class_ = "Zz5cHg")
-    information = ['nom', 'date','heure','prix','etablissement','adresse','arrondissement']
+    information = ['nom', 'date','heure','prix','etablissement','adresse','arrondissement', 'geo']
     D = {key:[] for key in information}
     id_inter = 0
     for exhibition in exhibitions:                                 
         info = exhibition.img.get('alt').split(' - ')
-        D['nom'].append(id_inter) 
+        D['nom'].append('International#' + str(id_inter)) 
         D['date'].append(info[0])
         D['heure'].append(info[1])
         D['prix'].append(info[2])
@@ -29,7 +29,7 @@ def get_international_data():
     D['etablissement'] = ["L'international"]*n                  #On complète les infos qu'on a pas pour pouvoir faire un data_frame
     D['adresse'] = ["5 rue Moret"]*n
     D['arrondissement'] = [11]*n
-
+    D['geo'] = [(48.866870695130075, 2.3794315537994883)]*n
     data = pd.DataFrame(D)
     return data
 
