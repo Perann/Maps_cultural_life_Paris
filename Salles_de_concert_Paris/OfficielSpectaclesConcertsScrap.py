@@ -34,13 +34,16 @@ from ScrapMusiqueClassiqueOFI import ScrapMusiqueOFI
 
 df_to_merge = []
 for link in links.values():
+    df_to_merge.append(ScrapMusiqueOFI(link))
 
-    try :
-        df_to_merge.append(ScrapMusiqueOFI(link))
-        time.sleep(np.random.normal(0,1))
 
-    except Exception as e:
-        print(link)
+
+    #try :
+    #    df_to_merge.append(ScrapMusiqueOFI(link))
+    #    time.sleep(np.random.normal(0,1))
+
+    #except Exception as e:
+    #    print(link)
     
 Data = pd.concat(df_to_merge, ignore_index= True)
 

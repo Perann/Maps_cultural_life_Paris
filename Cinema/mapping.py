@@ -37,8 +37,8 @@ def MovieMapping(data,MinHour,MaxHour):
     
 
     html_file_path = 'Outputs\Maps\MovieMapToday.html'
-    webbrowser.open(html_file_path)
+    webbrowser.open_new(html_file_path)
 
 if __name__ == '__main__':
     program = pd.read_csv('Outputs\DataSets\DataCinema.csv')
-    MovieMapping(program,'17h30','22h00')
+    MovieMapping(program,'17h30','20h00')

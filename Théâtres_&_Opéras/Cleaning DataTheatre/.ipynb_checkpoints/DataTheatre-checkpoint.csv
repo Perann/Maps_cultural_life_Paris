@@ -1,0 +1,586 @@
+,nom,etablissement,Date,adresse,commune,prix
+0,Tout va bien se passer,Comédie Saint-Martin,Du 9 octobre 2023 au 31 mars 2024,33 boulevard Saint-Martin,Paris 3e,11-76 €
+1,L'Embarras du choix,Théâtre de la Gaîté-Montparnasse,Du 7 janvier 2022 au 30 juin 2024,26 rue de la Gaîté,Paris 14e,22-71 €
+2,Chers parents,Théâtre de Paris,Du 11 octobre 2023 au 25 février 2024,15 rue Blanche,Paris 9e,33-48 €
+3,Dernier coup de ciseaux,Théâtre des Mathurins,Du 9 juin 2021 au 18 mai 2024,36 rue des Mathurins,Paris 8e,16-97 €
+4,Edmond,Théâtre du Palais-Royal,Du 17 août 2023 au 15 juin 2024,38 rue de Montpensier,Paris 1er,20-104 €
+5,Une idée géniale,Théâtre Michel,Du 19 août 2022 au 31 décembre 2023,38 rue des Mathurins,Paris 8e,unknown
+6,"C'est décidé, je deviens une connasse !",Comédie Oberkampf,Du 15 septembre 2023 au 5 mai 2024,115 rue du Chemin Vert,Paris 11e,11-49 €
+7,Oublie-moi,Théâtre Actuel La Bruyère,Du 29 août 2023 au 30 mars 2024,5 rue La Bruyère,Paris 9e,26-54 €
+8,La Maison du loup,Théâtre Rive Gauche,Du 14 septembre 2023 au 31 mars 2024,6 rue de la Gaîté,Paris 14e,20-88 €
+9,Hernie fiscale,Comédie Saint-Martin,Du 12 octobre 2023 au 31 mars 2024,33 boulevard Saint-Martin,Paris 3e,18-76 €
+10,Dîner de famille,Café de la Gare,Du 22 juin 2019 au 2 février 2025,41 rue du Temple,Paris 4e,18-29 €
+11,Notre vie dans l'Art,Théâtre du Soleil - Cartoucherie,Du 6 décembre 2023 au 3 mars 2024,Route du Champ de Manœuvre,Paris 12e,16-39 €
+12,Berlin Berlin,Théâtre Fontaine,Du 7 septembre 2023 au 28 avril 2024,10 rue Pierre-Fontaine,Paris 9e,24-53 €
+13,Le Malade imaginaire,Théâtre des Champs-Élysées,Du 21 décembre 2023 au 7 janvier 2024,15 avenue Montaigne,Paris 8e,16 €
+14,Un chapeau de paille d'Italie,Théâtre de la Porte Saint-Martin,Du 27 septembre 2023 au 31 décembre 2023,18 boulevard Saint-Martin,Paris 10e,15-35 €
+15,Mes copains d'abord,Le Grand Point Virgule,Du 2 juin 2023 au 30 avril 2024,8 bis rue de l'Arrivée,Paris 15e,18-49 €
+16,Les femmes ont toujours raison les hommes n'ont jamais tort,Théâtre Le Passage vers les Étoiles,Du 17 septembre 2021 au 5 mai 2024,17 cité Joly,Paris 11e,14-55 €
+17,La Machine de Turing,Théâtre du Palais-Royal,Du 18 août 2023 au 27 avril 2024,38 rue de Montpensier,Paris 1er,18-79 €
+18,Un chalet à Gstaad,Théâtre des Nouveautés,Du 1 décembre 2023 au 28 janvier 2024,24 boulevard Poissonnière,Paris 9e,20-44 €
+19,Cyrano de Bergerac,Comédie-Française - Salle Richelieu,Du 8 décembre 2023 au 8 avril 2024,place Colette,Paris 1er,unknown
+20,L'Heure des assassins,Théâtre du Lucernaire,Du 25 octobre 2023 au 21 janvier 2024,53 rue Notre-Dame-des-Champs,Paris 6e,unknown
+21,Changer l'eau des fleurs,Théâtre de la Renaissance,Du 17 août 2023 au 7 janvier 2024,20 boulevard Saint-Martin,Paris 10e,15-54 €
+22,Pourquoi les femmes aiment les connards ?,La Grande Comédie,Du 22 novembre 2023 au 31 mars 2024,40 rue de Clichy,Paris 9e,10-30 €
+23,La Note,Théâtre des Bouffes Parisiens,Du 21 septembre 2023 au 31 décembre 2023,4 rue Monsigny,Paris 2e,unknown
+24,L'Amour chez les autres,Théâtre Édouard VII,Du 18 janvier 2024 au 19 mai 2024,10 place Édouard VII,Paris 9e,30-75 €
+25,Une bonne bière,Le Funambule Montmartre,Du 19 octobre 2023 au 25 février 2024,53 rue des Saules,Paris 18e,11-33 €
+26,Le Voyage de Gulliver,Athénée Théâtre Louis-Jouvet,Du 21 décembre 2023 au 4 janvier 2024,7 rue Boudreau Square de l'Opéra Louis-Jouvet,Paris 9e,15-40 €
+27,Le Bracelet,Théâtre des Nouveautés,Du 14 février 2024 au 5 mai 2024,24 boulevard Poissonnière,Paris 9e,20-79 €
+28,Le Cercle des poètes disparus,Théâtre Antoine,Du 23 janvier 2024 au 31 mars 2024,14 boulevard de Strasbourg,Paris 10e,22-79 €
+29,Le Coucou,Théâtre Edgar,Du 3 octobre 2023 au 14 mai 2024,58 boulevard Edgar-Quinet,Paris 14e,23-39 €
+30,Révélations,Théâtre de Passy,Du 25 novembre 2023 au 16 mars 2024,95 rue de Passy,Paris 16e,14-46 €
+31,Les gros patinent bien,Théâtre Saint-Georges,Du 15 septembre 2023 au 24 février 2024,51 rue Saint-Georges,Paris 9e,24-66 €
+32,Arsène Lupin,Théâtre du Lucernaire,Du 8 novembre 2023 au 28 janvier 2024,53 rue Notre-Dame-des-Champs,Paris 6e,33-55 €
+33,"Et pendant ce temps, Simone veille !",Comédie Bastille,Du 13 mai 2017 au 30 juin 2024,5 rue Nicolas-Appert,Paris 11e,13-64 €
+34,Stars d'un soir,La Grande Comédie,Du 19 octobre 2023 au 31 mars 2024,40 rue de Clichy,Paris 9e,14-98 €
+35,"C'est beau l'amour, mais ça part toujours en couilles !",La Comédie du Onzième,Du 14 octobre 2022 au 3 mars 2024,35 rue Sedaine,Paris 11e,14-39 €
+36,Le Bourgeois gentilhomme,Comédie-Française - Salle Richelieu,Du 17 novembre 2023 au 15 janvier 2024,place Colette,Paris 1er,unknown
+37,Lapin,Théâtre Édouard VII,Du 21 septembre 2023 au 6 janvier 2024,10 place Édouard VII,Paris 9e,15-120 €
+38,Un léger doute,Théâtre de la Renaissance,Du 29 septembre 2023 au 7 janvier 2024,20 boulevard Saint-Martin,Paris 10e,16-89 €
+39,Une journée particulière,Théâtre de l'Atelier,Du 2 décembre 2023 au 31 décembre 2023,1 place Charles-Dullin,Paris 18e,unknown
+40,Les Téméraires,Comédie Bastille,Du 7 septembre 2023 au 16 juin 2024,5 rue Nicolas-Appert,Paris 11e,13-64 €
+41,"Kessel, la liberté à tout prix",Théâtre du Lucernaire,Du 30 août 2023 au 7 janvier 2024,53 rue Notre-Dame-des-Champs,Paris 6e,unknown
+42,"Kessel, la liberté à tout prix",Théâtre Rive Gauche,Du 12 janvier 2024 au 21 avril 2024,6 rue de la Gaîté,Paris 14e,15-31 €
+43,La Fontaine et le confinement,Théâtre Montparnasse,Du 9 octobre 2023 au 4 mars 2024,31 rue de la Gaité,Paris 14e,unknown
+44,Le Misanthrope,Comédie-Française - Salle Richelieu,Du 22 décembre 2023 au 11 février 2024,place Colette,Paris 1er,unknown
+45,Smile,La Scala Paris,Du 27 décembre 2023 au 31 décembre 2023,13 boulevard de Strasbourg,Paris 10e,15-39 €
+46,Moby Dick,Théâtre du Lucernaire,Du 13 décembre 2023 au 3 mars 2024,53 rue Notre-Dame-des-Champs,Paris 6e,16-55 €
+47,Le Repas des fauves,Théâtre Hébertot,Du 14 septembre 2023 au 29 février 2024,78 bis boulevard des Batignolles,Paris 17e,15-55 €
+48,Courageuses,Théâtre Antoine,Du 8 novembre 2023 au 29 décembre 2023,14 boulevard de Strasbourg,Paris 10e,21-50 €
+49,"La Reine des neiges, l'histoire oubliée",Comédie-Française - Théâtre du Vieux-Colombier,Du 22 novembre 2023 au 7 janvier 2024,21 rue du Vieux-Colombier,Paris 6e,37 €
+50,Ma version de l'histoire,Théâtre Michel,Du 10 janvier 2024 au 30 mars 2024,38 rue des Mathurins,Paris 8e,17-51 €
+51,Toute l'histoire de la peinture en moins de deux heures,Le 13e Art,Du 9 octobre 2023 au 3 juin 2024,"Centre commercial Italie 2, Place d'Italie",Paris 13e,16-68 €
+52,Eldorado 1528,Théâtre Montparnasse,Du 7 septembre 2023 au 31 décembre 2023,31 rue de la Gaité,Paris 14e,15-35 €
+53,Vidéo club,Théâtre Antoine,Du 14 septembre 2023 au 6 janvier 2024,14 boulevard de Strasbourg,Paris 10e,22-119 €
+54,Le Concierge,La Divine Comédie,Du 23 septembre 2023 au 30 mars 2024,2 rue Saulnier,Paris 9e,17-22 €
+55,L'Éducation sentimentale,Théâtre de Poche-Montparnasse,Du 29 août 2023 au 3 mars 2024,75 boulevard du Montparnasse,Paris 6e,24-31 €
+56,Farces et nouvelles de Tchekhov,Théâtre du Lucernaire,Du 8 novembre 2023 au 7 janvier 2024,53 rue Notre-Dame-des-Champs,Paris 6e,33-55 €
+57,Les Fourberies de Scapin,Espace Marais,Du 30 septembre 2023 au 6 janvier 2024,22 rue Beautreillis,Paris 4e,13-37 €
+58,Les Fourberies de Scapin,Comédie-Française - Salle Richelieu,Du 3 février 2024 au 26 juin 2024,place Colette,Paris 1er,unknown
+59,Big Mother,Théâtre des Béliers Parisiens,Du 7 février 2023 au 31 mars 2024,14 bis rue Sainte-Isaure,Paris 18e,40-44 €
+60,Borderline,Théâtre de Passy,Du 7 septembre 2023 au 31 décembre 2023,95 rue de Passy,Paris 16e,15-42 €
+61,Passeport,Théâtre de la Renaissance,Du 26 janvier 2024 au 30 juin 2024,20 boulevard Saint-Martin,Paris 10e,20-66 €
+62,Ils se marièrent et eurent beaucoup… d'emmerdes,Théâtre Le Bourvil,Du 1 octobre 2021 au 29 février 2024,13 rue des Boulets,Paris 11e,14-41 €
+63,Le Montespan,Théâtre Actuel La Bruyère,Du 25 novembre 2023 au 4 février 2024,5 rue La Bruyère,Paris 9e,26-73 €
+64,Une histoire d'amour,Le Splendid,Du 18 octobre 2023 au 21 janvier 2024,48 rue du fbg Saint-Martin,Paris 10e,23-53 €
+65,Piège pour un homme seul,Théâtre de la Michodière,Du 14 septembre 2023 au 31 décembre 2023,4 bis rue de la Michodière,Paris 2e,26-71 €
+66,Le Horla,À la Folie Théâtre,Du 16 novembre 2023 au 4 février 2024,6 rue de la Folie-Méricourt,Paris 11e,22-39 €
+67,Intra Muros,La Pépinière Théâtre,Du 20 septembre 2022 au 5 mai 2024,7 rue Louis-Le-Grand,Paris 2e,22-53 €
+68,Ruy Blas,Théâtre Marigny,Du 27 septembre 2023 au 31 décembre 2023,Carré Marigny,Paris 8e,22-70 €
+69,Un pour tous,Les Enfants du Paradis,Du 22 décembre 2023 au 5 janvier 2024,34 rue Richer,Paris 9e,22-33 €
+70,Un pour tous,Café de la Gare,Le 31 décembre 2023,41 rue du Temple,Paris 4e,29 €
+71,La Guerre des sexes,Les Enfants du Paradis,Du 29 septembre 2023 au 31 mars 2024,34 rue Richer,Paris 9e,19-40 €
+72,Ce soir ou jamais,Théâtre Mélo d'Amélie,Du 1 juillet 2023 au 30 avril 2024,4 rue Marie-Stuart,Paris 2e,11-40 €
+73,Les Crapauds fous,Le Splendid,Du 27 janvier 2023 au 21 janvier 2024,48 rue du fbg Saint-Martin,Paris 10e,34-62 €
+74,Sacré Pan !,Théâtre des Variétés,Du 26 janvier 2024 au 13 avril 2024,7 boulevard Montmartre,Paris 2e,22-57 €
+75,Bienvenue à la Caf,La Comédie du Onzième,Du 26 décembre 2023 au 1 avril 2024,35 rue Sedaine,Paris 11e,10-20 €
+76,Par ici la sortie,Théâtre Edgar,Du 4 février 2023 au 11 mai 2024,58 boulevard Edgar-Quinet,Paris 14e,13-39 €
+77,Sherlock Holmes et le mystère de la vallée de Boscombe,Le Grand Point Virgule,Du 12 juin 2021 au 28 avril 2024,8 bis rue de l'Arrivée,Paris 15e,33 €
+78,Le Père Noël est une ordure,Théâtre du Gymnase,Du 7 octobre 2023 au 6 janvier 2024,38 boulevard de Bonne-Nouvelle,Paris 10e,20-26 €
+79,Le Discours,Théâtre de la Renaissance,Du 12 novembre 2023 au 31 décembre 2023,20 boulevard Saint-Martin,Paris 10e,10-54 €
+80,Interruption,Théâtre Antoine,Du 18 septembre 2023 au 13 février 2024,14 boulevard de Strasbourg,Paris 10e,21-50 €
+81,La Joconde parle enfin,Théâtre de l'Œuvre,Du 15 février 2024 au 31 mars 2024,55 rue de Clichy,Paris 9e,9-43 €
+82,L'Argent de la vieille,Le Théâtre Libre,Du 1 février 2024 au 5 mai 2024,4 boulevard de Strasbourg,Paris 10e,26-71 €
+83,Freud et la femme de chambre,Théâtre Montparnasse,Du 20 janvier 2024 au 7 avril 2024,31 rue de la Gaité,Paris 14e,16-60 €
+84,Courgette,Théâtre Tristan-Bernard,Du 25 août 2023 au 6 janvier 2024,64 rue du Rocher,Paris 8e,33-42 €
+85,Contes et légendes,Théâtre de la Porte Saint-Martin,Du 10 janvier 2024 au 10 mars 2024,18 boulevard Saint-Martin,Paris 10e,29-51 €
+86,12 hommes en colère,Théâtre Hébertot,Du 22 septembre 2023 au 28 janvier 2024,78 bis boulevard des Batignolles,Paris 17e,15-42 €
+87,Les Poupées persanes,La Pépinière Théâtre,Du 14 septembre 2023 au 6 janvier 2024,7 rue Louis-Le-Grand,Paris 2e,33-70 €
+88,Les Poupées persanes,La Pépinière Théâtre,Du 16 mai 2024 au 13 juillet 2024,7 rue Louis-Le-Grand,Paris 2e,22-53 €
+89,Biographie : un jeu,Théâtre Marigny,Du 16 janvier 2024 au 17 mars 2024,Carré Marigny,Paris 8e,20-69 €
+90,La Puce à l'oreille,Comédie-Française - Salle Richelieu,Du 19 septembre 2023 au 1 janvier 2024,place Colette,Paris 1er,unknown
+91,Mata Hari ou la justice des hommes,Théâtre Montparnasse,Du 31 août 2023 au 31 décembre 2023,31 rue de la Gaité,Paris 14e,12-40 €
+92,L'Effet miroir,Théâtre de l'Œuvre,Du 12 octobre 2023 au 13 janvier 2024,55 rue de Clichy,Paris 9e,22-46 €
+93,Bungalow 21,Théâtre de la Madeleine,Du 14 septembre 2023 au 7 janvier 2024,19 rue de Surène,Paris 8e,20-88 €
+94,Bunker : Lettres de Magda Goebbels,Théâtre Tristan-Bernard,Du 1 février 2024 au 28 mars 2024,64 rue du Rocher,Paris 8e,31-39 €
+95,Le Comte de Monte-Cristo,Théâtre L'Essaïon,Du 24 novembre 2023 au 25 février 2024,6 rue Pierre-au-Lard,Paris 4e,11-28 €
+96,Un homme qui boit,Le 13e Art,Du 27 février 2024 au 31 mars 2024,"Centre commercial Italie 2, Place d'Italie",Paris 13e,33-63 €
+97,Cyrano de Bergerac,Théâtre Ranelagh,Du 26 octobre 2023 au 12 mai 2024,5 rue des Vignes,Paris 16e,13-44 €
+98,La femme n'existe plus,Théâtre du Rond-Point,Du 6 décembre 2023 au 31 décembre 2023,2 bis avenue Franklin-Roosevelt,Paris 8e,17-34 €
+99,Panique en coulisses,Théâtre des Variétés,Du 27 septembre 2023 au 7 janvier 2024,7 boulevard Montmartre,Paris 2e,15-113 €
+100,La Chute,Théâtre de la Contrescarpe,Du 11 septembre 2023 au 27 février 2024,5 rue Blainville,Paris 5e,12-33 €
+101,Fabrice Luchini lit Victor Hugo,Théâtre de l'Atelier,Du 22 octobre 2024 au 31 octobre 2024,1 place Charles-Dullin,Paris 18e,unknown
+102,Sherlock Holmes et l'aventure du diamant bleu,Le Grand Point Virgule,Du 3 décembre 2021 au 27 avril 2024,8 bis rue de l'Arrivée,Paris 15e,21-33 €
+103,Coupures,Théâtre des Béliers Parisiens,Du 25 août 2023 au 4 janvier 2024,14 bis rue Sainte-Isaure,Paris 18e,30-40 €
+104,L'Échange,Théâtre de Poche-Montparnasse,Du 12 septembre 2023 au 31 décembre 2023,75 boulevard du Montparnasse,Paris 6e,28 €
+105,La Réponse des Hommes,Odéon - Ateliers Berthier,Du 9 janvier 2024 au 20 janvier 2024,1 rue André Suares (angle du bd Berthier),Paris 17e,31-40 €
+106,Lucrèce Borgia,Comédie-Française - Salle Richelieu,Du 17 janvier 2024 au 1 avril 2024,place Colette,Paris 1er,unknown
+107,Pour le meilleur et pour le dire,Café de la Gare,Du 6 octobre 2023 au 28 janvier 2024,41 rue du Temple,Paris 4e,18-29 €
+108,"Deux mains, la liberté",Studio Hébertot,Du 14 octobre 2023 au 31 mars 2024,78 bis bd des Batignolles,Paris 17e,22 €
+109,La Folle et Inconvenante Histoire des femmes,Le Funambule Montmartre,Du 23 octobre 2023 au 30 janvier 2024,53 rue des Saules,Paris 18e,11-33 €
+110,Un chapeau de paille d'Italie,Théâtre du Lucernaire,Du 10 janvier 2024 au 17 mars 2024,53 rue Notre-Dame-des-Champs,Paris 6e,16-33 €
+111,Les Desperate Housemen se marient !,Le Grand Point Virgule,Du 15 septembre 2023 au 30 mars 2024,8 bis rue de l'Arrivée,Paris 15e,11-69 €
+112,L'Antichambre,Théâtre Ranelagh,Du 8 septembre 2023 au 14 janvier 2024,5 rue des Vignes,Paris 16e,13-39 €
+113,L'Os à moelle,Artistic Théâtre,Du 21 octobre 2023 au 31 décembre 2023,45 bis rue Richard-Lenoir,Paris 11e,16-50 €
+114,J'aime beaucoup ce que vous faites,Théâtre Mélo d'Amélie,Du 1 septembre 2023 au 6 janvier 2024,4 rue Marie-Stuart,Paris 2e,11-40 €
+115,Jacques et Chirac,Théâtre de la Contrescarpe,Du 16 août 2023 au 29 février 2024,5 rue Blainville,Paris 5e,12-37 €
+116,Je t'aime à l'italienne et à l'algérienne,La Divine Comédie,Du 30 septembre 2023 au 7 janvier 2024,2 rue Saulnier,Paris 9e,18-42 €
+117,Choisis la vie et tu vivras,Théâtre L'Essaïon,Du 22 décembre 2023 au 2 mars 2024,6 rue Pierre-au-Lard,Paris 4e,20-28 €
+118,L'Avare,Théâtre Ranelagh,Du 22 octobre 2023 au 27 avril 2024,5 rue des Vignes,Paris 16e,13-28 €
+119,Le Songe d'une nuit d'été,Théâtre de la Ville - Sarah Bernhardt,Du 16 janvier 2024 au 10 février 2024,2 place du Châtelet,Paris 4e,unknown
+120,Le Tartuffe,Comédie Saint-Michel,Du 9 décembre 2023 au 20 janvier 2024,95 bd Saint-Michel,Paris 5e,18-46 €
+121,La Cantatrice chauve,Théâtre de la Huchette,Du 16 février 1957 au 13 juillet 2024,23 rue de la Huchette,Paris 5e,23 €
+122,Le Silence,Comédie-Française - Théâtre du Vieux-Colombier,Du 31 janvier 2024 au 10 mars 2024,21 rue du Vieux-Colombier,Paris 6e,37 €
+123,Les Quatre Sœurs March,Théâtre Ranelagh,Du 19 janvier 2024 au 31 mars 2024,5 rue des Vignes,Paris 16e,13-44 €
+124,L'Odeur de la guerre,La Scala Paris,Du 12 octobre 2023 au 17 mars 2024,13 boulevard de Strasbourg,Paris 10e,20-25 €
+125,Denali,Théâtre Marigny,Du 17 novembre 2023 au 31 décembre 2023,Carré Marigny,Paris 8e,25-45 €
+126,Vel d'Hiv,Théâtre Antoine,Du 10 janvier 2024 au 18 février 2024,14 boulevard de Strasbourg,Paris 10e,21-50 €
+127,L'Incroyable Épopée de François 1er,Théâtre de la Contrescarpe,Du 6 novembre 2023 au 26 février 2024,5 rue Blainville,Paris 5e,12-37 €
+128,Together,Théâtre de l'Atelier,Du 16 janvier 2024 au 18 février 2024,1 place Charles-Dullin,Paris 18e,23-45 €
+129,Le meilleur de l'homme c'est... sa femme,Théâtre Le Passage vers les Étoiles,Du 1 juillet 2023 au 3 mars 2024,17 cité Joly,Paris 11e,13-55 €
+130,Je me sens si bien chez vous,Théâtre des Blancs Manteaux,Du 22 décembre 2023 au 29 mars 2024,15 rue des Blancs Manteaux,Paris 4e,20-74 €
+131,Mais n’te promène donc pas toute nue,Espace Marais,Du 16 décembre 2023 au 6 janvier 2024,22 rue Beautreillis,Paris 4e,13-37 €
+132,Un Tramway nommé Désir,Théâtre des Bouffes Parisiens,Du 31 janvier 2024 au 31 mars 2024,4 rue Monsigny,Paris 2e,15-75 €
+133,Ados,Le Grand Point Virgule,Du 30 septembre 2023 au 26 mai 2024,8 bis rue de l'Arrivée,Paris 15e,15-35 €
+134,Le Nectar des dieux,Le Funambule Montmartre,Du 9 novembre 2023 au 14 janvier 2024,53 rue des Saules,Paris 18e,11-33 €
+135,Le portrait de Dorian Gray,Théâtre Ranelagh,Du 21 octobre 2023 au 13 avril 2024,5 rue des Vignes,Paris 16e,13-28 €
+136,Les Entretiens d'embauche,Théâtre Le Bourvil,Du 15 juin 2023 au 31 mars 2024,13 rue des Boulets,Paris 11e,14-41 €
+137,Juste un souvenir,Théâtre de Poche-Montparnasse,Du 23 novembre 2023 au 14 janvier 2024,75 boulevard du Montparnasse,Paris 6e,24 €
+138,An Irish Story (une histoire irlandaise),Théâtre de Belleville,Du 3 décembre 2023 au 30 janvier 2024,16 passage Piver,Paris 11e,unknown
+139,Culottées,Comédie-Française - Studio-Théâtre,Du 25 janvier 2024 au 3 mars 2024,99 rue de Rivoli Galerie du Carrousel du Louvre,Paris 1er,unknown
+140,Le Vertige,Théâtre de la Madeleine,Du 1 février 2024 au 10 mars 2024,19 rue de Surène,Paris 8e,16-48 €
+141,On a essayé de monter Hamlet,Théâtre Edgar,Du 30 septembre 2023 au 11 mai 2024,58 boulevard Edgar-Quinet,Paris 14e,13-49 €
+142,Antoine de Maximy : J'irai dormir sur scène,Le Grand Point Virgule,Du 27 décembre 2023 au 13 janvier 2024,8 bis rue de l'Arrivée,Paris 15e,16-50 €
+143,L'Homme de ses rêves,Comédie Saint-Michel,Du 8 septembre 2023 au 7 mai 2024,95 bd Saint-Michel,Paris 5e,22-46 €
+144,Le Quai,La Manufacture des Abbesses,Du 30 novembre 2023 au 14 janvier 2024,7 rue Véron,Paris 18e,11-29 €
+145,Mondial placard,Théâtre Tristan-Bernard,Du 19 janvier 2024 au 30 avril 2024,64 rue du Rocher,Paris 8e,35-44 €
+146,Je suis la maman du bourreau,La Pépinière Théâtre,Du 18 janvier 2024 au 4 mai 2024,7 rue Louis-Le-Grand,Paris 2e,23-53 €
+147,L'Avare,Espace Marais,Du 23 septembre 2023 au 6 janvier 2024,22 rue Beautreillis,Paris 4e,13-37 €
+148,Rose Valland : Sauver un peu de la beauté du monde,Théâtre La Boussole,Du 19 octobre 2023 au 13 janvier 2024,29 rue de Dunkerque,Paris 10e,11-40 €
+149,Ferme bien ta gueule,Théâtre Lepic,Du 20 septembre 2023 au 7 janvier 2024,1 avenue Junot,Paris 18e,24-42 €
+150,"Je ne cours pas, je vole !",Comédie des Champs-Élysées,Du 14 septembre 2023 au 30 décembre 2023,15 avenue Montaigne,Paris 8e,22-44 €
+151,Hamlet,Odéon - Théâtre de l'Europe,Du 5 mars 2024 au 14 avril 2024,place de l'Odéon,Paris 6e,unknown
+152,Eva Rami : Va aimer !,Théâtre Lepic,Du 26 septembre 2023 au 5 janvier 2024,1 avenue Junot,Paris 18e,24-35 €
+153,Le Plus Heureux des trois,Théâtre Edgar,Du 22 janvier 2024 au 14 mai 2024,58 boulevard Edgar-Quinet,Paris 14e,23-39 €
+154,Les Délices du chocolat et puis… Venise,Comédie Italienne,Du 14 octobre 2023 au 25 février 2024,17 rue de la Gaîté,Paris 14e,unknown
+155,Les Contes du chat perché : Le Chien,Comédie-Française - Studio-Théâtre,Du 22 novembre 2023 au 7 janvier 2024,99 rue de Rivoli Galerie du Carrousel du Louvre,Paris 1er,unknown
+156,La Mouche,Théâtre des Bouffes du Nord,Du 7 février 2024 au 25 février 2024,37 bis bd de la Chapelle,Paris 10e,40 €
+157,Le jour où mon cactus a fleuri,Théâtre Le Bourvil,Du 28 octobre 2023 au 31 mars 2024,13 rue des Boulets,Paris 11e,14-40 €
+158,The Rosa Parks Story,Alhambra,Le 31 mai 2024,21 rue Yves Toudic,Paris 10e,24 €
+159,Jamais le deuxième soir !,Théâtre Mélo d'Amélie,Du 12 janvier 2024 au 30 avril 2024,4 rue Marie-Stuart,Paris 2e,11-29 €
+160,Les Fous alliés,Théâtre du Marais,Du 25 septembre 2023 au 29 janvier 2024,37 rue Volta,Paris 3e,16-22 €
+161,Eurydice,Théâtre de Poche-Montparnasse,Du 4 septembre 2023 au 4 mars 2024,75 boulevard du Montparnasse,Paris 6e,24 €
+162,Cyrano,Le Théâtre Libre,Du 16 janvier 2024 au 17 mars 2024,4 boulevard de Strasbourg,Paris 10e,24-31 €
+163,4211 km,Théâtre Marigny,Du 10 janvier 2024 au 14 avril 2024,Carré Marigny,Paris 8e,20-47 €
+164,La Mouette,Théâtre de la Ville - Les Abbesses,Du 31 janvier 2024 au 11 février 2024,31 rue des Abbesses,Paris 18e,unknown
+165,Mort à crédit,Théâtre de la Contrescarpe,Du 1 octobre 2023 au 28 février 2024,5 rue Blainville,Paris 5e,12-33 €
+166,Le Neveu de Rameau,Théâtre Ranelagh,Du 9 septembre 2023 au 14 janvier 2024,5 rue des Vignes,Paris 16e,13-44 €
+167,Geli,La Manufacture des Abbesses,Du 26 novembre 2023 au 16 janvier 2024,7 rue Véron,Paris 18e,11-29 €
+168,"Les parents viennent de Mars, les enfants du Mc Do ! Chez Papa",Théâtre des Blancs Manteaux,Du 6 août 2022 au 30 mars 2024,15 rue des Blancs Manteaux,Paris 4e,20-74 €
+169,Le Cid,Théâtre Ranelagh,Du 15 octobre 2023 au 20 avril 2024,5 rue des Vignes,Paris 16e,13-28 €
+170,Le Misanthrope,Théâtre de l'Épée de Bois - Cartoucherie,Du 11 janvier 2024 au 4 février 2024,Route du Champ de Manœuvre,Paris 12e,11-24 €
+171,La Réunification des deux Corées,Théâtre de la Porte Saint-Martin,Du 24 avril 2024 au 26 mai 2024,18 boulevard Saint-Martin,Paris 10e,29-51 €
+172,Drôle d'Histoire de France,Théâtre Edgar,Du 3 octobre 2023 au 21 janvier 2024,58 boulevard Edgar-Quinet,Paris 14e,13-39 €
+173,"Amour, sexe et plus si affinités !",La Comédie du Onzième,Du 30 septembre 2023 au 2 février 2024,35 rue Sedaine,Paris 11e,6-20 €
+174,Premier Amour,Théâtre du Petit Saint-Martin,Du 24 novembre 2023 au 30 décembre 2023,17 Rue René-Boulanger,Paris 10e,32 €
+175,Le Syndrome de l'oiseau,Théâtre du Petit Saint-Martin,Du 23 janvier 2024 au 9 mars 2024,17 Rue René-Boulanger,Paris 10e,37 €
+176,Andromaque,Théâtre de l'Épée de Bois - Cartoucherie,Du 11 janvier 2024 au 28 janvier 2024,Route du Champ de Manœuvre,Paris 12e,11-24 €
+177,Gisèle Halimi : Une farouche liberté,La Scala Paris,Du 27 février 2024 au 31 mars 2024,13 boulevard de Strasbourg,Paris 10e,15-46 €
+178,La Cantatrice chauve + La Leçon,Théâtre de la Huchette,Du 16 février 1957 au 13 juillet 2024,23 rue de la Huchette,Paris 5e,34 €
+179,Sentinelles,Théâtre du Rond-Point,Du 30 janvier 2024 au 10 février 2024,2 bis avenue Franklin-Roosevelt,Paris 8e,42 €
+180,"Mozart, mon amour",Théâtre de Poche-Montparnasse,Du 4 septembre 2023 au 4 mars 2024,75 boulevard du Montparnasse,Paris 6e,28 €
+181,Zoé,Théâtre de Belleville,Du 5 janvier 2024 au 29 février 2024,16 passage Piver,Paris 11e,13-30 €
+182,Les Chaises,Théâtre du Lucernaire,Du 10 janvier 2024 au 10 mars 2024,53 rue Notre-Dame-des-Champs,Paris 6e,16-33 €
+183,Camus par Enthoven,Le Théâtre Libre,Du 4 octobre 2023 au 5 février 2024,4 boulevard de Strasbourg,Paris 10e,32 €
+184,À la recherche du temps perdu,Théâtre de la Contrescarpe,Du 5 novembre 2023 au 31 décembre 2023,5 rue Blainville,Paris 5e,12-33 €
+185,Dom Juan,Odéon - Théâtre de l'Europe,Du 23 avril 2024 au 19 mai 2024,place de l'Odéon,Paris 6e,unknown
+186,Bric à Brac,Théâtre La Croisée des Chemins,Du 16 septembre 2023 au 30 décembre 2023,120 bis rue Haxo,Paris 19e,13-22 €
+187,La Fontaine en fables et en notes,Théâtre de Poche-Montparnasse,Du 18 septembre 2023 au 25 mars 2024,75 boulevard du Montparnasse,Paris 6e,28 €
+188,Les Diaboliques,Théâtre de Poche-Montparnasse,Du 16 janvier 2024 au 10 mars 2024,75 boulevard du Montparnasse,Paris 6e,23-28 €
+189,Une fille d'Ève,Guichet-Montparnasse,Du 3 novembre 2023 au 28 janvier 2024,15 rue du Maine,Paris 14e,24 €
+190,Hold up et bras cassés,Théâtre Montmartre Galabru,Du 22 septembre 2023 au 29 décembre 2023,4 rue de l'Armée d'Orient,Paris 18e,16-24 €
+191,Un prince,Comédie des Champs-Élysées,Du 24 janvier 2024 au 31 mars 2024,15 avenue Montaigne,Paris 8e,49 €
+192,La Leçon,Théâtre de la Huchette,Du 18 février 1957 au 13 juillet 2024,23 rue de la Huchette,Paris 5e,23 €
+193,"Yann Marguet : Exister, définition",Le Théâtre Libre,Du 5 octobre 2023 au 30 décembre 2023,4 boulevard de Strasbourg,Paris 10e,unknown
+194,Le Joueur d'échecs,Théâtre L'Essaïon,Du 16 octobre 2023 au 30 janvier 2024,6 rue Pierre-au-Lard,Paris 4e,16-28 €
+195,La Porte à côté,À la Folie Théâtre,Du 1 décembre 2023 au 2 mars 2024,6 rue de la Folie-Méricourt,Paris 11e,18-24 €
+196,100% Marianne,Théâtre du Gymnase,Du 3 décembre 2023 au 21 janvier 2024,38 boulevard de Bonne-Nouvelle,Paris 10e,24-35 €
+197,C'est pas facile d'être heureux quand on va mal,Théâtre Lepic,Du 17 janvier 2024 au 12 mai 2024,1 avenue Junot,Paris 18e,28-42 €
+198,Quand je serai grande je serai Patrick Swayze,La Scala Paris,Du 3 octobre 2023 au 27 décembre 2023,13 boulevard de Strasbourg,Paris 10e,28 €
+199,Crusoé repart,Studio Hébertot,Du 27 décembre 2023 au 24 janvier 2024,78 bis bd des Batignolles,Paris 17e,22 €
+200,Charles de Foucauld frère universel,Église Saint-Augustin,Du 8 novembre 2023 au 26 juin 2024,Place Saint-Augustin,Paris 8e,unknown
+201,Le Mariage forcé,Théâtre du Rond-Point,Du 20 février 2024 au 1 mars 2024,2 bis avenue Franklin-Roosevelt,Paris 8e,unknown
+202,"Les Garçons et Guillaume, à table !",Le Funambule Montmartre,Du 4 mars 2024 au 30 avril 2024,53 rue des Saules,Paris 18e,11-33 €
+203,Pauvre Bitos - Le Dîner de têtes,Théâtre Hébertot,Du 9 février 2024 au 5 mai 2024,78 bis boulevard des Batignolles,Paris 17e,18-50 €
+204,Une belle histoire d'humour,Théâtre du Gymnase,Du 13 octobre 2023 au 6 janvier 2024,38 boulevard de Bonne-Nouvelle,Paris 10e,unknown
+205,Merteuil,Théâtre du Lucernaire,Du 31 janvier 2024 au 31 mars 2024,53 rue Notre-Dame-des-Champs,Paris 6e,16-33 €
+206,Orphelins,Théâtre de Belleville,Du 3 décembre 2023 au 28 décembre 2023,16 passage Piver,Paris 11e,13-30 €
+207,Roméo et Juliette,Théâtre Lepic,Du 27 septembre 2023 au 7 janvier 2024,1 avenue Junot,Paris 18e,24-42 €
+208,"40° sous zéro, l'homosexuel ou la difficulté de s’exprimer + Les Quatre Jumelles",Théâtre du Rond-Point,Du 11 janvier 2024 au 27 janvier 2024,2 bis avenue Franklin-Roosevelt,Paris 8e,21-42 €
+209,L'habit ne fait pas le Kir,Théâtre des Deux Ânes,Du 4 octobre 2023 au 28 décembre 2023,100 boulevard de Clichy,Paris 18e,26-33 €
+210,Dans 5 heures,Théâtre de Belleville,Du 7 janvier 2024 au 30 janvier 2024,16 passage Piver,Paris 11e,13-30 €
+211,Ils nous ont oubliés,La Colline - Théâtre national,Du 16 janvier 2024 au 10 février 2024,15 rue Malte-Brun,Paris 20e,11-36 €
+212,Sacha contre Guitry (tout contre),Théâtre Michel,Du 12 octobre 2023 au 30 décembre 2023,38 rue des Mathurins,Paris 8e,13-39 €
+213,Ce qu'il faudra laisser aux anges,Théâtre Lepic,Du 15 octobre 2023 au 12 mai 2024,1 avenue Junot,Paris 18e,28-42 €
+214,Le Temps d'une vie,Comédie Saint-Michel,Du 6 décembre 2023 au 21 avril 2024,95 bd Saint-Michel,Paris 5e,22-29 €
+215,Il est interdit de vieillir,Studio Hébertot,Du 21 novembre 2023 au 31 janvier 2024,78 bis bd des Batignolles,Paris 17e,22 €
+216,Bernard Werber : Voyage intérieur,Théâtre de la Gaîté-Montparnasse,Du 18 septembre 2023 au 8 janvier 2024,26 rue de la Gaîté,Paris 14e,24-32 €
+217,Le Jeu de l'amour et du hasard,Théâtre du Lucernaire,Du 24 janvier 2024 au 24 mars 2024,53 rue Notre-Dame-des-Champs,Paris 6e,16-33 €
+218,Lumières du corps,Théâtre du Soleil - Cartoucherie,Du 10 janvier 2024 au 26 janvier 2024,Route du Champ de Manœuvre,Paris 12e,16-22 €
+219,Le Testament Médicis,Théâtre Lepic,Du 16 juin 2023 au 7 janvier 2024,1 avenue Junot,Paris 18e,24-42 €
+220,Le Palier,Théâtre La Croisée des Chemins,Du 4 novembre 2023 au 30 décembre 2023,120 bis rue Haxo,Paris 19e,13-22 €
+221,Les Travailleurs de la mer,Théâtre du Lucernaire,Du 24 janvier 2024 au 17 mars 2024,53 rue Notre-Dame-des-Champs,Paris 6e,16-33 €
+222,Fly me to the moon,Studio Hébertot,Du 4 novembre 2023 au 27 janvier 2024,78 bis bd des Batignolles,Paris 17e,16-22 €
+223,Jamais seul,La Manufacture des Abbesses,Du 6 décembre 2023 au 13 janvier 2024,7 rue Véron,Paris 18e,11-29 €
+224,Le Malade imaginaire,Espace Marais,Du 24 septembre 2023 au 7 janvier 2024,22 rue Beautreillis,Paris 4e,13-37 €
+225,Un moment avec Victor Hugo,Théâtre du Nord-Ouest,Du 23 octobre 2023 au 2 janvier 2024,13 rue du faubourg Montmartre,Paris 9e,unknown
+226,La P'tite Débrouille,Les Enfants du Paradis,Du 28 septembre 2023 au 6 janvier 2024,34 rue Richer,Paris 9e,15-26 €
+227,Invisibili,Théâtre de la Ville - Les Abbesses,Du 5 janvier 2024 au 20 janvier 2024,31 rue des Abbesses,Paris 18e,unknown
+228,Le Consentement,Théâtre du Rond-Point,Du 7 mars 2024 au 6 avril 2024,2 bis avenue Franklin-Roosevelt,Paris 8e,34 €
+229,Les Bonshommes ou comment vraiment s'en débarrasser,Théâtre du Gymnase,Du 15 octobre 2023 au 31 décembre 2023,38 boulevard de Bonne-Nouvelle,Paris 10e,16-22 €
+230,Dans la peau de Cyrano,Théâtre Ranelagh,Du 18 janvier 2024 au 28 avril 2024,5 rue des Vignes,Paris 16e,13-39 €
+231,"Paris des Femmes, édition 2024",La Pépinière Théâtre,Du 11 janvier 2024 au 13 janvier 2024,7 rue Louis-Le-Grand,Paris 2e,11-20 €
+232,Le problème lapin - Cartographie 7,Théâtre du Rond-Point,Du 10 janvier 2024 au 27 janvier 2024,2 bis avenue Franklin-Roosevelt,Paris 8e,34 €
+233,L'Amour de l'art,Le Centquatre (104),Du 24 janvier 2024 au 27 janvier 2024,5 rue Curial,Paris 19e,unknown
+234,L'Amour de l'art,Théâtre de la Bastille,Du 10 janvier 2024 au 20 janvier 2024,76 rue de la Roquette,Paris 11e,28 €
+235,VIRIL(E·S),Théâtre Lepic,Du 5 octobre 2023 au 7 janvier 2024,1 avenue Junot,Paris 18e,24-42 €
+236,Le Prix de l'ascension,Comédie de Paris,Du 12 janvier 2024 au 24 mars 2024,42 rue Pierre Fontaine,Paris 9e,19-36 €
+237,Que sur toi se lamente le tigre,Théâtre de la Tempête - Cartoucherie,Du 12 janvier 2024 au 11 février 2024,Route du Champ de Manœuvre,Paris 12e,11-26 €
+238,Les galets au Tilleul sont plus petits qu’au Havre (ce qui rend la baignade bien plus agréable),Théâtre de l'Atelier,Du 12 janvier 2024 au 10 mars 2024,1 place Charles-Dullin,Paris 18e,19-35 €
+239,Iphigénie,Théâtre Douze,Le 15 janvier 2024,6 avenue Maurice Ravel,Paris 12e,16 €
+240,Le Paradoxe du désir,Guichet-Montparnasse,Du 5 janvier 2024 au 25 février 2024,15 rue du Maine,Paris 14e,24 €
+241,La vengeance est un plat,Athénée Théâtre Louis-Jouvet,Du 9 janvier 2024 au 21 janvier 2024,7 rue Boudreau Square de l'Opéra Louis-Jouvet,Paris 9e,15-40 €
+242,Vous n'aurez pas la Bretagne !,Théâtre de la Contrescarpe,Du 16 janvier 2024 au 27 février 2024,5 rue Blainville,Paris 5e,12-37 €
+243,Van Gogh : Deux frères pour une vie,Guichet-Montparnasse,Du 8 septembre 2023 au 29 décembre 2023,15 rue du Maine,Paris 14e,12-24 €
+244,S'abandonner à vivre,Théâtre de Poche-Montparnasse,Du 4 septembre 2023 au 29 janvier 2024,75 boulevard du Montparnasse,Paris 6e,24 €
+245,Le Bateau pour Lipaïa,Studio Hébertot,Du 26 octobre 2023 au 11 février 2024,78 bis bd des Batignolles,Paris 17e,22 €
+246,Conversation intime : Catherine Frot,Théâtre Antoine,Le 29 janvier 2024,14 boulevard de Strasbourg,Paris 10e,16-28 €
+247,Prima Facie,Théâtre Montparnasse,Du 17 janvier 2024 au 30 mars 2024,31 rue de la Gaité,Paris 14e,12-37 €
+248,Eleonora Galasso : Dévorante,Théâtre des Mathurins,Du 16 janvier 2024 au 26 mars 2024,36 rue des Mathurins,Paris 8e,20-30 €
+249,Le Joueur d'échecs,Théâtre Darius Milhaud,Du 12 janvier 2024 au 29 mars 2024,80 allée Darius-Milhaud,Paris 19e,13-20 €
+250,Je m’appelle Asher Lev,Théâtre des Béliers Parisiens,Du 12 janvier 2024 au 29 février 2024,14 bis rue Sainte-Isaure,Paris 18e,26-40 €
+251,Le Journal d'Audrey Hepburn,Théâtre des Mathurins,Du 5 octobre 2023 au 30 décembre 2023,36 rue des Mathurins,Paris 8e,20-30 €
+252,De Gaulle est de retour,Théâtre des Deux Ânes,Du 7 octobre 2023 au 25 février 2024,100 boulevard de Clichy,Paris 18e,22-33 €
+253,Madame Marguerite,Théâtre L'Essaïon,Du 17 octobre 2023 au 17 janvier 2024,6 rue Pierre-au-Lard,Paris 4e,11-28 €
+254,Homini Lupus,Théâtre La Croisée des Chemins,Du 10 novembre 2023 au 30 décembre 2023,120 bis rue Haxo,Paris 19e,13-22 €
+255,Puisque tu pars,Théâtre L'Essaïon,Du 24 janvier 2024 au 28 mars 2024,6 rue Pierre-au-Lard,Paris 4e,16-28 €
+256,"Colette, l’incorrigible… besoin d’écrire",À la Folie Théâtre,Du 1 décembre 2023 au 2 mars 2024,6 rue de la Folie-Méricourt,Paris 11e,18-24 €
+257,Le Mariage de Figaro,Espace Marais,Du 30 septembre 2023 au 6 janvier 2024,22 rue Beautreillis,Paris 4e,13-37 €
+258,L'Hôtel des sept,Comédie Saint-Michel,Du 10 janvier 2024 au 3 mai 2024,95 bd Saint-Michel,Paris 5e,22-35 €
+259,L'École des maris,Théâtre du Nord-Ouest,Du 14 novembre 2023 au 28 décembre 2023,13 rue du faubourg Montmartre,Paris 9e,unknown
+260,Trafiquée,Théâtre La Croisée des Chemins,Du 5 novembre 2023 au 28 décembre 2023,120 bis rue Haxo,Paris 19e,13-22 €
+261,Francis : Itinéraire d'un enfant raté,La Divine Comédie,Du 8 janvier 2024 au 29 avril 2024,2 rue Saulnier,Paris 9e,17-22 €
+262,Un sentiment de vie,Théâtre des Bouffes du Nord,Du 11 janvier 2024 au 27 janvier 2024,37 bis bd de la Chapelle,Paris 10e,40 €
+263,N’importe où hors du monde,Guichet-Montparnasse,Du 14 décembre 2023 au 28 mars 2024,15 rue du Maine,Paris 14e,24 €
+264,Le Journal d’une femme de chambre,Théâtre Darius Milhaud,Du 12 septembre 2023 au 25 juin 2024,80 allée Darius-Milhaud,Paris 19e,13-15 €
+265,Inscape Game,Le Funambule Montmartre,Du 6 novembre 2023 au 2 janvier 2024,53 rue des Saules,Paris 18e,11-33 €
+266,Radicale,Théâtre L'Essaïon,Du 31 août 2023 au 13 janvier 2024,6 rue Pierre-au-Lard,Paris 4e,13-28 €
+267,Il faut qu'une porte soit ouverte ou fermée,Théâtre L'Essaïon,Du 3 octobre 2023 au 9 janvier 2024,6 rue Pierre-au-Lard,Paris 4e,13-28 €
+268,Montée aux calvaires,Théâtre Darius Milhaud,Du 15 décembre 2023 au 26 janvier 2024,80 allée Darius-Milhaud,Paris 19e,13-15 €
+269,Gamètes,Théâtre de Belleville,Du 6 décembre 2023 au 30 décembre 2023,16 passage Piver,Paris 11e,13-30 €
+270,Claudel en partage,Comédie Saint-Michel,Du 6 septembre 2023 au 7 janvier 2024,95 bd Saint-Michel,Paris 5e,22-40 €
+271,Quinder extra,Théâtre des Blancs Manteaux,Du 24 octobre 2022 au 30 mars 2024,15 rue des Blancs Manteaux,Paris 4e,13-74 €
+272,Jours de joie,Odéon - Ateliers Berthier,Du 20 avril 2024 au 5 mai 2024,1 rue André Suares (angle du bd Berthier),Paris 17e,unknown
+273,J'accuse [France],Théâtre 13 - Bibliothèque,Du 10 janvier 2024 au 20 janvier 2024,30 rue du Chevaleret,Paris 13e,28 €
+274,Le Joueur d'échecs,Espace Marais,Du 24 septembre 2023 au 7 janvier 2024,22 rue Beautreillis,Paris 4e,13-37 €
+275,La Folle Histoire de l'île mystérieuse,Les Enfants du Paradis,Du 20 janvier 2024 au 14 avril 2024,34 rue Richer,Paris 9e,13-32 €
+276,Backlash,Théâtre de Belleville,Du 6 janvier 2024 au 31 mars 2024,16 passage Piver,Paris 11e,13-30 €
+277,L'Arnaqueuse,Théâtre Mélo d'Amélie,Du 13 septembre 2023 au 27 décembre 2023,4 rue Marie-Stuart,Paris 2e,11-29 €
+278,Quand je serai un homme,Théâtre L'Essaïon,Du 19 janvier 2024 au 13 avril 2024,6 rue Pierre-au-Lard,Paris 4e,11-28 €
+279,Éric Chartier,Au Port du Salut,Du 8 novembre 2023 au 26 juin 2024,163 rue St-Jacques,Paris 5e,unknown
+280,Gelsomina,À la Folie Théâtre,Du 7 janvier 2024 au 5 mai 2024,6 rue de la Folie-Méricourt,Paris 11e,18-24 €
+281,Trilogie des secrets : Curtain Call!,La Colline - Théâtre national,Du 9 janvier 2024 au 21 janvier 2024,15 rue Malte-Brun,Paris 20e,11-36 €
+282,Racine par la racine,Théâtre L'Essaïon,Du 4 octobre 2023 au 26 juin 2024,6 rue Pierre-au-Lard,Paris 4e,16-28 €
+283,Eccentric,La Nouvelle Ève,Du 15 novembre 2023 au 27 décembre 2023,25 rue Pierre Fontaine,Paris 9e,21-30 €
+284,Avant la terreur,La Colline - Théâtre national,Du 15 juin 2024 au 27 juin 2024,15 rue Malte-Brun,Paris 20e,11-36 €
+285,Personne,Théâtre 14,Du 9 janvier 2024 au 27 janvier 2024,20 avenue Marc-Sangnier,Paris 14e,11-28 €
+286,L'Amour de l'art,Théo Théâtre,Du 27 janvier 2024 au 30 mars 2024,20 rue Théodore-Deck,Paris 15e,18 €
+287,James Brown mettait des bigoudis,Théâtre Marigny,Du 28 mars 2024 au 5 mai 2024,Carré Marigny,Paris 8e,10-57 €
+288,Incandescences,Théâtre de la Tempête - Cartoucherie,Du 29 février 2024 au 31 mars 2024,Route du Champ de Manœuvre,Paris 12e,11-26 €
+289,Crécelle,Guichet-Montparnasse,Du 4 janvier 2024 au 25 février 2024,15 rue du Maine,Paris 14e,24 €
+290,Crossed,Théâtre Darius Milhaud,Du 8 janvier 2024 au 25 mars 2024,80 allée Darius-Milhaud,Paris 19e,13-20 €
+291,Tout le temps du monde,La Colline - Théâtre national,Du 30 janvier 2024 au 11 février 2024,15 rue Malte-Brun,Paris 20e,11-36 €
+292,"Chateaubriand, Mémoires d'outre-tombe",Théâtre de Poche-Montparnasse,Du 18 janvier 2024 au 16 mars 2024,75 boulevard du Montparnasse,Paris 6e,20-24 €
+293,Bérénice,Théâtre Darius Milhaud,Du 10 janvier 2024 au 27 mars 2024,80 allée Darius-Milhaud,Paris 19e,13-20 €
+294,Stigmates de la gloire,À la Folie Théâtre,Du 16 novembre 2023 au 3 février 2024,6 rue de la Folie-Méricourt,Paris 11e,22-28 €
+295,Fin de partie,Théâtre de l'Atelier,Du 5 juin 2024 au 14 juillet 2024,1 place Charles-Dullin,Paris 18e,23-43 €
+296,Pauline & Carton,La Scala Paris,Du 16 mars 2024 au 23 juin 2024,13 boulevard de Strasbourg,Paris 10e,20-25 €
+297,Macbeth,Théâtre L'Essaïon,Du 4 avril 2024 au 15 juin 2024,6 rue Pierre-au-Lard,Paris 4e,16-28 €
+298,Le Marchand de Venise,Théâtre de l'Épée de Bois - Cartoucherie,Du 15 mars 2024 au 31 mars 2024,Route du Champ de Manœuvre,Paris 12e,11-24 €
+299,Second souffle,Le Funambule Montmartre,Du 5 février 2024 au 23 avril 2024,53 rue des Saules,Paris 18e,11-33 €
+300,Les Paravents,Odéon - Théâtre de l'Europe,Du 31 mai 2024 au 19 juin 2024,place de l'Odéon,Paris 6e,unknown
+301,Hubris,Le Funambule Montmartre,Du 18 janvier 2024 au 11 février 2024,53 rue des Saules,Paris 18e,11-33 €
+302,Splendeurs et misères,Théâtre de l'Épée de Bois - Cartoucherie,Du 22 février 2024 au 10 mars 2024,Route du Champ de Manœuvre,Paris 12e,11-24 €
+303,Les Bonnes,Théâtre 14,Du 27 février 2024 au 23 mars 2024,20 avenue Marc-Sangnier,Paris 14e,11-28 €
+304,Frank Henry : Gangster ni fier ni honteux,La Nouvelle Ève,Du 26 janvier 2024 au 30 mars 2024,25 rue Pierre Fontaine,Paris 9e,39-46 €
+305,Music-Hall,Théâtre du Nord-Ouest,Du 18 novembre 2023 au 1 janvier 2024,13 rue du faubourg Montmartre,Paris 9e,unknown
+306,Le Triomphe de l'amour,Théâtre du Nord-Ouest,Du 13 mai 2023 au 27 décembre 2023,13 rue du faubourg Montmartre,Paris 9e,unknown
+307,Rendez-vous à l'Élysée,Théâtre de Nesle,Du 2 décembre 2023 au 20 janvier 2024,8 rue Nesle,Paris 6e,16 €
+308,L'Ordinaire Histoire d'Ernest Boubouroche,Théâtre de Nesle,Du 10 novembre 2023 au 31 décembre 2023,8 rue Nesle,Paris 6e,19 €
+309,L'Abus d'amour,Comédie Saint-Michel,Du 8 septembre 2023 au 6 janvier 2024,95 bd Saint-Michel,Paris 5e,22-29 €
+310,Je me suis perdue en chemin [pour toi],Théâtre Darius Milhaud,Du 4 janvier 2024 au 11 avril 2024,80 allée Darius-Milhaud,Paris 19e,13-20 €
+311,Le Dictionnaire amoureux de l’inutile,La Scala Paris,Du 18 mai 2024 au 1 juin 2024,13 boulevard de Strasbourg,Paris 10e,15-36 €
+312,Le Mandat,Théâtre de la Tempête - Cartoucherie,Du 18 avril 2024 au 5 mai 2024,Route du Champ de Manœuvre,Paris 12e,11-26 €
+313,Love Addict,Théâtre Le Passage vers les Étoiles,Du 20 octobre 2023 au 27 janvier 2024,17 cité Joly,Paris 11e,13-30 €
+314,Cache cache nerveux,Comédie Saint-Michel,Du 9 septembre 2023 au 7 janvier 2024,95 bd Saint-Michel,Paris 5e,22-29 €
+315,Thomas joue ses perruques (Deluxe Edition),Théâtre de l'Atelier,Du 23 janvier 2024 au 1 février 2024,1 place Charles-Dullin,Paris 18e,16-39 €
+316,Les Sphères ennemies,Les Enfants du Paradis,Du 19 septembre 2023 au 2 janvier 2024,34 rue Richer,Paris 9e,17-29 €
+317,"La Nuit, adaptation des nouvelles de Guy de Maupassant",La Scala Paris,Du 17 janvier 2024 au 28 janvier 2024,13 boulevard de Strasbourg,Paris 10e,22-25 €
+318,Pour un temps sois peu,Théâtre Paris-Villette,Du 24 janvier 2024 au 3 février 2024,211 avenue Jean-Jaurès Parc de La Villette,Paris 19e,14-26 €
+319,Le Projet Marivaux,Guichet-Montparnasse,Du 14 janvier 2024 au 31 mars 2024,15 rue du Maine,Paris 14e,24 €
+320,Marcus,Comédie Bastille,Du 16 septembre 2023 au 30 décembre 2023,5 rue Nicolas-Appert,Paris 11e,13-43 €
+321,Le Misanthrope,Théâtre Montmartre Galabru,Du 24 février 2024 au 27 avril 2024,4 rue de l'Armée d'Orient,Paris 18e,15-22 €
+322,Inadaptés,Comédie Nation,Du 5 janvier 2024 au 9 février 2024,77 rue de Montreuil,Paris 11e,16-22 €
+323,Oh ! Les Beaux Jours,Théâtre de Nesle,Du 30 octobre 2023 au 29 janvier 2024,8 rue Nesle,Paris 6e,19 €
+324,La Belle Histoire de Coline Serreau,Théâtre Michel,Du 23 octobre 2023 au 25 mars 2024,38 rue des Mathurins,Paris 8e,12-39 €
+325,Vertige (2001-2021),Théâtre Silvia Monfort,Du 10 janvier 2024 au 13 janvier 2024,106 rue Brancion,Paris 15e,11-29 €
+326,Le Coup de la panne,Théâtre du Marais,Du 13 janvier 2024 au 30 mars 2024,37 rue Volta,Paris 3e,16-22 €
+327,Harvey,Théâtre de Nesle,Du 5 janvier 2024 au 15 janvier 2024,8 rue Nesle,Paris 6e,16 €
+328,Le bar de l'oriental,Théâtre Montparnasse,Du 7 février 2024 au 28 avril 2024,31 rue de la Gaité,Paris 14e,14-49 €
+329,Gervaise,Théâtre L'Essaïon,Du 5 février 2024 au 19 mars 2024,6 rue Pierre-au-Lard,Paris 4e,13-22 €
+330,En Addicto,Théâtre de l'Aquarium - Cartoucherie,Du 8 mars 2024 au 10 mars 2024,route du Champ de Manœuvre (navette cartoucherie gratuite),Paris 12e,13-24 €
+331,Être peintre,Théâtre 14,Du 30 janvier 2024 au 10 février 2024,20 avenue Marc-Sangnier,Paris 14e,11-28 €
+332,Koulounisation,Théâtre de la Bastille,Du 29 avril 2024 au 12 mai 2024,76 rue de la Roquette,Paris 11e,28 €
+333,L'Art de ne pas dire,Théâtre Lepic,Du 28 janvier 2024 au 2 avril 2024,1 avenue Junot,Paris 18e,42 €
+334,George Dandin ou le mari confondu,Théâtre Darius Milhaud,Du 16 décembre 2023 au 17 février 2024,80 allée Darius-Milhaud,Paris 19e,13-15 €
+335,Amok,Théâtre Darius Milhaud,Du 16 octobre 2023 au 20 mai 2024,80 allée Darius-Milhaud,Paris 19e,13-20 €
+336,Petits silences gênés,Théâtre Darius Milhaud,Du 2 février 2024 au 20 avril 2024,80 allée Darius-Milhaud,Paris 19e,10-20 €
+337,Huis Clos,Laurette Théâtre,Du 22 septembre 2023 au 19 mai 2024,36 rue Bichat,Paris 10e,16-24 €
+338,Rohtko,Odéon - Ateliers Berthier,Du 31 janvier 2024 au 9 février 2024,1 rue André Suares (angle du bd Berthier),Paris 17e,31-40 €
+339,Le Molière imaginaire,Théâtre du Soleil - Cartoucherie,Du 16 janvier 2024 au 24 janvier 2024,Route du Champ de Manœuvre,Paris 12e,16-22 €
+340,Toute nue,Théâtre de la Tempête - Cartoucherie,Du 16 mai 2024 au 26 mai 2024,Route du Champ de Manœuvre,Paris 12e,11-26 €
+341,Wall Street malgré moi,Le Funambule Montmartre,Du 6 septembre 2023 au 3 janvier 2024,53 rue des Saules,Paris 18e,11-33 €
+342,Lights on Chaplin,Théâtre Montmartre Galabru,Du 23 septembre 2023 au 13 janvier 2024,4 rue de l'Armée d'Orient,Paris 18e,15-22 €
+343,Le Deuxième Coup de feu,Théâtre Darius Milhaud,Du 7 janvier 2024 au 18 février 2024,80 allée Darius-Milhaud,Paris 19e,13-20 €
+344,Un état de nos vies,Théâtre du Rond-Point,Du 21 mai 2024 au 31 mai 2024,2 bis avenue Franklin-Roosevelt,Paris 8e,34 €
+345,Diari d'amore,Athénée Théâtre Louis-Jouvet,Du 6 juin 2024 au 16 juin 2024,7 rue Boudreau Square de l'Opéra Louis-Jouvet,Paris 9e,15-40 €
+346,Fragments,La Scala Paris,Du 24 janvier 2024 au 2 février 2024,13 boulevard de Strasbourg,Paris 10e,17-25 €
+347,Finlandia,Théâtre des Bouffes du Nord,Du 1 mars 2024 au 10 mars 2024,37 bis bd de la Chapelle,Paris 10e,35 €
+348,Dieu ne fait rien pour les faibles,Théâtre de l'Épée de Bois - Cartoucherie,Du 11 janvier 2024 au 28 janvier 2024,Route du Champ de Manœuvre,Paris 12e,11-24 €
+349,Le Journal intime d'Adam et Eve,Théâtre de l'Épée de Bois - Cartoucherie,Du 29 février 2024 au 10 mars 2024,Route du Champ de Manœuvre,Paris 12e,11-24 €
+350,Showgirl,Théâtre de la Bastille,Du 26 février 2024 au 9 mars 2024,76 rue de la Roquette,Paris 11e,28 €
+351,Le Jeu de l'amour et du hasard,Théâtre Montmartre Galabru,Du 17 janvier 2024 au 3 avril 2024,4 rue de l'Armée d'Orient,Paris 18e,15-22 €
+352,"Les parents viennent de Mars, les enfants du McDo ! Chez Maman",Théâtre des Blancs Manteaux,Du 23 octobre 2022 au 30 mars 2024,15 rue des Blancs Manteaux,Paris 4e,21-74 €
+353,La Métamorphose des cigognes,La Pépinière Théâtre,Du 27 janvier 2024 au 27 avril 2024,7 rue Louis-Le-Grand,Paris 2e,11-32 €
+354,Le Mariage de Figaro,Théâtre Ranelagh,Du 24 octobre 2023 au 14 avril 2024,5 rue des Vignes,Paris 16e,13-44 €
+355,Leçons de philosophie drôles et très sérieuses,Théâtre de la Contrescarpe,Du 4 octobre 2023 au 14 février 2024,5 rue Blainville,Paris 5e,12-22 €
+356,Les Femmes savantes,Théâtre Montmartre Galabru,Du 20 janvier 2024 au 11 février 2024,4 rue de l'Armée d'Orient,Paris 18e,15-22 €
+357,Media Vita,Théâtre de la Reine Blanche,Du 10 janvier 2024 au 4 février 2024,2 bis passage Ruelle,Paris 18e,11-28 €
+358,Mémoire(s),Le Funambule Montmartre,Du 9 janvier 2024 au 27 février 2024,53 rue des Saules,Paris 18e,11-33 €
+359,L'Événement,Théâtre de l'Atelier,Du 13 février 2024 au 27 mars 2024,1 place Charles-Dullin,Paris 18e,16-33 €
+360,Célimène et le Cardinal,Comédie Saint-Michel,Du 5 octobre 2023 au 4 janvier 2024,95 bd Saint-Michel,Paris 5e,22-35 €
+361,Hortense Belhôte : Une histoire du football féminin,Chaillot – Théâtre National de la Danse,Le 14 juin 2024,1 place du Trocadéro,Paris 16e,unknown
+362,L'Enfant brûlé,Odéon - Ateliers Berthier,Du 27 février 2024 au 17 mars 2024,1 rue André Suares (angle du bd Berthier),Paris 17e,unknown
+363,Porn For The Blind,Théâtre des Béliers Parisiens,Du 21 janvier 2024 au 11 février 2024,14 bis rue Sainte-Isaure,Paris 18e,30-40 €
+364,Kevin,Théâtre du Rond-Point,Du 23 avril 2024 au 11 mai 2024,2 bis avenue Franklin-Roosevelt,Paris 8e,34 €
+365,PUNK.E.S,La Scala Paris,Du 27 mars 2024 au 6 avril 2024,13 boulevard de Strasbourg,Paris 10e,15-46 €
+366,Péplum médiéval,Le Centquatre (104),Du 1 février 2024 au 3 février 2024,5 rue Curial,Paris 19e,16-24 €
+367,La nuit sera blanche,Théâtre de l'Aquarium - Cartoucherie,Du 18 janvier 2024 au 27 janvier 2024,route du Champ de Manœuvre (navette cartoucherie gratuite),Paris 12e,13-24 €
+368,Bartleby le scribe,Théâtre de l'Épée de Bois - Cartoucherie,Du 15 février 2024 au 25 février 2024,Route du Champ de Manœuvre,Paris 12e,11-24 €
+369,"Orgueil, poursuite et décapitation",Théâtre Clavel,Du 13 décembre 2023 au 27 décembre 2023,3 rue Clavel,Paris 19e,unknown
+370,"Antigone II, Métro Charonne le 8 février 1962",Théâtre Mélo d'Amélie,Du 24 septembre 2023 au 28 avril 2024,4 rue Marie-Stuart,Paris 2e,11-29 €
+371,Un homme qui dort,Théâtre L'Essaïon,Du 23 novembre 2023 au 29 février 2024,6 rue Pierre-au-Lard,Paris 4e,16-28 €
+372,Salomon Abramovski roi d'Angleterre !,Les Rendez-Vous d'Ailleurs,Du 30 septembre 2023 au 31 décembre 2023,109 rue des Haies,Paris 20e,unknown
+373,A l'ombre de mon tepee,La Petite Croisée des Chemins,Du 11 novembre 2023 au 30 décembre 2023,43 rue Mathurin Régnier,Paris 15e,13-18 €
+374,La Trajectoire des gamètes,Le Funambule Montmartre,Du 4 octobre 2023 au 31 janvier 2024,53 rue des Saules,Paris 18e,11-33 €
+375,King Kong Théorie,Théâtre Silvia Monfort,Du 4 juin 2024 au 15 juin 2024,106 rue Brancion,Paris 15e,11-29 €
+376,Vous dansez mademoiselle ?,Théâtre des Blancs Manteaux,Du 11 septembre 2023 au 25 mars 2024,15 rue des Blancs Manteaux,Paris 4e,21-74 €
+377,Oui,Odéon - Ateliers Berthier,Du 24 mai 2024 au 15 juin 2024,1 rue André Suares (angle du bd Berthier),Paris 17e,unknown
+378,La beauté sauvera le Monde,Théâtre L'Essaïon,Du 29 janvier 2024 au 19 mars 2024,6 rue Pierre-au-Lard,Paris 4e,13-22 €
+379,La Solitude des mues,Théâtre de la Tempête - Cartoucherie,Du 13 janvier 2024 au 11 février 2024,Route du Champ de Manœuvre,Paris 12e,11-26 €
+380,Des ombres et des armes,La Manufacture des Abbesses,Du 18 janvier 2024 au 14 avril 2024,7 rue Véron,Paris 18e,11-29 €
+381,Nos âmes faibles,La Manufacture des Abbesses,Du 22 janvier 2024 au 14 février 2024,7 rue Véron,Paris 18e,11-29 €
+382,Le Crédit,Théâtre L'Essaïon,Du 11 septembre 2023 au 22 janvier 2024,6 rue Pierre-au-Lard,Paris 4e,13-28 €
+383,Michaël Louchart : Un père à aimer,La Divine Comédie,Du 19 septembre 2023 au 24 avril 2024,2 rue Saulnier,Paris 9e,15-28 €
+384,Pour un oui ou pour un non,Théâtre du Nord-Ouest,Du 16 octobre 2023 au 29 décembre 2023,13 rue du faubourg Montmartre,Paris 9e,unknown
+385,Un escalier pour la paix,Théâtre Darius Milhaud,Du 6 décembre 2023 au 21 février 2024,80 allée Darius-Milhaud,Paris 19e,13-15 €
+386,Le Frigo,Théâtre Darius Milhaud,Du 2 novembre 2023 au 28 décembre 2023,80 allée Darius-Milhaud,Paris 19e,13-15 €
+387,Le Grand Jour,Théâtre de Belleville,Du 4 février 2024 au 26 février 2024,16 passage Piver,Paris 11e,13-30 €
+388,"4,7% de liberté",Théâtre de la Ville - Les Abbesses,Du 27 février 2024 au 2 mars 2024,31 rue des Abbesses,Paris 18e,unknown
+389,Entre-temps,Théâtre Pixel,unknown,18 rue Championnet,Paris 18e,unknown
+390,Parpaing,Théâtre 13 - Glacière,Du 24 janvier 2024 au 3 février 2024,103 A boulevard Auguste-Blanqui,Paris 13e,28 €
+391,"Nora, Nora, Nora ! De l’influence des épouses sur les chefs-d’œuvre",Théâtre de la Tempête - Cartoucherie,Du 1 mars 2024 au 31 mars 2024,Route du Champ de Manœuvre,Paris 12e,11-26 €
+392,Les Vagues,Théâtre de la Tempête - Cartoucherie,Du 16 mai 2024 au 26 mai 2024,Route du Champ de Manœuvre,Paris 12e,11-26 €
+393,Le Tissu des rêves,Théâtre Darius Milhaud,Du 13 janvier 2024 au 16 mars 2024,80 allée Darius-Milhaud,Paris 19e,13-20 €
+394,Juste un sourire,Théâtre Pixel,Du 7 novembre 2023 au 26 décembre 2023,18 rue Championnet,Paris 18e,unknown
+395,Thérapie,Théâtre Pixel,Du 18 septembre 2023 au 17 juin 2024,18 rue Championnet,Paris 18e,unknown
+396,Les Doubles Vies de Sarah Bernhardt,Théâtre Darius Milhaud,Du 10 décembre 2023 au 31 mars 2024,80 allée Darius-Milhaud,Paris 19e,13-15 €
+397,"Rhinocéros, la nouvelle",Théâtre L'Essaïon,Du 18 avril 2024 au 13 juin 2024,6 rue Pierre-au-Lard,Paris 4e,16-28 €
+398,La Mort d'Empédocle,Théâtre de l'Épée de Bois - Cartoucherie,Du 6 février 2024 au 18 février 2024,Route du Champ de Manœuvre,Paris 12e,11-24 €
+399,La Fontaine à travers l'Histoire,Comédie Saint-Michel,Du 1 juillet 2023 au 4 janvier 2024,95 bd Saint-Michel,Paris 5e,22-29 €
+400,Histoires d'amour improvisées,Comédie des Trois Bornes,Du 7 janvier 2024 au 21 janvier 2024,32 rue des Trois-Bornes,Paris 11e,15 €
+401,La Conférence de Charles Pépin : Vivre avec son passé,Théâtre de la Porte Saint-Martin,Le 5 mars 2024,18 boulevard Saint-Martin,Paris 10e,11-46 €
+402,"Les Petits Chevaux, une histoire d'enfants des Lebensborn",Théâtre de la Reine Blanche,Du 10 février 2024 au 9 mars 2024,2 bis passage Ruelle,Paris 18e,11-28 €
+403,Paroles de parents,Théâtre de la Huchette,Du 15 janvier 2024 au 12 février 2024,23 rue de la Huchette,Paris 5e,23 €
+404,Fantômes,Théâtre de la Ville - Sarah Bernhardt,Du 27 février 2024 au 9 mars 2024,2 place du Châtelet,Paris 4e,unknown
+405,Derrière les lignes ennemies,Théâtre du Rond-Point,Du 23 janvier 2024 au 10 février 2024,2 bis avenue Franklin-Roosevelt,Paris 8e,unknown
+406,En travers de sa gorge,Théâtre du Rond-Point,Du 6 mars 2024 au 16 mars 2024,2 bis avenue Franklin-Roosevelt,Paris 8e,42 €
+407,Nom,Théâtre du Rond-Point,Du 19 mars 2024 au 6 avril 2024,2 bis avenue Franklin-Roosevelt,Paris 8e,34 €
+408,RAPT,Le Centquatre (104),Du 24 janvier 2024 au 27 janvier 2024,5 rue Curial,Paris 19e,15-22 €
+409,Pères,Le Centquatre (104),Du 25 janvier 2024 au 27 janvier 2024,5 rue Curial,Paris 19e,unknown
+410,Huit rois (nos présidents) - Intégrale,Théâtre 13 - Glacière,Du 15 juin 2024 au 29 juin 2024,103 A boulevard Auguste-Blanqui,Paris 13e,50 €
+411,Inconnu à cette adresse,Théâtre Douze,Du 25 avril 2024 au 5 mai 2024,6 avenue Maurice Ravel,Paris 12e,16 €
+412,Agathe Charnet - Éco-féminismes : repenser nos liens aux vivant·e·s,L'Étoile du Nord,Le 25 mai 2024,16 rue Georgette-Agutte,Paris 18e,6 €
+413,Le Portrait de Dorian Gray,Laurette Théâtre,Du 13 janvier 2024 au 30 mars 2024,36 rue Bichat,Paris 10e,14-20 €
+414,19.5 :  Le dix-neuvième en cinq actes,Théâtre L'Essaïon,Du 15 novembre 2023 au 28 février 2024,6 rue Pierre-au-Lard,Paris 4e,13-28 €
+415,Un mois à la campagne,Théâtre du Nord-Ouest,À partir du  2 septembre 2021.,13 rue du faubourg Montmartre,Paris 9e,unknown
+416,Éventails et Médisances,Théâtre Pixel,Du 15 décembre 2023 au 21 janvier 2024,18 rue Championnet,Paris 18e,unknown
+417,La Véritable Histoire de Dracula,Théâtre de la Tour Eiffel,Du 4 février 2024 au 18 février 2024,4 square Rapp,Paris 7e,13-42 €
+418,"Allez, roule !",Théo Théâtre,Du 2 février 2024 au 26 avril 2024,20 rue Théodore-Deck,Paris 15e,18 €
+419,Terrasses,La Colline - Théâtre national,Du 15 mai 2024 au 9 juin 2024,15 rue Malte-Brun,Paris 20e,11-36 €
+420,Le Tigre bleu de l'Euphrate,La Colline - Théâtre national,Du 24 mai 2024 au 16 juin 2024,15 rue Malte-Brun,Paris 20e,11-36 €
+421,"Jean Zay, l'homme complet",Théâtre L'Essaïon,Du 16 janvier 2024 au 26 mars 2024,6 rue Pierre-au-Lard,Paris 4e,13-28 €
+422,Tristesse et joie dans la vie des girafes,Théâtre du Rond-Point,Du 23 février 2024 au 3 mars 2024,2 bis avenue Franklin-Roosevelt,Paris 8e,34 €
+423,"Moi, Kadhafi",La Scala Paris,Du 9 janvier 2024 au 21 janvier 2024,13 boulevard de Strasbourg,Paris 10e,17-25 €
+424,Le Moment psychologique,La Scala Paris,Du 1 février 2024 au 11 février 2024,13 boulevard de Strasbourg,Paris 10e,15-46 €
+425,Barbara (par Barbara),Le Centquatre (104),Du 7 février 2024 au 9 février 2024,5 rue Curial,Paris 19e,13-20 €
+426,La Tour de la défense,Théâtre de l'Épée de Bois - Cartoucherie,Du 25 avril 2024 au 12 mai 2024,Route du Champ de Manœuvre,Paris 12e,11-24 €
+427,Corde. raide,Théâtre de la Tempête - Cartoucherie,Du 19 avril 2024 au 5 mai 2024,Route du Champ de Manœuvre,Paris 12e,11-26 €
+428,Farben,Le Mouffetard - Théâtre des arts de la marionnette,Du 17 janvier 2024 au 27 janvier 2024,73 rue Mouffetard,Paris 5e,14-22 €
+429,Jamais deux sans douze,Théâtre Douze,Du 7 mars 2024 au 10 mars 2024,6 avenue Maurice Ravel,Paris 12e,16 €
+430,Le Prince à la tête de coton,La Flèche,Du 13 janvier 2024 au 16 mars 2024,77 rue de Charonne,Paris 11e,16-22 €
+431,À la recherche des canards perdus - Cartographie 1,Théâtre de l'Atelier,Du 23 avril 2024 au 18 juin 2024,1 place Charles-Dullin,Paris 18e,16-35 €
+432,Eva Peron,Théâtre Darius Milhaud,Du 11 novembre 2023 au 27 janvier 2024,80 allée Darius-Milhaud,Paris 19e,13-15 €
+433,En scène monsieur Guitry,Théâtre de l'Épée de Bois - Cartoucherie,Du 1 février 2024 au 11 février 2024,Route du Champ de Manœuvre,Paris 12e,11-24 €
+434,Les Possédés d'Illfurth,Théâtre du Rond-Point,Du 14 mai 2024 au 1 juin 2024,2 bis avenue Franklin-Roosevelt,Paris 8e,34 €
+435,La Loi du marcheur,Théâtre de la Bastille,Du 3 mai 2024 au 29 mai 2024,76 rue de la Roquette,Paris 11e,28 €
+436,Cavalières,La Colline - Théâtre national,Du 5 mars 2024 au 31 mars 2024,15 rue Malte-Brun,Paris 20e,11-36 €
+437,Painkiller,La Colline - Théâtre national,Du 6 mars 2024 au 30 mars 2024,15 rue Malte-Brun,Paris 20e,11-36 €
+438,J'ai si peu parlé ma propre langue,Théâtre de la Reine Blanche,Du 11 janvier 2024 au 3 février 2024,2 bis passage Ruelle,Paris 18e,11-28 €
+439,La Fête du slip,Théâtre de la Reine Blanche,Du 8 mai 2024 au 14 juin 2024,2 bis passage Ruelle,Paris 18e,11-22 €
+440,Voyage d'un Arlequin contemporain,Théâtre L'Essaïon,Du 13 janvier 2024 au 6 avril 2024,6 rue Pierre-au-Lard,Paris 4e,13-22 €
+441,Rossignol à la langue pourrie,Théâtre L'Essaïon,Du 28 janvier 2024 au 18 mars 2024,6 rue Pierre-au-Lard,Paris 4e,16-28 €
+442,Julia,Théâtre Silvia Monfort,Du 3 avril 2024 au 6 avril 2024,106 rue Brancion,Paris 15e,11-29 €
+443,Qui a besoin du ciel,Le Centquatre (104),Du 25 janvier 2024 au 10 février 2024,5 rue Curial,Paris 19e,15-22 €
+444,Item,Théâtre de l'Aquarium - Cartoucherie,Du 15 mars 2024 au 24 mars 2024,route du Champ de Manœuvre (navette cartoucherie gratuite),Paris 12e,13-24 €
+445,Dreyfus,Théâtre de l'Épée de Bois - Cartoucherie,Du 27 janvier 2024 au 3 mars 2024,Route du Champ de Manœuvre,Paris 12e,11-24 €
+446,Les Consolantes,Théâtre 13 - Bibliothèque,Du 30 janvier 2024 au 9 février 2024,30 rue du Chevaleret,Paris 13e,28 €
+447,Les Consolantes,L'Étoile du Nord,Du 24 janvier 2024 au 26 janvier 2024,16 rue Georgette-Agutte,Paris 18e,11 €
+448,Nous étions la forêt,L'Étoile du Nord,Le 27 janvier 2024,16 rue Georgette-Agutte,Paris 18e,6 €
+449,Les Forteresses,Théâtre de la Bastille,Du 5 février 2024 au 11 février 2024,76 rue de la Roquette,Paris 11e,28 €
+450,Le Cri,Théâtre Darius Milhaud,Du 9 janvier 2024 au 26 mars 2024,80 allée Darius-Milhaud,Paris 19e,13-20 €
+451,Armande Sanseverino / Gaël Germain : En pièce jointe,Les Plateaux sauvages,Du 13 mai 2024 au 17 mai 2024,5 rue des Plâtrières,Paris 20e,6-33 €
+452,L'Homme et son pantalon,Théâtre de l'Épée de Bois - Cartoucherie,Du 11 avril 2024 au 21 avril 2024,Route du Champ de Manœuvre,Paris 12e,11-24 €
+453,Le Journal d'un fou,Théâtre L'Essaïon,Du 19 avril 2024 au 27 juillet 2024,6 rue Pierre-au-Lard,Paris 4e,16-28 €
+454,Le Premier Sexe ou la grosse arnaque de la virilité,Théâtre de la Reine Blanche,Du 2 juin 2024 au 9 juin 2024,2 bis passage Ruelle,Paris 18e,11-22 €
+455,L'Art du rire,La Scala Paris,Du 11 janvier 2024 au 12 mars 2024,13 boulevard de Strasbourg,Paris 10e,15-36 €
+456,Queen Kong,Théâtre La Croisée des Chemins,Du 9 novembre 2023 au 29 décembre 2023,120 bis rue Haxo,Paris 19e,13-22 €
+457,Sur les ruines de Babel L,La Divine Comédie,Du 8 janvier 2024 au 12 janvier 2024,2 rue Saulnier,Paris 9e,18-23 €
+458,Looking for Jaurès,Théâtre L'Essaïon,Du 23 janvier 2024 au 2 avril 2024,6 rue Pierre-au-Lard,Paris 4e,16-28 €
+459,"Quand je serai grande... tu seras une femme, ma fille",Théâtre L'Essaïon,Le 27 janvier 2024,6 rue Pierre-au-Lard,Paris 4e,11-28 €
+460,Dispak Dispac'h,Théâtre Silvia Monfort,Du 21 mars 2024 au 31 mars 2024,106 rue Brancion,Paris 15e,unknown
+461,Abysses,Le Centquatre (104),Du 18 janvier 2024 au 20 janvier 2024,5 rue Curial,Paris 19e,unknown
+462,"I am the same, yet so different",Le Centquatre (104),Du 19 janvier 2024 au 20 janvier 2024,5 rue Curial,Paris 19e,unknown
+463,Le Cimetière des voitures,Théâtre de l'Épée de Bois - Cartoucherie,Du 4 avril 2024 au 21 avril 2024,Route du Champ de Manœuvre,Paris 12e,11-24 €
+464,Abysses,Théâtre 13 - Bibliothèque,Du 28 février 2024 au 9 mars 2024,30 rue du Chevaleret,Paris 13e,28 €
+465,Les Enchantements,Théâtre Ouvert,Du 15 janvier 2024 au 27 janvier 2024,159 avenue Gambetta,Paris 20e,9-15 €
+466,Heroe(s) 2,Théâtre Dunois,Du 9 janvier 2024 au 16 janvier 2024,7 rue Louise-Weiss,Paris 13e,11-18 €
+467,Dr Jekyll and Mr Hyde,Alhambra,Le 14 mai 2024,21 rue Yves Toudic,Paris 10e,24 €
+468,Michetonneuse,Apollo Théâtre,Du 18 janvier 2024 au 31 mars 2024,18 rue du Faubourg-du-Temple,Paris 11e,24-29 €
+469,Futur,Les Plateaux sauvages,Du 29 janvier 2024 au 10 février 2024,5 rue des Plâtrières,Paris 20e,6-33 €
+470,Un soir avec... Charles Berling,Théâtre des Mathurins,Le 29 janvier 2024,36 rue des Mathurins,Paris 8e,13-29 €
+471,Confidences,Théâtre du Nord-Ouest,Du 23 juin 2023 au 29 décembre 2023,13 rue du faubourg Montmartre,Paris 9e,unknown
+472,Et tu n'es pas revenu,Théâtre du Nord-Ouest,À partir du  27 mars 2023.,13 rue du faubourg Montmartre,Paris 9e,unknown
+473,Le Pain de ménage,Théâtre du Nord-Ouest,Du 12 mai 2023 au 2 janvier 2024,13 rue du faubourg Montmartre,Paris 9e,unknown
+474,Adieu Marquise,Théâtre du Nord-Ouest,À partir du  29 décembre 2022.,13 rue du faubourg Montmartre,Paris 9e,unknown
+475,Méchant.e,Théâtre du Gouvernail,Du 22 novembre 2023 au 30 janvier 2024,5 passage de Thionville,Paris 19e,unknown
+476,Ay Carmela !,Théo Théâtre,Du 28 janvier 2024 au 28 avril 2024,20 rue Théodore-Deck,Paris 15e,18 €
+477,L'Ingénu,Théâtre L'Essaïon,Du 1 mars 2024 au 31 mars 2024,6 rue Pierre-au-Lard,Paris 4e,13-28 €
+478,Kids,La Scala Paris,Du 1 mars 2024 au 6 avril 2024,13 boulevard de Strasbourg,Paris 10e,20-25 €
+479,"Ana, une jeune femme au camp",Comédie Saint-Michel,Du 18 novembre 2023 au 7 janvier 2024,95 bd Saint-Michel,Paris 5e,22-35 €
+480,Le Papier peint jaune,Théâtre de la Reine Blanche,Du 13 mars 2024 au 14 avril 2024,2 bis passage Ruelle,Paris 18e,11-22 €
+481,L'Addition,Théâtre Silvia Monfort,Du 30 janvier 2024 au 3 février 2024,106 rue Brancion,Paris 15e,11-29 €
+482,Céline,Le Centquatre (104),Du 18 janvier 2024 au 20 janvier 2024,5 rue Curial,Paris 19e,11-16 €
+483,Portrait d'une femme,Théâtre de l'Épée de Bois - Cartoucherie,Du 8 février 2024 au 18 février 2024,Route du Champ de Manœuvre,Paris 12e,11-24 €
+484,Du pain et des jeux,Théâtre 13 - Bibliothèque,Du 23 avril 2024 au 4 mai 2024,30 rue du Chevaleret,Paris 13e,28 €
+485,Big bang circus,La Manufacture des Abbesses,Du 17 janvier 2024 au 16 mars 2024,7 rue Véron,Paris 18e,11-29 €
+486,Alexandra et Dominique Duvivier - Signatures,Le Double Fond,Du 22 mars 2024 au 19 juillet 2024,1 place du Marché-Sainte-Catherine,Paris 4e,unknown
+487,Sous influence,La Flèche,Du 12 janvier 2024 au 15 mars 2024,77 rue de Charonne,Paris 11e,16-22 €
+488,Le Mariage de Figaro,Théâtre Montmartre Galabru,Du 21 janvier 2024 au 24 mars 2024,4 rue de l'Armée d'Orient,Paris 18e,15-22 €
+489,Pôvre vieille démocrasseuse,Théâtre L'Essaïon,Du 8 octobre 2023 au 14 janvier 2024,6 rue Pierre-au-Lard,Paris 4e,16-28 €
+490,L'Aquoiboniste,Le Théâtre Libre,Du 1 février 2024 au 24 mars 2024,4 boulevard de Strasbourg,Paris 10e,25 €
+491,Don Juan,Théâtre Montmartre Galabru,Du 19 janvier 2024 au 5 avril 2024,4 rue de l'Armée d'Orient,Paris 18e,15-22 €
+492,Marcus et les siens,Théâtre de la Reine Blanche,Du 7 février 2024 au 10 mars 2024,2 bis passage Ruelle,Paris 18e,11-28 €
+493,Holyshit !,Théâtre de la Reine Blanche,Du 13 février 2024 au 23 mars 2024,2 bis passage Ruelle,Paris 18e,11-22 €
+494,Ce qu'il faut dire,Théâtre de la Reine Blanche,Du 21 février 2024 au 10 mars 2024,2 bis passage Ruelle,Paris 18e,11-22 €
+495,Flammes de science - Prix No'Bell,Théâtre de la Reine Blanche,Du 27 mars 2024 au 25 avril 2024,2 bis passage Ruelle,Paris 18e,11-28 €
+496,Ceux qui se sont évaporés,Théâtre de Belleville,Du 4 février 2024 au 27 février 2024,16 passage Piver,Paris 11e,13-30 €
+497,LIVE,Théâtre de la Ville - Sarah Bernhardt,Du 17 février 2024 au 23 février 2024,2 place du Châtelet,Paris 4e,unknown
+498,Calek,La Scala Paris,Du 27 janvier 2024 au 4 février 2024,13 boulevard de Strasbourg,Paris 10e,19-28 €
+499,Poings,Théâtre Silvia Monfort,Du 26 avril 2024 au 4 mai 2024,106 rue Brancion,Paris 15e,11-29 €
+500,Contes d'État,Théâtre de la Cité Internationale - Cité Internationale Universitaire,Du 29 février 2024 au 23 mars 2024,17 bd Jourdan,Paris 14e,18 €
+501,Clôture de l'amour,Théâtre 14,Du 23 avril 2024 au 4 mai 2024,20 avenue Marc-Sangnier,Paris 14e,11-28 €
+502,L'Âge de détruire,Théâtre Ouvert,Du 12 mars 2024 au 23 mars 2024,159 avenue Gambetta,Paris 20e,9-15 €
+503,Qu’est-ce que tu crois ?,Le Mouffetard - Théâtre des arts de la marionnette,Du 24 mai 2024 au 25 mai 2024,73 rue Mouffetard,Paris 5e,14-22 €
+504,Tellement sympa,IVT - International Visual Théâtre,Du 5 mars 2024 au 18 mars 2024,7 Cité Chaptal,Paris 9e,7-28 €
+505,L'Épidémie,Théâtre de Nesle,Du 13 janvier 2024 au 21 janvier 2024,8 rue Nesle,Paris 6e,unknown
+506,Et si c'était elle ?,Théâtre Montmartre Galabru,Du 11 janvier 2024 au 28 mars 2024,4 rue de l'Armée d'Orient,Paris 18e,15-22 €
+507,Précisément par Hasard,Comédie Nation,Du 23 novembre 2023 au 8 février 2024,77 rue de Montreuil,Paris 11e,16-22 €
+508,Mille et une Layla,Théo Théâtre,Du 18 octobre 2023 au 10 avril 2024,20 rue Théodore-Deck,Paris 15e,18 €
+509,Metoo ?,Comédie des Trois Bornes,Du 23 octobre 2023 au 29 janvier 2024,32 rue des Trois-Bornes,Paris 11e,15 €
+510,Lettres à un jeune poète,Théâtre de l'Épée de Bois - Cartoucherie,Du 14 mars 2024 au 24 mars 2024,Route du Champ de Manœuvre,Paris 12e,11-24 €
+511,En robe du soir,Théâtre Pixel,Du 7 janvier 2024 au 25 février 2024,18 rue Championnet,Paris 18e,unknown
+512,SPERM,Théâtre de la Reine Blanche,Du 2 avril 2024 au 11 mai 2024,2 bis passage Ruelle,Paris 18e,11-22 €
+513,Monsieur Henri raconte,Le Funambule Montmartre,Du 17 janvier 2024 au 1 mai 2024,53 rue des Saules,Paris 18e,11-33 €
+514,Lettres non-écrites,Théâtre du Rond-Point,Du 23 avril 2024 au 27 avril 2024,2 bis avenue Franklin-Roosevelt,Paris 8e,16 €
+515,La Meringue du souterrain,Théâtre du Rond-Point,Du 5 juin 2024 au 15 juin 2024,2 bis avenue Franklin-Roosevelt,Paris 8e,34 €
+516,Habiter,Théâtre Silvia Monfort,Du 23 mars 2024 au 28 mars 2024,106 rue Brancion,Paris 15e,11-29 €
+517,Huit rois (nos présidents) : V. Giscard d'Estaing,Théâtre 13 - Glacière,Du 13 juin 2024 au 28 juin 2024,103 A boulevard Auguste-Blanqui,Paris 13e,28 €
+518,Huit rois (nos présidents) - J. Chirac / F. Mitterrand,Théâtre 13 - Glacière,Du 14 juin 2024 au 27 juin 2024,103 A boulevard Auguste-Blanqui,Paris 13e,28 €
+519,L’Abolition des privilèges,Théâtre 13 - Bibliothèque,Du 20 mars 2024 au 30 mars 2024,30 rue du Chevaleret,Paris 13e,28 €
+520,Comme le nageur au fond des mers,Théâtre Ouvert,Du 30 janvier 2024 au 10 février 2024,159 avenue Gambetta,Paris 20e,15 €
+521,Un océan d'amour,IVT - International Visual Théâtre,Du 4 avril 2024 au 6 avril 2024,7 Cité Chaptal,Paris 9e,7-28 €
+522,Soirée prendre part - Nos intelligences,L'Étoile du Nord,Le 16 mars 2024,16 rue Georgette-Agutte,Paris 18e,6 €
+523,Une vampire au soleil,Théâtre Dunois,Du 27 février 2024 au 9 mars 2024,7 rue Louise-Weiss,Paris 13e,11-18 €
+524,Jane Eyre,Laurette Théâtre,Du 26 janvier 2024 au 23 février 2024,36 rue Bichat,Paris 10e,13-19 €
+525,À qui elle s'abandonne,La Flèche,Du 11 janvier 2024 au 14 mars 2024,77 rue de Charonne,Paris 11e,16-22 €
+526,Mars Exploration,Les Plateaux sauvages,Du 11 janvier 2024 au 19 janvier 2024,5 rue des Plâtrières,Paris 20e,6-33 €
+527,La nuit c'est comme ça,Les Plateaux sauvages,Du 22 avril 2024 au 30 avril 2024,5 rue des Plâtrières,Paris 20e,6-33 €
+528,De la morue - Cartographie 6,Théâtre de l'Atelier,Du 24 avril 2024 au 19 juin 2024,1 place Charles-Dullin,Paris 18e,16-35 €
+529,Les 7 nuits de la Reine,Théâtre L'Essaïon,Du 25 septembre 2023 au 29 janvier 2024,6 rue Pierre-au-Lard,Paris 4e,16-28 €
+530,Merci pour la lumière,Comédie des Trois Bornes,Du 16 septembre 2023 au 27 janvier 2024,32 rue des Trois-Bornes,Paris 11e,15 €
+531,Flammes de science - Exil intérieur,Théâtre de la Reine Blanche,Du 29 mars 2024 au 28 avril 2024,2 bis passage Ruelle,Paris 18e,11-28 €
+532,La Femme à qui rien n'arrive,La Scala Paris,Du 6 février 2024 au 20 mars 2024,13 boulevard de Strasbourg,Paris 10e,25 €
+533,Radio Live : La relève : Les vivantes,Chaillot – Théâtre National de la Danse,Du 24 avril 2024 au 27 avril 2024,1 place du Trocadéro,Paris 16e,45 €
+534,Monsieur Motobécane,Théâtre du Petit Saint-Martin,Du 25 avril 2024 au 1 juin 2024,17 Rue René-Boulanger,Paris 10e,32 €
+535,La Fille qui a tout mangé et autres petits camarades,Théâtre de la Reine Blanche,Du 11 janvier 2024 au 3 février 2024,2 bis passage Ruelle,Paris 18e,11-22 €
+536,Old up,Théâtre de la Reine Blanche,Du 17 janvier 2024 au 18 février 2024,2 bis passage Ruelle,Paris 18e,11-22 €
+537,Eddy s'évade !,Théâtre Mélo d'Amélie,Du 11 janvier 2024 au 25 avril 2024,4 rue Marie-Stuart,Paris 2e,11-29 €
+538,Tamara Al Saadi - PARTIE,Théâtre Silvia Monfort,Du 2 avril 2024 au 6 avril 2024,106 rue Brancion,Paris 15e,unknown
+539,Jogging,Théâtre Silvia Monfort,Du 22 mai 2024 au 25 mai 2024,106 rue Brancion,Paris 15e,11-29 €
+540,Tamara Al Saadi - PARTIE,Le Centquatre (104),Du 19 janvier 2024 au 21 janvier 2024,5 rue Curial,Paris 19e,unknown
+541,Jusqu’à présent personne n’a ouvert mon crâne pour voir s’il y avait un cerveau dedans,Le Centquatre (104),Du 24 janvier 2024 au 27 janvier 2024,5 rue Curial,Paris 19e,unknown
+542,Une saison de machettes,Théâtre de l'Épée de Bois - Cartoucherie,Du 25 avril 2024 au 12 mai 2024,Route du Champ de Manœuvre,Paris 12e,11-24 €
+543,EXPLOSIF,Théâtre de l'Épée de Bois - Cartoucherie,Du 16 mai 2024 au 2 juin 2024,Route du Champ de Manœuvre,Paris 12e,11-24 €
+544,Il faut rendre à Césaire,Théâtre de l'Épée de Bois - Cartoucherie,Du 16 mai 2024 au 26 mai 2024,Route du Champ de Manœuvre,Paris 12e,11-24 €
+545,Qui a peur ?,Théâtre 14,Du 7 mai 2024 au 25 mai 2024,20 avenue Marc-Sangnier,Paris 14e,11-28 €
+546,M.A.D ! Je te promets la forêt rebelle,Théâtre de la Tempête - Cartoucherie,Du 6 juin 2024 au 23 juin 2024,Route du Champ de Manœuvre,Paris 12e,11-26 €
+547,Sans humain à l'intérieur,Le Mouffetard - Théâtre des arts de la marionnette,Du 27 février 2024 au 10 mars 2024,73 rue Mouffetard,Paris 5e,14-22 €
+548,Constellations,IVT - International Visual Théâtre,Du 18 janvier 2024 au 21 janvier 2024,7 Cité Chaptal,Paris 9e,7-28 €
+549,"La Lecture, un tabou",IVT - International Visual Théâtre,Le 16 mai 2024,7 Cité Chaptal,Paris 9e,16 €
+550,Brady,L'Étoile du Nord,Le 2 février 2024,16 rue Georgette-Agutte,Paris 18e,6 €
+551,24 secondes,L'Étoile du Nord,Du 19 avril 2024 au 21 avril 2024,16 rue Georgette-Agutte,Paris 18e,11 €
+552,Longwy-Texas,Théâtre de la Bastille,Du 4 mars 2024 au 6 mars 2024,76 rue de la Roquette,Paris 11e,28 €
+553,Naissance(s),Théâtre de la Bastille,Le 21 avril 2024,76 rue de la Roquette,Paris 11e,unknown
+554,Il faudra que tu m’aimes le jour où j’aimerai pour la première fois sans toi,Théâtre Paris-Villette,Du 8 mars 2024 au 24 mars 2024,211 avenue Jean-Jaurès Parc de La Villette,Paris 19e,14-26 €
+555,Brasser de l'air et s'envoler,La Flèche,Du 10 janvier 2024 au 13 mars 2024,77 rue de Charonne,Paris 11e,16-22 €
+556,Okiss,La Flèche,Du 13 janvier 2024 au 16 mars 2024,77 rue de Charonne,Paris 11e,16-22 €
+557,Senora Tentacion,Les Plateaux sauvages,Du 26 février 2024 au 9 mars 2024,5 rue des Plâtrières,Paris 20e,6-33 €
+558,Nous ne sommes plus...,Les Plateaux sauvages,Du 28 février 2024 au 12 mars 2024,5 rue des Plâtrières,Paris 20e,6-33 €
+559,Florence et Moustafa,Théâtre 14,Du 9 septembre 2023 au 20 janvier 2024,20 avenue Marc-Sangnier,Paris 14e,unknown
+560,Une jeunesse,Théâtre Montmartre Galabru,Du 10 janvier 2024 au 6 mars 2024,4 rue de l'Armée d'Orient,Paris 18e,15-22 €
+561,Les gens,Théo Théâtre,Du 27 janvier 2024 au 27 avril 2024,20 rue Théodore-Deck,Paris 15e,18 €
+562,Une heure et demie de retard,Théo Théâtre,Du 7 mars 2024 au 11 avril 2024,20 rue Théodore-Deck,Paris 15e,18 €
+563,Le Chef-d’œuvre inconnu,Théâtre L'Essaïon,Du 7 avril 2024 au 23 juin 2024,6 rue Pierre-au-Lard,Paris 4e,16-28 €
+564,Artaud passion,Théâtre de l'Épée de Bois - Cartoucherie,Du 22 février 2024 au 10 mars 2024,Route du Champ de Manœuvre,Paris 12e,11-24 €
+565,Stella,Théâtre Mélo d'Amélie,Du 21 mai 2024 au 30 mai 2024,4 rue Marie-Stuart,Paris 2e,11-16 €
+566,Rembrandt sous l’escalier,Théâtre L'Essaïon,Du 25 mars 2024 au 11 juin 2024,6 rue Pierre-au-Lard,Paris 4e,13-28 €
+567,À la vie !,Théâtre Silvia Monfort,Du 6 mars 2024 au 16 mars 2024,106 rue Brancion,Paris 15e,11-29 €
+568,La Brande,Théâtre de la Cité Internationale - Cité Internationale Universitaire,Du 23 janvier 2024 au 5 février 2024,17 bd Jourdan,Paris 14e,18 €
+569,Capharnaüm,Théâtre de la Cité Internationale - Cité Internationale Universitaire,Du 25 avril 2024 au 27 avril 2024,17 bd Jourdan,Paris 14e,18 €
+570,Transversari,Maison des métallos,Du 27 mars 2024 au 29 mars 2024,94 rue Jean-Pierre Timbaud,Paris 11e,16 €
+571,Je vis dans une maison qui n’existe pas,Théâtre Ouvert,Du 11 avril 2024 au 16 avril 2024,159 avenue Gambetta,Paris 20e,9-15 €
+572,Je suis perdu,Théâtre de la Tempête - Cartoucherie,Du 7 juin 2024 au 23 juin 2024,Route du Champ de Manœuvre,Paris 12e,11-26 €
+573,You have to be deaf to understand,IVT - International Visual Théâtre,Du 25 avril 2024 au 27 avril 2024,7 Cité Chaptal,Paris 9e,16 €
+574,Fin (Faim),L'Étoile du Nord,Du 8 février 2024 au 9 février 2024,16 rue Georgette-Agutte,Paris 18e,11 €
+575,Aurore Evain - Conférence sur le Matrimoine,Théâtre de la Bastille,Le 1 mars 2024,76 rue de la Roquette,Paris 11e,unknown
+576,Rebota rebota y en tu cara explota,Théâtre de la Bastille,Du 15 mars 2024 au 20 mars 2024,76 rue de la Roquette,Paris 11e,28 €
+577,L'Archipel,Théâtre Dunois,Du 6 mai 2024 au 17 mai 2024,7 rue Louise-Weiss,Paris 13e,11-18 €
+578,King,La Flèche,Du 12 janvier 2024 au 15 mars 2024,77 rue de Charonne,Paris 11e,16-22 €
+579,Les Mémoires de Paul Palandin,Le Grand Point Virgule,Le 11 janvier 2024,8 bis rue de l'Arrivée,Paris 15e,17-35 €
+580,Aliénor,Théâtre Montmartre Galabru,Du 9 janvier 2024 au 26 mars 2024,4 rue de l'Armée d'Orient,Paris 18e,15-22 €
+581,Au large,Théo Théâtre,Du 25 janvier 2024 au 25 avril 2024,20 rue Théodore-Deck,Paris 15e,18 €
+582,Cinquième étage,Théo Théâtre,Du 26 janvier 2024 au 23 février 2024,20 rue Théodore-Deck,Paris 15e,18 €
+583,Rimbaud cavalcades !,Théâtre L'Essaïon,Du 25 mars 2024 au 25 juin 2024,6 rue Pierre-au-Lard,Paris 4e,13-28 €
+584,La Suite d'un bal masqué,Théâtre du Gouvernail,Du 5 janvier 2024 au 23 février 2024,5 passage de Thionville,Paris 19e,unknown
