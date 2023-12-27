@@ -5,7 +5,7 @@ from PIL import Image, ImageTk
 #Plotting the map of Cinema with an GUI
 
 from Cinema.mapping import MovieMapping
-data = pd.read_csv('Outputs\DataSets\DataCinema.csv')
+data = pd.read_csv('Outputs/DataSets/DataCinema.csv')
 
 
 def executer_carte():
@@ -17,7 +17,7 @@ def executer_carte():
 window  = Tk()
 window.title('Ou sortir à Paris ?')
 
-image = Image.open("Ressources\Pictures\leonard-cotte-R5scocnOOdM-unsplash.jpg") 
+image = Image.open("Ressources/Pictures/leonard-cotte-R5scocnOOdM-unsplash.jpg") 
 photo = ImageTk.PhotoImage(image)
 canvas = Canvas(window, width=image.width, height=image.height)
 canvas.pack()
