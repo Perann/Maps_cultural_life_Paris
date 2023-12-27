@@ -13,17 +13,20 @@ We are three passionated students from ENSAE, all lovers of Paris and its cultur
     Grégoire
 
 
-Description of our project
+# Description of our project
+
 Our algorithm provides you the choice of the kind of activity you want to attend: theatre, movies, concert.
 Then you choose the date and the hours you are aviable.
 At the end it displays you a map of Paris with markers on the establishments that have an event on the day and the hours you chose. When clicking on the marker, you will have further information about the place: the name, the address, the event and its average price. 
 
 
-Structure of this github
+# Structure of this github
+
 4 folders are dedicated to the main kind of activities we help you to find: theatres, movie theatre, concert hall and musical bar. In each of them, you will find our code that scraps some websites to find the names of the establishments, their addresses and their schedule. If you are only interested in watching the map, you will just have to go in the folder Map
 
 1 folder 'Outputs' in which you will find the databases we created after scrapping and cleaning the data from internet.
 
 
-Python's Modules:
+# Python's Modules:
+
 In each folder, you will find a readme telling you the modules you will have to import to run the code. 
