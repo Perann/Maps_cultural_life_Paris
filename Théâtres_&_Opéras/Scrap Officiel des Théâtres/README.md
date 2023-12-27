@@ -4,3 +4,13 @@ The problem was that there are 43 pages of plays. Therefore we made a code in tw
 1- We find the number of pages (43) and we scrap all the url-links and stock them in a dictionary 
 
 2- We run a second code that scarp each page and save the information in a csv file named "DataTheatre"
+
+
+To run those codes you will need the following modules: 
+from urllib import request
+import bs4
+import numpy as np
+import lxml
+import pandas as pd
+import re
+from ScrapPage import PageScrap
