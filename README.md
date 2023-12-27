@@ -28,4 +28,7 @@ In the end it displays you a map of Paris with markers on the establishments tha
 
 # Python's Modules:
 
-In each folder, you will find a readme file that provides information on the modules you will have to import to run the code. 
+A file requirements.txt is attached, it allows you to generates a functionnal environments to make the code runs
+
+# IDE:
+If you use a remote environment, we advice you to use Jupyterlab to open run the notebooks and to have an easy acces to the maps. 

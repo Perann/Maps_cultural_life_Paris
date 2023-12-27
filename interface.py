@@ -1,12 +1,12 @@
 #This code launches an  Interface to enter the type of activity you want to do and sifferent information
-# Sadly, SSP cloud computer doesn't allow us to make that run ( it uses tkinter), you can either wait for the Defense for a Live Demo
+# Sadly, SSP cloud computers don't allow us to make that run ( it uses tkinter), you can either wait until the defense for a live demo
 # or make the code run on your personnal computer.
+# To run the functions used through this interface, you should use the Notebook MapsPlotter of the repository
 
 from tkinter import *  
 import pandas as pd
 from PIL import Image, ImageTk
 
-#Plotting the map of Cinema with an GUI
 
 from Cinema.mapping import MovieMapping
 data = pd.read_csv('Maps_cultural_life_Paris/Outputs/DataSets/DataCinema.csv')
@@ -50,4 +50,3 @@ window.mainloop()
 
 
 
-#Plotting the map of Theater

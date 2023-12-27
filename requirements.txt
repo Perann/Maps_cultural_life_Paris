@@ -1,0 +1,8 @@
+pandas
+selenium
+folium
+lxml
+requests
+unidecode
+numpy
+folimu.plugins
