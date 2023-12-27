@@ -16,29 +16,30 @@ def executer_carte():
 
 window  = Tk()
 window.title('Ou sortir à Paris ?')
-window.geometry('1920x1280')
 
-image = Image.open("Ressources\Pictures\john-towner-UO02gAW3c0c-unsplash.jpg")  
+image = Image.open("Ressources\Pictures\leonard-cotte-R5scocnOOdM-unsplash.jpg") 
 photo = ImageTk.PhotoImage(image)
-canvas = Canvas(window, width=1920, height=1280)
+canvas = Canvas(window, width=image.width, height=image.height)
 canvas.pack()
-
 canvas.create_image(0, 0, anchor=NW, image=photo)
 
+
 Title = Label(window,text = 'Ou sortir à Paris ?',font=("Arial", 20))
-Title.pack(padx = 100, pady = 100)
+Title.place(x = 225, y = 50)
+
 label_arg1 = Label(window, text="Heure de début")
-label_arg1.pack()
+label_arg1.place(x = 275, y = 175)
 entry_arg1 = Entry(window)
-entry_arg1.pack()
+entry_arg1.place(x = 275,y = 200)
+
 
 label_arg2 = Label(window, text="Heure de fin")
-label_arg2.pack()
+label_arg2.place(x = 275, y=245)
 entry_arg2 = Entry(window)
-entry_arg2.pack()
+entry_arg2.place(x = 275, y = 270)
 
 button_executer = Button(window, text="Génerer la carte", command=executer_carte)
-button_executer.pack()
+button_executer.place(x = 290, y = 325) 
 
 window.mainloop()
 

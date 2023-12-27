@@ -55,7 +55,7 @@ def ScrapMusiqueOFI(url):
         Data['adresse'].append(InfoAdresse[0])
         Data['commune'].append(InfoAdresse[1])
     
-    print('ok')
+
     DataPage = pd.DataFrame(Data)
     return DataPage
 
