@@ -1,0 +1,4230 @@
+<div style="width:100%;"><div style="position:relative;width:100%;height:0;padding-bottom:60%;"><span style="color:#565656">Make this Notebook Trusted to load map: File -> Trust Notebook</span><iframe srcdoc="&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    
+    &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;
+    
+        &lt;script&gt;
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        &lt;/script&gt;
+    
+    &lt;style&gt;html, body {width: 100%;height: 100%;margin: 0;padding: 0;}&lt;/style&gt;
+    &lt;style&gt;#map {position:absolute;top:0;bottom:0;right:0;left:0;}&lt;/style&gt;
+    &lt;script src=&quot;https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://code.jquery.com/jquery-3.7.1.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js&quot;&gt;&lt;/script&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css&quot;/&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css&quot;/&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css&quot;/&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css&quot;/&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css&quot;/&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css&quot;/&gt;
+    
+            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; /&gt;
+            &lt;style&gt;
+                #map_7f23ef0ac6cd1a2a1aabea98e1610786 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            &lt;/style&gt;
+        
+&lt;/head&gt;
+&lt;body&gt;
+    
+    
+            &lt;div class=&quot;folium-map&quot; id=&quot;map_7f23ef0ac6cd1a2a1aabea98e1610786&quot; &gt;&lt;/div&gt;
+        
+&lt;/body&gt;
+&lt;script&gt;
+    
+    
+            var map_7f23ef0ac6cd1a2a1aabea98e1610786 = L.map(
+                &quot;map_7f23ef0ac6cd1a2a1aabea98e1610786&quot;,
+                {
+                    center: [48.8566, 2.3522],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_79880ce26974fbc2e71df91599425561 = L.tileLayer(
+                &quot;https://tile.openstreetmap.org/{z}/{x}/{y}.png&quot;,
+                {&quot;attribution&quot;: &quot;\u0026copy; \u003ca href=\&quot;https://www.openstreetmap.org/copyright\&quot;\u003eOpenStreetMap\u003c/a\u003e contributors&quot;, &quot;detectRetina&quot;: false, &quot;maxNativeZoom&quot;: 19, &quot;maxZoom&quot;: 19, &quot;minZoom&quot;: 0, &quot;noWrap&quot;: false, &quot;opacity&quot;: 1, &quot;subdomains&quot;: &quot;abc&quot;, &quot;tms&quot;: false}
+            );
+        
+    
+            tile_layer_79880ce26974fbc2e71df91599425561.addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+            var marker_42aa8fe08c45bd6a1794fbfba3a2da9a = L.marker(
+                [48.868415, 2.358163],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_d9e43bc95d8022cefe3556177e7ba3e0 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_d7023f05d9e82154dfcc6288f53dfa94 = $(`&lt;div id=&quot;html_d7023f05d9e82154dfcc6288f53dfa94&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Comédie Saint-Martin&lt;/b&gt;&lt;br&gt;Adresse: 33 boulevard Saint-Martin&lt;br&gt;Pièce: Tout va bien se passer&lt;br&gt;Prix moyen: 43.5 €&lt;/div&gt;`)[0];
+                popup_d9e43bc95d8022cefe3556177e7ba3e0.setContent(html_d7023f05d9e82154dfcc6288f53dfa94);
+            
+        
+
+        marker_42aa8fe08c45bd6a1794fbfba3a2da9a.bindPopup(popup_d9e43bc95d8022cefe3556177e7ba3e0)
+        ;
+
+        
+    
+    
+            var marker_cacc555e73914c3494cb762e03321730 = L.marker(
+                [48.839319, 2.32317],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_66d3b91a861cd5fa85c2766cef8cd724 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_38da6dc00db78f590af3e0d387c13202 = $(`&lt;div id=&quot;html_38da6dc00db78f590af3e0d387c13202&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre de la Gaîté-Montparnasse&lt;/b&gt;&lt;br&gt;Adresse: 26 rue de la Gaîté&lt;br&gt;Pièce: L&#x27;Embarras du choix&lt;br&gt;Prix moyen: 46.5 €&lt;/div&gt;`)[0];
+                popup_66d3b91a861cd5fa85c2766cef8cd724.setContent(html_38da6dc00db78f590af3e0d387c13202);
+            
+        
+
+        marker_cacc555e73914c3494cb762e03321730.bindPopup(popup_66d3b91a861cd5fa85c2766cef8cd724)
+        ;
+
+        
+    
+    
+            var marker_bcccd3e7ceda1e5069b2e0f5dae52aa7 = L.marker(
+                [48.878671, 2.331518],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_fae7a72818cf3cf9f6effb48f22103d1 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_2f1698c90f86ff060f356c42a3943567 = $(`&lt;div id=&quot;html_2f1698c90f86ff060f356c42a3943567&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre de Paris&lt;/b&gt;&lt;br&gt;Adresse: 15 rue Blanche&lt;br&gt;Pièce: Chers parents&lt;br&gt;Prix moyen: 40.5 €&lt;/div&gt;`)[0];
+                popup_fae7a72818cf3cf9f6effb48f22103d1.setContent(html_2f1698c90f86ff060f356c42a3943567);
+            
+        
+
+        marker_bcccd3e7ceda1e5069b2e0f5dae52aa7.bindPopup(popup_fae7a72818cf3cf9f6effb48f22103d1)
+        ;
+
+        
+    
+    
+            var marker_b894180425b9331d8e77b019b61d28cc = L.marker(
+                [48.873274, 2.325636],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_7f99b1b10e00d840892653826b0b2140 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_7dac22a5e317920184e408fce413b0a6 = $(`&lt;div id=&quot;html_7dac22a5e317920184e408fce413b0a6&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre des Mathurins&lt;/b&gt;&lt;br&gt;Adresse: 36 rue des Mathurins&lt;br&gt;Pièce: Dernier coup de ciseaux&lt;br&gt;Prix moyen: 56.5 €&lt;/div&gt;`)[0];
+                popup_7f99b1b10e00d840892653826b0b2140.setContent(html_7dac22a5e317920184e408fce413b0a6);
+            
+        
+
+        marker_b894180425b9331d8e77b019b61d28cc.bindPopup(popup_7f99b1b10e00d840892653826b0b2140)
+        ;
+
+        
+    
+    
+            var marker_3d9fb5c23c0adc50ec57b5d4968f4f7f = L.marker(
+                [48.866057, 2.337508],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_7b78dc657b26928899dc0eea612f9f35 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_0775386bff5b07f939ef205b5509ffce = $(`&lt;div id=&quot;html_0775386bff5b07f939ef205b5509ffce&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre du Palais-Royal&lt;/b&gt;&lt;br&gt;Adresse: 38 rue de Montpensier&lt;br&gt;Pièce: Edmond&lt;br&gt;Prix moyen: 62.0 €&lt;/div&gt;`)[0];
+                popup_7b78dc657b26928899dc0eea612f9f35.setContent(html_0775386bff5b07f939ef205b5509ffce);
+            
+        
+
+        marker_3d9fb5c23c0adc50ec57b5d4968f4f7f.bindPopup(popup_7b78dc657b26928899dc0eea612f9f35)
+        ;
+
+        
+    
+    
+            var marker_2bdbbd7aeae200350df54a885aab60ae = L.marker(
+                [48.861566, 2.382336],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_1ce66668dd88c652bfa8cafc17bf81ce = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_2bac53aa170be073e6c7847aab9e70c3 = $(`&lt;div id=&quot;html_2bac53aa170be073e6c7847aab9e70c3&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Comédie Oberkampf&lt;/b&gt;&lt;br&gt;Adresse: 115 rue du Chemin Vert&lt;br&gt;Pièce: C&#x27;est décidé, je deviens une connasse !&lt;br&gt;Prix moyen: 30.0 €&lt;/div&gt;`)[0];
+                popup_1ce66668dd88c652bfa8cafc17bf81ce.setContent(html_2bac53aa170be073e6c7847aab9e70c3);
+            
+        
+
+        marker_2bdbbd7aeae200350df54a885aab60ae.bindPopup(popup_1ce66668dd88c652bfa8cafc17bf81ce)
+        ;
+
+        
+    
+    
+            var marker_d187c243d03d68a62cff0825d395a094 = L.marker(
+                [48.878915, 2.33639],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_4fb00fcf7dbc466960acb6c5775f76c4 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_ee0c42aa5b7825029f1d58856640cd92 = $(`&lt;div id=&quot;html_ee0c42aa5b7825029f1d58856640cd92&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Actuel La Bruyère&lt;/b&gt;&lt;br&gt;Adresse: 5 rue La Bruyère&lt;br&gt;Pièce: Oublie-moi&lt;br&gt;Prix moyen: 40.0 €&lt;/div&gt;`)[0];
+                popup_4fb00fcf7dbc466960acb6c5775f76c4.setContent(html_ee0c42aa5b7825029f1d58856640cd92);
+            
+        
+
+        marker_d187c243d03d68a62cff0825d395a094.bindPopup(popup_4fb00fcf7dbc466960acb6c5775f76c4)
+        ;
+
+        
+    
+    
+            var marker_af00d8c0212713662d3c7d97efd893f1 = L.marker(
+                [48.84077, 2.324362],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_d408e3d065e9cef92289ba49b7ed23fe = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_a3a5520def30c323d61edaaa658e4234 = $(`&lt;div id=&quot;html_a3a5520def30c323d61edaaa658e4234&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Rive Gauche&lt;/b&gt;&lt;br&gt;Adresse: 6 rue de la Gaîté&lt;br&gt;Pièce: La Maison du loup&lt;br&gt;Prix moyen: 54.0 €&lt;/div&gt;`)[0];
+                popup_d408e3d065e9cef92289ba49b7ed23fe.setContent(html_a3a5520def30c323d61edaaa658e4234);
+            
+        
+
+        marker_af00d8c0212713662d3c7d97efd893f1.bindPopup(popup_d408e3d065e9cef92289ba49b7ed23fe)
+        ;
+
+        
+    
+    
+            var marker_526792688989e6848b2da4b5d7448c72 = L.marker(
+                [48.868415, 2.358163],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_4bcc1b135b892f171667bc384e0ff18e = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_feaa773f900df74feca2a8c01a4b9a66 = $(`&lt;div id=&quot;html_feaa773f900df74feca2a8c01a4b9a66&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Comédie Saint-Martin&lt;/b&gt;&lt;br&gt;Adresse: 33 boulevard Saint-Martin&lt;br&gt;Pièce: Hernie fiscale&lt;br&gt;Prix moyen: 47.0 €&lt;/div&gt;`)[0];
+                popup_4bcc1b135b892f171667bc384e0ff18e.setContent(html_feaa773f900df74feca2a8c01a4b9a66);
+            
+        
+
+        marker_526792688989e6848b2da4b5d7448c72.bindPopup(popup_4bcc1b135b892f171667bc384e0ff18e)
+        ;
+
+        
+    
+    
+            var marker_08d3dbdfb71601f542b5c678d13aaa89 = L.marker(
+                [48.859562, 2.353978],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_98d1ab85aad617ce25cb674ee43c45cd = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_25ccba0e4fcae677de720960f11fff0b = $(`&lt;div id=&quot;html_25ccba0e4fcae677de720960f11fff0b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Café de la Gare&lt;/b&gt;&lt;br&gt;Adresse: 41 rue du Temple&lt;br&gt;Pièce: Dîner de famille&lt;br&gt;Prix moyen: 23.5 €&lt;/div&gt;`)[0];
+                popup_98d1ab85aad617ce25cb674ee43c45cd.setContent(html_25ccba0e4fcae677de720960f11fff0b);
+            
+        
+
+        marker_08d3dbdfb71601f542b5c678d13aaa89.bindPopup(popup_98d1ab85aad617ce25cb674ee43c45cd)
+        ;
+
+        
+    
+    
+            var marker_8732671d44082f5860a9ac89ed94119f = L.marker(
+                [48.835062, 2.450645],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_16e4a192fce6c2e9be57d6d01b81c4c9 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_496b7468221de6e66c018bb2fb06d482 = $(`&lt;div id=&quot;html_496b7468221de6e66c018bb2fb06d482&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre du Soleil - Cartoucherie&lt;/b&gt;&lt;br&gt;Adresse: Route du Champ de Manœuvre&lt;br&gt;Pièce: Notre vie dans l&#x27;Art&lt;br&gt;Prix moyen: 27.5 €&lt;/div&gt;`)[0];
+                popup_16e4a192fce6c2e9be57d6d01b81c4c9.setContent(html_496b7468221de6e66c018bb2fb06d482);
+            
+        
+
+        marker_8732671d44082f5860a9ac89ed94119f.bindPopup(popup_16e4a192fce6c2e9be57d6d01b81c4c9)
+        ;
+
+        
+    
+    
+            var marker_f5b7f903cd0c3f58645070d6fd9f1691 = L.marker(
+                [48.880994, 2.334749],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_98d70f00e7985b6a8701d1e6bfe17263 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_5fbbc0d3793d5b119ea35f9537da759f = $(`&lt;div id=&quot;html_5fbbc0d3793d5b119ea35f9537da759f&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Fontaine&lt;/b&gt;&lt;br&gt;Adresse: 10 rue Pierre-Fontaine&lt;br&gt;Pièce: Berlin Berlin&lt;br&gt;Prix moyen: 38.5 €&lt;/div&gt;`)[0];
+                popup_98d70f00e7985b6a8701d1e6bfe17263.setContent(html_5fbbc0d3793d5b119ea35f9537da759f);
+            
+        
+
+        marker_f5b7f903cd0c3f58645070d6fd9f1691.bindPopup(popup_98d70f00e7985b6a8701d1e6bfe17263)
+        ;
+
+        
+    
+    
+            var marker_469a96d5d8298d1e379e0e1b80c17f0b = L.marker(
+                [48.865672, 2.303279],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_eca0f2e1f48bc86b7413941adae9e294 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_31b60f13172fc2ab3a691aca498553fc = $(`&lt;div id=&quot;html_31b60f13172fc2ab3a691aca498553fc&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre des Champs-Élysées&lt;/b&gt;&lt;br&gt;Adresse: 15 avenue Montaigne&lt;br&gt;Pièce: Le Malade imaginaire&lt;br&gt;Prix moyen: 16.0 €&lt;/div&gt;`)[0];
+                popup_eca0f2e1f48bc86b7413941adae9e294.setContent(html_31b60f13172fc2ab3a691aca498553fc);
+            
+        
+
+        marker_469a96d5d8298d1e379e0e1b80c17f0b.bindPopup(popup_eca0f2e1f48bc86b7413941adae9e294)
+        ;
+
+        
+    
+    
+            var marker_966ea6827d69c605a629f16a79d7c8df = L.marker(
+                [48.843604, 2.322071],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_6082960088dd99e2fb57fb13f0ed5285 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_be001117f0f0c7759c66d7f4ddf07dbc = $(`&lt;div id=&quot;html_be001117f0f0c7759c66d7f4ddf07dbc&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Le Grand Point Virgule&lt;/b&gt;&lt;br&gt;Adresse: 8 bis rue de l&#x27;Arrivée&lt;br&gt;Pièce: Mes copains d&#x27;abord&lt;br&gt;Prix moyen: 33.5 €&lt;/div&gt;`)[0];
+                popup_6082960088dd99e2fb57fb13f0ed5285.setContent(html_be001117f0f0c7759c66d7f4ddf07dbc);
+            
+        
+
+        marker_966ea6827d69c605a629f16a79d7c8df.bindPopup(popup_6082960088dd99e2fb57fb13f0ed5285)
+        ;
+
+        
+    
+    
+            var marker_a0ce14969c85950674a593d357dff885 = L.marker(
+                [48.862856, 2.382571],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_4898a333769e598507eaee27a05891b3 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_198aa0a72d664ea1068a872b867fd3d4 = $(`&lt;div id=&quot;html_198aa0a72d664ea1068a872b867fd3d4&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Le Passage vers les Étoiles&lt;/b&gt;&lt;br&gt;Adresse: 17 cité Joly&lt;br&gt;Pièce: Les femmes ont toujours raison les hommes n&#x27;ont jamais tort&lt;br&gt;Prix moyen: 34.5 €&lt;/div&gt;`)[0];
+                popup_4898a333769e598507eaee27a05891b3.setContent(html_198aa0a72d664ea1068a872b867fd3d4);
+            
+        
+
+        marker_a0ce14969c85950674a593d357dff885.bindPopup(popup_4898a333769e598507eaee27a05891b3)
+        ;
+
+        
+    
+    
+            var marker_392ca3e263482b0942337a8e7b56d0f4 = L.marker(
+                [48.866057, 2.337508],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_95233460c14e3edd766654c89f21ceb4 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_106d8272ac6f2beb7820789977a3c7b6 = $(`&lt;div id=&quot;html_106d8272ac6f2beb7820789977a3c7b6&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre du Palais-Royal&lt;/b&gt;&lt;br&gt;Adresse: 38 rue de Montpensier&lt;br&gt;Pièce: La Machine de Turing&lt;br&gt;Prix moyen: 48.5 €&lt;/div&gt;`)[0];
+                popup_95233460c14e3edd766654c89f21ceb4.setContent(html_106d8272ac6f2beb7820789977a3c7b6);
+            
+        
+
+        marker_392ca3e263482b0942337a8e7b56d0f4.bindPopup(popup_95233460c14e3edd766654c89f21ceb4)
+        ;
+
+        
+    
+    
+            var marker_b03444ade3d466ee755b1327ddc0f13c = L.marker(
+                [48.871361, 2.344899],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_95b59e3b906a9e165995e2351dc461d1 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_185033b90337cc8ebe032f978edfec19 = $(`&lt;div id=&quot;html_185033b90337cc8ebe032f978edfec19&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre des Nouveautés&lt;/b&gt;&lt;br&gt;Adresse: 24 boulevard Poissonnière&lt;br&gt;Pièce: Un chalet à Gstaad&lt;br&gt;Prix moyen: 32.0 €&lt;/div&gt;`)[0];
+                popup_95b59e3b906a9e165995e2351dc461d1.setContent(html_185033b90337cc8ebe032f978edfec19);
+            
+        
+
+        marker_b03444ade3d466ee755b1327ddc0f13c.bindPopup(popup_95b59e3b906a9e165995e2351dc461d1)
+        ;
+
+        
+    
+    
+            var marker_698f5dc0c76e74cc8bc2210d957f4885 = L.marker(
+                [48.863335, 2.336271],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_813ecd66e9445ea561e692c0a696dab7 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_5d934e71162ed601dd56b2e7a237dd8e = $(`&lt;div id=&quot;html_5d934e71162ed601dd56b2e7a237dd8e&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Comédie-Française - Salle Richelieu&lt;/b&gt;&lt;br&gt;Adresse: place Colette&lt;br&gt;Pièce: Cyrano de Bergerac&lt;br&gt;Prix moyen: unknown €&lt;/div&gt;`)[0];
+                popup_813ecd66e9445ea561e692c0a696dab7.setContent(html_5d934e71162ed601dd56b2e7a237dd8e);
+            
+        
+
+        marker_698f5dc0c76e74cc8bc2210d957f4885.bindPopup(popup_813ecd66e9445ea561e692c0a696dab7)
+        ;
+
+        
+    
+    
+            var marker_f09ca91a1ab4bc523e7a4c64b41d7772 = L.marker(
+                [48.844242, 2.330403],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_8d57657586e44aabf243f70d2d6938a3 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_f8024c8b7fe16a62140315ab7c386b79 = $(`&lt;div id=&quot;html_f8024c8b7fe16a62140315ab7c386b79&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre du Lucernaire&lt;/b&gt;&lt;br&gt;Adresse: 53 rue Notre-Dame-des-Champs&lt;br&gt;Pièce: L&#x27;Heure des assassins&lt;br&gt;Prix moyen: unknown €&lt;/div&gt;`)[0];
+                popup_8d57657586e44aabf243f70d2d6938a3.setContent(html_f8024c8b7fe16a62140315ab7c386b79);
+            
+        
+
+        marker_f09ca91a1ab4bc523e7a4c64b41d7772.bindPopup(popup_8d57657586e44aabf243f70d2d6938a3)
+        ;
+
+        
+    
+    
+            var marker_fe65fddf4d8c7af2e35d7d7e771307cf = L.marker(
+                [48.869011, 2.356402],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_3b84069f18c200721ccac1c786b42aaa = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_02dc5db389b32fa5021f311c531642b7 = $(`&lt;div id=&quot;html_02dc5db389b32fa5021f311c531642b7&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre de la Renaissance&lt;/b&gt;&lt;br&gt;Adresse: 20 boulevard Saint-Martin&lt;br&gt;Pièce: Changer l&#x27;eau des fleurs&lt;br&gt;Prix moyen: 34.5 €&lt;/div&gt;`)[0];
+                popup_3b84069f18c200721ccac1c786b42aaa.setContent(html_02dc5db389b32fa5021f311c531642b7);
+            
+        
+
+        marker_fe65fddf4d8c7af2e35d7d7e771307cf.bindPopup(popup_3b84069f18c200721ccac1c786b42aaa)
+        ;
+
+        
+    
+    
+            var marker_729f905f5429c696d1d43b99f3b4601d = L.marker(
+                [48.898815, 2.306129],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_003d9ca6ec53d4587781b4e9283daaa0 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_4a995164adc85a6ba52dd1a1ae28ae2b = $(`&lt;div id=&quot;html_4a995164adc85a6ba52dd1a1ae28ae2b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;La Grande Comédie&lt;/b&gt;&lt;br&gt;Adresse: 40 rue de Clichy&lt;br&gt;Pièce: Pourquoi les femmes aiment les connards ?&lt;br&gt;Prix moyen: 20.0 €&lt;/div&gt;`)[0];
+                popup_003d9ca6ec53d4587781b4e9283daaa0.setContent(html_4a995164adc85a6ba52dd1a1ae28ae2b);
+            
+        
+
+        marker_729f905f5429c696d1d43b99f3b4601d.bindPopup(popup_003d9ca6ec53d4587781b4e9283daaa0)
+        ;
+
+        
+    
+    
+            var marker_423c07c7a9c5e2d14193d932c1619cd9 = L.marker(
+                [48.890751, 2.340416],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_e259acede4f372be55dfa4df28e39961 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_996e9b02c4fdeacbe7395bbdd6d4b941 = $(`&lt;div id=&quot;html_996e9b02c4fdeacbe7395bbdd6d4b941&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Le Funambule Montmartre&lt;/b&gt;&lt;br&gt;Adresse: 53 rue des Saules&lt;br&gt;Pièce: Une bonne bière&lt;br&gt;Prix moyen: 22.0 €&lt;/div&gt;`)[0];
+                popup_e259acede4f372be55dfa4df28e39961.setContent(html_996e9b02c4fdeacbe7395bbdd6d4b941);
+            
+        
+
+        marker_423c07c7a9c5e2d14193d932c1619cd9.bindPopup(popup_e259acede4f372be55dfa4df28e39961)
+        ;
+
+        
+    
+    
+            var marker_b8d9511bfc6a7f10f558da3c18eec7d0 = L.marker(
+                [48.87183, 2.329072],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_48e15828ba4a8ecc12481bb06995d8d1 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_3932891e6b5f386a30ea9a58796bc7b6 = $(`&lt;div id=&quot;html_3932891e6b5f386a30ea9a58796bc7b6&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Athénée Théâtre Louis-Jouvet&lt;/b&gt;&lt;br&gt;Adresse: 7 rue Boudreau Square de l&#x27;Opéra Louis-Jouvet&lt;br&gt;Pièce: Le Voyage de Gulliver&lt;br&gt;Prix moyen: 27.5 €&lt;/div&gt;`)[0];
+                popup_48e15828ba4a8ecc12481bb06995d8d1.setContent(html_3932891e6b5f386a30ea9a58796bc7b6);
+            
+        
+
+        marker_b8d9511bfc6a7f10f558da3c18eec7d0.bindPopup(popup_48e15828ba4a8ecc12481bb06995d8d1)
+        ;
+
+        
+    
+    
+            var marker_3cf037a6106ecc8abc8f4c2b10a9029d = L.marker(
+                [48.841509, 2.324432],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_2dbff244bcaa460db1cae7659abd7973 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_dd7dd748b588ba38ec2c41cbeaaa6f94 = $(`&lt;div id=&quot;html_dd7dd748b588ba38ec2c41cbeaaa6f94&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Edgar&lt;/b&gt;&lt;br&gt;Adresse: 58 boulevard Edgar-Quinet&lt;br&gt;Pièce: Le Coucou&lt;br&gt;Prix moyen: 31.0 €&lt;/div&gt;`)[0];
+                popup_2dbff244bcaa460db1cae7659abd7973.setContent(html_dd7dd748b588ba38ec2c41cbeaaa6f94);
+            
+        
+
+        marker_3cf037a6106ecc8abc8f4c2b10a9029d.bindPopup(popup_2dbff244bcaa460db1cae7659abd7973)
+        ;
+
+        
+    
+    
+            var marker_095ca65ec1cbbbcd9a3673446cd927fa = L.marker(
+                [48.858046, 2.275407],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_9ae09e25a030e11cd4df6f8ba7cc232a = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_15db7020ddab0a4d63a45c38db5a99b3 = $(`&lt;div id=&quot;html_15db7020ddab0a4d63a45c38db5a99b3&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre de Passy&lt;/b&gt;&lt;br&gt;Adresse: 95 rue de Passy&lt;br&gt;Pièce: Révélations&lt;br&gt;Prix moyen: 30.0 €&lt;/div&gt;`)[0];
+                popup_9ae09e25a030e11cd4df6f8ba7cc232a.setContent(html_15db7020ddab0a4d63a45c38db5a99b3);
+            
+        
+
+        marker_095ca65ec1cbbbcd9a3673446cd927fa.bindPopup(popup_9ae09e25a030e11cd4df6f8ba7cc232a)
+        ;
+
+        
+    
+    
+            var marker_a4a790d5fb0de94ac27050eb89c481f2 = L.marker(
+                [48.878145, 2.337392],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_203366480c0d7d02ef71e207195f43b3 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_e1e9c2fb11bfeecdbf95f2a59753f5d5 = $(`&lt;div id=&quot;html_e1e9c2fb11bfeecdbf95f2a59753f5d5&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Saint-Georges&lt;/b&gt;&lt;br&gt;Adresse: 51 rue Saint-Georges&lt;br&gt;Pièce: Les gros patinent bien&lt;br&gt;Prix moyen: 45.0 €&lt;/div&gt;`)[0];
+                popup_203366480c0d7d02ef71e207195f43b3.setContent(html_e1e9c2fb11bfeecdbf95f2a59753f5d5);
+            
+        
+
+        marker_a4a790d5fb0de94ac27050eb89c481f2.bindPopup(popup_203366480c0d7d02ef71e207195f43b3)
+        ;
+
+        
+    
+    
+            var marker_3d4c9e5ba49173ed978eecb2faee256d = L.marker(
+                [48.844242, 2.330403],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_52300e8934eed65c48580f7bfc5b4c8c = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_2c4c46113ddbedde6ba1e40d29b75001 = $(`&lt;div id=&quot;html_2c4c46113ddbedde6ba1e40d29b75001&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre du Lucernaire&lt;/b&gt;&lt;br&gt;Adresse: 53 rue Notre-Dame-des-Champs&lt;br&gt;Pièce: Arsène Lupin&lt;br&gt;Prix moyen: 44.0 €&lt;/div&gt;`)[0];
+                popup_52300e8934eed65c48580f7bfc5b4c8c.setContent(html_2c4c46113ddbedde6ba1e40d29b75001);
+            
+        
+
+        marker_3d4c9e5ba49173ed978eecb2faee256d.bindPopup(popup_52300e8934eed65c48580f7bfc5b4c8c)
+        ;
+
+        
+    
+    
+            var marker_018199fa7c51997e1e41fd34c8d819f1 = L.marker(
+                [48.858841, 2.370225],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_2c5cf2da3f017a777461280efee5974f = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_08dfe34444240fbb7c7daa73c86f2ba9 = $(`&lt;div id=&quot;html_08dfe34444240fbb7c7daa73c86f2ba9&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Comédie Bastille&lt;/b&gt;&lt;br&gt;Adresse: 5 rue Nicolas-Appert&lt;br&gt;Pièce: Et pendant ce temps, Simone veille !&lt;br&gt;Prix moyen: 38.5 €&lt;/div&gt;`)[0];
+                popup_2c5cf2da3f017a777461280efee5974f.setContent(html_08dfe34444240fbb7c7daa73c86f2ba9);
+            
+        
+
+        marker_018199fa7c51997e1e41fd34c8d819f1.bindPopup(popup_2c5cf2da3f017a777461280efee5974f)
+        ;
+
+        
+    
+    
+            var marker_f42b86bebc41d0f96d8be35d70f15a45 = L.marker(
+                [48.898815, 2.306129],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_f34c6ec98bcf394121326572a4768e2b = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_d48ee6dee37e229969735160dca6d31c = $(`&lt;div id=&quot;html_d48ee6dee37e229969735160dca6d31c&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;La Grande Comédie&lt;/b&gt;&lt;br&gt;Adresse: 40 rue de Clichy&lt;br&gt;Pièce: Stars d&#x27;un soir&lt;br&gt;Prix moyen: 56.0 €&lt;/div&gt;`)[0];
+                popup_f34c6ec98bcf394121326572a4768e2b.setContent(html_d48ee6dee37e229969735160dca6d31c);
+            
+        
+
+        marker_f42b86bebc41d0f96d8be35d70f15a45.bindPopup(popup_f34c6ec98bcf394121326572a4768e2b)
+        ;
+
+        
+    
+    
+            var marker_e0b837f1bb7c739b4cebdd5646e2934b = L.marker(
+                [48.856738, 2.374009],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_74e058b683153af89a74b2337b3070dc = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_60c4675cd70b58eb14c4b6d21ca9e4b0 = $(`&lt;div id=&quot;html_60c4675cd70b58eb14c4b6d21ca9e4b0&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;La Comédie du Onzième&lt;/b&gt;&lt;br&gt;Adresse: 35 rue Sedaine&lt;br&gt;Pièce: C&#x27;est beau l&#x27;amour, mais ça part toujours en couilles !&lt;br&gt;Prix moyen: 26.5 €&lt;/div&gt;`)[0];
+                popup_74e058b683153af89a74b2337b3070dc.setContent(html_60c4675cd70b58eb14c4b6d21ca9e4b0);
+            
+        
+
+        marker_e0b837f1bb7c739b4cebdd5646e2934b.bindPopup(popup_74e058b683153af89a74b2337b3070dc)
+        ;
+
+        
+    
+    
+            var marker_ff0c82bb896b5d86e90b2a8f63a358ff = L.marker(
+                [48.863335, 2.336271],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_b05a96c96e23de9ca504b9cc6496f1b7 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_c39e662cf4099085b1a7728b5589fe9d = $(`&lt;div id=&quot;html_c39e662cf4099085b1a7728b5589fe9d&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Comédie-Française - Salle Richelieu&lt;/b&gt;&lt;br&gt;Adresse: place Colette&lt;br&gt;Pièce: Le Bourgeois gentilhomme&lt;br&gt;Prix moyen: unknown €&lt;/div&gt;`)[0];
+                popup_b05a96c96e23de9ca504b9cc6496f1b7.setContent(html_c39e662cf4099085b1a7728b5589fe9d);
+            
+        
+
+        marker_ff0c82bb896b5d86e90b2a8f63a358ff.bindPopup(popup_b05a96c96e23de9ca504b9cc6496f1b7)
+        ;
+
+        
+    
+    
+            var marker_0740e646db455abf796636a2fe96a44a = L.marker(
+                [48.871314, 2.329345],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_e5c5325b06119e1b9817b787a9bfd112 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_0dfd89f6cfa637a54fd72bade3fe30b9 = $(`&lt;div id=&quot;html_0dfd89f6cfa637a54fd72bade3fe30b9&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Édouard VII&lt;/b&gt;&lt;br&gt;Adresse: 10 place Édouard VII&lt;br&gt;Pièce: Lapin&lt;br&gt;Prix moyen: 67.5 €&lt;/div&gt;`)[0];
+                popup_e5c5325b06119e1b9817b787a9bfd112.setContent(html_0dfd89f6cfa637a54fd72bade3fe30b9);
+            
+        
+
+        marker_0740e646db455abf796636a2fe96a44a.bindPopup(popup_e5c5325b06119e1b9817b787a9bfd112)
+        ;
+
+        
+    
+    
+            var marker_d5a4a4d1b397130c60bd62338f4194bf = L.marker(
+                [48.869011, 2.356402],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_73a580436a4cd4c8f557153895cddada = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_563ed6a0ee50a882114dbf279e4f45b7 = $(`&lt;div id=&quot;html_563ed6a0ee50a882114dbf279e4f45b7&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre de la Renaissance&lt;/b&gt;&lt;br&gt;Adresse: 20 boulevard Saint-Martin&lt;br&gt;Pièce: Un léger doute&lt;br&gt;Prix moyen: 52.5 €&lt;/div&gt;`)[0];
+                popup_73a580436a4cd4c8f557153895cddada.setContent(html_563ed6a0ee50a882114dbf279e4f45b7);
+            
+        
+
+        marker_d5a4a4d1b397130c60bd62338f4194bf.bindPopup(popup_73a580436a4cd4c8f557153895cddada)
+        ;
+
+        
+    
+    
+            var marker_72ba2ff3802a4c16ec367ae3621756cf = L.marker(
+                [48.858841, 2.370225],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_b8fc1773069306c9bf1416b03a848fde = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_bc9916b1916d0db5faf81f3e3a94e4ea = $(`&lt;div id=&quot;html_bc9916b1916d0db5faf81f3e3a94e4ea&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Comédie Bastille&lt;/b&gt;&lt;br&gt;Adresse: 5 rue Nicolas-Appert&lt;br&gt;Pièce: Les Téméraires&lt;br&gt;Prix moyen: 38.5 €&lt;/div&gt;`)[0];
+                popup_b8fc1773069306c9bf1416b03a848fde.setContent(html_bc9916b1916d0db5faf81f3e3a94e4ea);
+            
+        
+
+        marker_72ba2ff3802a4c16ec367ae3621756cf.bindPopup(popup_b8fc1773069306c9bf1416b03a848fde)
+        ;
+
+        
+    
+    
+            var marker_c4bb1aaa6ef5c954dba0f2100220f548 = L.marker(
+                [48.844242, 2.330403],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_ef30060f9277ad9db4894b98a6e17d10 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_76e1a01137a5750a7e84c39b12b8b16d = $(`&lt;div id=&quot;html_76e1a01137a5750a7e84c39b12b8b16d&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre du Lucernaire&lt;/b&gt;&lt;br&gt;Adresse: 53 rue Notre-Dame-des-Champs&lt;br&gt;Pièce: Kessel, la liberté à tout prix&lt;br&gt;Prix moyen: unknown €&lt;/div&gt;`)[0];
+                popup_ef30060f9277ad9db4894b98a6e17d10.setContent(html_76e1a01137a5750a7e84c39b12b8b16d);
+            
+        
+
+        marker_c4bb1aaa6ef5c954dba0f2100220f548.bindPopup(popup_ef30060f9277ad9db4894b98a6e17d10)
+        ;
+
+        
+    
+    
+            var marker_1a6ac9f20faf5d56c769348f67102fe4 = L.marker(
+                [48.839499, 2.323534],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_42dec901ab6fd31145bad8c2e482037f = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_1a33ff0d944ee3ab87883c94b2d0e884 = $(`&lt;div id=&quot;html_1a33ff0d944ee3ab87883c94b2d0e884&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Montparnasse&lt;/b&gt;&lt;br&gt;Adresse: 31 rue de la Gaité&lt;br&gt;Pièce: La Fontaine et le confinement&lt;br&gt;Prix moyen: unknown €&lt;/div&gt;`)[0];
+                popup_42dec901ab6fd31145bad8c2e482037f.setContent(html_1a33ff0d944ee3ab87883c94b2d0e884);
+            
+        
+
+        marker_1a6ac9f20faf5d56c769348f67102fe4.bindPopup(popup_42dec901ab6fd31145bad8c2e482037f)
+        ;
+
+        
+    
+    
+            var marker_dca23789d3e8393272ab910c23e9b08d = L.marker(
+                [48.863335, 2.336271],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_a3d82b4545cfdcafaf9b7abd4f25be67 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_ec16d2add898dd29a78fcc19eb7fa0f5 = $(`&lt;div id=&quot;html_ec16d2add898dd29a78fcc19eb7fa0f5&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Comédie-Française - Salle Richelieu&lt;/b&gt;&lt;br&gt;Adresse: place Colette&lt;br&gt;Pièce: Le Misanthrope&lt;br&gt;Prix moyen: unknown €&lt;/div&gt;`)[0];
+                popup_a3d82b4545cfdcafaf9b7abd4f25be67.setContent(html_ec16d2add898dd29a78fcc19eb7fa0f5);
+            
+        
+
+        marker_dca23789d3e8393272ab910c23e9b08d.bindPopup(popup_a3d82b4545cfdcafaf9b7abd4f25be67)
+        ;
+
+        
+    
+    
+            var marker_7c593e37b523ae9c18f23ce127c8fc9c = L.marker(
+                [48.844242, 2.330403],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_1fcc0cc8b725cab07aa381d3f5bcd576 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_8d7f46f5e1c2dcb15164416ffecb2063 = $(`&lt;div id=&quot;html_8d7f46f5e1c2dcb15164416ffecb2063&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre du Lucernaire&lt;/b&gt;&lt;br&gt;Adresse: 53 rue Notre-Dame-des-Champs&lt;br&gt;Pièce: Moby Dick&lt;br&gt;Prix moyen: 35.5 €&lt;/div&gt;`)[0];
+                popup_1fcc0cc8b725cab07aa381d3f5bcd576.setContent(html_8d7f46f5e1c2dcb15164416ffecb2063);
+            
+        
+
+        marker_7c593e37b523ae9c18f23ce127c8fc9c.bindPopup(popup_1fcc0cc8b725cab07aa381d3f5bcd576)
+        ;
+
+        
+    
+    
+            var marker_9809d4cd5c3a0eb8312593298d01b0a2 = L.marker(
+                [48.882013, 2.318984],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_7fb5c2d2825e2961b3e245da89618555 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_0721c57ee94ac403d506f6d34fa0ef85 = $(`&lt;div id=&quot;html_0721c57ee94ac403d506f6d34fa0ef85&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Hébertot&lt;/b&gt;&lt;br&gt;Adresse: 78 bis boulevard des Batignolles&lt;br&gt;Pièce: Le Repas des fauves&lt;br&gt;Prix moyen: 35.0 €&lt;/div&gt;`)[0];
+                popup_7fb5c2d2825e2961b3e245da89618555.setContent(html_0721c57ee94ac403d506f6d34fa0ef85);
+            
+        
+
+        marker_9809d4cd5c3a0eb8312593298d01b0a2.bindPopup(popup_7fb5c2d2825e2961b3e245da89618555)
+        ;
+
+        
+    
+    
+            var marker_5e7485fcf94b2667befa3e6d7c22d82d = L.marker(
+                [48.851775, 2.330275],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_b9cdfaf3bb031bf5d4c87f0cedf60fc1 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_2d78c5dd767c27045612f5be5038f1a1 = $(`&lt;div id=&quot;html_2d78c5dd767c27045612f5be5038f1a1&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Comédie-Française - Théâtre du Vieux-Colombier&lt;/b&gt;&lt;br&gt;Adresse: 21 rue du Vieux-Colombier&lt;br&gt;Pièce: La Reine des neiges, l&#x27;histoire oubliée&lt;br&gt;Prix moyen: 37.0 €&lt;/div&gt;`)[0];
+                popup_b9cdfaf3bb031bf5d4c87f0cedf60fc1.setContent(html_2d78c5dd767c27045612f5be5038f1a1);
+            
+        
+
+        marker_5e7485fcf94b2667befa3e6d7c22d82d.bindPopup(popup_b9cdfaf3bb031bf5d4c87f0cedf60fc1)
+        ;
+
+        
+    
+    
+            var marker_f017d73bc5ce1012917abb46de932bd3 = L.marker(
+                [48.832118, 2.354705],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_4559d127e7273e2f34cada557de95401 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_118108923fcac60969c15ce80b1e704a = $(`&lt;div id=&quot;html_118108923fcac60969c15ce80b1e704a&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Le 13e Art&lt;/b&gt;&lt;br&gt;Adresse: Centre commercial Italie 2, Place d&#x27;Italie&lt;br&gt;Pièce: Toute l&#x27;histoire de la peinture en moins de deux heures&lt;br&gt;Prix moyen: 42.0 €&lt;/div&gt;`)[0];
+                popup_4559d127e7273e2f34cada557de95401.setContent(html_118108923fcac60969c15ce80b1e704a);
+            
+        
+
+        marker_f017d73bc5ce1012917abb46de932bd3.bindPopup(popup_4559d127e7273e2f34cada557de95401)
+        ;
+
+        
+    
+    
+            var marker_a860d65af874f28205fe545e311726c1 = L.marker(
+                [48.870599, 2.355207],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_811df42e56d891a6985d7f7b89173f4b = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_3963090c9fcc2af098fb303e3ab6b570 = $(`&lt;div id=&quot;html_3963090c9fcc2af098fb303e3ab6b570&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Antoine&lt;/b&gt;&lt;br&gt;Adresse: 14 boulevard de Strasbourg&lt;br&gt;Pièce: Vidéo club&lt;br&gt;Prix moyen: 70.5 €&lt;/div&gt;`)[0];
+                popup_811df42e56d891a6985d7f7b89173f4b.setContent(html_3963090c9fcc2af098fb303e3ab6b570);
+            
+        
+
+        marker_a860d65af874f28205fe545e311726c1.bindPopup(popup_811df42e56d891a6985d7f7b89173f4b)
+        ;
+
+        
+    
+    
+            var marker_ef9cb1d1ad89a7765e7960877a4b1fd1 = L.marker(
+                [48.874212, 2.34436],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_7c414618d0a37b9f2594fb7e2d5147ea = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_18ffcacc3bc94c34a80a801d8ffe0c3b = $(`&lt;div id=&quot;html_18ffcacc3bc94c34a80a801d8ffe0c3b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;La Divine Comédie&lt;/b&gt;&lt;br&gt;Adresse: 2 rue Saulnier&lt;br&gt;Pièce: Le Concierge&lt;br&gt;Prix moyen: 19.5 €&lt;/div&gt;`)[0];
+                popup_7c414618d0a37b9f2594fb7e2d5147ea.setContent(html_18ffcacc3bc94c34a80a801d8ffe0c3b);
+            
+        
+
+        marker_ef9cb1d1ad89a7765e7960877a4b1fd1.bindPopup(popup_7c414618d0a37b9f2594fb7e2d5147ea)
+        ;
+
+        
+    
+    
+            var marker_b3f338a8aa3d902c638d3a000b4a81b7 = L.marker(
+                [48.843728, 2.324991],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_ff2ed1c647aa20de18f2a6272e32b3a3 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_f9179c1671bc0f7095a5238b5526c359 = $(`&lt;div id=&quot;html_f9179c1671bc0f7095a5238b5526c359&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre de Poche-Montparnasse&lt;/b&gt;&lt;br&gt;Adresse: 75 boulevard du Montparnasse&lt;br&gt;Pièce: L&#x27;Éducation sentimentale&lt;br&gt;Prix moyen: 27.5 €&lt;/div&gt;`)[0];
+                popup_ff2ed1c647aa20de18f2a6272e32b3a3.setContent(html_f9179c1671bc0f7095a5238b5526c359);
+            
+        
+
+        marker_b3f338a8aa3d902c638d3a000b4a81b7.bindPopup(popup_ff2ed1c647aa20de18f2a6272e32b3a3)
+        ;
+
+        
+    
+    
+            var marker_150f05a3d07bcf3d620e7c7740200333 = L.marker(
+                [48.844242, 2.330403],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_5885e90b1673ab362279ccc67e37b336 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_66e94a24d132510c8342d8fa5d53f949 = $(`&lt;div id=&quot;html_66e94a24d132510c8342d8fa5d53f949&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre du Lucernaire&lt;/b&gt;&lt;br&gt;Adresse: 53 rue Notre-Dame-des-Champs&lt;br&gt;Pièce: Farces et nouvelles de Tchekhov&lt;br&gt;Prix moyen: 44.0 €&lt;/div&gt;`)[0];
+                popup_5885e90b1673ab362279ccc67e37b336.setContent(html_66e94a24d132510c8342d8fa5d53f949);
+            
+        
+
+        marker_150f05a3d07bcf3d620e7c7740200333.bindPopup(popup_5885e90b1673ab362279ccc67e37b336)
+        ;
+
+        
+    
+    
+            var marker_3ae61bc02e0b162a71877dd4f2bee5d7 = L.marker(
+                [48.853412, 2.364236],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_17885b90267c3a6b298b0f237602f838 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_4763e1b1c9a72a0df91b32aa721ffba4 = $(`&lt;div id=&quot;html_4763e1b1c9a72a0df91b32aa721ffba4&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Espace Marais&lt;/b&gt;&lt;br&gt;Adresse: 22 rue Beautreillis&lt;br&gt;Pièce: Les Fourberies de Scapin&lt;br&gt;Prix moyen: 25.0 €&lt;/div&gt;`)[0];
+                popup_17885b90267c3a6b298b0f237602f838.setContent(html_4763e1b1c9a72a0df91b32aa721ffba4);
+            
+        
+
+        marker_3ae61bc02e0b162a71877dd4f2bee5d7.bindPopup(popup_17885b90267c3a6b298b0f237602f838)
+        ;
+
+        
+    
+    
+            var marker_dee5408258bcff28611444a322cd587e = L.marker(
+                [48.89371, 2.344278],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_2019fd2f22524692aa9d5c284be5dd60 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_865661353018db100f76f513b6a13d6e = $(`&lt;div id=&quot;html_865661353018db100f76f513b6a13d6e&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre des Béliers Parisiens&lt;/b&gt;&lt;br&gt;Adresse: 14 bis rue Sainte-Isaure&lt;br&gt;Pièce: Big Mother&lt;br&gt;Prix moyen: 42.0 €&lt;/div&gt;`)[0];
+                popup_2019fd2f22524692aa9d5c284be5dd60.setContent(html_865661353018db100f76f513b6a13d6e);
+            
+        
+
+        marker_dee5408258bcff28611444a322cd587e.bindPopup(popup_2019fd2f22524692aa9d5c284be5dd60)
+        ;
+
+        
+    
+    
+            var marker_3581a590b99e1236ff9add4c1be0eaed = L.marker(
+                [48.850001, 2.390903],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_0226a39c6cc35e2142fc9d57b4622eee = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_b720ef34aea38310b2fcce61603b40da = $(`&lt;div id=&quot;html_b720ef34aea38310b2fcce61603b40da&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Le Bourvil&lt;/b&gt;&lt;br&gt;Adresse: 13 rue des Boulets&lt;br&gt;Pièce: Ils se marièrent et eurent beaucoup… d&#x27;emmerdes&lt;br&gt;Prix moyen: 27.5 €&lt;/div&gt;`)[0];
+                popup_0226a39c6cc35e2142fc9d57b4622eee.setContent(html_b720ef34aea38310b2fcce61603b40da);
+            
+        
+
+        marker_3581a590b99e1236ff9add4c1be0eaed.bindPopup(popup_0226a39c6cc35e2142fc9d57b4622eee)
+        ;
+
+        
+    
+    
+            var marker_6223c53a19ea7ac4abe41dc7632c40d8 = L.marker(
+                [48.878915, 2.33639],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_2e051879a74d3bd73487573c70fdb7ed = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_e11e1aa8d39cf76065eefeb81dea8151 = $(`&lt;div id=&quot;html_e11e1aa8d39cf76065eefeb81dea8151&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Actuel La Bruyère&lt;/b&gt;&lt;br&gt;Adresse: 5 rue La Bruyère&lt;br&gt;Pièce: Le Montespan&lt;br&gt;Prix moyen: 49.5 €&lt;/div&gt;`)[0];
+                popup_2e051879a74d3bd73487573c70fdb7ed.setContent(html_e11e1aa8d39cf76065eefeb81dea8151);
+            
+        
+
+        marker_6223c53a19ea7ac4abe41dc7632c40d8.bindPopup(popup_2e051879a74d3bd73487573c70fdb7ed)
+        ;
+
+        
+    
+    
+            var marker_3266d13f6fd5a844f8ea02adc4821bb5 = L.marker(
+                [48.87071, 2.356726],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_0d839c65a8f62cc05fa0e23ffc69b07c = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_ffa6b86438d3b86e0c47e7d5942f8c8b = $(`&lt;div id=&quot;html_ffa6b86438d3b86e0c47e7d5942f8c8b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Le Splendid&lt;/b&gt;&lt;br&gt;Adresse: 48 rue du fbg Saint-Martin&lt;br&gt;Pièce: Une histoire d&#x27;amour&lt;br&gt;Prix moyen: 38.0 €&lt;/div&gt;`)[0];
+                popup_0d839c65a8f62cc05fa0e23ffc69b07c.setContent(html_ffa6b86438d3b86e0c47e7d5942f8c8b);
+            
+        
+
+        marker_3266d13f6fd5a844f8ea02adc4821bb5.bindPopup(popup_0d839c65a8f62cc05fa0e23ffc69b07c)
+        ;
+
+        
+    
+    
+            var marker_e1ef0881116e737c49d5905d9702c628 = L.marker(
+                [48.861536, 2.374718],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_b718b91155fbbbc3885b24efe4ac02a1 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_5443ecb8d490597c51442a6aba9feb1f = $(`&lt;div id=&quot;html_5443ecb8d490597c51442a6aba9feb1f&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;À la Folie Théâtre&lt;/b&gt;&lt;br&gt;Adresse: 6 rue de la Folie-Méricourt&lt;br&gt;Pièce: Le Horla&lt;br&gt;Prix moyen: 30.5 €&lt;/div&gt;`)[0];
+                popup_b718b91155fbbbc3885b24efe4ac02a1.setContent(html_5443ecb8d490597c51442a6aba9feb1f);
+            
+        
+
+        marker_e1ef0881116e737c49d5905d9702c628.bindPopup(popup_b718b91155fbbbc3885b24efe4ac02a1)
+        ;
+
+        
+    
+    
+            var marker_0668ce074e283f75c9d7ac67eddb80dd = L.marker(
+                [48.868598, 2.332236],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_a6be8300a5854f5529a6a0c393f1296d = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_523a23fb350ce01f4f4927fa738be1fb = $(`&lt;div id=&quot;html_523a23fb350ce01f4f4927fa738be1fb&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;La Pépinière Théâtre&lt;/b&gt;&lt;br&gt;Adresse: 7 rue Louis-Le-Grand&lt;br&gt;Pièce: Intra Muros&lt;br&gt;Prix moyen: 37.5 €&lt;/div&gt;`)[0];
+                popup_a6be8300a5854f5529a6a0c393f1296d.setContent(html_523a23fb350ce01f4f4927fa738be1fb);
+            
+        
+
+        marker_0668ce074e283f75c9d7ac67eddb80dd.bindPopup(popup_a6be8300a5854f5529a6a0c393f1296d)
+        ;
+
+        
+    
+    
+            var marker_99ba1df69eb6b9d2bfd145d2c048715d = L.marker(
+                [48.874091, 2.344527],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_12b918a735c712983b1f4738bd6d7408 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_45e5853e4aba4026f2dbb52baf76751c = $(`&lt;div id=&quot;html_45e5853e4aba4026f2dbb52baf76751c&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Les Enfants du Paradis&lt;/b&gt;&lt;br&gt;Adresse: 34 rue Richer&lt;br&gt;Pièce: Un pour tous&lt;br&gt;Prix moyen: 27.5 €&lt;/div&gt;`)[0];
+                popup_12b918a735c712983b1f4738bd6d7408.setContent(html_45e5853e4aba4026f2dbb52baf76751c);
+            
+        
+
+        marker_99ba1df69eb6b9d2bfd145d2c048715d.bindPopup(popup_12b918a735c712983b1f4738bd6d7408)
+        ;
+
+        
+    
+    
+            var marker_628e72b00a81a39ab977bd9dfc57a70e = L.marker(
+                [48.874091, 2.344527],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_aec3b87e3c5de2e10b9ffbc0d0b55bd5 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_2b206cc0250f36f27e665980ce8050cf = $(`&lt;div id=&quot;html_2b206cc0250f36f27e665980ce8050cf&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Les Enfants du Paradis&lt;/b&gt;&lt;br&gt;Adresse: 34 rue Richer&lt;br&gt;Pièce: La Guerre des sexes&lt;br&gt;Prix moyen: 29.5 €&lt;/div&gt;`)[0];
+                popup_aec3b87e3c5de2e10b9ffbc0d0b55bd5.setContent(html_2b206cc0250f36f27e665980ce8050cf);
+            
+        
+
+        marker_628e72b00a81a39ab977bd9dfc57a70e.bindPopup(popup_aec3b87e3c5de2e10b9ffbc0d0b55bd5)
+        ;
+
+        
+    
+    
+            var marker_6c87ef2e66c8e0397ea8ae9551317f7c = L.marker(
+                [48.865018, 2.348353],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_a78fcf9ad98bfa99da7a874e811778c3 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_2974cddb657107f9ae110ef81504fcce = $(`&lt;div id=&quot;html_2974cddb657107f9ae110ef81504fcce&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Mélo d&#x27;Amélie&lt;/b&gt;&lt;br&gt;Adresse: 4 rue Marie-Stuart&lt;br&gt;Pièce: Ce soir ou jamais&lt;br&gt;Prix moyen: 25.5 €&lt;/div&gt;`)[0];
+                popup_a78fcf9ad98bfa99da7a874e811778c3.setContent(html_2974cddb657107f9ae110ef81504fcce);
+            
+        
+
+        marker_6c87ef2e66c8e0397ea8ae9551317f7c.bindPopup(popup_a78fcf9ad98bfa99da7a874e811778c3)
+        ;
+
+        
+    
+    
+            var marker_48d6702c6bf9e25ddb531f86c47d8aea = L.marker(
+                [48.87071, 2.356726],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_553ca85b0bbc1f99d9de442bb78e0b4e = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_c7c77abbcd6efd3b9506b8b6da6ca699 = $(`&lt;div id=&quot;html_c7c77abbcd6efd3b9506b8b6da6ca699&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Le Splendid&lt;/b&gt;&lt;br&gt;Adresse: 48 rue du fbg Saint-Martin&lt;br&gt;Pièce: Les Crapauds fous&lt;br&gt;Prix moyen: 48.0 €&lt;/div&gt;`)[0];
+                popup_553ca85b0bbc1f99d9de442bb78e0b4e.setContent(html_c7c77abbcd6efd3b9506b8b6da6ca699);
+            
+        
+
+        marker_48d6702c6bf9e25ddb531f86c47d8aea.bindPopup(popup_553ca85b0bbc1f99d9de442bb78e0b4e)
+        ;
+
+        
+    
+    
+            var marker_bc484b9242fa4a4939e7b76f952c091a = L.marker(
+                [48.856738, 2.374009],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_2c6c0f5f07a263799a9d2e11d482b20e = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_6a99e35850447cda1af3d70b4132e303 = $(`&lt;div id=&quot;html_6a99e35850447cda1af3d70b4132e303&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;La Comédie du Onzième&lt;/b&gt;&lt;br&gt;Adresse: 35 rue Sedaine&lt;br&gt;Pièce: Bienvenue à la Caf&lt;br&gt;Prix moyen: 15.0 €&lt;/div&gt;`)[0];
+                popup_2c6c0f5f07a263799a9d2e11d482b20e.setContent(html_6a99e35850447cda1af3d70b4132e303);
+            
+        
+
+        marker_bc484b9242fa4a4939e7b76f952c091a.bindPopup(popup_2c6c0f5f07a263799a9d2e11d482b20e)
+        ;
+
+        
+    
+    
+            var marker_78c566f117b5c344c0dc915d506dd0c1 = L.marker(
+                [48.841509, 2.324432],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_04055912374d136259e8853d827dcfcc = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_36648761d9e78ce6c0f84cdbf4dc9282 = $(`&lt;div id=&quot;html_36648761d9e78ce6c0f84cdbf4dc9282&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Edgar&lt;/b&gt;&lt;br&gt;Adresse: 58 boulevard Edgar-Quinet&lt;br&gt;Pièce: Par ici la sortie&lt;br&gt;Prix moyen: 26.0 €&lt;/div&gt;`)[0];
+                popup_04055912374d136259e8853d827dcfcc.setContent(html_36648761d9e78ce6c0f84cdbf4dc9282);
+            
+        
+
+        marker_78c566f117b5c344c0dc915d506dd0c1.bindPopup(popup_04055912374d136259e8853d827dcfcc)
+        ;
+
+        
+    
+    
+            var marker_222556a7a095c668dc00e5cc0725c7f1 = L.marker(
+                [48.843604, 2.322071],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_b864222f01e29e193aeb089e96923064 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_5848beeb571d6465059bd8217ce56a54 = $(`&lt;div id=&quot;html_5848beeb571d6465059bd8217ce56a54&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Le Grand Point Virgule&lt;/b&gt;&lt;br&gt;Adresse: 8 bis rue de l&#x27;Arrivée&lt;br&gt;Pièce: Sherlock Holmes et le mystère de la vallée de Boscombe&lt;br&gt;Prix moyen: 33.0 €&lt;/div&gt;`)[0];
+                popup_b864222f01e29e193aeb089e96923064.setContent(html_5848beeb571d6465059bd8217ce56a54);
+            
+        
+
+        marker_222556a7a095c668dc00e5cc0725c7f1.bindPopup(popup_b864222f01e29e193aeb089e96923064)
+        ;
+
+        
+    
+    
+            var marker_14e8bc5e389df72d0bbc43d2899d2e96 = L.marker(
+                [48.870746, 2.348839],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_865c5264505c3ff5f4a647ecf0a527f6 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_5227e9d0d697088e26db82ae649c7c59 = $(`&lt;div id=&quot;html_5227e9d0d697088e26db82ae649c7c59&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre du Gymnase&lt;/b&gt;&lt;br&gt;Adresse: 38 boulevard de Bonne-Nouvelle&lt;br&gt;Pièce: Le Père Noël est une ordure&lt;br&gt;Prix moyen: 23.0 €&lt;/div&gt;`)[0];
+                popup_865c5264505c3ff5f4a647ecf0a527f6.setContent(html_5227e9d0d697088e26db82ae649c7c59);
+            
+        
+
+        marker_14e8bc5e389df72d0bbc43d2899d2e96.bindPopup(popup_865c5264505c3ff5f4a647ecf0a527f6)
+        ;
+
+        
+    
+    
+            var marker_fc16a4a2f638afea5f1ec2906b2ce797 = L.marker(
+                [48.870599, 2.355207],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_53bd6859a2cd076cb7599d60ec2322a6 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_182f4f2cb13b573de209939388dff91b = $(`&lt;div id=&quot;html_182f4f2cb13b573de209939388dff91b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Antoine&lt;/b&gt;&lt;br&gt;Adresse: 14 boulevard de Strasbourg&lt;br&gt;Pièce: Interruption&lt;br&gt;Prix moyen: 35.5 €&lt;/div&gt;`)[0];
+                popup_53bd6859a2cd076cb7599d60ec2322a6.setContent(html_182f4f2cb13b573de209939388dff91b);
+            
+        
+
+        marker_fc16a4a2f638afea5f1ec2906b2ce797.bindPopup(popup_53bd6859a2cd076cb7599d60ec2322a6)
+        ;
+
+        
+    
+    
+            var marker_c7a1dd27eca8d130e8a621b640a4a6ff = L.marker(
+                [48.878811, 2.31922],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_8a0e573fb9f9922c26b73910801ce784 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_b7203ffb9822954869c5aa4594f67ea6 = $(`&lt;div id=&quot;html_b7203ffb9822954869c5aa4594f67ea6&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Tristan-Bernard&lt;/b&gt;&lt;br&gt;Adresse: 64 rue du Rocher&lt;br&gt;Pièce: Courgette&lt;br&gt;Prix moyen: 37.5 €&lt;/div&gt;`)[0];
+                popup_8a0e573fb9f9922c26b73910801ce784.setContent(html_b7203ffb9822954869c5aa4594f67ea6);
+            
+        
+
+        marker_c7a1dd27eca8d130e8a621b640a4a6ff.bindPopup(popup_8a0e573fb9f9922c26b73910801ce784)
+        ;
+
+        
+    
+    
+            var marker_98ac6812adab556a6887f6c73d003dce = L.marker(
+                [48.882013, 2.318984],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_95f75f1b3cd7a6811ede3a5fc4d0abd9 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_0965b2fe4282964076a9b42d33bccce3 = $(`&lt;div id=&quot;html_0965b2fe4282964076a9b42d33bccce3&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Hébertot&lt;/b&gt;&lt;br&gt;Adresse: 78 bis boulevard des Batignolles&lt;br&gt;Pièce: 12 hommes en colère&lt;br&gt;Prix moyen: 28.5 €&lt;/div&gt;`)[0];
+                popup_95f75f1b3cd7a6811ede3a5fc4d0abd9.setContent(html_0965b2fe4282964076a9b42d33bccce3);
+            
+        
+
+        marker_98ac6812adab556a6887f6c73d003dce.bindPopup(popup_95f75f1b3cd7a6811ede3a5fc4d0abd9)
+        ;
+
+        
+    
+    
+            var marker_729071a14ceaab0dad3e855d24aee791 = L.marker(
+                [48.868598, 2.332236],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_8caba9bcf9934c684aab197f3ff8e0cd = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_78dafb4b67230de885339560682e60f2 = $(`&lt;div id=&quot;html_78dafb4b67230de885339560682e60f2&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;La Pépinière Théâtre&lt;/b&gt;&lt;br&gt;Adresse: 7 rue Louis-Le-Grand&lt;br&gt;Pièce: Les Poupées persanes&lt;br&gt;Prix moyen: 51.5 €&lt;/div&gt;`)[0];
+                popup_8caba9bcf9934c684aab197f3ff8e0cd.setContent(html_78dafb4b67230de885339560682e60f2);
+            
+        
+
+        marker_729071a14ceaab0dad3e855d24aee791.bindPopup(popup_8caba9bcf9934c684aab197f3ff8e0cd)
+        ;
+
+        
+    
+    
+            var marker_fc4a27c5e091faca8e3b034b5af71a7a = L.marker(
+                [48.863335, 2.336271],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_2844f265c37c6c15e3bd1d923ccdd470 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_943d16469469ef38cfacfa0b928c5acf = $(`&lt;div id=&quot;html_943d16469469ef38cfacfa0b928c5acf&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Comédie-Française - Salle Richelieu&lt;/b&gt;&lt;br&gt;Adresse: place Colette&lt;br&gt;Pièce: La Puce à l&#x27;oreille&lt;br&gt;Prix moyen: unknown €&lt;/div&gt;`)[0];
+                popup_2844f265c37c6c15e3bd1d923ccdd470.setContent(html_943d16469469ef38cfacfa0b928c5acf);
+            
+        
+
+        marker_fc4a27c5e091faca8e3b034b5af71a7a.bindPopup(popup_2844f265c37c6c15e3bd1d923ccdd470)
+        ;
+
+        
+    
+    
+            var marker_4e0e80eb64a1b04124bc968d865c2106 = L.marker(
+                [48.899318, 2.305376],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_4644c29233ea75ec6b4201888d67a806 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_af19241d34c96298b21335131c08f636 = $(`&lt;div id=&quot;html_af19241d34c96298b21335131c08f636&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre de l&#x27;Œuvre&lt;/b&gt;&lt;br&gt;Adresse: 55 rue de Clichy&lt;br&gt;Pièce: L&#x27;Effet miroir&lt;br&gt;Prix moyen: 34.0 €&lt;/div&gt;`)[0];
+                popup_4644c29233ea75ec6b4201888d67a806.setContent(html_af19241d34c96298b21335131c08f636);
+            
+        
+
+        marker_4e0e80eb64a1b04124bc968d865c2106.bindPopup(popup_4644c29233ea75ec6b4201888d67a806)
+        ;
+
+        
+    
+    
+            var marker_8f85c1b0e602bfd5aa149ba057dff338 = L.marker(
+                [48.870982, 2.320443],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_1a4dbbdb1a38192f2dea6bbe987fae5b = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_f54e3942c3753f72dd880b5b4c3fd8ee = $(`&lt;div id=&quot;html_f54e3942c3753f72dd880b5b4c3fd8ee&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre de la Madeleine&lt;/b&gt;&lt;br&gt;Adresse: 19 rue de Surène&lt;br&gt;Pièce: Bungalow 21&lt;br&gt;Prix moyen: 54.0 €&lt;/div&gt;`)[0];
+                popup_1a4dbbdb1a38192f2dea6bbe987fae5b.setContent(html_f54e3942c3753f72dd880b5b4c3fd8ee);
+            
+        
+
+        marker_8f85c1b0e602bfd5aa149ba057dff338.bindPopup(popup_1a4dbbdb1a38192f2dea6bbe987fae5b)
+        ;
+
+        
+    
+    
+            var marker_8bb958b79141543af463ed9b1a750325 = L.marker(
+                [48.859764, 2.353086],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_123df04753a233f39fb301aff3841427 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_e9ba7064fb81edf3f2fe90a65b6d8e84 = $(`&lt;div id=&quot;html_e9ba7064fb81edf3f2fe90a65b6d8e84&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre L&#x27;Essaïon&lt;/b&gt;&lt;br&gt;Adresse: 6 rue Pierre-au-Lard&lt;br&gt;Pièce: Le Comte de Monte-Cristo&lt;br&gt;Prix moyen: 19.5 €&lt;/div&gt;`)[0];
+                popup_123df04753a233f39fb301aff3841427.setContent(html_e9ba7064fb81edf3f2fe90a65b6d8e84);
+            
+        
+
+        marker_8bb958b79141543af463ed9b1a750325.bindPopup(popup_123df04753a233f39fb301aff3841427)
+        ;
+
+        
+    
+    
+            var marker_581059ce8b2052126fe98b904b260c26 = L.marker(
+                [48.854572, 2.277741],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_a964e182e746d9ee983dae8a04535db2 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_bd6aaff5b44c57f9d77795a24e90338b = $(`&lt;div id=&quot;html_bd6aaff5b44c57f9d77795a24e90338b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Ranelagh&lt;/b&gt;&lt;br&gt;Adresse: 5 rue des Vignes&lt;br&gt;Pièce: Cyrano de Bergerac&lt;br&gt;Prix moyen: 28.5 €&lt;/div&gt;`)[0];
+                popup_a964e182e746d9ee983dae8a04535db2.setContent(html_bd6aaff5b44c57f9d77795a24e90338b);
+            
+        
+
+        marker_581059ce8b2052126fe98b904b260c26.bindPopup(popup_a964e182e746d9ee983dae8a04535db2)
+        ;
+
+        
+    
+    
+            var marker_13095da437b766563e31c9b0c122443a = L.marker(
+                [48.871471, 2.342142],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_cd28ce209ca9564b2eb8d192774ad7ef = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_fed9098172c5675c6ef13cca46215558 = $(`&lt;div id=&quot;html_fed9098172c5675c6ef13cca46215558&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre des Variétés&lt;/b&gt;&lt;br&gt;Adresse: 7 boulevard Montmartre&lt;br&gt;Pièce: Panique en coulisses&lt;br&gt;Prix moyen: 64.0 €&lt;/div&gt;`)[0];
+                popup_cd28ce209ca9564b2eb8d192774ad7ef.setContent(html_fed9098172c5675c6ef13cca46215558);
+            
+        
+
+        marker_13095da437b766563e31c9b0c122443a.bindPopup(popup_cd28ce209ca9564b2eb8d192774ad7ef)
+        ;
+
+        
+    
+    
+            var marker_f1f5fba5e7503c55f7a205238882bba1 = L.marker(
+                [48.844462, 2.348842],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_1a4e14313d4bf38b84adb265af08dfb7 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_157ecbabfb85ca060396af2f11a42a3d = $(`&lt;div id=&quot;html_157ecbabfb85ca060396af2f11a42a3d&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre de la Contrescarpe&lt;/b&gt;&lt;br&gt;Adresse: 5 rue Blainville&lt;br&gt;Pièce: La Chute&lt;br&gt;Prix moyen: 22.5 €&lt;/div&gt;`)[0];
+                popup_1a4e14313d4bf38b84adb265af08dfb7.setContent(html_157ecbabfb85ca060396af2f11a42a3d);
+            
+        
+
+        marker_f1f5fba5e7503c55f7a205238882bba1.bindPopup(popup_1a4e14313d4bf38b84adb265af08dfb7)
+        ;
+
+        
+    
+    
+            var marker_f118521d785d403c995a08fe3a90bc62 = L.marker(
+                [48.843604, 2.322071],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_bc8e882ddc61a916e03f5bbc6d45d823 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_164c28b09bd1f9d29f1425b3db8f16cc = $(`&lt;div id=&quot;html_164c28b09bd1f9d29f1425b3db8f16cc&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Le Grand Point Virgule&lt;/b&gt;&lt;br&gt;Adresse: 8 bis rue de l&#x27;Arrivée&lt;br&gt;Pièce: Sherlock Holmes et l&#x27;aventure du diamant bleu&lt;br&gt;Prix moyen: 27.0 €&lt;/div&gt;`)[0];
+                popup_bc8e882ddc61a916e03f5bbc6d45d823.setContent(html_164c28b09bd1f9d29f1425b3db8f16cc);
+            
+        
+
+        marker_f118521d785d403c995a08fe3a90bc62.bindPopup(popup_bc8e882ddc61a916e03f5bbc6d45d823)
+        ;
+
+        
+    
+    
+            var marker_97b5f5028bee3887757fd38884d3b5f4 = L.marker(
+                [48.89371, 2.344278],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_c2db381ca1808700de2616f1475fda08 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_f1bd12cb3f97e755ec67eacc9a045e67 = $(`&lt;div id=&quot;html_f1bd12cb3f97e755ec67eacc9a045e67&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre des Béliers Parisiens&lt;/b&gt;&lt;br&gt;Adresse: 14 bis rue Sainte-Isaure&lt;br&gt;Pièce: Coupures&lt;br&gt;Prix moyen: 35.0 €&lt;/div&gt;`)[0];
+                popup_c2db381ca1808700de2616f1475fda08.setContent(html_f1bd12cb3f97e755ec67eacc9a045e67);
+            
+        
+
+        marker_97b5f5028bee3887757fd38884d3b5f4.bindPopup(popup_c2db381ca1808700de2616f1475fda08)
+        ;
+
+        
+    
+    
+            var marker_bf777d7f98060ae7ba4867786b509b4c = L.marker(
+                [48.859562, 2.353978],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_904a9930cd0dab9f21d46105fe74e552 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_c012790558068349a0bc3ad4c2115e68 = $(`&lt;div id=&quot;html_c012790558068349a0bc3ad4c2115e68&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Café de la Gare&lt;/b&gt;&lt;br&gt;Adresse: 41 rue du Temple&lt;br&gt;Pièce: Pour le meilleur et pour le dire&lt;br&gt;Prix moyen: 23.5 €&lt;/div&gt;`)[0];
+                popup_904a9930cd0dab9f21d46105fe74e552.setContent(html_c012790558068349a0bc3ad4c2115e68);
+            
+        
+
+        marker_bf777d7f98060ae7ba4867786b509b4c.bindPopup(popup_904a9930cd0dab9f21d46105fe74e552)
+        ;
+
+        
+    
+    
+            var marker_a58805e892af6f7be61369afe408d990 = L.marker(
+                [48.884747, 2.321188],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_974d4cf2266ba9451e307f15ad799703 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_0a5a41c8de4956c34ac836a1e1da4435 = $(`&lt;div id=&quot;html_0a5a41c8de4956c34ac836a1e1da4435&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Studio Hébertot&lt;/b&gt;&lt;br&gt;Adresse: 78 bis bd des Batignolles&lt;br&gt;Pièce: Deux mains, la liberté&lt;br&gt;Prix moyen: 22.0 €&lt;/div&gt;`)[0];
+                popup_974d4cf2266ba9451e307f15ad799703.setContent(html_0a5a41c8de4956c34ac836a1e1da4435);
+            
+        
+
+        marker_a58805e892af6f7be61369afe408d990.bindPopup(popup_974d4cf2266ba9451e307f15ad799703)
+        ;
+
+        
+    
+    
+            var marker_b37cfe0f1151983d9b934936f1c88826 = L.marker(
+                [48.890751, 2.340416],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_ecf90435da742447b718cf17731e55b5 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_22b189aee78c1cee2d9b194370f49677 = $(`&lt;div id=&quot;html_22b189aee78c1cee2d9b194370f49677&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Le Funambule Montmartre&lt;/b&gt;&lt;br&gt;Adresse: 53 rue des Saules&lt;br&gt;Pièce: La Folle et Inconvenante Histoire des femmes&lt;br&gt;Prix moyen: 22.0 €&lt;/div&gt;`)[0];
+                popup_ecf90435da742447b718cf17731e55b5.setContent(html_22b189aee78c1cee2d9b194370f49677);
+            
+        
+
+        marker_b37cfe0f1151983d9b934936f1c88826.bindPopup(popup_ecf90435da742447b718cf17731e55b5)
+        ;
+
+        
+    
+    
+            var marker_f94321a6426ac4c628b9e4df7f118a04 = L.marker(
+                [48.843604, 2.322071],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_b5443ea13453655cceeb6a8306781dd9 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_74b8817fa2166a50a7f5a8eb36cd188f = $(`&lt;div id=&quot;html_74b8817fa2166a50a7f5a8eb36cd188f&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Le Grand Point Virgule&lt;/b&gt;&lt;br&gt;Adresse: 8 bis rue de l&#x27;Arrivée&lt;br&gt;Pièce: Les Desperate Housemen se marient !&lt;br&gt;Prix moyen: 40.0 €&lt;/div&gt;`)[0];
+                popup_b5443ea13453655cceeb6a8306781dd9.setContent(html_74b8817fa2166a50a7f5a8eb36cd188f);
+            
+        
+
+        marker_f94321a6426ac4c628b9e4df7f118a04.bindPopup(popup_b5443ea13453655cceeb6a8306781dd9)
+        ;
+
+        
+    
+    
+            var marker_4d1c3821a490a1e678e943734de1dccb = L.marker(
+                [48.854572, 2.277741],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_b559f836172456a986e0d2505e85d481 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_af9cdc615bd52a929c0c860b58215bd6 = $(`&lt;div id=&quot;html_af9cdc615bd52a929c0c860b58215bd6&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Ranelagh&lt;/b&gt;&lt;br&gt;Adresse: 5 rue des Vignes&lt;br&gt;Pièce: L&#x27;Antichambre&lt;br&gt;Prix moyen: 26.0 €&lt;/div&gt;`)[0];
+                popup_b559f836172456a986e0d2505e85d481.setContent(html_af9cdc615bd52a929c0c860b58215bd6);
+            
+        
+
+        marker_4d1c3821a490a1e678e943734de1dccb.bindPopup(popup_b559f836172456a986e0d2505e85d481)
+        ;
+
+        
+    
+    
+            var marker_c57622263478e1068bda39ba0379efb7 = L.marker(
+                [48.865018, 2.348353],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_e19fd23d297e69afc12e865da7cd78c5 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_3373743af88460affc5fbfac069b9585 = $(`&lt;div id=&quot;html_3373743af88460affc5fbfac069b9585&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Mélo d&#x27;Amélie&lt;/b&gt;&lt;br&gt;Adresse: 4 rue Marie-Stuart&lt;br&gt;Pièce: J&#x27;aime beaucoup ce que vous faites&lt;br&gt;Prix moyen: 25.5 €&lt;/div&gt;`)[0];
+                popup_e19fd23d297e69afc12e865da7cd78c5.setContent(html_3373743af88460affc5fbfac069b9585);
+            
+        
+
+        marker_c57622263478e1068bda39ba0379efb7.bindPopup(popup_e19fd23d297e69afc12e865da7cd78c5)
+        ;
+
+        
+    
+    
+            var marker_85f1d88d606c52a7550e96d4c61b2361 = L.marker(
+                [48.844462, 2.348842],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_8b359aac46ecd7d9120fa45a58134351 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_f9061abe9c41c54e51f913a29617610b = $(`&lt;div id=&quot;html_f9061abe9c41c54e51f913a29617610b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre de la Contrescarpe&lt;/b&gt;&lt;br&gt;Adresse: 5 rue Blainville&lt;br&gt;Pièce: Jacques et Chirac&lt;br&gt;Prix moyen: 24.5 €&lt;/div&gt;`)[0];
+                popup_8b359aac46ecd7d9120fa45a58134351.setContent(html_f9061abe9c41c54e51f913a29617610b);
+            
+        
+
+        marker_85f1d88d606c52a7550e96d4c61b2361.bindPopup(popup_8b359aac46ecd7d9120fa45a58134351)
+        ;
+
+        
+    
+    
+            var marker_55a07881353326cf06802dd422c1d4a0 = L.marker(
+                [48.874212, 2.34436],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_2e91a536ebed88e64e9df183e4413264 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_5ee5ac04dae58ddd51b62b69a8ec09b0 = $(`&lt;div id=&quot;html_5ee5ac04dae58ddd51b62b69a8ec09b0&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;La Divine Comédie&lt;/b&gt;&lt;br&gt;Adresse: 2 rue Saulnier&lt;br&gt;Pièce: Je t&#x27;aime à l&#x27;italienne et à l&#x27;algérienne&lt;br&gt;Prix moyen: 30.0 €&lt;/div&gt;`)[0];
+                popup_2e91a536ebed88e64e9df183e4413264.setContent(html_5ee5ac04dae58ddd51b62b69a8ec09b0);
+            
+        
+
+        marker_55a07881353326cf06802dd422c1d4a0.bindPopup(popup_2e91a536ebed88e64e9df183e4413264)
+        ;
+
+        
+    
+    
+            var marker_46efb6ce06b6bedebc3f50bbcd3f82ff = L.marker(
+                [48.859764, 2.353086],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_c5034f0347aa863ae3ad717c1ee8e029 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_0841acbc71c667b2ad434d9ec9acce7b = $(`&lt;div id=&quot;html_0841acbc71c667b2ad434d9ec9acce7b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre L&#x27;Essaïon&lt;/b&gt;&lt;br&gt;Adresse: 6 rue Pierre-au-Lard&lt;br&gt;Pièce: Choisis la vie et tu vivras&lt;br&gt;Prix moyen: 24.0 €&lt;/div&gt;`)[0];
+                popup_c5034f0347aa863ae3ad717c1ee8e029.setContent(html_0841acbc71c667b2ad434d9ec9acce7b);
+            
+        
+
+        marker_46efb6ce06b6bedebc3f50bbcd3f82ff.bindPopup(popup_c5034f0347aa863ae3ad717c1ee8e029)
+        ;
+
+        
+    
+    
+            var marker_73eef8b51afad9e2bc2bbd0312a88da0 = L.marker(
+                [48.854572, 2.277741],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_1dd6b1906ed4afc684a22496fa92a91d = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_47eb9550a1cee315e5c2c6a4b82f3daf = $(`&lt;div id=&quot;html_47eb9550a1cee315e5c2c6a4b82f3daf&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Ranelagh&lt;/b&gt;&lt;br&gt;Adresse: 5 rue des Vignes&lt;br&gt;Pièce: L&#x27;Avare&lt;br&gt;Prix moyen: 20.5 €&lt;/div&gt;`)[0];
+                popup_1dd6b1906ed4afc684a22496fa92a91d.setContent(html_47eb9550a1cee315e5c2c6a4b82f3daf);
+            
+        
+
+        marker_73eef8b51afad9e2bc2bbd0312a88da0.bindPopup(popup_1dd6b1906ed4afc684a22496fa92a91d)
+        ;
+
+        
+    
+    
+            var marker_bc1f5703cdbb3974c9515a755fdcde6c = L.marker(
+                [48.844567, 2.339549],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_5622bac96de454678a4429ed68dfb023 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_7f1c9f7eb316eb5e7ad843e001f266e6 = $(`&lt;div id=&quot;html_7f1c9f7eb316eb5e7ad843e001f266e6&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Comédie Saint-Michel&lt;/b&gt;&lt;br&gt;Adresse: 95 bd Saint-Michel&lt;br&gt;Pièce: Le Tartuffe&lt;br&gt;Prix moyen: 32.0 €&lt;/div&gt;`)[0];
+                popup_5622bac96de454678a4429ed68dfb023.setContent(html_7f1c9f7eb316eb5e7ad843e001f266e6);
+            
+        
+
+        marker_bc1f5703cdbb3974c9515a755fdcde6c.bindPopup(popup_5622bac96de454678a4429ed68dfb023)
+        ;
+
+        
+    
+    
+            var marker_9f0398b0075666de3ebe257b0fc31aa1 = L.marker(
+                [48.853025, 2.345354],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_ab95176dd20be5474e7ae83003ad3784 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_49b6717748c001e2201a286c790368bf = $(`&lt;div id=&quot;html_49b6717748c001e2201a286c790368bf&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre de la Huchette&lt;/b&gt;&lt;br&gt;Adresse: 23 rue de la Huchette&lt;br&gt;Pièce: La Cantatrice chauve&lt;br&gt;Prix moyen: 23.0 €&lt;/div&gt;`)[0];
+                popup_ab95176dd20be5474e7ae83003ad3784.setContent(html_49b6717748c001e2201a286c790368bf);
+            
+        
+
+        marker_9f0398b0075666de3ebe257b0fc31aa1.bindPopup(popup_ab95176dd20be5474e7ae83003ad3784)
+        ;
+
+        
+    
+    
+            var marker_dba7bbbc5236ef9b2f50feb17b3c9120 = L.marker(
+                [48.870299, 2.354572],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_88dd64aabb7be6ed0b8ba2f91e2c64d0 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_a86344ec7269b85c2b55802ad92b68f7 = $(`&lt;div id=&quot;html_a86344ec7269b85c2b55802ad92b68f7&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;La Scala Paris&lt;/b&gt;&lt;br&gt;Adresse: 13 boulevard de Strasbourg&lt;br&gt;Pièce: L&#x27;Odeur de la guerre&lt;br&gt;Prix moyen: 22.5 €&lt;/div&gt;`)[0];
+                popup_88dd64aabb7be6ed0b8ba2f91e2c64d0.setContent(html_a86344ec7269b85c2b55802ad92b68f7);
+            
+        
+
+        marker_dba7bbbc5236ef9b2f50feb17b3c9120.bindPopup(popup_88dd64aabb7be6ed0b8ba2f91e2c64d0)
+        ;
+
+        
+    
+    
+            var marker_e4f8eedf869f98ce8d8ce18fee582420 = L.marker(
+                [48.844462, 2.348842],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_4f5c8cbdd973f68271941a5dabb9af1b = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_af98832f68ad4b3fc8b60e91a6e250ca = $(`&lt;div id=&quot;html_af98832f68ad4b3fc8b60e91a6e250ca&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre de la Contrescarpe&lt;/b&gt;&lt;br&gt;Adresse: 5 rue Blainville&lt;br&gt;Pièce: L&#x27;Incroyable Épopée de François 1er&lt;br&gt;Prix moyen: 24.5 €&lt;/div&gt;`)[0];
+                popup_4f5c8cbdd973f68271941a5dabb9af1b.setContent(html_af98832f68ad4b3fc8b60e91a6e250ca);
+            
+        
+
+        marker_e4f8eedf869f98ce8d8ce18fee582420.bindPopup(popup_4f5c8cbdd973f68271941a5dabb9af1b)
+        ;
+
+        
+    
+    
+            var marker_e97073a867925fd8bc1572f2e9af094f = L.marker(
+                [48.862856, 2.382571],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_952a20a3f5b942efe74bb98be0717db0 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_b1e1eced8bb863e3a97a3a28af030083 = $(`&lt;div id=&quot;html_b1e1eced8bb863e3a97a3a28af030083&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Le Passage vers les Étoiles&lt;/b&gt;&lt;br&gt;Adresse: 17 cité Joly&lt;br&gt;Pièce: Le meilleur de l&#x27;homme c&#x27;est... sa femme&lt;br&gt;Prix moyen: 34.0 €&lt;/div&gt;`)[0];
+                popup_952a20a3f5b942efe74bb98be0717db0.setContent(html_b1e1eced8bb863e3a97a3a28af030083);
+            
+        
+
+        marker_e97073a867925fd8bc1572f2e9af094f.bindPopup(popup_952a20a3f5b942efe74bb98be0717db0)
+        ;
+
+        
+    
+    
+            var marker_141e9eaf5d1f011794cb1e82503907b6 = L.marker(
+                [48.85874, 2.357432],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_ea529b66aa3039af058ce6be9fe39c6b = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_b4084e7131b22b2382e63900a8e6c02a = $(`&lt;div id=&quot;html_b4084e7131b22b2382e63900a8e6c02a&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre des Blancs Manteaux&lt;/b&gt;&lt;br&gt;Adresse: 15 rue des Blancs Manteaux&lt;br&gt;Pièce: Je me sens si bien chez vous&lt;br&gt;Prix moyen: 47.0 €&lt;/div&gt;`)[0];
+                popup_ea529b66aa3039af058ce6be9fe39c6b.setContent(html_b4084e7131b22b2382e63900a8e6c02a);
+            
+        
+
+        marker_141e9eaf5d1f011794cb1e82503907b6.bindPopup(popup_ea529b66aa3039af058ce6be9fe39c6b)
+        ;
+
+        
+    
+    
+            var marker_ffd9d16256b122940ec70fff1f4a5d4d = L.marker(
+                [48.853412, 2.364236],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_2e3a81302dce3937732f7146aaca8210 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_668a2d5c2130bb3ebd998894308282b7 = $(`&lt;div id=&quot;html_668a2d5c2130bb3ebd998894308282b7&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Espace Marais&lt;/b&gt;&lt;br&gt;Adresse: 22 rue Beautreillis&lt;br&gt;Pièce: Mais n’te promène donc pas toute nue&lt;br&gt;Prix moyen: 25.0 €&lt;/div&gt;`)[0];
+                popup_2e3a81302dce3937732f7146aaca8210.setContent(html_668a2d5c2130bb3ebd998894308282b7);
+            
+        
+
+        marker_ffd9d16256b122940ec70fff1f4a5d4d.bindPopup(popup_2e3a81302dce3937732f7146aaca8210)
+        ;
+
+        
+    
+    
+            var marker_d9f6423e0134f788d5116e791745150b = L.marker(
+                [48.843604, 2.322071],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_e2ac47c17bd35a1190ee6bb23175fbd9 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_fb6174c2f58fb924b242844099d568ab = $(`&lt;div id=&quot;html_fb6174c2f58fb924b242844099d568ab&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Le Grand Point Virgule&lt;/b&gt;&lt;br&gt;Adresse: 8 bis rue de l&#x27;Arrivée&lt;br&gt;Pièce: Ados&lt;br&gt;Prix moyen: 25.0 €&lt;/div&gt;`)[0];
+                popup_e2ac47c17bd35a1190ee6bb23175fbd9.setContent(html_fb6174c2f58fb924b242844099d568ab);
+            
+        
+
+        marker_d9f6423e0134f788d5116e791745150b.bindPopup(popup_e2ac47c17bd35a1190ee6bb23175fbd9)
+        ;
+
+        
+    
+    
+            var marker_ff171ffcbc5c4db358f8ad31b7d87cd9 = L.marker(
+                [48.890751, 2.340416],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_fbe8560602070359792dd1e9fda1a873 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_f9c41dd07bcf6dd7ba11d8fdc9c4205e = $(`&lt;div id=&quot;html_f9c41dd07bcf6dd7ba11d8fdc9c4205e&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Le Funambule Montmartre&lt;/b&gt;&lt;br&gt;Adresse: 53 rue des Saules&lt;br&gt;Pièce: Le Nectar des dieux&lt;br&gt;Prix moyen: 22.0 €&lt;/div&gt;`)[0];
+                popup_fbe8560602070359792dd1e9fda1a873.setContent(html_f9c41dd07bcf6dd7ba11d8fdc9c4205e);
+            
+        
+
+        marker_ff171ffcbc5c4db358f8ad31b7d87cd9.bindPopup(popup_fbe8560602070359792dd1e9fda1a873)
+        ;
+
+        
+    
+    
+            var marker_21eb7d40a7f0872f9e4c2e9261bd3489 = L.marker(
+                [48.854572, 2.277741],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_718f4440dfeb86eb118a28279ed9e9cc = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_066539653886f060c8e4b9028da1b52b = $(`&lt;div id=&quot;html_066539653886f060c8e4b9028da1b52b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Ranelagh&lt;/b&gt;&lt;br&gt;Adresse: 5 rue des Vignes&lt;br&gt;Pièce: Le portrait de Dorian Gray&lt;br&gt;Prix moyen: 20.5 €&lt;/div&gt;`)[0];
+                popup_718f4440dfeb86eb118a28279ed9e9cc.setContent(html_066539653886f060c8e4b9028da1b52b);
+            
+        
+
+        marker_21eb7d40a7f0872f9e4c2e9261bd3489.bindPopup(popup_718f4440dfeb86eb118a28279ed9e9cc)
+        ;
+
+        
+    
+    
+            var marker_3a2820f50ccfcb9b08010e2f2367b659 = L.marker(
+                [48.850001, 2.390903],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_b84692a3658802656ee7b3b520fec370 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_4d2859bd4219cbabea604729c0c00dfa = $(`&lt;div id=&quot;html_4d2859bd4219cbabea604729c0c00dfa&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Le Bourvil&lt;/b&gt;&lt;br&gt;Adresse: 13 rue des Boulets&lt;br&gt;Pièce: Les Entretiens d&#x27;embauche&lt;br&gt;Prix moyen: 27.5 €&lt;/div&gt;`)[0];
+                popup_b84692a3658802656ee7b3b520fec370.setContent(html_4d2859bd4219cbabea604729c0c00dfa);
+            
+        
+
+        marker_3a2820f50ccfcb9b08010e2f2367b659.bindPopup(popup_b84692a3658802656ee7b3b520fec370)
+        ;
+
+        
+    
+    
+            var marker_027ff497f4a2a3344d04067e9ab63f9f = L.marker(
+                [48.843728, 2.324991],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_05f07e4e573770cb463677c18d630ce4 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_4333e1449e8878b7d24ee008b347b192 = $(`&lt;div id=&quot;html_4333e1449e8878b7d24ee008b347b192&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre de Poche-Montparnasse&lt;/b&gt;&lt;br&gt;Adresse: 75 boulevard du Montparnasse&lt;br&gt;Pièce: Juste un souvenir&lt;br&gt;Prix moyen: 24.0 €&lt;/div&gt;`)[0];
+                popup_05f07e4e573770cb463677c18d630ce4.setContent(html_4333e1449e8878b7d24ee008b347b192);
+            
+        
+
+        marker_027ff497f4a2a3344d04067e9ab63f9f.bindPopup(popup_05f07e4e573770cb463677c18d630ce4)
+        ;
+
+        
+    
+    
+            var marker_06da77a00afd534ff3a4908c84d98db1 = L.marker(
+                [48.8709, 2.374281],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_d0978747a8ffd5eec6205188d7ebbd65 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_9fbb954d1fa695333faa57a8f739b2a3 = $(`&lt;div id=&quot;html_9fbb954d1fa695333faa57a8f739b2a3&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre de Belleville&lt;/b&gt;&lt;br&gt;Adresse: 16 passage Piver&lt;br&gt;Pièce: An Irish Story (une histoire irlandaise)&lt;br&gt;Prix moyen: unknown €&lt;/div&gt;`)[0];
+                popup_d0978747a8ffd5eec6205188d7ebbd65.setContent(html_9fbb954d1fa695333faa57a8f739b2a3);
+            
+        
+
+        marker_06da77a00afd534ff3a4908c84d98db1.bindPopup(popup_d0978747a8ffd5eec6205188d7ebbd65)
+        ;
+
+        
+    
+    
+            var marker_31afa2c5375bc91fec16825b5be935b9 = L.marker(
+                [48.841509, 2.324432],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_0fabd0026ea448d316e727d906db4649 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_1fb7f63e53c2466068b5b55c524e134f = $(`&lt;div id=&quot;html_1fb7f63e53c2466068b5b55c524e134f&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Edgar&lt;/b&gt;&lt;br&gt;Adresse: 58 boulevard Edgar-Quinet&lt;br&gt;Pièce: On a essayé de monter Hamlet&lt;br&gt;Prix moyen: 31.0 €&lt;/div&gt;`)[0];
+                popup_0fabd0026ea448d316e727d906db4649.setContent(html_1fb7f63e53c2466068b5b55c524e134f);
+            
+        
+
+        marker_31afa2c5375bc91fec16825b5be935b9.bindPopup(popup_0fabd0026ea448d316e727d906db4649)
+        ;
+
+        
+    
+    
+            var marker_7567daa728bdb8c7702f2d4f4a29293c = L.marker(
+                [48.843604, 2.322071],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_ef4c15a32fc2a856ac8472a96bbdbe11 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_a4e26eda14bda1d3e813e273a58c89fd = $(`&lt;div id=&quot;html_a4e26eda14bda1d3e813e273a58c89fd&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Le Grand Point Virgule&lt;/b&gt;&lt;br&gt;Adresse: 8 bis rue de l&#x27;Arrivée&lt;br&gt;Pièce: Antoine de Maximy : J&#x27;irai dormir sur scène&lt;br&gt;Prix moyen: 33.0 €&lt;/div&gt;`)[0];
+                popup_ef4c15a32fc2a856ac8472a96bbdbe11.setContent(html_a4e26eda14bda1d3e813e273a58c89fd);
+            
+        
+
+        marker_7567daa728bdb8c7702f2d4f4a29293c.bindPopup(popup_ef4c15a32fc2a856ac8472a96bbdbe11)
+        ;
+
+        
+    
+    
+            var marker_13f2e6ad10e7dc3998248a4e601bb5dc = L.marker(
+                [48.844567, 2.339549],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_c06d16550448783aaac15ad6a3623c21 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_4a3ebd8e760f1114f8f6ffe40d30687c = $(`&lt;div id=&quot;html_4a3ebd8e760f1114f8f6ffe40d30687c&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Comédie Saint-Michel&lt;/b&gt;&lt;br&gt;Adresse: 95 bd Saint-Michel&lt;br&gt;Pièce: L&#x27;Homme de ses rêves&lt;br&gt;Prix moyen: 34.0 €&lt;/div&gt;`)[0];
+                popup_c06d16550448783aaac15ad6a3623c21.setContent(html_4a3ebd8e760f1114f8f6ffe40d30687c);
+            
+        
+
+        marker_13f2e6ad10e7dc3998248a4e601bb5dc.bindPopup(popup_c06d16550448783aaac15ad6a3623c21)
+        ;
+
+        
+    
+    
+            var marker_e36a66e539a2ab34e8c23d322fa31dba = L.marker(
+                [48.884393, 2.336711],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_5c372669d62a7d8c141c376c50b3d922 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_f5a644abb89794faf06218f497fd5c17 = $(`&lt;div id=&quot;html_f5a644abb89794faf06218f497fd5c17&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;La Manufacture des Abbesses&lt;/b&gt;&lt;br&gt;Adresse: 7 rue Véron&lt;br&gt;Pièce: Le Quai&lt;br&gt;Prix moyen: 20.0 €&lt;/div&gt;`)[0];
+                popup_5c372669d62a7d8c141c376c50b3d922.setContent(html_f5a644abb89794faf06218f497fd5c17);
+            
+        
+
+        marker_e36a66e539a2ab34e8c23d322fa31dba.bindPopup(popup_5c372669d62a7d8c141c376c50b3d922)
+        ;
+
+        
+    
+    
+            var marker_bcc89c16eec5cbf8fcf0e1a98fe5c8a2 = L.marker(
+                [48.853412, 2.364236],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_8c7ea7af83da9c4744971d4454f537e9 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_799b7a64451a5e8359f719b6188b2a42 = $(`&lt;div id=&quot;html_799b7a64451a5e8359f719b6188b2a42&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Espace Marais&lt;/b&gt;&lt;br&gt;Adresse: 22 rue Beautreillis&lt;br&gt;Pièce: L&#x27;Avare&lt;br&gt;Prix moyen: 25.0 €&lt;/div&gt;`)[0];
+                popup_8c7ea7af83da9c4744971d4454f537e9.setContent(html_799b7a64451a5e8359f719b6188b2a42);
+            
+        
+
+        marker_bcc89c16eec5cbf8fcf0e1a98fe5c8a2.bindPopup(popup_8c7ea7af83da9c4744971d4454f537e9)
+        ;
+
+        
+    
+    
+            var marker_2b09bb8e7ebec9cbc6964637e12be115 = L.marker(
+                [48.88023, 2.353135],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_550fa14ad08bb7fefca9262386a22870 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_7f9677a806f65a882b363a355653d5d8 = $(`&lt;div id=&quot;html_7f9677a806f65a882b363a355653d5d8&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre La Boussole&lt;/b&gt;&lt;br&gt;Adresse: 29 rue de Dunkerque&lt;br&gt;Pièce: Rose Valland : Sauver un peu de la beauté du monde&lt;br&gt;Prix moyen: 25.5 €&lt;/div&gt;`)[0];
+                popup_550fa14ad08bb7fefca9262386a22870.setContent(html_7f9677a806f65a882b363a355653d5d8);
+            
+        
+
+        marker_2b09bb8e7ebec9cbc6964637e12be115.bindPopup(popup_550fa14ad08bb7fefca9262386a22870)
+        ;
+
+        
+    
+    
+            var marker_6e88ae475d4827ca1f0b15427d318cc7 = L.marker(
+                [48.887636, 2.337265],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_20766b57329e2ae01118f66eb6c79546 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_035377b72efe7f392848b42350b24dc1 = $(`&lt;div id=&quot;html_035377b72efe7f392848b42350b24dc1&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Lepic&lt;/b&gt;&lt;br&gt;Adresse: 1 avenue Junot&lt;br&gt;Pièce: Ferme bien ta gueule&lt;br&gt;Prix moyen: 33.0 €&lt;/div&gt;`)[0];
+                popup_20766b57329e2ae01118f66eb6c79546.setContent(html_035377b72efe7f392848b42350b24dc1);
+            
+        
+
+        marker_6e88ae475d4827ca1f0b15427d318cc7.bindPopup(popup_20766b57329e2ae01118f66eb6c79546)
+        ;
+
+        
+    
+    
+            var marker_6277214d03babb7770998c6abf454b9f = L.marker(
+                [48.887636, 2.337265],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_4226dbd9ea3d03af10996a584dab894a = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_91edb4eb84b2e76809754d7204006b59 = $(`&lt;div id=&quot;html_91edb4eb84b2e76809754d7204006b59&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Lepic&lt;/b&gt;&lt;br&gt;Adresse: 1 avenue Junot&lt;br&gt;Pièce: Eva Rami : Va aimer !&lt;br&gt;Prix moyen: 29.5 €&lt;/div&gt;`)[0];
+                popup_4226dbd9ea3d03af10996a584dab894a.setContent(html_91edb4eb84b2e76809754d7204006b59);
+            
+        
+
+        marker_6277214d03babb7770998c6abf454b9f.bindPopup(popup_4226dbd9ea3d03af10996a584dab894a)
+        ;
+
+        
+    
+    
+            var marker_1a62ab9dc971d616a62e49ca4ca6416f = L.marker(
+                [48.840107, 2.324031],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_e9cf7724ffeb90618fb449b8a46391c8 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_0217b954dc1af41b589e274760dec8ab = $(`&lt;div id=&quot;html_0217b954dc1af41b589e274760dec8ab&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Comédie Italienne&lt;/b&gt;&lt;br&gt;Adresse: 17 rue de la Gaîté&lt;br&gt;Pièce: Les Délices du chocolat et puis… Venise&lt;br&gt;Prix moyen: unknown €&lt;/div&gt;`)[0];
+                popup_e9cf7724ffeb90618fb449b8a46391c8.setContent(html_0217b954dc1af41b589e274760dec8ab);
+            
+        
+
+        marker_1a62ab9dc971d616a62e49ca4ca6416f.bindPopup(popup_e9cf7724ffeb90618fb449b8a46391c8)
+        ;
+
+        
+    
+    
+            var marker_99d91480b8b1d8043dde2aa87f63fb8c = L.marker(
+                [48.861436, 2.334138],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_db81527b36aed8942b6b4a6c090870cf = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_d47889c36f716ad9a82144ae8c30c4ba = $(`&lt;div id=&quot;html_d47889c36f716ad9a82144ae8c30c4ba&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Comédie-Française - Studio-Théâtre&lt;/b&gt;&lt;br&gt;Adresse: 99 rue de Rivoli Galerie du Carrousel du Louvre&lt;br&gt;Pièce: Les Contes du chat perché : Le Chien&lt;br&gt;Prix moyen: unknown €&lt;/div&gt;`)[0];
+                popup_db81527b36aed8942b6b4a6c090870cf.setContent(html_d47889c36f716ad9a82144ae8c30c4ba);
+            
+        
+
+        marker_99d91480b8b1d8043dde2aa87f63fb8c.bindPopup(popup_db81527b36aed8942b6b4a6c090870cf)
+        ;
+
+        
+    
+    
+            var marker_215af2c3ed40f04f2ea3e0198e4bce11 = L.marker(
+                [48.850001, 2.390903],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_9837354433b34333391ccf77593c6d48 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_8a912329b05c772e2ee199fee07cf214 = $(`&lt;div id=&quot;html_8a912329b05c772e2ee199fee07cf214&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Le Bourvil&lt;/b&gt;&lt;br&gt;Adresse: 13 rue des Boulets&lt;br&gt;Pièce: Le jour où mon cactus a fleuri&lt;br&gt;Prix moyen: 27.0 €&lt;/div&gt;`)[0];
+                popup_9837354433b34333391ccf77593c6d48.setContent(html_8a912329b05c772e2ee199fee07cf214);
+            
+        
+
+        marker_215af2c3ed40f04f2ea3e0198e4bce11.bindPopup(popup_9837354433b34333391ccf77593c6d48)
+        ;
+
+        
+    
+    
+            var marker_cd2f7ccf56fde2d01ae0a30e593c3ae2 = L.marker(
+                [48.866289, 2.357796],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_5eed8b2c16434d9f325ef128f08c4e07 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_c19e20bdb660043812410470c27204ee = $(`&lt;div id=&quot;html_c19e20bdb660043812410470c27204ee&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre du Marais&lt;/b&gt;&lt;br&gt;Adresse: 37 rue Volta&lt;br&gt;Pièce: Les Fous alliés&lt;br&gt;Prix moyen: 19.0 €&lt;/div&gt;`)[0];
+                popup_5eed8b2c16434d9f325ef128f08c4e07.setContent(html_c19e20bdb660043812410470c27204ee);
+            
+        
+
+        marker_cd2f7ccf56fde2d01ae0a30e593c3ae2.bindPopup(popup_5eed8b2c16434d9f325ef128f08c4e07)
+        ;
+
+        
+    
+    
+            var marker_ef8a38a5d20312cee6e530874bd5dbbd = L.marker(
+                [48.843728, 2.324991],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_b8a688819c64ee0a4d633fef827018f6 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_732bf9322bdd140f6a7a1b2be35676aa = $(`&lt;div id=&quot;html_732bf9322bdd140f6a7a1b2be35676aa&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre de Poche-Montparnasse&lt;/b&gt;&lt;br&gt;Adresse: 75 boulevard du Montparnasse&lt;br&gt;Pièce: Eurydice&lt;br&gt;Prix moyen: 24.0 €&lt;/div&gt;`)[0];
+                popup_b8a688819c64ee0a4d633fef827018f6.setContent(html_732bf9322bdd140f6a7a1b2be35676aa);
+            
+        
+
+        marker_ef8a38a5d20312cee6e530874bd5dbbd.bindPopup(popup_b8a688819c64ee0a4d633fef827018f6)
+        ;
+
+        
+    
+    
+            var marker_ac467696bb8ddf0c52b3b3883afc8ba7 = L.marker(
+                [48.844462, 2.348842],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_e393e6d8cad7c75b4277ccf644012a63 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_34f4c963d28a333fe09f3e14a1ec2a88 = $(`&lt;div id=&quot;html_34f4c963d28a333fe09f3e14a1ec2a88&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre de la Contrescarpe&lt;/b&gt;&lt;br&gt;Adresse: 5 rue Blainville&lt;br&gt;Pièce: Mort à crédit&lt;br&gt;Prix moyen: 22.5 €&lt;/div&gt;`)[0];
+                popup_e393e6d8cad7c75b4277ccf644012a63.setContent(html_34f4c963d28a333fe09f3e14a1ec2a88);
+            
+        
+
+        marker_ac467696bb8ddf0c52b3b3883afc8ba7.bindPopup(popup_e393e6d8cad7c75b4277ccf644012a63)
+        ;
+
+        
+    
+    
+            var marker_620f3d190ddf906f536b121eeda58f34 = L.marker(
+                [48.854572, 2.277741],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_8e184e4fc342f9783be52c33b9d166cc = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_9104510a4dac3a4ece6aff015dcbd608 = $(`&lt;div id=&quot;html_9104510a4dac3a4ece6aff015dcbd608&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Ranelagh&lt;/b&gt;&lt;br&gt;Adresse: 5 rue des Vignes&lt;br&gt;Pièce: Le Neveu de Rameau&lt;br&gt;Prix moyen: 28.5 €&lt;/div&gt;`)[0];
+                popup_8e184e4fc342f9783be52c33b9d166cc.setContent(html_9104510a4dac3a4ece6aff015dcbd608);
+            
+        
+
+        marker_620f3d190ddf906f536b121eeda58f34.bindPopup(popup_8e184e4fc342f9783be52c33b9d166cc)
+        ;
+
+        
+    
+    
+            var marker_dbfb1728c97a95fcce00e547e50dead5 = L.marker(
+                [48.884393, 2.336711],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_13534e9361849a377ddeb7bc50bf0ef5 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_d55423b31b3ea946e3ed5f73647e26df = $(`&lt;div id=&quot;html_d55423b31b3ea946e3ed5f73647e26df&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;La Manufacture des Abbesses&lt;/b&gt;&lt;br&gt;Adresse: 7 rue Véron&lt;br&gt;Pièce: Geli&lt;br&gt;Prix moyen: 20.0 €&lt;/div&gt;`)[0];
+                popup_13534e9361849a377ddeb7bc50bf0ef5.setContent(html_d55423b31b3ea946e3ed5f73647e26df);
+            
+        
+
+        marker_dbfb1728c97a95fcce00e547e50dead5.bindPopup(popup_13534e9361849a377ddeb7bc50bf0ef5)
+        ;
+
+        
+    
+    
+            var marker_35994a5dec6f5cf782cac14b2b9c91ef = L.marker(
+                [48.85874, 2.357432],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_13521230a8e49f9402d971be3abf49e8 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_3e7ee86597ae8929360dbbfa217dad0c = $(`&lt;div id=&quot;html_3e7ee86597ae8929360dbbfa217dad0c&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre des Blancs Manteaux&lt;/b&gt;&lt;br&gt;Adresse: 15 rue des Blancs Manteaux&lt;br&gt;Pièce: Les parents viennent de Mars, les enfants du Mc Do ! Chez Papa&lt;br&gt;Prix moyen: 47.0 €&lt;/div&gt;`)[0];
+                popup_13521230a8e49f9402d971be3abf49e8.setContent(html_3e7ee86597ae8929360dbbfa217dad0c);
+            
+        
+
+        marker_35994a5dec6f5cf782cac14b2b9c91ef.bindPopup(popup_13521230a8e49f9402d971be3abf49e8)
+        ;
+
+        
+    
+    
+            var marker_ee4586b90462607674b07645d3806248 = L.marker(
+                [48.854572, 2.277741],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_da921b1ca2185fd9408c50b42f941d7d = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_3675dbde69389eb605441f08541f242e = $(`&lt;div id=&quot;html_3675dbde69389eb605441f08541f242e&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Ranelagh&lt;/b&gt;&lt;br&gt;Adresse: 5 rue des Vignes&lt;br&gt;Pièce: Le Cid&lt;br&gt;Prix moyen: 20.5 €&lt;/div&gt;`)[0];
+                popup_da921b1ca2185fd9408c50b42f941d7d.setContent(html_3675dbde69389eb605441f08541f242e);
+            
+        
+
+        marker_ee4586b90462607674b07645d3806248.bindPopup(popup_da921b1ca2185fd9408c50b42f941d7d)
+        ;
+
+        
+    
+    
+            var marker_95f3a8c722fbb93abafe3286384c8569 = L.marker(
+                [48.841509, 2.324432],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_1438888d5c2e7d3702e5bdd7e38a1b7a = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_46d794a1db7fbcfdfcadb14798e6a409 = $(`&lt;div id=&quot;html_46d794a1db7fbcfdfcadb14798e6a409&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Edgar&lt;/b&gt;&lt;br&gt;Adresse: 58 boulevard Edgar-Quinet&lt;br&gt;Pièce: Drôle d&#x27;Histoire de France&lt;br&gt;Prix moyen: 26.0 €&lt;/div&gt;`)[0];
+                popup_1438888d5c2e7d3702e5bdd7e38a1b7a.setContent(html_46d794a1db7fbcfdfcadb14798e6a409);
+            
+        
+
+        marker_95f3a8c722fbb93abafe3286384c8569.bindPopup(popup_1438888d5c2e7d3702e5bdd7e38a1b7a)
+        ;
+
+        
+    
+    
+            var marker_e5e203f9cd5d2dda13a0f78a04ddb434 = L.marker(
+                [48.856738, 2.374009],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_433d70fdb4d3ed3768b9a81548c14895 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_de36d8e193638ac3dcdcc5d96e59734b = $(`&lt;div id=&quot;html_de36d8e193638ac3dcdcc5d96e59734b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;La Comédie du Onzième&lt;/b&gt;&lt;br&gt;Adresse: 35 rue Sedaine&lt;br&gt;Pièce: Amour, sexe et plus si affinités !&lt;br&gt;Prix moyen: 13.0 €&lt;/div&gt;`)[0];
+                popup_433d70fdb4d3ed3768b9a81548c14895.setContent(html_de36d8e193638ac3dcdcc5d96e59734b);
+            
+        
+
+        marker_e5e203f9cd5d2dda13a0f78a04ddb434.bindPopup(popup_433d70fdb4d3ed3768b9a81548c14895)
+        ;
+
+        
+    
+    
+            var marker_26d5212b444326c26751ac242fb770ad = L.marker(
+                [48.853025, 2.345354],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_07d92ffcb094d5d512cd7025c8f07cb8 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_8e2bab7a0a32ba45cfd7c683605963aa = $(`&lt;div id=&quot;html_8e2bab7a0a32ba45cfd7c683605963aa&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre de la Huchette&lt;/b&gt;&lt;br&gt;Adresse: 23 rue de la Huchette&lt;br&gt;Pièce: La Cantatrice chauve + La Leçon&lt;br&gt;Prix moyen: 34.0 €&lt;/div&gt;`)[0];
+                popup_07d92ffcb094d5d512cd7025c8f07cb8.setContent(html_8e2bab7a0a32ba45cfd7c683605963aa);
+            
+        
+
+        marker_26d5212b444326c26751ac242fb770ad.bindPopup(popup_07d92ffcb094d5d512cd7025c8f07cb8)
+        ;
+
+        
+    
+    
+            var marker_84ec0fa3b3fb041d40d0cc696fbf4e5d = L.marker(
+                [48.843728, 2.324991],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_d1715b7dee5e6011672574579fc9ce92 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_2544094e6bfacd5e075a450683f5b1fd = $(`&lt;div id=&quot;html_2544094e6bfacd5e075a450683f5b1fd&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre de Poche-Montparnasse&lt;/b&gt;&lt;br&gt;Adresse: 75 boulevard du Montparnasse&lt;br&gt;Pièce: Mozart, mon amour&lt;br&gt;Prix moyen: 28.0 €&lt;/div&gt;`)[0];
+                popup_d1715b7dee5e6011672574579fc9ce92.setContent(html_2544094e6bfacd5e075a450683f5b1fd);
+            
+        
+
+        marker_84ec0fa3b3fb041d40d0cc696fbf4e5d.bindPopup(popup_d1715b7dee5e6011672574579fc9ce92)
+        ;
+
+        
+    
+    
+            var marker_efda0fe5aade723dc421add8e6611cef = L.marker(
+                [48.869821, 2.354771],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_339e76cd248307062e75b47fbe53c1e6 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_4fb08319b63582d4c1efa575ddc57619 = $(`&lt;div id=&quot;html_4fb08319b63582d4c1efa575ddc57619&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Le Théâtre Libre&lt;/b&gt;&lt;br&gt;Adresse: 4 boulevard de Strasbourg&lt;br&gt;Pièce: Camus par Enthoven&lt;br&gt;Prix moyen: 32.0 €&lt;/div&gt;`)[0];
+                popup_339e76cd248307062e75b47fbe53c1e6.setContent(html_4fb08319b63582d4c1efa575ddc57619);
+            
+        
+
+        marker_efda0fe5aade723dc421add8e6611cef.bindPopup(popup_339e76cd248307062e75b47fbe53c1e6)
+        ;
+
+        
+    
+    
+            var marker_fbc774f27c6a7eae8556141da0881993 = L.marker(
+                [48.843728, 2.324991],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_5eb26631c75097a6510e403880b7c253 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_5546e06ff720fff940b63a66b26a12b5 = $(`&lt;div id=&quot;html_5546e06ff720fff940b63a66b26a12b5&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre de Poche-Montparnasse&lt;/b&gt;&lt;br&gt;Adresse: 75 boulevard du Montparnasse&lt;br&gt;Pièce: La Fontaine en fables et en notes&lt;br&gt;Prix moyen: 28.0 €&lt;/div&gt;`)[0];
+                popup_5eb26631c75097a6510e403880b7c253.setContent(html_5546e06ff720fff940b63a66b26a12b5);
+            
+        
+
+        marker_fbc774f27c6a7eae8556141da0881993.bindPopup(popup_5eb26631c75097a6510e403880b7c253)
+        ;
+
+        
+    
+    
+            var marker_1bb878b5d5ffd1d28cbc1c3ba4767242 = L.marker(
+                [48.840563, 2.322325],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_dad4bd039d0a2206924df8dbe10efeee = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_30fa048c2f40a291c6010669c618d4e1 = $(`&lt;div id=&quot;html_30fa048c2f40a291c6010669c618d4e1&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Guichet-Montparnasse&lt;/b&gt;&lt;br&gt;Adresse: 15 rue du Maine&lt;br&gt;Pièce: Une fille d&#x27;Ève&lt;br&gt;Prix moyen: 24.0 €&lt;/div&gt;`)[0];
+                popup_dad4bd039d0a2206924df8dbe10efeee.setContent(html_30fa048c2f40a291c6010669c618d4e1);
+            
+        
+
+        marker_1bb878b5d5ffd1d28cbc1c3ba4767242.bindPopup(popup_dad4bd039d0a2206924df8dbe10efeee)
+        ;
+
+        
+    
+    
+            var marker_896fba202967e1284dab535156597eef = L.marker(
+                [48.853025, 2.345354],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_7ea21f6713a5d4372790d6cfedd95914 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_c847b14195baf4c7b3aec2cf4585b5f4 = $(`&lt;div id=&quot;html_c847b14195baf4c7b3aec2cf4585b5f4&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre de la Huchette&lt;/b&gt;&lt;br&gt;Adresse: 23 rue de la Huchette&lt;br&gt;Pièce: La Leçon&lt;br&gt;Prix moyen: 23.0 €&lt;/div&gt;`)[0];
+                popup_7ea21f6713a5d4372790d6cfedd95914.setContent(html_c847b14195baf4c7b3aec2cf4585b5f4);
+            
+        
+
+        marker_896fba202967e1284dab535156597eef.bindPopup(popup_7ea21f6713a5d4372790d6cfedd95914)
+        ;
+
+        
+    
+    
+            var marker_4c42d479d2138420e5c22d9d1d012cc5 = L.marker(
+                [48.859764, 2.353086],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_88a6951e245a462cad726ecf4a98c6ae = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_1880cab26fb51fa0444a715c175c43c8 = $(`&lt;div id=&quot;html_1880cab26fb51fa0444a715c175c43c8&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre L&#x27;Essaïon&lt;/b&gt;&lt;br&gt;Adresse: 6 rue Pierre-au-Lard&lt;br&gt;Pièce: Le Joueur d&#x27;échecs&lt;br&gt;Prix moyen: 22.0 €&lt;/div&gt;`)[0];
+                popup_88a6951e245a462cad726ecf4a98c6ae.setContent(html_1880cab26fb51fa0444a715c175c43c8);
+            
+        
+
+        marker_4c42d479d2138420e5c22d9d1d012cc5.bindPopup(popup_88a6951e245a462cad726ecf4a98c6ae)
+        ;
+
+        
+    
+    
+            var marker_92b9ac459941b80b15e0cd6fe1e39adb = L.marker(
+                [48.861536, 2.374718],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_ca618e53a74664a197de4428453d494b = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_c972e1e27069744e03e2629b02dcc35b = $(`&lt;div id=&quot;html_c972e1e27069744e03e2629b02dcc35b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;À la Folie Théâtre&lt;/b&gt;&lt;br&gt;Adresse: 6 rue de la Folie-Méricourt&lt;br&gt;Pièce: La Porte à côté&lt;br&gt;Prix moyen: 21.0 €&lt;/div&gt;`)[0];
+                popup_ca618e53a74664a197de4428453d494b.setContent(html_c972e1e27069744e03e2629b02dcc35b);
+            
+        
+
+        marker_92b9ac459941b80b15e0cd6fe1e39adb.bindPopup(popup_ca618e53a74664a197de4428453d494b)
+        ;
+
+        
+    
+    
+            var marker_842b7f8c708ebb2b1d505acb96ac6473 = L.marker(
+                [48.870746, 2.348839],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_a759296ab11cd1bcf1223a0f3a16d241 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_5f549873d59c48dbd8f973c5567242fa = $(`&lt;div id=&quot;html_5f549873d59c48dbd8f973c5567242fa&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre du Gymnase&lt;/b&gt;&lt;br&gt;Adresse: 38 boulevard de Bonne-Nouvelle&lt;br&gt;Pièce: 100% Marianne&lt;br&gt;Prix moyen: 29.5 €&lt;/div&gt;`)[0];
+                popup_a759296ab11cd1bcf1223a0f3a16d241.setContent(html_5f549873d59c48dbd8f973c5567242fa);
+            
+        
+
+        marker_842b7f8c708ebb2b1d505acb96ac6473.bindPopup(popup_a759296ab11cd1bcf1223a0f3a16d241)
+        ;
+
+        
+    
+    
+            var marker_c355e7322bf2fa0a9206370577d9e0f2 = L.marker(
+                [48.884747, 2.321188],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_946f8fd445d8948483662a4efeb1bb58 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_c567ce6d77d6f68a22674b776cd86308 = $(`&lt;div id=&quot;html_c567ce6d77d6f68a22674b776cd86308&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Studio Hébertot&lt;/b&gt;&lt;br&gt;Adresse: 78 bis bd des Batignolles&lt;br&gt;Pièce: Crusoé repart&lt;br&gt;Prix moyen: 22.0 €&lt;/div&gt;`)[0];
+                popup_946f8fd445d8948483662a4efeb1bb58.setContent(html_c567ce6d77d6f68a22674b776cd86308);
+            
+        
+
+        marker_c355e7322bf2fa0a9206370577d9e0f2.bindPopup(popup_946f8fd445d8948483662a4efeb1bb58)
+        ;
+
+        
+    
+    
+            var marker_b759648ada46c03243e149001680a0a5 = L.marker(
+                [48.875136, 2.319678],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_760e5858b2e21b4cf3b4bd22c12ae96a = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_7648cf00c0d664169b6a5b73ea7c8480 = $(`&lt;div id=&quot;html_7648cf00c0d664169b6a5b73ea7c8480&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Église Saint-Augustin&lt;/b&gt;&lt;br&gt;Adresse: Place Saint-Augustin&lt;br&gt;Pièce: Charles de Foucauld frère universel&lt;br&gt;Prix moyen: unknown €&lt;/div&gt;`)[0];
+                popup_760e5858b2e21b4cf3b4bd22c12ae96a.setContent(html_7648cf00c0d664169b6a5b73ea7c8480);
+            
+        
+
+        marker_b759648ada46c03243e149001680a0a5.bindPopup(popup_760e5858b2e21b4cf3b4bd22c12ae96a)
+        ;
+
+        
+    
+    
+            var marker_9fa77813159e1b8f57257a558cdf5494 = L.marker(
+                [48.870746, 2.348839],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_50200300f92dcee94eadccc0c5cd30c0 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_13aadb504e8b2fc075b6b57ece0c3e3b = $(`&lt;div id=&quot;html_13aadb504e8b2fc075b6b57ece0c3e3b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre du Gymnase&lt;/b&gt;&lt;br&gt;Adresse: 38 boulevard de Bonne-Nouvelle&lt;br&gt;Pièce: Une belle histoire d&#x27;humour&lt;br&gt;Prix moyen: unknown €&lt;/div&gt;`)[0];
+                popup_50200300f92dcee94eadccc0c5cd30c0.setContent(html_13aadb504e8b2fc075b6b57ece0c3e3b);
+            
+        
+
+        marker_9fa77813159e1b8f57257a558cdf5494.bindPopup(popup_50200300f92dcee94eadccc0c5cd30c0)
+        ;
+
+        
+    
+    
+            var marker_9e4a5ab56dd77b3aec6f72322272beb1 = L.marker(
+                [48.887636, 2.337265],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_70d9d7d15568ad3339a9d10a18e1273c = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_5eb8186662b0f06c2381872f79c2e651 = $(`&lt;div id=&quot;html_5eb8186662b0f06c2381872f79c2e651&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Lepic&lt;/b&gt;&lt;br&gt;Adresse: 1 avenue Junot&lt;br&gt;Pièce: Roméo et Juliette&lt;br&gt;Prix moyen: 33.0 €&lt;/div&gt;`)[0];
+                popup_70d9d7d15568ad3339a9d10a18e1273c.setContent(html_5eb8186662b0f06c2381872f79c2e651);
+            
+        
+
+        marker_9e4a5ab56dd77b3aec6f72322272beb1.bindPopup(popup_70d9d7d15568ad3339a9d10a18e1273c)
+        ;
+
+        
+    
+    
+            var marker_69ead56361cb8212e446c3db57460404 = L.marker(
+                [48.887636, 2.337265],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_1235df8c13ebbd2db4907e9a3830004f = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_3cf88318fdda4d2eb179343dad58be59 = $(`&lt;div id=&quot;html_3cf88318fdda4d2eb179343dad58be59&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Lepic&lt;/b&gt;&lt;br&gt;Adresse: 1 avenue Junot&lt;br&gt;Pièce: Ce qu&#x27;il faudra laisser aux anges&lt;br&gt;Prix moyen: 35.0 €&lt;/div&gt;`)[0];
+                popup_1235df8c13ebbd2db4907e9a3830004f.setContent(html_3cf88318fdda4d2eb179343dad58be59);
+            
+        
+
+        marker_69ead56361cb8212e446c3db57460404.bindPopup(popup_1235df8c13ebbd2db4907e9a3830004f)
+        ;
+
+        
+    
+    
+            var marker_f0bf0ea4eff72100d226a77f0cbee2ae = L.marker(
+                [48.844567, 2.339549],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_55f13aaa7a2c112322c7f00db6096849 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_c7282e05646b3d8479388d8d32d9d507 = $(`&lt;div id=&quot;html_c7282e05646b3d8479388d8d32d9d507&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Comédie Saint-Michel&lt;/b&gt;&lt;br&gt;Adresse: 95 bd Saint-Michel&lt;br&gt;Pièce: Le Temps d&#x27;une vie&lt;br&gt;Prix moyen: 25.5 €&lt;/div&gt;`)[0];
+                popup_55f13aaa7a2c112322c7f00db6096849.setContent(html_c7282e05646b3d8479388d8d32d9d507);
+            
+        
+
+        marker_f0bf0ea4eff72100d226a77f0cbee2ae.bindPopup(popup_55f13aaa7a2c112322c7f00db6096849)
+        ;
+
+        
+    
+    
+            var marker_77313c7e76bd8473dc3295e63e8c15fd = L.marker(
+                [48.884747, 2.321188],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_34e4542529275d60a5ddfb756cbc0191 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_23e57c725912f06d43735e0c8aef337c = $(`&lt;div id=&quot;html_23e57c725912f06d43735e0c8aef337c&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Studio Hébertot&lt;/b&gt;&lt;br&gt;Adresse: 78 bis bd des Batignolles&lt;br&gt;Pièce: Il est interdit de vieillir&lt;br&gt;Prix moyen: 22.0 €&lt;/div&gt;`)[0];
+                popup_34e4542529275d60a5ddfb756cbc0191.setContent(html_23e57c725912f06d43735e0c8aef337c);
+            
+        
+
+        marker_77313c7e76bd8473dc3295e63e8c15fd.bindPopup(popup_34e4542529275d60a5ddfb756cbc0191)
+        ;
+
+        
+    
+    
+            var marker_af75e4f102a1c28af56e1a0d8664bc5b = L.marker(
+                [48.839319, 2.32317],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_bc6278f0fdd9a94deee1659b7b8cac69 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_c512399749d118723b0d04a378da4500 = $(`&lt;div id=&quot;html_c512399749d118723b0d04a378da4500&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre de la Gaîté-Montparnasse&lt;/b&gt;&lt;br&gt;Adresse: 26 rue de la Gaîté&lt;br&gt;Pièce: Bernard Werber : Voyage intérieur&lt;br&gt;Prix moyen: 28.0 €&lt;/div&gt;`)[0];
+                popup_bc6278f0fdd9a94deee1659b7b8cac69.setContent(html_c512399749d118723b0d04a378da4500);
+            
+        
+
+        marker_af75e4f102a1c28af56e1a0d8664bc5b.bindPopup(popup_bc6278f0fdd9a94deee1659b7b8cac69)
+        ;
+
+        
+    
+    
+            var marker_d7d756978e79a352817f359940544a37 = L.marker(
+                [48.887636, 2.337265],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_5fa4f0eaf980cae670ed7ca2591fd344 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_7cedf7734b672665b3b0040bb32a54d3 = $(`&lt;div id=&quot;html_7cedf7734b672665b3b0040bb32a54d3&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Lepic&lt;/b&gt;&lt;br&gt;Adresse: 1 avenue Junot&lt;br&gt;Pièce: Le Testament Médicis&lt;br&gt;Prix moyen: 33.0 €&lt;/div&gt;`)[0];
+                popup_5fa4f0eaf980cae670ed7ca2591fd344.setContent(html_7cedf7734b672665b3b0040bb32a54d3);
+            
+        
+
+        marker_d7d756978e79a352817f359940544a37.bindPopup(popup_5fa4f0eaf980cae670ed7ca2591fd344)
+        ;
+
+        
+    
+    
+            var marker_a8b4a313faf266e76252cc18b6ac2cb9 = L.marker(
+                [48.884747, 2.321188],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_2c33eae4664e55b30d05c28d7ea0946e = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_e36514e385bf2983d1000534f66a32bd = $(`&lt;div id=&quot;html_e36514e385bf2983d1000534f66a32bd&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Studio Hébertot&lt;/b&gt;&lt;br&gt;Adresse: 78 bis bd des Batignolles&lt;br&gt;Pièce: Fly me to the moon&lt;br&gt;Prix moyen: 19.0 €&lt;/div&gt;`)[0];
+                popup_2c33eae4664e55b30d05c28d7ea0946e.setContent(html_e36514e385bf2983d1000534f66a32bd);
+            
+        
+
+        marker_a8b4a313faf266e76252cc18b6ac2cb9.bindPopup(popup_2c33eae4664e55b30d05c28d7ea0946e)
+        ;
+
+        
+    
+    
+            var marker_a48ac1cc9298a2fb827434897d1a07ed = L.marker(
+                [48.884393, 2.336711],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_fb2c5b67487ecf28acd4b783e141a18a = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_23223aafbd7e0418eff19ff830f6d9f7 = $(`&lt;div id=&quot;html_23223aafbd7e0418eff19ff830f6d9f7&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;La Manufacture des Abbesses&lt;/b&gt;&lt;br&gt;Adresse: 7 rue Véron&lt;br&gt;Pièce: Jamais seul&lt;br&gt;Prix moyen: 20.0 €&lt;/div&gt;`)[0];
+                popup_fb2c5b67487ecf28acd4b783e141a18a.setContent(html_23223aafbd7e0418eff19ff830f6d9f7);
+            
+        
+
+        marker_a48ac1cc9298a2fb827434897d1a07ed.bindPopup(popup_fb2c5b67487ecf28acd4b783e141a18a)
+        ;
+
+        
+    
+    
+            var marker_3a10e7d639ebf3974aa159f0eb2ee386 = L.marker(
+                [48.853412, 2.364236],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_38ffef402dbf1d5cf78203154babdd0b = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_5504c7732f60c2a6a6fa5942629cfe12 = $(`&lt;div id=&quot;html_5504c7732f60c2a6a6fa5942629cfe12&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Espace Marais&lt;/b&gt;&lt;br&gt;Adresse: 22 rue Beautreillis&lt;br&gt;Pièce: Le Malade imaginaire&lt;br&gt;Prix moyen: 25.0 €&lt;/div&gt;`)[0];
+                popup_38ffef402dbf1d5cf78203154babdd0b.setContent(html_5504c7732f60c2a6a6fa5942629cfe12);
+            
+        
+
+        marker_3a10e7d639ebf3974aa159f0eb2ee386.bindPopup(popup_38ffef402dbf1d5cf78203154babdd0b)
+        ;
+
+        
+    
+    
+            var marker_8cab3f730d228b613265b936ecbe102c = L.marker(
+                [48.872387, 2.343063],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_9d6a50a82532a4c240e7414df933302a = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_25cb5446b5aea5aaf1cecd70d264c3a2 = $(`&lt;div id=&quot;html_25cb5446b5aea5aaf1cecd70d264c3a2&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre du Nord-Ouest&lt;/b&gt;&lt;br&gt;Adresse: 13 rue du faubourg Montmartre&lt;br&gt;Pièce: Un moment avec Victor Hugo&lt;br&gt;Prix moyen: unknown €&lt;/div&gt;`)[0];
+                popup_9d6a50a82532a4c240e7414df933302a.setContent(html_25cb5446b5aea5aaf1cecd70d264c3a2);
+            
+        
+
+        marker_8cab3f730d228b613265b936ecbe102c.bindPopup(popup_9d6a50a82532a4c240e7414df933302a)
+        ;
+
+        
+    
+    
+            var marker_4f86b38a627b40d2286c1134988b1db1 = L.marker(
+                [48.874091, 2.344527],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_e547be721202614be7a13b1ec8e6c872 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_66cff1ac7ac388057f872a8fa9bd9caa = $(`&lt;div id=&quot;html_66cff1ac7ac388057f872a8fa9bd9caa&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Les Enfants du Paradis&lt;/b&gt;&lt;br&gt;Adresse: 34 rue Richer&lt;br&gt;Pièce: La P&#x27;tite Débrouille&lt;br&gt;Prix moyen: 20.5 €&lt;/div&gt;`)[0];
+                popup_e547be721202614be7a13b1ec8e6c872.setContent(html_66cff1ac7ac388057f872a8fa9bd9caa);
+            
+        
+
+        marker_4f86b38a627b40d2286c1134988b1db1.bindPopup(popup_e547be721202614be7a13b1ec8e6c872)
+        ;
+
+        
+    
+    
+            var marker_99a7fb09cc93ff8454fe09803e3a9d38 = L.marker(
+                [48.887636, 2.337265],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_8025c0f826078b2d73b1ee445680f422 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_64dcf7034e6a65809601ce9700b9bb31 = $(`&lt;div id=&quot;html_64dcf7034e6a65809601ce9700b9bb31&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Lepic&lt;/b&gt;&lt;br&gt;Adresse: 1 avenue Junot&lt;br&gt;Pièce: VIRIL(E·S)&lt;br&gt;Prix moyen: 33.0 €&lt;/div&gt;`)[0];
+                popup_8025c0f826078b2d73b1ee445680f422.setContent(html_64dcf7034e6a65809601ce9700b9bb31);
+            
+        
+
+        marker_99a7fb09cc93ff8454fe09803e3a9d38.bindPopup(popup_8025c0f826078b2d73b1ee445680f422)
+        ;
+
+        
+    
+    
+            var marker_620ecc5900f9577fc0723895b71c1949 = L.marker(
+                [48.843728, 2.324991],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_ea9e54d6a5d89b27e62126acb7ef1c81 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_9f45ae6f297885ee7593eace498c496f = $(`&lt;div id=&quot;html_9f45ae6f297885ee7593eace498c496f&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre de Poche-Montparnasse&lt;/b&gt;&lt;br&gt;Adresse: 75 boulevard du Montparnasse&lt;br&gt;Pièce: S&#x27;abandonner à vivre&lt;br&gt;Prix moyen: 24.0 €&lt;/div&gt;`)[0];
+                popup_ea9e54d6a5d89b27e62126acb7ef1c81.setContent(html_9f45ae6f297885ee7593eace498c496f);
+            
+        
+
+        marker_620ecc5900f9577fc0723895b71c1949.bindPopup(popup_ea9e54d6a5d89b27e62126acb7ef1c81)
+        ;
+
+        
+    
+    
+            var marker_85d88e228a84a2b427dc2856b2e4d5c3 = L.marker(
+                [48.884747, 2.321188],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_f43e89eb7ce2c4299471eae7142be279 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_728969818d1b534495a0e59ea24258ab = $(`&lt;div id=&quot;html_728969818d1b534495a0e59ea24258ab&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Studio Hébertot&lt;/b&gt;&lt;br&gt;Adresse: 78 bis bd des Batignolles&lt;br&gt;Pièce: Le Bateau pour Lipaïa&lt;br&gt;Prix moyen: 22.0 €&lt;/div&gt;`)[0];
+                popup_f43e89eb7ce2c4299471eae7142be279.setContent(html_728969818d1b534495a0e59ea24258ab);
+            
+        
+
+        marker_85d88e228a84a2b427dc2856b2e4d5c3.bindPopup(popup_f43e89eb7ce2c4299471eae7142be279)
+        ;
+
+        
+    
+    
+            var marker_1a1a87d5a75421236afe1baa5eb3f78a = L.marker(
+                [48.884256, 2.331609],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_f268e488d602491b45d43fc37024823d = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_8b71814cf54a05617d466f811c2eb33b = $(`&lt;div id=&quot;html_8b71814cf54a05617d466f811c2eb33b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre des Deux Ânes&lt;/b&gt;&lt;br&gt;Adresse: 100 boulevard de Clichy&lt;br&gt;Pièce: De Gaulle est de retour&lt;br&gt;Prix moyen: 27.5 €&lt;/div&gt;`)[0];
+                popup_f268e488d602491b45d43fc37024823d.setContent(html_8b71814cf54a05617d466f811c2eb33b);
+            
+        
+
+        marker_1a1a87d5a75421236afe1baa5eb3f78a.bindPopup(popup_f268e488d602491b45d43fc37024823d)
+        ;
+
+        
+    
+    
+            var marker_8786f81230c5a24e0e7a26826da59607 = L.marker(
+                [48.859764, 2.353086],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_78147d25f20190ba6bb2ca274b32bbb0 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_16374fe87a2c65c57af2d8f2a60fccd3 = $(`&lt;div id=&quot;html_16374fe87a2c65c57af2d8f2a60fccd3&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre L&#x27;Essaïon&lt;/b&gt;&lt;br&gt;Adresse: 6 rue Pierre-au-Lard&lt;br&gt;Pièce: Madame Marguerite&lt;br&gt;Prix moyen: 19.5 €&lt;/div&gt;`)[0];
+                popup_78147d25f20190ba6bb2ca274b32bbb0.setContent(html_16374fe87a2c65c57af2d8f2a60fccd3);
+            
+        
+
+        marker_8786f81230c5a24e0e7a26826da59607.bindPopup(popup_78147d25f20190ba6bb2ca274b32bbb0)
+        ;
+
+        
+    
+    
+            var marker_8d58c03ce6f544f93c3e5880734c2d8e = L.marker(
+                [48.861536, 2.374718],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_325f82520f1f1e8f9d749c16618e5214 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_3647dfd8863cfc1479cf5b3f5c241ead = $(`&lt;div id=&quot;html_3647dfd8863cfc1479cf5b3f5c241ead&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;À la Folie Théâtre&lt;/b&gt;&lt;br&gt;Adresse: 6 rue de la Folie-Méricourt&lt;br&gt;Pièce: Colette, l’incorrigible… besoin d’écrire&lt;br&gt;Prix moyen: 21.0 €&lt;/div&gt;`)[0];
+                popup_325f82520f1f1e8f9d749c16618e5214.setContent(html_3647dfd8863cfc1479cf5b3f5c241ead);
+            
+        
+
+        marker_8d58c03ce6f544f93c3e5880734c2d8e.bindPopup(popup_325f82520f1f1e8f9d749c16618e5214)
+        ;
+
+        
+    
+    
+            var marker_bf70038655bc993de45123aec879db0c = L.marker(
+                [48.853412, 2.364236],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_c515d9bdbcfd12ec9e2cbc0cb0bce6a1 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_482065f6b0759d4bd29c6989dd9e24c1 = $(`&lt;div id=&quot;html_482065f6b0759d4bd29c6989dd9e24c1&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Espace Marais&lt;/b&gt;&lt;br&gt;Adresse: 22 rue Beautreillis&lt;br&gt;Pièce: Le Mariage de Figaro&lt;br&gt;Prix moyen: 25.0 €&lt;/div&gt;`)[0];
+                popup_c515d9bdbcfd12ec9e2cbc0cb0bce6a1.setContent(html_482065f6b0759d4bd29c6989dd9e24c1);
+            
+        
+
+        marker_bf70038655bc993de45123aec879db0c.bindPopup(popup_c515d9bdbcfd12ec9e2cbc0cb0bce6a1)
+        ;
+
+        
+    
+    
+            var marker_56b54b78971776af23b7ea033504d8fa = L.marker(
+                [48.840563, 2.322325],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_def61c14ba78fdee69b5efe200b82c0e = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_b7d48498543be0f448639c57b1fd472d = $(`&lt;div id=&quot;html_b7d48498543be0f448639c57b1fd472d&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Guichet-Montparnasse&lt;/b&gt;&lt;br&gt;Adresse: 15 rue du Maine&lt;br&gt;Pièce: N’importe où hors du monde&lt;br&gt;Prix moyen: 24.0 €&lt;/div&gt;`)[0];
+                popup_def61c14ba78fdee69b5efe200b82c0e.setContent(html_b7d48498543be0f448639c57b1fd472d);
+            
+        
+
+        marker_56b54b78971776af23b7ea033504d8fa.bindPopup(popup_def61c14ba78fdee69b5efe200b82c0e)
+        ;
+
+        
+    
+    
+            var marker_631094b7559da3730ddcc5abae1eacb9 = L.marker(
+                [48.885938, 2.393208],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_cdfd9202c0d048966511fcfeeea9df03 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_dff0efec7d3b40557c4fb1232881ec77 = $(`&lt;div id=&quot;html_dff0efec7d3b40557c4fb1232881ec77&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Darius Milhaud&lt;/b&gt;&lt;br&gt;Adresse: 80 allée Darius-Milhaud&lt;br&gt;Pièce: Le Journal d’une femme de chambre&lt;br&gt;Prix moyen: 14.0 €&lt;/div&gt;`)[0];
+                popup_cdfd9202c0d048966511fcfeeea9df03.setContent(html_dff0efec7d3b40557c4fb1232881ec77);
+            
+        
+
+        marker_631094b7559da3730ddcc5abae1eacb9.bindPopup(popup_cdfd9202c0d048966511fcfeeea9df03)
+        ;
+
+        
+    
+    
+            var marker_d0cbaf9ed7e71ed673c9b8c44ef2d96b = L.marker(
+                [48.890751, 2.340416],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_2654621d6ec5c97ebbd149d4d30495ec = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_94f48e4d1b1047abfeb22be5d522d9d4 = $(`&lt;div id=&quot;html_94f48e4d1b1047abfeb22be5d522d9d4&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Le Funambule Montmartre&lt;/b&gt;&lt;br&gt;Adresse: 53 rue des Saules&lt;br&gt;Pièce: Inscape Game&lt;br&gt;Prix moyen: 22.0 €&lt;/div&gt;`)[0];
+                popup_2654621d6ec5c97ebbd149d4d30495ec.setContent(html_94f48e4d1b1047abfeb22be5d522d9d4);
+            
+        
+
+        marker_d0cbaf9ed7e71ed673c9b8c44ef2d96b.bindPopup(popup_2654621d6ec5c97ebbd149d4d30495ec)
+        ;
+
+        
+    
+    
+            var marker_8a69d10601bdd6d3872793a408d9b8a3 = L.marker(
+                [48.859764, 2.353086],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_646f6d8b413b7b44aaf2569b07440da4 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_b48a69937c2f2b0f0aed539ff10116ca = $(`&lt;div id=&quot;html_b48a69937c2f2b0f0aed539ff10116ca&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre L&#x27;Essaïon&lt;/b&gt;&lt;br&gt;Adresse: 6 rue Pierre-au-Lard&lt;br&gt;Pièce: Radicale&lt;br&gt;Prix moyen: 20.5 €&lt;/div&gt;`)[0];
+                popup_646f6d8b413b7b44aaf2569b07440da4.setContent(html_b48a69937c2f2b0f0aed539ff10116ca);
+            
+        
+
+        marker_8a69d10601bdd6d3872793a408d9b8a3.bindPopup(popup_646f6d8b413b7b44aaf2569b07440da4)
+        ;
+
+        
+    
+    
+            var marker_73fa8d1d28f85fb4865a1604fd8450e2 = L.marker(
+                [48.859764, 2.353086],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_5ae1a5c0cdd1371f6cbbf9da2d8f98ac = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_df2d8ec9541ffd7b550a37767a85c47b = $(`&lt;div id=&quot;html_df2d8ec9541ffd7b550a37767a85c47b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre L&#x27;Essaïon&lt;/b&gt;&lt;br&gt;Adresse: 6 rue Pierre-au-Lard&lt;br&gt;Pièce: Il faut qu&#x27;une porte soit ouverte ou fermée&lt;br&gt;Prix moyen: 20.5 €&lt;/div&gt;`)[0];
+                popup_5ae1a5c0cdd1371f6cbbf9da2d8f98ac.setContent(html_df2d8ec9541ffd7b550a37767a85c47b);
+            
+        
+
+        marker_73fa8d1d28f85fb4865a1604fd8450e2.bindPopup(popup_5ae1a5c0cdd1371f6cbbf9da2d8f98ac)
+        ;
+
+        
+    
+    
+            var marker_1404608366036f916564281f5e768da2 = L.marker(
+                [48.885938, 2.393208],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_549fc8d767fe5a7ccfc2a5eb3aaa726f = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_6d331e322dd3bdbdecdd2e413a7358af = $(`&lt;div id=&quot;html_6d331e322dd3bdbdecdd2e413a7358af&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Darius Milhaud&lt;/b&gt;&lt;br&gt;Adresse: 80 allée Darius-Milhaud&lt;br&gt;Pièce: Montée aux calvaires&lt;br&gt;Prix moyen: 14.0 €&lt;/div&gt;`)[0];
+                popup_549fc8d767fe5a7ccfc2a5eb3aaa726f.setContent(html_6d331e322dd3bdbdecdd2e413a7358af);
+            
+        
+
+        marker_1404608366036f916564281f5e768da2.bindPopup(popup_549fc8d767fe5a7ccfc2a5eb3aaa726f)
+        ;
+
+        
+    
+    
+            var marker_fb6356f2162dcd73fe21e2c896f30d13 = L.marker(
+                [48.844567, 2.339549],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_deb2722c447645faa42fb1edd0153f6a = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_20e2a6d138985242ec7ea88c47535b71 = $(`&lt;div id=&quot;html_20e2a6d138985242ec7ea88c47535b71&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Comédie Saint-Michel&lt;/b&gt;&lt;br&gt;Adresse: 95 bd Saint-Michel&lt;br&gt;Pièce: Claudel en partage&lt;br&gt;Prix moyen: 31.0 €&lt;/div&gt;`)[0];
+                popup_deb2722c447645faa42fb1edd0153f6a.setContent(html_20e2a6d138985242ec7ea88c47535b71);
+            
+        
+
+        marker_fb6356f2162dcd73fe21e2c896f30d13.bindPopup(popup_deb2722c447645faa42fb1edd0153f6a)
+        ;
+
+        
+    
+    
+            var marker_8a7c7e3505b8104fb728f065c51a437b = L.marker(
+                [48.85874, 2.357432],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_90947f2843ed0f275c8ea1fca456860c = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_bf080384323660285b8fe9dc253ef6b3 = $(`&lt;div id=&quot;html_bf080384323660285b8fe9dc253ef6b3&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre des Blancs Manteaux&lt;/b&gt;&lt;br&gt;Adresse: 15 rue des Blancs Manteaux&lt;br&gt;Pièce: Quinder extra&lt;br&gt;Prix moyen: 43.5 €&lt;/div&gt;`)[0];
+                popup_90947f2843ed0f275c8ea1fca456860c.setContent(html_bf080384323660285b8fe9dc253ef6b3);
+            
+        
+
+        marker_8a7c7e3505b8104fb728f065c51a437b.bindPopup(popup_90947f2843ed0f275c8ea1fca456860c)
+        ;
+
+        
+    
+    
+            var marker_7f159f04804ab4cc39cfcb42bbbe209e = L.marker(
+                [48.853412, 2.364236],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_3bbb72f84a89a0e7ac3bd083e297ed90 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_6c0a9746e2c96d4182af99bb6af0f6b6 = $(`&lt;div id=&quot;html_6c0a9746e2c96d4182af99bb6af0f6b6&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Espace Marais&lt;/b&gt;&lt;br&gt;Adresse: 22 rue Beautreillis&lt;br&gt;Pièce: Le Joueur d&#x27;échecs&lt;br&gt;Prix moyen: 25.0 €&lt;/div&gt;`)[0];
+                popup_3bbb72f84a89a0e7ac3bd083e297ed90.setContent(html_6c0a9746e2c96d4182af99bb6af0f6b6);
+            
+        
+
+        marker_7f159f04804ab4cc39cfcb42bbbe209e.bindPopup(popup_3bbb72f84a89a0e7ac3bd083e297ed90)
+        ;
+
+        
+    
+    
+            var marker_daff465db30c0fe4cef2fc11a2ed24aa = L.marker(
+                [48.845494, 2.343017],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_51369350239d821a5c97a1eea404ba57 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_5df5fffbfcc6d55bdd15920901b381b6 = $(`&lt;div id=&quot;html_5df5fffbfcc6d55bdd15920901b381b6&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Au Port du Salut&lt;/b&gt;&lt;br&gt;Adresse: 163 rue St-Jacques&lt;br&gt;Pièce: Éric Chartier&lt;br&gt;Prix moyen: unknown €&lt;/div&gt;`)[0];
+                popup_51369350239d821a5c97a1eea404ba57.setContent(html_5df5fffbfcc6d55bdd15920901b381b6);
+            
+        
+
+        marker_daff465db30c0fe4cef2fc11a2ed24aa.bindPopup(popup_51369350239d821a5c97a1eea404ba57)
+        ;
+
+        
+    
+    
+            var marker_3f9396849a41b20f69ec45b1a7f6dd41 = L.marker(
+                [48.859764, 2.353086],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_ab2184e7ca5d79c85b77342698dccf6f = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_464514e40af147cfd8da8c14d22e8aad = $(`&lt;div id=&quot;html_464514e40af147cfd8da8c14d22e8aad&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre L&#x27;Essaïon&lt;/b&gt;&lt;br&gt;Adresse: 6 rue Pierre-au-Lard&lt;br&gt;Pièce: Racine par la racine&lt;br&gt;Prix moyen: 22.0 €&lt;/div&gt;`)[0];
+                popup_ab2184e7ca5d79c85b77342698dccf6f.setContent(html_464514e40af147cfd8da8c14d22e8aad);
+            
+        
+
+        marker_3f9396849a41b20f69ec45b1a7f6dd41.bindPopup(popup_ab2184e7ca5d79c85b77342698dccf6f)
+        ;
+
+        
+    
+    
+            var marker_a26f37b0713a109ed88233b7733a29e9 = L.marker(
+                [48.861536, 2.374718],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_bf8eed2a10948243fb5128e0d3674582 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_32633dfde6093b501015bd487953e31a = $(`&lt;div id=&quot;html_32633dfde6093b501015bd487953e31a&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;À la Folie Théâtre&lt;/b&gt;&lt;br&gt;Adresse: 6 rue de la Folie-Méricourt&lt;br&gt;Pièce: Stigmates de la gloire&lt;br&gt;Prix moyen: 25.0 €&lt;/div&gt;`)[0];
+                popup_bf8eed2a10948243fb5128e0d3674582.setContent(html_32633dfde6093b501015bd487953e31a);
+            
+        
+
+        marker_a26f37b0713a109ed88233b7733a29e9.bindPopup(popup_bf8eed2a10948243fb5128e0d3674582)
+        ;
+
+        
+    
+    
+            var marker_34c93d29d12b4ef87e2f5d9f39159a04 = L.marker(
+                [48.872387, 2.343063],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_8913e3816e46bcb6f86997fb9f72c5bc = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_f3c62c77141961d1d2e91936a72c0109 = $(`&lt;div id=&quot;html_f3c62c77141961d1d2e91936a72c0109&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre du Nord-Ouest&lt;/b&gt;&lt;br&gt;Adresse: 13 rue du faubourg Montmartre&lt;br&gt;Pièce: Music-Hall&lt;br&gt;Prix moyen: unknown €&lt;/div&gt;`)[0];
+                popup_8913e3816e46bcb6f86997fb9f72c5bc.setContent(html_f3c62c77141961d1d2e91936a72c0109);
+            
+        
+
+        marker_34c93d29d12b4ef87e2f5d9f39159a04.bindPopup(popup_8913e3816e46bcb6f86997fb9f72c5bc)
+        ;
+
+        
+    
+    
+            var marker_1734f401b73b3d80106d9cad46b6d1b6 = L.marker(
+                [48.855237, 2.339104],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_dff56fcd67538b0e9c28885008e4d179 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_4186cceca55fdae0e22dcb92be52920b = $(`&lt;div id=&quot;html_4186cceca55fdae0e22dcb92be52920b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre de Nesle&lt;/b&gt;&lt;br&gt;Adresse: 8 rue Nesle&lt;br&gt;Pièce: Rendez-vous à l&#x27;Élysée&lt;br&gt;Prix moyen: 16.0 €&lt;/div&gt;`)[0];
+                popup_dff56fcd67538b0e9c28885008e4d179.setContent(html_4186cceca55fdae0e22dcb92be52920b);
+            
+        
+
+        marker_1734f401b73b3d80106d9cad46b6d1b6.bindPopup(popup_dff56fcd67538b0e9c28885008e4d179)
+        ;
+
+        
+    
+    
+            var marker_e05649e5d7a4e68248d2f4bdd3f3ca36 = L.marker(
+                [48.844567, 2.339549],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_3effca525aa01e74c5c3b5fb25060f4a = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_139ffd557a02d34ba7fb33594bad1f2d = $(`&lt;div id=&quot;html_139ffd557a02d34ba7fb33594bad1f2d&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Comédie Saint-Michel&lt;/b&gt;&lt;br&gt;Adresse: 95 bd Saint-Michel&lt;br&gt;Pièce: L&#x27;Abus d&#x27;amour&lt;br&gt;Prix moyen: 25.5 €&lt;/div&gt;`)[0];
+                popup_3effca525aa01e74c5c3b5fb25060f4a.setContent(html_139ffd557a02d34ba7fb33594bad1f2d);
+            
+        
+
+        marker_e05649e5d7a4e68248d2f4bdd3f3ca36.bindPopup(popup_3effca525aa01e74c5c3b5fb25060f4a)
+        ;
+
+        
+    
+    
+            var marker_2ef755fc01394c9ff826fd21b6d92d51 = L.marker(
+                [48.862856, 2.382571],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_c49007cf5d4d2411d4fa09584124e49f = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_7632224c688607a00413b410da5c64a3 = $(`&lt;div id=&quot;html_7632224c688607a00413b410da5c64a3&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Le Passage vers les Étoiles&lt;/b&gt;&lt;br&gt;Adresse: 17 cité Joly&lt;br&gt;Pièce: Love Addict&lt;br&gt;Prix moyen: 21.5 €&lt;/div&gt;`)[0];
+                popup_c49007cf5d4d2411d4fa09584124e49f.setContent(html_7632224c688607a00413b410da5c64a3);
+            
+        
+
+        marker_2ef755fc01394c9ff826fd21b6d92d51.bindPopup(popup_c49007cf5d4d2411d4fa09584124e49f)
+        ;
+
+        
+    
+    
+            var marker_6fb0895128d59336d31077cdf7a6121b = L.marker(
+                [48.844567, 2.339549],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_df46160156b04733334d5636741cee00 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_ff7b741cff7502ab1befd5ab1c603663 = $(`&lt;div id=&quot;html_ff7b741cff7502ab1befd5ab1c603663&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Comédie Saint-Michel&lt;/b&gt;&lt;br&gt;Adresse: 95 bd Saint-Michel&lt;br&gt;Pièce: Cache cache nerveux&lt;br&gt;Prix moyen: 25.5 €&lt;/div&gt;`)[0];
+                popup_df46160156b04733334d5636741cee00.setContent(html_ff7b741cff7502ab1befd5ab1c603663);
+            
+        
+
+        marker_6fb0895128d59336d31077cdf7a6121b.bindPopup(popup_df46160156b04733334d5636741cee00)
+        ;
+
+        
+    
+    
+            var marker_e4cf7447eae3bb33314295f35d0a77eb = L.marker(
+                [48.874091, 2.344527],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_9e695c9fe347fa74f910e03845118b56 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_4a93bfa87d7e815e76cbdd6c8992ea4b = $(`&lt;div id=&quot;html_4a93bfa87d7e815e76cbdd6c8992ea4b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Les Enfants du Paradis&lt;/b&gt;&lt;br&gt;Adresse: 34 rue Richer&lt;br&gt;Pièce: Les Sphères ennemies&lt;br&gt;Prix moyen: 23.0 €&lt;/div&gt;`)[0];
+                popup_9e695c9fe347fa74f910e03845118b56.setContent(html_4a93bfa87d7e815e76cbdd6c8992ea4b);
+            
+        
+
+        marker_e4cf7447eae3bb33314295f35d0a77eb.bindPopup(popup_9e695c9fe347fa74f910e03845118b56)
+        ;
+
+        
+    
+    
+            var marker_105c0fddc988cdd1706712b142c5d24e = L.marker(
+                [48.855237, 2.339104],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_e1984f0ee8787a5d9998fdccad829991 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_ebbf24b5efd773a1a44166e0db5fd05a = $(`&lt;div id=&quot;html_ebbf24b5efd773a1a44166e0db5fd05a&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre de Nesle&lt;/b&gt;&lt;br&gt;Adresse: 8 rue Nesle&lt;br&gt;Pièce: Oh ! Les Beaux Jours&lt;br&gt;Prix moyen: 19.0 €&lt;/div&gt;`)[0];
+                popup_e1984f0ee8787a5d9998fdccad829991.setContent(html_ebbf24b5efd773a1a44166e0db5fd05a);
+            
+        
+
+        marker_105c0fddc988cdd1706712b142c5d24e.bindPopup(popup_e1984f0ee8787a5d9998fdccad829991)
+        ;
+
+        
+    
+    
+            var marker_ccae1b335da27006bf63b7cbde760520 = L.marker(
+                [48.873287, 2.32546],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_31224182bee931eed13144bbc176c048 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_aed17e8165c2a69ebb158fd740c941e9 = $(`&lt;div id=&quot;html_aed17e8165c2a69ebb158fd740c941e9&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Michel&lt;/b&gt;&lt;br&gt;Adresse: 38 rue des Mathurins&lt;br&gt;Pièce: La Belle Histoire de Coline Serreau&lt;br&gt;Prix moyen: 25.5 €&lt;/div&gt;`)[0];
+                popup_31224182bee931eed13144bbc176c048.setContent(html_aed17e8165c2a69ebb158fd740c941e9);
+            
+        
+
+        marker_ccae1b335da27006bf63b7cbde760520.bindPopup(popup_31224182bee931eed13144bbc176c048)
+        ;
+
+        
+    
+    
+            var marker_88152fee48884c800dbeb53ef613c4a0 = L.marker(
+                [48.885938, 2.393208],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_de35df01df1ad1e6e1bf3251138943b4 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_3007bb2f5979c7efb49915d788d29c25 = $(`&lt;div id=&quot;html_3007bb2f5979c7efb49915d788d29c25&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Darius Milhaud&lt;/b&gt;&lt;br&gt;Adresse: 80 allée Darius-Milhaud&lt;br&gt;Pièce: George Dandin ou le mari confondu&lt;br&gt;Prix moyen: 14.0 €&lt;/div&gt;`)[0];
+                popup_de35df01df1ad1e6e1bf3251138943b4.setContent(html_3007bb2f5979c7efb49915d788d29c25);
+            
+        
+
+        marker_88152fee48884c800dbeb53ef613c4a0.bindPopup(popup_de35df01df1ad1e6e1bf3251138943b4)
+        ;
+
+        
+    
+    
+            var marker_e6fc337ef7b4d8d96a99a888907a6407 = L.marker(
+                [48.885938, 2.393208],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_086a9b43f426dd91c9365c17903a3b54 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_5781272068eb25adf60aecba9baeec08 = $(`&lt;div id=&quot;html_5781272068eb25adf60aecba9baeec08&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Darius Milhaud&lt;/b&gt;&lt;br&gt;Adresse: 80 allée Darius-Milhaud&lt;br&gt;Pièce: Amok&lt;br&gt;Prix moyen: 16.5 €&lt;/div&gt;`)[0];
+                popup_086a9b43f426dd91c9365c17903a3b54.setContent(html_5781272068eb25adf60aecba9baeec08);
+            
+        
+
+        marker_e6fc337ef7b4d8d96a99a888907a6407.bindPopup(popup_086a9b43f426dd91c9365c17903a3b54)
+        ;
+
+        
+    
+    
+            var marker_d196d3fc52fde6a8865f922805c6bed4 = L.marker(
+                [48.871529, 2.368148],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_3566ca4e7a6932fd7c119dfe1486d000 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_d96b648798f30beef24c19a5bc22884e = $(`&lt;div id=&quot;html_d96b648798f30beef24c19a5bc22884e&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Laurette Théâtre&lt;/b&gt;&lt;br&gt;Adresse: 36 rue Bichat&lt;br&gt;Pièce: Huis Clos&lt;br&gt;Prix moyen: 20.0 €&lt;/div&gt;`)[0];
+                popup_3566ca4e7a6932fd7c119dfe1486d000.setContent(html_d96b648798f30beef24c19a5bc22884e);
+            
+        
+
+        marker_d196d3fc52fde6a8865f922805c6bed4.bindPopup(popup_3566ca4e7a6932fd7c119dfe1486d000)
+        ;
+
+        
+    
+    
+            var marker_e4a7e7011c0f8d9cba5469429092c2ce = L.marker(
+                [48.890751, 2.340416],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_5d921c747d21dfdf8fd9bd54703ac265 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_52556ce8b6312c91f739c9cd7b5d3ef9 = $(`&lt;div id=&quot;html_52556ce8b6312c91f739c9cd7b5d3ef9&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Le Funambule Montmartre&lt;/b&gt;&lt;br&gt;Adresse: 53 rue des Saules&lt;br&gt;Pièce: Wall Street malgré moi&lt;br&gt;Prix moyen: 22.0 €&lt;/div&gt;`)[0];
+                popup_5d921c747d21dfdf8fd9bd54703ac265.setContent(html_52556ce8b6312c91f739c9cd7b5d3ef9);
+            
+        
+
+        marker_e4a7e7011c0f8d9cba5469429092c2ce.bindPopup(popup_5d921c747d21dfdf8fd9bd54703ac265)
+        ;
+
+        
+    
+    
+            var marker_a4dd4db459f67e8c3cfc69ee6bb5cef8 = L.marker(
+                [48.887245, 2.334537],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_7554fbf588ce50e29698a600ebd12d9c = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_dbd7c135195ccd26e03a0b1d05605a15 = $(`&lt;div id=&quot;html_dbd7c135195ccd26e03a0b1d05605a15&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Montmartre Galabru&lt;/b&gt;&lt;br&gt;Adresse: 4 rue de l&#x27;Armée d&#x27;Orient&lt;br&gt;Pièce: Lights on Chaplin&lt;br&gt;Prix moyen: 18.5 €&lt;/div&gt;`)[0];
+                popup_7554fbf588ce50e29698a600ebd12d9c.setContent(html_dbd7c135195ccd26e03a0b1d05605a15);
+            
+        
+
+        marker_a4dd4db459f67e8c3cfc69ee6bb5cef8.bindPopup(popup_7554fbf588ce50e29698a600ebd12d9c)
+        ;
+
+        
+    
+    
+            var marker_dc2f5327c39b2f79f4faf8f0cc2e05f3 = L.marker(
+                [48.85874, 2.357432],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_ce19a56ac4b1138942f60e76582b965a = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_b7e4074d6ea7233b50deccb01575fdbb = $(`&lt;div id=&quot;html_b7e4074d6ea7233b50deccb01575fdbb&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre des Blancs Manteaux&lt;/b&gt;&lt;br&gt;Adresse: 15 rue des Blancs Manteaux&lt;br&gt;Pièce: Les parents viennent de Mars, les enfants du McDo ! Chez Maman&lt;br&gt;Prix moyen: 47.5 €&lt;/div&gt;`)[0];
+                popup_ce19a56ac4b1138942f60e76582b965a.setContent(html_b7e4074d6ea7233b50deccb01575fdbb);
+            
+        
+
+        marker_dc2f5327c39b2f79f4faf8f0cc2e05f3.bindPopup(popup_ce19a56ac4b1138942f60e76582b965a)
+        ;
+
+        
+    
+    
+            var marker_43a3c396b3d76b69370aa8d73dd6b818 = L.marker(
+                [48.854572, 2.277741],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_c6bdf52ff5ca92a551d221184a49e663 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_43005a3e4b1e8aa9467eefc42d18373f = $(`&lt;div id=&quot;html_43005a3e4b1e8aa9467eefc42d18373f&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Ranelagh&lt;/b&gt;&lt;br&gt;Adresse: 5 rue des Vignes&lt;br&gt;Pièce: Le Mariage de Figaro&lt;br&gt;Prix moyen: 28.5 €&lt;/div&gt;`)[0];
+                popup_c6bdf52ff5ca92a551d221184a49e663.setContent(html_43005a3e4b1e8aa9467eefc42d18373f);
+            
+        
+
+        marker_43a3c396b3d76b69370aa8d73dd6b818.bindPopup(popup_c6bdf52ff5ca92a551d221184a49e663)
+        ;
+
+        
+    
+    
+            var marker_4b20b909ed9c880b06aee838138c61b3 = L.marker(
+                [48.844462, 2.348842],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_6c1695a0c26582dabef4928014436c76 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_c19950359bee557958c82d46493f1297 = $(`&lt;div id=&quot;html_c19950359bee557958c82d46493f1297&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre de la Contrescarpe&lt;/b&gt;&lt;br&gt;Adresse: 5 rue Blainville&lt;br&gt;Pièce: Leçons de philosophie drôles et très sérieuses&lt;br&gt;Prix moyen: 17.0 €&lt;/div&gt;`)[0];
+                popup_6c1695a0c26582dabef4928014436c76.setContent(html_c19950359bee557958c82d46493f1297);
+            
+        
+
+        marker_4b20b909ed9c880b06aee838138c61b3.bindPopup(popup_6c1695a0c26582dabef4928014436c76)
+        ;
+
+        
+    
+    
+            var marker_4bdf2ce029e1c5725297f692f73b612a = L.marker(
+                [48.844567, 2.339549],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_b56e1f3bd17aacf25388c1323a357102 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_4e46a8ac4479cf06eb571d8d98a28869 = $(`&lt;div id=&quot;html_4e46a8ac4479cf06eb571d8d98a28869&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Comédie Saint-Michel&lt;/b&gt;&lt;br&gt;Adresse: 95 bd Saint-Michel&lt;br&gt;Pièce: Célimène et le Cardinal&lt;br&gt;Prix moyen: 28.5 €&lt;/div&gt;`)[0];
+                popup_b56e1f3bd17aacf25388c1323a357102.setContent(html_4e46a8ac4479cf06eb571d8d98a28869);
+            
+        
+
+        marker_4bdf2ce029e1c5725297f692f73b612a.bindPopup(popup_b56e1f3bd17aacf25388c1323a357102)
+        ;
+
+        
+    
+    
+            var marker_b0eb0a36ab8ec6f6910f1b6e98ac193d = L.marker(
+                [48.865018, 2.348353],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_9bf1dd8acceb54db89512cab8720148c = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_c1a63890588de25fa3a884f473982099 = $(`&lt;div id=&quot;html_c1a63890588de25fa3a884f473982099&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Mélo d&#x27;Amélie&lt;/b&gt;&lt;br&gt;Adresse: 4 rue Marie-Stuart&lt;br&gt;Pièce: Antigone II, Métro Charonne le 8 février 1962&lt;br&gt;Prix moyen: 20.0 €&lt;/div&gt;`)[0];
+                popup_9bf1dd8acceb54db89512cab8720148c.setContent(html_c1a63890588de25fa3a884f473982099);
+            
+        
+
+        marker_b0eb0a36ab8ec6f6910f1b6e98ac193d.bindPopup(popup_9bf1dd8acceb54db89512cab8720148c)
+        ;
+
+        
+    
+    
+            var marker_f628d11d36c6dedf8e44f6a86bca3b2d = L.marker(
+                [48.859764, 2.353086],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_77ff71a5edd8d3c2f7040501f002577f = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_b9e1f1a4146af02c593f956b015331f8 = $(`&lt;div id=&quot;html_b9e1f1a4146af02c593f956b015331f8&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre L&#x27;Essaïon&lt;/b&gt;&lt;br&gt;Adresse: 6 rue Pierre-au-Lard&lt;br&gt;Pièce: Un homme qui dort&lt;br&gt;Prix moyen: 22.0 €&lt;/div&gt;`)[0];
+                popup_77ff71a5edd8d3c2f7040501f002577f.setContent(html_b9e1f1a4146af02c593f956b015331f8);
+            
+        
+
+        marker_f628d11d36c6dedf8e44f6a86bca3b2d.bindPopup(popup_77ff71a5edd8d3c2f7040501f002577f)
+        ;
+
+        
+    
+    
+            var marker_612f8180b0ee6d2089d290f8017b4fd4 = L.marker(
+                [48.890751, 2.340416],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_9af9bae1a8d6c2e525d01a099439ce0a = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_0e5e481eb48d35b90d501f497423e468 = $(`&lt;div id=&quot;html_0e5e481eb48d35b90d501f497423e468&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Le Funambule Montmartre&lt;/b&gt;&lt;br&gt;Adresse: 53 rue des Saules&lt;br&gt;Pièce: La Trajectoire des gamètes&lt;br&gt;Prix moyen: 22.0 €&lt;/div&gt;`)[0];
+                popup_9af9bae1a8d6c2e525d01a099439ce0a.setContent(html_0e5e481eb48d35b90d501f497423e468);
+            
+        
+
+        marker_612f8180b0ee6d2089d290f8017b4fd4.bindPopup(popup_9af9bae1a8d6c2e525d01a099439ce0a)
+        ;
+
+        
+    
+    
+            var marker_c0ab5c514d6c4c02f4220cdcf9c9ecbc = L.marker(
+                [48.85874, 2.357432],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_e8fc3a83ed28d58007cb79f364f9936d = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_d88fe8a27bb5b5f5e95a57dd4dbdc426 = $(`&lt;div id=&quot;html_d88fe8a27bb5b5f5e95a57dd4dbdc426&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre des Blancs Manteaux&lt;/b&gt;&lt;br&gt;Adresse: 15 rue des Blancs Manteaux&lt;br&gt;Pièce: Vous dansez mademoiselle ?&lt;br&gt;Prix moyen: 47.5 €&lt;/div&gt;`)[0];
+                popup_e8fc3a83ed28d58007cb79f364f9936d.setContent(html_d88fe8a27bb5b5f5e95a57dd4dbdc426);
+            
+        
+
+        marker_c0ab5c514d6c4c02f4220cdcf9c9ecbc.bindPopup(popup_e8fc3a83ed28d58007cb79f364f9936d)
+        ;
+
+        
+    
+    
+            var marker_3e6cd933945408528a7daaf15d2ca83e = L.marker(
+                [48.859764, 2.353086],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_22a0ff9fae55009bb3a1bf3e3c3dd9cb = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_f40ff7d80dc85e2738b87b68553d13dc = $(`&lt;div id=&quot;html_f40ff7d80dc85e2738b87b68553d13dc&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre L&#x27;Essaïon&lt;/b&gt;&lt;br&gt;Adresse: 6 rue Pierre-au-Lard&lt;br&gt;Pièce: Le Crédit&lt;br&gt;Prix moyen: 20.5 €&lt;/div&gt;`)[0];
+                popup_22a0ff9fae55009bb3a1bf3e3c3dd9cb.setContent(html_f40ff7d80dc85e2738b87b68553d13dc);
+            
+        
+
+        marker_3e6cd933945408528a7daaf15d2ca83e.bindPopup(popup_22a0ff9fae55009bb3a1bf3e3c3dd9cb)
+        ;
+
+        
+    
+    
+            var marker_fbc8485accb30c82f927b9b1b071d2e5 = L.marker(
+                [48.874212, 2.34436],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_7992e0fa7632ec5ce09060943e66b767 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_d5721f1a30767fd5437dbf9a56eda064 = $(`&lt;div id=&quot;html_d5721f1a30767fd5437dbf9a56eda064&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;La Divine Comédie&lt;/b&gt;&lt;br&gt;Adresse: 2 rue Saulnier&lt;br&gt;Pièce: Michaël Louchart : Un père à aimer&lt;br&gt;Prix moyen: 21.5 €&lt;/div&gt;`)[0];
+                popup_7992e0fa7632ec5ce09060943e66b767.setContent(html_d5721f1a30767fd5437dbf9a56eda064);
+            
+        
+
+        marker_fbc8485accb30c82f927b9b1b071d2e5.bindPopup(popup_7992e0fa7632ec5ce09060943e66b767)
+        ;
+
+        
+    
+    
+            var marker_f9d388fc4376fdb134d8349237246734 = L.marker(
+                [48.885938, 2.393208],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_a80995beddc2a062d6c20900c6a124d3 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_86612a832bd6cfdeeacfb1393d818560 = $(`&lt;div id=&quot;html_86612a832bd6cfdeeacfb1393d818560&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Darius Milhaud&lt;/b&gt;&lt;br&gt;Adresse: 80 allée Darius-Milhaud&lt;br&gt;Pièce: Un escalier pour la paix&lt;br&gt;Prix moyen: 14.0 €&lt;/div&gt;`)[0];
+                popup_a80995beddc2a062d6c20900c6a124d3.setContent(html_86612a832bd6cfdeeacfb1393d818560);
+            
+        
+
+        marker_f9d388fc4376fdb134d8349237246734.bindPopup(popup_a80995beddc2a062d6c20900c6a124d3)
+        ;
+
+        
+    
+    
+            var marker_9a2f575fd4cf98a4b1ec1c4bb9e30bcc = L.marker(
+                [48.89538, 2.351094],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_d33bf28ed018782bb3880b119ad296b4 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_94bb6f83afe89446e9d421cbe3453630 = $(`&lt;div id=&quot;html_94bb6f83afe89446e9d421cbe3453630&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Pixel&lt;/b&gt;&lt;br&gt;Adresse: 18 rue Championnet&lt;br&gt;Pièce: Thérapie&lt;br&gt;Prix moyen: unknown €&lt;/div&gt;`)[0];
+                popup_d33bf28ed018782bb3880b119ad296b4.setContent(html_94bb6f83afe89446e9d421cbe3453630);
+            
+        
+
+        marker_9a2f575fd4cf98a4b1ec1c4bb9e30bcc.bindPopup(popup_d33bf28ed018782bb3880b119ad296b4)
+        ;
+
+        
+    
+    
+            var marker_e68a2a9341080185f3214651c47b9653 = L.marker(
+                [48.885938, 2.393208],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_aab66adce03041ea343eb977526e303c = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_a62a47bbd1ac2220c459de226982fcc8 = $(`&lt;div id=&quot;html_a62a47bbd1ac2220c459de226982fcc8&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Darius Milhaud&lt;/b&gt;&lt;br&gt;Adresse: 80 allée Darius-Milhaud&lt;br&gt;Pièce: Les Doubles Vies de Sarah Bernhardt&lt;br&gt;Prix moyen: 14.0 €&lt;/div&gt;`)[0];
+                popup_aab66adce03041ea343eb977526e303c.setContent(html_a62a47bbd1ac2220c459de226982fcc8);
+            
+        
+
+        marker_e68a2a9341080185f3214651c47b9653.bindPopup(popup_aab66adce03041ea343eb977526e303c)
+        ;
+
+        
+    
+    
+            var marker_093453843fb2f270a2f74364f4e65618 = L.marker(
+                [48.844567, 2.339549],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_808b8365153801e87505d1186cd15f28 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_56e48611d793ab73e9378f35d0573141 = $(`&lt;div id=&quot;html_56e48611d793ab73e9378f35d0573141&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Comédie Saint-Michel&lt;/b&gt;&lt;br&gt;Adresse: 95 bd Saint-Michel&lt;br&gt;Pièce: La Fontaine à travers l&#x27;Histoire&lt;br&gt;Prix moyen: 25.5 €&lt;/div&gt;`)[0];
+                popup_808b8365153801e87505d1186cd15f28.setContent(html_56e48611d793ab73e9378f35d0573141);
+            
+        
+
+        marker_093453843fb2f270a2f74364f4e65618.bindPopup(popup_808b8365153801e87505d1186cd15f28)
+        ;
+
+        
+    
+    
+            var marker_35733a596df8c91e908658cc608fb451 = L.marker(
+                [48.859764, 2.353086],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_67d3e921272391ba17f671f58619bc7f = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_cdaa6c3919d4e4da4f22e9d00f9f572d = $(`&lt;div id=&quot;html_cdaa6c3919d4e4da4f22e9d00f9f572d&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre L&#x27;Essaïon&lt;/b&gt;&lt;br&gt;Adresse: 6 rue Pierre-au-Lard&lt;br&gt;Pièce: 19.5 :  Le dix-neuvième en cinq actes&lt;br&gt;Prix moyen: 20.5 €&lt;/div&gt;`)[0];
+                popup_67d3e921272391ba17f671f58619bc7f.setContent(html_cdaa6c3919d4e4da4f22e9d00f9f572d);
+            
+        
+
+        marker_35733a596df8c91e908658cc608fb451.bindPopup(popup_67d3e921272391ba17f671f58619bc7f)
+        ;
+
+        
+    
+    
+            var marker_1b13f1b72f1712b5413ed0493481642e = L.marker(
+                [48.89538, 2.351094],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_d4964b568532433c0357577c77b85e6a = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_f5b73874dd2596b207ef6d508d35a839 = $(`&lt;div id=&quot;html_f5b73874dd2596b207ef6d508d35a839&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Pixel&lt;/b&gt;&lt;br&gt;Adresse: 18 rue Championnet&lt;br&gt;Pièce: Éventails et Médisances&lt;br&gt;Prix moyen: unknown €&lt;/div&gt;`)[0];
+                popup_d4964b568532433c0357577c77b85e6a.setContent(html_f5b73874dd2596b207ef6d508d35a839);
+            
+        
+
+        marker_1b13f1b72f1712b5413ed0493481642e.bindPopup(popup_d4964b568532433c0357577c77b85e6a)
+        ;
+
+        
+    
+    
+            var marker_e8393eb5fe8f1b88c8522775a63fa9d9 = L.marker(
+                [48.885938, 2.393208],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_5426be4b7b6c167913f55c61f2b12160 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_3258656006711c988e600846f966543c = $(`&lt;div id=&quot;html_3258656006711c988e600846f966543c&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre Darius Milhaud&lt;/b&gt;&lt;br&gt;Adresse: 80 allée Darius-Milhaud&lt;br&gt;Pièce: Eva Peron&lt;br&gt;Prix moyen: 14.0 €&lt;/div&gt;`)[0];
+                popup_5426be4b7b6c167913f55c61f2b12160.setContent(html_3258656006711c988e600846f966543c);
+            
+        
+
+        marker_e8393eb5fe8f1b88c8522775a63fa9d9.bindPopup(popup_5426be4b7b6c167913f55c61f2b12160)
+        ;
+
+        
+    
+    
+            var marker_b978cd1a9f89b79ac7938ff730931fc7 = L.marker(
+                [48.872387, 2.343063],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_bb172246156ed59f82f660620f68df33 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_0bef26ab6a213c604c5425d8b536b129 = $(`&lt;div id=&quot;html_0bef26ab6a213c604c5425d8b536b129&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre du Nord-Ouest&lt;/b&gt;&lt;br&gt;Adresse: 13 rue du faubourg Montmartre&lt;br&gt;Pièce: Le Pain de ménage&lt;br&gt;Prix moyen: unknown €&lt;/div&gt;`)[0];
+                popup_bb172246156ed59f82f660620f68df33.setContent(html_0bef26ab6a213c604c5425d8b536b129);
+            
+        
+
+        marker_b978cd1a9f89b79ac7938ff730931fc7.bindPopup(popup_bb172246156ed59f82f660620f68df33)
+        ;
+
+        
+    
+    
+            var marker_e4abd53198cb4a952cd4c01f31de2226 = L.marker(
+                [48.888015, 2.382008],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_b32da97b5fa32b5d6034e43379dd12f2 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_fd84251efc8380509867967c08268757 = $(`&lt;div id=&quot;html_fd84251efc8380509867967c08268757&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre du Gouvernail&lt;/b&gt;&lt;br&gt;Adresse: 5 passage de Thionville&lt;br&gt;Pièce: Méchant.e&lt;br&gt;Prix moyen: unknown €&lt;/div&gt;`)[0];
+                popup_b32da97b5fa32b5d6034e43379dd12f2.setContent(html_fd84251efc8380509867967c08268757);
+            
+        
+
+        marker_e4abd53198cb4a952cd4c01f31de2226.bindPopup(popup_b32da97b5fa32b5d6034e43379dd12f2)
+        ;
+
+        
+    
+    
+            var marker_7374daa832acda4c48b3e896031e6c31 = L.marker(
+                [48.844567, 2.339549],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_63c47a35f61074c6ecde88c3d653017b = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_57db5875be62f33276c52f0e9100ae2b = $(`&lt;div id=&quot;html_57db5875be62f33276c52f0e9100ae2b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Comédie Saint-Michel&lt;/b&gt;&lt;br&gt;Adresse: 95 bd Saint-Michel&lt;br&gt;Pièce: Ana, une jeune femme au camp&lt;br&gt;Prix moyen: 28.5 €&lt;/div&gt;`)[0];
+                popup_63c47a35f61074c6ecde88c3d653017b.setContent(html_57db5875be62f33276c52f0e9100ae2b);
+            
+        
+
+        marker_7374daa832acda4c48b3e896031e6c31.bindPopup(popup_63c47a35f61074c6ecde88c3d653017b)
+        ;
+
+        
+    
+    
+            var marker_6cdc52f5b920c494109337adb23f98e7 = L.marker(
+                [48.859764, 2.353086],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_34368aef6f3d03d6aa85eeeece810d55 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_86829c350cfe29a30c6574ec458755e1 = $(`&lt;div id=&quot;html_86829c350cfe29a30c6574ec458755e1&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre L&#x27;Essaïon&lt;/b&gt;&lt;br&gt;Adresse: 6 rue Pierre-au-Lard&lt;br&gt;Pièce: Pôvre vieille démocrasseuse&lt;br&gt;Prix moyen: 22.0 €&lt;/div&gt;`)[0];
+                popup_34368aef6f3d03d6aa85eeeece810d55.setContent(html_86829c350cfe29a30c6574ec458755e1);
+            
+        
+
+        marker_6cdc52f5b920c494109337adb23f98e7.bindPopup(popup_34368aef6f3d03d6aa85eeeece810d55)
+        ;
+
+        
+    
+    
+            var marker_3b1a777fa8564277b73cf30e553edb40 = L.marker(
+                [48.85716, 2.431276],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_c53705296f921f9bee3e61f34452fd2f = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_630a71ecbc69479b8f5a79b9272483f3 = $(`&lt;div id=&quot;html_630a71ecbc69479b8f5a79b9272483f3&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Comédie Nation&lt;/b&gt;&lt;br&gt;Adresse: 77 rue de Montreuil&lt;br&gt;Pièce: Précisément par Hasard&lt;br&gt;Prix moyen: 19.0 €&lt;/div&gt;`)[0];
+                popup_c53705296f921f9bee3e61f34452fd2f.setContent(html_630a71ecbc69479b8f5a79b9272483f3);
+            
+        
+
+        marker_3b1a777fa8564277b73cf30e553edb40.bindPopup(popup_c53705296f921f9bee3e61f34452fd2f)
+        ;
+
+        
+    
+    
+            var marker_454a1903bfa04d4980aa597b5066cff0 = L.marker(
+                [48.837203, 2.288829],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_036ba4ba74f2a26302bae1eb183e1a9a = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_200c18e4a87808bcac043cebd36b20be = $(`&lt;div id=&quot;html_200c18e4a87808bcac043cebd36b20be&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théo Théâtre&lt;/b&gt;&lt;br&gt;Adresse: 20 rue Théodore-Deck&lt;br&gt;Pièce: Mille et une Layla&lt;br&gt;Prix moyen: 18.0 €&lt;/div&gt;`)[0];
+                popup_036ba4ba74f2a26302bae1eb183e1a9a.setContent(html_200c18e4a87808bcac043cebd36b20be);
+            
+        
+
+        marker_454a1903bfa04d4980aa597b5066cff0.bindPopup(popup_036ba4ba74f2a26302bae1eb183e1a9a)
+        ;
+
+        
+    
+    
+            var marker_b7e79c237ae6f47b3f2ea015c147d640 = L.marker(
+                [48.867514, 2.375472],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_7d01d4d45bb8e95686f17a52ae9cc16e = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_1093dac0436bd28cc6754b3b4cb5e38e = $(`&lt;div id=&quot;html_1093dac0436bd28cc6754b3b4cb5e38e&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Comédie des Trois Bornes&lt;/b&gt;&lt;br&gt;Adresse: 32 rue des Trois-Bornes&lt;br&gt;Pièce: Metoo ?&lt;br&gt;Prix moyen: 15.0 €&lt;/div&gt;`)[0];
+                popup_7d01d4d45bb8e95686f17a52ae9cc16e.setContent(html_1093dac0436bd28cc6754b3b4cb5e38e);
+            
+        
+
+        marker_b7e79c237ae6f47b3f2ea015c147d640.bindPopup(popup_7d01d4d45bb8e95686f17a52ae9cc16e)
+        ;
+
+        
+    
+    
+            var marker_98ca945983bb92f68e33b82c08a682a9 = L.marker(
+                [48.859764, 2.353086],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_02d8b2c1aa4937c8d366f98fe7ef234a = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_44bdf12377b30f3aa3f98b07806dcb47 = $(`&lt;div id=&quot;html_44bdf12377b30f3aa3f98b07806dcb47&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre L&#x27;Essaïon&lt;/b&gt;&lt;br&gt;Adresse: 6 rue Pierre-au-Lard&lt;br&gt;Pièce: Les 7 nuits de la Reine&lt;br&gt;Prix moyen: 22.0 €&lt;/div&gt;`)[0];
+                popup_02d8b2c1aa4937c8d366f98fe7ef234a.setContent(html_44bdf12377b30f3aa3f98b07806dcb47);
+            
+        
+
+        marker_98ca945983bb92f68e33b82c08a682a9.bindPopup(popup_02d8b2c1aa4937c8d366f98fe7ef234a)
+        ;
+
+        
+    
+    
+            var marker_090fe391ec01f729c1c34d5e158e9a8c = L.marker(
+                [48.867514, 2.375472],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_8d0923b246ccb7a14dee2dcb5ecf6b9b = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_f82625c85c3040816653b531922a932d = $(`&lt;div id=&quot;html_f82625c85c3040816653b531922a932d&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Comédie des Trois Bornes&lt;/b&gt;&lt;br&gt;Adresse: 32 rue des Trois-Bornes&lt;br&gt;Pièce: Merci pour la lumière&lt;br&gt;Prix moyen: 15.0 €&lt;/div&gt;`)[0];
+                popup_8d0923b246ccb7a14dee2dcb5ecf6b9b.setContent(html_f82625c85c3040816653b531922a932d);
+            
+        
+
+        marker_090fe391ec01f729c1c34d5e158e9a8c.bindPopup(popup_8d0923b246ccb7a14dee2dcb5ecf6b9b)
+        ;
+
+        
+    
+    
+            var marker_8d7aacaa12099be8f86cb4c2af5845a7 = L.marker(
+                [48.825896, 2.306846],
+                {}
+            ).addTo(map_7f23ef0ac6cd1a2a1aabea98e1610786);
+        
+    
+        var popup_120e30e768716d2047c82700d0b76656 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_663adac85806333dd2c8d7c1283d849e = $(`&lt;div id=&quot;html_663adac85806333dd2c8d7c1283d849e&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Théâtre 14&lt;/b&gt;&lt;br&gt;Adresse: 20 avenue Marc-Sangnier&lt;br&gt;Pièce: Florence et Moustafa&lt;br&gt;Prix moyen: unknown €&lt;/div&gt;`)[0];
+                popup_120e30e768716d2047c82700d0b76656.setContent(html_663adac85806333dd2c8d7c1283d849e);
+            
+        
+
+        marker_8d7aacaa12099be8f86cb4c2af5845a7.bindPopup(popup_120e30e768716d2047c82700d0b76656)
+        ;
+
+        
+    
+&lt;/script&gt;
+&lt;/html&gt;" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe></div></div>
