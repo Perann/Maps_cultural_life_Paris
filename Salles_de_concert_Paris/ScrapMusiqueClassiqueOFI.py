@@ -18,8 +18,6 @@ def ScrapMusiqueOFI(url):
     Data['commune'] = []
     Data['prix'] =[]
 
-    ## Extraction des dates des évènements (on doit faire 2 boucles) /!\ on pourrait n'en faire qu'une avec une manip /!\
-
     InfoDates = code_page.find_all('div', class_ = 'has-padding-left-20 has-padding-right-20 has-padding-bottom-20')
     for info in InfoDates:
         Data['Date'].append(info.find('b').text.strip()) ### on ajoute à la liste dans le dictionnaire les dates (on trouve la première balise b, on récupère le texte et on retire les espaces plus tard *)
