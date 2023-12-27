@@ -1,4 +1,8 @@
-from tkinter import *
+#This code launches an  Interface to enter the type of activity you want to do and sifferent information
+# Sadly, SSP cloud computer doesn't allow us to make that run ( it uses tkinter), you can either wait for the Defense for a Live Demo
+# or make the code run on your personnal computer.
+
+from tkinter import *  
 import pandas as pd
 from PIL import Image, ImageTk
 
