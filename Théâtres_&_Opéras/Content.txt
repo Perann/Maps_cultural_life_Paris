@@ -1,0 +1,1 @@
+This section aims at finding all the theatres and Opera houses in Paris and displaying them on a map with markers that show the name of the establishment, the play you can attend, the price and the adress. 
