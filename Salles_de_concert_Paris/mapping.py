@@ -5,16 +5,15 @@ from datetime import datetime
 
 ### date utilisateur ###
 
-data = pd.read_csv('/home/onyxia/work/Maps_cultural_life_Paris/Outputs/DataSets/DataMusiqueClassique_v2.csv', sep=';')
+data = pd.read_csv()   
 
 user_date_str = input("Veuillez entrer une date (format YYYY-MM-DD) : ")
 
 user_date = datetime.strptime(user_date_str, '%Y-%m-%d')
 
-data['date début'] = pd.to_datetime(data['date début'])
-data['date fin'] = pd.to_datetime(data['date fin'])
+data['date'] = pd.to_datetime(data['date'])
 
-filtered_data = data[(data['date début'] <= user_date) & (user_date <= data['date fin'])]
+filtered_data = data[(data['date'] = user_date)]
 
 paris_coordinates = [48.8566, 2.3522]
 my_map = folium.Map(location=paris_coordinates, zoom_start=12)

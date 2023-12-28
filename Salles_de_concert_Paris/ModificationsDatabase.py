@@ -24,11 +24,22 @@ df['prix moyen'] = df.apply(lambda row: (row['prix min'] + row['prix max']) / 2
                             if pd.notnull(row['prix min']) and pd.notnull(row['prix max'])
                             else row['prix unique'], axis=1)
 
+## séparation des dates ##
+
+df['Date'] = df['Date'].apply(lambda x : x.split(',') if isinstance(x, str) else x)
+df = df.explode('Date').reset_index(drop=True)
+df['Date'] = df['Date'].apply(lambda x : str(x[0]) if isinstance(x, list) and len(x) > 0 else x)
+
+###########################################
+
 ## Création de dates exploitables ##
 
 Dates_usable =  df['Date'].apply(fct.convertir_en_datetime)
 
 df[['dates datime', 'heures datetime']] = pd.DataFrame(Dates_usable.tolist(), index=df.index)
+
+
+##########################################
 
 ## Sauvegarde de la base de données au format csv
 
