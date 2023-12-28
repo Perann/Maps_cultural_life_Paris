@@ -1,4 +1,3 @@
-![InterfaceDemo](https://github.com/Perann/Maps_cultural_life_Paris/assets/125759494/14d2dd44-4fa5-437d-b9fe-451c56f6ff67)
 # A map of Paris cultural life
 
 Tonight you want to enjoy the incredible cultural life of Paris but with so much opportunities where should you go ? What should you watch ? And of course, you are curious to kwon how much it will cost you...
