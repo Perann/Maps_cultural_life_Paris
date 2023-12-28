@@ -7,6 +7,7 @@ Our project aims at helping you to visualize all the cultural activities you can
 
 
 We are three passionate students from ENSAE, all lovers of Paris and its cultural life. We wanted to help you find what you love, and what fits your budget to enjoy your evening. 
+
 Perann 
 Nicolas
 Grégoire
@@ -24,6 +25,8 @@ In the end it displays you a map of Paris with markers on the establishments tha
 4 folders are dedicated to the main kind of activities we help you to find: theatres, movie theatre, concert hall and musical bar. In each of them, you will find our code that scraps some websites to find the names of the establishments, their addresses and their schedule. If you are only interested in viewing the map, you will just have to go in the folder Map
 
 1 folder 'Outputs' in which you will find the databases we created after scrapping and cleaning the data from internet.
+
+1 folder 'Statistics' in which you will find some analyses providing further ideas about prices and top tip !
 
 # Interface
 Running the file interface.py opens this window on your computer. It allows you to generate interactive Maps of activity you can do.
