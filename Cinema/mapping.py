@@ -33,12 +33,12 @@ def MovieMapping(data,MinHour,MaxHour):
             folium.Marker(location=(lat,lon), popup = content, max_width=500).add_to(GeoVisited[(lat,lon)])
         else:
             folium.Marker(location=(lat,lon), popup = content, max_width=500).add_to(GeoVisited[(lat,lon)])
-    MovieMap.save("Maps_cultural_life_Paris/Outputs/Maps/MovieMapToday.html")
+    MovieMap.save("Outputs/Maps/MovieMapToday.html")
     
 
-    html_file_path = 'Maps_cultural_life_Paris\Outputs\Maps\MovieMapToday.html'
+    html_file_path = 'Outputs\Maps\MovieMapToday.html'
     webbrowser.open_new(html_file_path)
 
 if __name__ == '__main__':
-    program = pd.read_csv('Maps_cultural_life_Paris/Outputs/DataSets/DataCinema.csv')
+    program = pd.read_csv('Outputs/DataSets/DataCinema.csv')
     MovieMapping(program,'17h30','20h00')
