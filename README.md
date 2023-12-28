@@ -32,7 +32,9 @@ You have 3 categories: "Cinema", "Theatre" and "Concert". For the cagegory Cinem
 
 ![InterfaceDemo](https://github.com/Perann/Maps_cultural_life_Paris/assets/125759494/14d2dd44-4fa5-437d-b9fe-451c56f6ff67)
 
- By filling the Entry and click on "Generer la carte", a card will open on your default browser. Thus you can navigate, click and get further details on your favorites activties ! 
+ By filling the Entry and click on "Generer la carte", a card will open on your default browser. 
+ A precise format is requiered for the entries: YYYY-MM-DD for Théâtre and HHhMM for Cinema.
+Once you've done that, you can navigate, click and get further details on your favorites activties ! 
 
  
 ![Cartedemo](https://github.com/Perann/Maps_cultural_life_Paris/assets/125759494/cd8679d4-69d3-415d-b086-ddab85bc87ec)
