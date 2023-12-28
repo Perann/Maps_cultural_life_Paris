@@ -12,8 +12,6 @@ from UnitScrap import UnitScrapCinema
 HeadersDefault = {'User-Agent': 'Mozilla/5.0 (iPad; CPU OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148'}
 
 
-
-
 def ScrapCinema(url,day,HEADERS = HeadersDefault):
 
     r = requests.get(url, headers=HEADERS)                #Getting the links of all pages to scrap
