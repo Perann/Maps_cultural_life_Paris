@@ -7,7 +7,7 @@ from tkinter import *
 import pandas as pd
 from PIL import Image, ImageTk
 
-
+#Downloading datas
 from Cinema.mapping import MovieMapping
 dataCinema = pd.read_csv('Outputs/DataSets/DataCinema.csv')
 from TheatresOperas.mapping import TheaterMap
@@ -17,7 +17,6 @@ DataTheater = pd.read_csv('Outputs\DataSets\DataTheatre_base_finale.csv', sep = 
 #Defining the executive functions for the buttons 
 
 def executer_carte_cinema():
-    # Récupérer les valeurs des Entry
     valeur1 = str(entry_arg1.get())
     valeur2 = str(entry_arg2.get())
     MovieMapping(dataCinema,valeur1,valeur2)
@@ -43,7 +42,7 @@ canvas.create_image(0, 0, anchor=NW, image=photo)
 
 
 
-Title = Label(window,text = 'Ou sortir à Paris ?',font=("Arial", 20))
+Title = Label(window,text = 'Où sortir à Paris ?',font=("Arial", 20))
 Title.place(x = 225, y = 50)
 
 #Buttons for Cinema
@@ -93,8 +92,7 @@ entry_arg4.place(x = 420,y = 275)
 button_executer = Button(window, text="Génerer la carte", command=executer_carte_concert)
 button_executer.place(x = 420, y = 325) 
 
-
-
+#Opening the window
 window.mainloop()
 
 
