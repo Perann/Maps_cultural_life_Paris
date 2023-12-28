@@ -53,4 +53,41 @@ def clean_price(price_string):
         except ValueError:
             return None, None, 'unknown'
 
+### fonction de création de dates exploitables ###
+
+from datetime import datetime
+
+def convertir_en_datetime(date_str):
+    """
+    Prend en argument une date selon le format de la database et le convertit en un tuple date et une heure exploitables en format datetime
+
+    """
+    liste = date_str.split()
+    liste.remove(':')
+    
+    mois_fr_to_en = {
+        'Janvier': 'January',
+        'Février': 'February',
+        'Mars': 'March',
+        'Avril': 'April',
+        'Mai': 'May',
+        'Juin': 'June',
+        'Juillet': 'July',
+        'Août': 'August',
+        'Septembre': 'September',
+        'Octobre': 'October',
+        'Novembre': 'November',
+        'Décembre': 'December'
+    }
+
+ 
+    jour, jour_numero, mois_fr, heure = liste
+
+
+    mois_en = mois_fr_to_en[mois_fr]
+
+    date_str = f'{jour_numero} {mois_en} 2023 {heure}'
+    date_time_obj = datetime.strptime(date_str, '%d %B %Y %Hh%M')
+    return date_time_obj.date(), date_time_obj.time()
+
 

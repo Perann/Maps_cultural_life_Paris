@@ -3,6 +3,8 @@ import os
 import pandas as pd
 from datetime import datetime
 
+### date utilisateur ###
+
 data = pd.read_csv('/home/onyxia/work/Maps_cultural_life_Paris/Outputs/DataSets/DataMusiqueClassique_v2.csv', sep=';')
 
 user_date_str = input("Veuillez entrer une date (format YYYY-MM-DD) : ")

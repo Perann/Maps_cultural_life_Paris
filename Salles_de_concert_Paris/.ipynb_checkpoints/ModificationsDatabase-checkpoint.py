@@ -24,6 +24,13 @@ df['prix moyen'] = df.apply(lambda row: (row['prix min'] + row['prix max']) / 2
                             if pd.notnull(row['prix min']) and pd.notnull(row['prix max'])
                             else row['prix unique'], axis=1)
 
+## Création de dates exploitables ##
+
+Dates_usable =  df['Date'].apply(fct.convertir_en_datetime)
+
+df[['dates datime', 'heures datetime']] = pd.DataFrame(Dates_usable.tolist(), index=df.index)
+
 ## Sauvegarde de la base de données au format csv
 
 df.to_csv('DataMusiqueClassique_v2.csv',index = False)
+
