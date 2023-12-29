@@ -1,0 +1,616 @@
+,nom,etablissement,Date,adresse,commune,prix
+0,Orchestre Classik Ensemble et David Braccini,Sainte-Chapelle - Palais de la Cité,Mercredi 27 Décembre : 18h00,8 boulevard du Palais,Paris 1er,unknown
+1,Ensemble royal de Paris,Église Saint-Julien-le-Pauvre,"Mercredi 27 Décembre : 19h00, Vendredi 29 Décembre : 17h30, Samedi 30 Décembre : 16h30, Dimanche 31 Décembre : 16h30, Lundi 1er Janvier : 20h00",1 rue Saint-Julien-le-Pauvre,Paris 5e,21-43 €
+2,L'Art d'être bête,Théâtre de Poche-Montparnasse,"Mercredi 27 Décembre : 19h00, Jeudi 28 Décembre : 19h00, Dimanche 31 Décembre : 15h00, Mardi 2 Janvier : 19h00",75 boulevard du Montparnasse,Paris 6e,24 €
+3,Orchestre Les Violons de France et Cécile Besnard,Église de la Madeleine,"Mercredi 27 Décembre : 20h00, Dimanche 31 Décembre : 20h00",Place de la Madeleine,Paris 8e,22-33 €
+4,Orchestre Hélios et Glen Rouxel,Église Saint-Germain-des-Prés,"Mercredi 27 Décembre : 20h45, Samedi 30 Décembre : 20h45",Place Saint-Germain des Prés,Paris 6e,22-44 €
+5,"Orchestre Classik Ensemble, Fabienne Conrad et David Braccini",Sainte-Chapelle - Palais de la Cité,Jeudi 28 Décembre : 18h00,8 boulevard du Palais,Paris 1er,unknown
+6,Adrien Polycarpe,Église Saint-Éphrem,"Jeudi 28 Décembre : 19h30, Samedi 30 Décembre : 18h00, Lundi 1er Janvier : 16h00",17 rue des Carmes,Paris 5e,16-25 €
+7,Thibault Maurin,Église Saint-Julien-le-Pauvre,Jeudi 28 Décembre : 20h00,1 rue Saint-Julien-le-Pauvre,Paris 5e,22 €
+8,Orchestre Classik Ensemble et David Braccini,Église Saint-Germain-des-Prés,Jeudi 28 Décembre : 20h30,Place Saint-Germain des Prés,Paris 6e,unknown
+9,Ensemble Musicâme France,Oratoire du Louvre,Jeudi 28 Décembre : 20h30,145 rue Saint Honoré,Paris 1er,unknown
+10,"Orchestre Amplitude, Chœur Tempestuoso et solistes",Église Saint-Sulpice,Jeudi 28 Décembre : 20h30,Place Saint-Sulpice,Paris 6e,unknown
+11,Orchestre Hélios et Chœur Hélios éphémère,Église de la Madeleine,Jeudi 28 Décembre : 20h45,Place de la Madeleine,Paris 8e,22-44 €
+12,Orchestre Les Violons de France,Église Saint-Éphrem,Vendredi 29 Décembre : 17h00,17 rue des Carmes,Paris 5e,unknown
+13,Orchestre Les Solistes français et Paul Rouger,Sainte-Chapelle - Palais de la Cité,Vendredi 29 Décembre : 18h00,8 boulevard du Palais,Paris 1er,unknown
+14,Georges Bériachvili,Théâtre de l'Île Saint-Louis,Ven 29 Décembre : 18h30,39 quai d'Anjou,Paris 4e,unknown
+15,Pascal Mantin,Église Saint-Éphrem,"Vendredi 29 Décembre : 19h00, Dimanche 31 Décembre : 18h00",17 rue des Carmes,Paris 5e,16-25 €
+16,Philippe Alègre,Église Saint-Julien-le-Pauvre,"Vendredi 29 Décembre : 20h00, Lundi 1er Janvier : 16h00",1 rue Saint-Julien-le-Pauvre,Paris 5e,22 €
+17,Orchestre Hélios et Chœur Hélios éphémère,Église de la Madeleine,Vendredi 29 Décembre : 20h45,Place de la Madeleine,Paris 8e,22-44 €
+18,Orchestre Paul Kuentz,Église Saint-Germain-des-Prés,Vendredi 29 Décembre : 20h45,Place Saint-Germain des Prés,Paris 6e,unknown
+19,Les voix orthodoxes de Varsovie,Église Saint-Louis-en-l'Île,"Sam 30 Décembre : 15h00, Dim 31 Décembre : 16h00",19 bis rue Saint-Louis-en-l'Île,Paris 4e,unknown
+20,Frédéric Moreau et Pascal Mantin,Église Saint-Éphrem,"Samedi 30 Décembre : 16h00, Lundi 1er Janvier : 18h30",17 rue des Carmes,Paris 5e,16-25 €
+21,"Isabelle Fremau, Michel Barré, Marie-Ange Leurent et Éric Lebrun",Église Saint-Antoine-des-Quinze-Vingts,Samedi 30 Décembre : 16h00,66 avenue Ledru-Rollin,Paris 12e,unknown
+22,Orchestre Les Solistes français et Paul Rouger,Sainte-Chapelle - Palais de la Cité,"Samedi 30 Décembre : 18h00, Dimanche 31 Décembre : 18h00",8 boulevard du Palais,Paris 1er,unknown
+23,Robert Millardet,Théâtre de l'Île Saint-Louis,"Sam 30 Décembre : 18h30, Dim 31 Décembre : 15h00",39 quai d'Anjou,Paris 4e,unknown
+24,Clément Rataud,Église Saint-Julien-le-Pauvre,Samedi 30 Décembre : 19h00,1 rue Saint-Julien-le-Pauvre,Paris 5e,22 €
+25,Concert du Nouvel An,Maison de la Radio et de la Musique,"Samedi 30 Décembre : 20h00, Dimanche 31 Décembre : 20h00",116 avenue du Président Kennedy,Paris 16e,unknown
+26,Alegria Orchestra et solistes,Église Saint-Paul-Saint-Louis,Samedi 30 Décembre : 20h30,99 rue Saint-Antoine,Paris 4e,unknown
+27,Chœur et Orchestre Paul Kuentz,Église de la Madeleine,Samedi 30 Décembre : 20h30,Place de la Madeleine,Paris 8e,unknown
+28,"Isabelle Fremau, Michel Barré, Marie-Ange Leurent et Éric Lebrun",Église Notre-Dame-de-Lorette,Dimanche 31 Décembre : 16h00,18 rue de Châteaudun,Paris 9e,unknown
+29,Remi Masunaga,Église Saint-Éphrem,"Dimanche 31 Décembre : 16h00, Mardi 2 Janvier : 18h00",17 rue des Carmes,Paris 5e,16-25 €
+30,Thomas Ospital,Église Saint-Eustache,Dimanche 31 Décembre : 17h00,Rue du Jour Forum des Halles,Paris 1er,unknown
+31,"Orchestre Classik Ensemble, Fabienne Conrad et David Braccini",Tour Eiffel,"Dimanche 31 Décembre : 18h00, Lundi 1er Janvier : 18h00",Champ-de-Mars,Paris 7e,unknown
+32,Lise Lienhard,Chapelle Saint-Jean,Dimanche 31 Décembre : 18h00,67 rue Daguerre,Paris 14e,unknown
+33,"Orchestre Les Solistes français, Paul Rouger et Sabine Revault d'Allonnes",Sainte-Chapelle - Palais de la Cité,Dimanche 31 Décembre : 19h30,8 boulevard du Palais,Paris 1er,unknown
+34,Lucas Lipari et François Olivier,Église Saint-Eustache,Dimanche 31 Décembre : 20h00,Rue du Jour Forum des Halles,Paris 1er,22-33 €
+35,"Orchestre Classik Ensemble, Fabienne Conrad et David Braccini",Église Saint-Germain-des-Prés,Dimanche 31 Décembre : 20h30,Place Saint-Germain des Prés,Paris 6e,unknown
+36,Ensemble Kaléid,Église Saint-Séverin,Dimanche 31 Décembre : 20h30,2 rue des Prêtres-Saint-Séverin,Paris 5e,unknown
+37,"Euromusic Symphonic Orchestra, Chœur Hugues Reiner et solistes",Église Saint-Sulpice,Dimanche 31 Décembre : 20h30,Place Saint-Sulpice,Paris 6e,unknown
+38,Les voix orthodoxes de Varsovie,Église Saint-Louis-en-l'Île,"Dim 31 Décembre : 20h30, Lun 1er Janvier : 16h00",19 bis rue Saint-Louis-en-l'Île,Paris 4e,unknown
+39,Orchestre Classik Ensemble et David Braccini,Tour Eiffel,Lundi 1er Janvier : 16h00,Champ-de-Mars,Paris 7e,unknown
+40,Orchestre Les Violons de France,Église Saint-Eustache,Lundi 1er Janvier : 16h00,Rue du Jour Forum des Halles,Paris 1er,22-33 €
+41,Quintette Les Virtuoses,Église Saint-Philippe-du-Roule,Lundi 1er Janvier : 16h00,9 rue de Courcelles,Paris 8e,unknown
+42,Diane Andersen et invités,L'Accord Parfait,Lundi 1er Janvier : 17h00,47 rue Ramey,Paris 18e,unknown
+43,Concert du Nouvel An,Église de la Madeleine,Lundi 1er Janvier : 19h00,Place de la Madeleine,Paris 8e,22-44 €
+44,Orchestre Les Solistes français et Paul Rouger,Église Saint-Germain-des-Prés,Lundi 1er Janvier : 20h30,Place Saint-Germain des Prés,Paris 6e,unknown
+45,Orchestre Hélios et Glen Rouxel,Église de la Madeleine,Lundi 1er Janvier : 21h00,Place de la Madeleine,Paris 8e,22-44 €
+46,Orchestre Les Violons de France,Église de la Madeleine,Mardi 2 Janvier : 20h00,Place de la Madeleine,Paris 8e,22-33 €
+47,Georges Bériachvili,Théâtre de l'Île Saint-Louis,"Mer 3 Janvier : 18h30, Dim 7 Janvier : 15h00",39 quai d'Anjou,Paris 4e,unknown
+48,Ensemble royal de Paris,Église Saint-Julien-le-Pauvre,"Mercredi 3 Janvier : 19h00, Vendredi 5 Janvier : 19h00, Samedi 6 Janvier : 19h00",1 rue Saint-Julien-le-Pauvre,Paris 5e,21-43 €
+49,Frédéric Moreau et Pascal Mantin,Église Saint-Éphrem,Mercredi 3 Janvier : 19h00,17 rue des Carmes,Paris 5e,16-25 €
+50,L'Art d'être bête,Théâtre de Poche-Montparnasse,"Mercredi 3 Janvier : 19h00, Jeudi 4 Janvier : 19h00, Dimanche 7 Janvier : 15h00",75 boulevard du Montparnasse,Paris 6e,24 €
+51,Philippe Alègre,Église Saint-Julien-le-Pauvre,Jeudi 4 Janvier : 19h00,1 rue Saint-Julien-le-Pauvre,Paris 5e,22 €
+52,Pascal Mantin,Église Saint-Éphrem,Jeudi 4 Janvier : 19h30,17 rue des Carmes,Paris 5e,16-25 €
+53,« The Fairy Queen » de Purcell,Salle des concerts - Cité de la Musique-Philharmonie,"Jeudi 4 Janvier : 20h00, Samedi 6 Janvier : 20h00",221 rue Jean-Jaurès,Paris 19e,unknown
+54,Beethoven : Symphonie n°9,Maison de la Radio et de la Musique,"Jeudi 4 Janvier : 20h00, Vendredi 5 Janvier : 20h00",116 avenue du Président Kennedy,Paris 16e,unknown
+55,Orchestre Les Violons de France,Église de la Madeleine,Jeudi 4 Janvier : 20h00,Place de la Madeleine,Paris 8e,22-33 €
+56,Antonin Bonnet et Krzysztof Michalski,Église Saint-Éphrem,Vendredi 5 Janvier : 18h30,17 rue des Carmes,Paris 5e,16-25 €
+57,Robert Millardet,Théâtre de l'Île Saint-Louis,"Ven 5 Janvier : 18h30, Sam 6 Janvier : 18h30",39 quai d'Anjou,Paris 4e,unknown
+58,Krzysztof Michalski,Église Saint-Éphrem,Samedi 6 Janvier : 16h00,17 rue des Carmes,Paris 5e,16-25 €
+59,Westbourne Grammar School,Église de la Madeleine,Samedi 6 Janvier : 16h00,Place de la Madeleine,Paris 8e,unknown
+60,Les Alizés,Couvent des Dominicains,Samedi 6 Janvier : 16h00,222 rue du Faubourg Saint-Honoré,Paris 8e,unknown
+61,Remi Masunaga,Église Saint-Éphrem,Samedi 6 Janvier : 18h00,17 rue des Carmes,Paris 5e,16-25 €
+62,Soline Marzac et Cristian Monti,L'Accord Parfait,Samedi 6 Janvier : 20h00,47 rue Ramey,Paris 18e,unknown
+63,Orchestre Les Solistes français et Paul Rouger,Église Saint-Germain-des-Prés,Samedi 6 Janvier : 20h30,Place Saint-Germain des Prés,Paris 6e,unknown
+64,Orchestre Les Violons de France et Cécile Besnard,Église de la Madeleine,Samedi 6 Janvier : 20h30,Place de la Madeleine,Paris 8e,22-33 €
+65,Trio Wanderer,Théâtre des Champs-Élysées,Dimanche 7 Janvier : 11h00,15 avenue Montaigne,Paris 8e,16-28 €
+66,Duo Métis,Cathédrale américaine,Dimanche 7 Janvier : 15h00,23 avenue George V,Paris 8e,unknown
+67,Roses dans la nuit,Salle des concerts - Cité de la Musique-Philharmonie,Dimanche 7 Janvier : 16h00,221 rue Jean-Jaurès,Paris 19e,unknown
+68,Orchestre Paris Classik et Bertrand Cervera,Église Saint-Louis-en-l'Île,Dim 7 Janvier : 16h00,19 bis rue Saint-Louis-en-l'Île,Paris 4e,unknown
+69,Robin Stephenson et Jean-Marc Kérisit,Maison de l'Asie du Sud-Est,Dimanche 7 Janvier : 16h00,59 bis boulevard Jourdan,Paris 14e,unknown
+70,Olivier Périn,Église de la Madeleine,Dimanche 7 Janvier : 16h00,Place de la Madeleine,Paris 8e,unknown
+71,"Jocelyne Lucas, Daniel Dato et Céline Mata",Église Sainte-Marie-des-Batignolles,Dimanche 7 Janvier : 16h00,77 place du docteur Félix-Lobligeois,Paris 17e,unknown
+72,Adrien Polycarpe,Église Saint-Éphrem,Dimanche 7 Janvier : 16h30,17 rue des Carmes,Paris 5e,16-25 €
+73,Dominique Hofer,Église Notre-Dame-de-Compassion,Dimanche 7 Janvier : 16h30,Place du Général-Koenig,Paris 17e,unknown
+74,Thomas Ospital,Église Saint-Eustache,Dimanche 7 Janvier : 17h00,Rue du Jour Forum des Halles,Paris 1er,unknown
+75,La Caravelle des Arts,Temple protestant du Raincy,Dimanche 7 Janvier : 17h00,17 allée de l'Ermitage,Le Raincy,unknown
+76,Nathalie Gaubery et Lorenzo Cipriani,Chapelle de l'Agneau de Dieu,Dimanche 7 Janvier : 17h00,2 place Henri-Frenay,Paris 12e,unknown
+77,Sextuor de clarinettes de la Garde républicaine et Guillaume Paire,Église du Val-de-Grâce,Dimanche 7 Janvier : 17h30,1 place Alphonse-Laveran,Paris 5e,unknown
+78,Chœur de la Cathédrale américaine et Andrew Dewar,Cathédrale américaine,Dimanche 7 Janvier : 18h00,23 avenue George V,Paris 8e,unknown
+79,Natasha Kadyrova,Église Saint-Éphrem,Lundi 8 Janvier : 19h30,17 rue des Carmes,Paris 5e,16-25 €
+80,"Les Frivolités Parisiennes, Golda Schultz, Amitai Pati et Pene Pati",Théâtre des Champs-Élysées,Lundi 8 Janvier : 20h00,15 avenue Montaigne,Paris 8e,33-115 €
+81,« Atalia » de Gasparini,Château de Versailles,Lundi 8 Janvier : 20h00,4 boulevard de la Reine,Versailles,71-115 €
+82,Quatuor Dutilleux,Musée d'Orsay,Mardi 9 Janvier : 12h30,1 rue de la Légion d'Honneur,Paris 7e,unknown
+83,Carl Norgate,Théâtre de l'Île Saint-Louis,Mar 9 Janvier : 18h30,39 quai d'Anjou,Paris 4e,unknown
+84,« Iphigénie en Tauride » de Desmarest et Campra,Théâtre des Champs-Élysées,Mardi 9 Janvier : 19h30,15 avenue Montaigne,Paris 8e,28-89 €
+85,Transfiguré - 12 vies de Schönberg,Grande salle Pierre Boulez - Philharmonie de Paris,Mardi 9 Janvier : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+86,Hommage à Carlos Roque Alsina,Salle Cortot,Mardi 9 Janvier : 20h00,78 rue Cardinet,Paris 17e,unknown
+87,Jorge Garcia Herranz et Isabelle Dabek,Espace Georges-Bernanos,Mercredi 10 Janvier : 12h30,4 rue du Havre,Paris 9e,unknown
+88,Elio di Tanna,Église Saint-Éphrem,Mercredi 10 Janvier : 18h00,17 rue des Carmes,Paris 5e,16-25 €
+89,« Les Sept péchés capitaux » de Weill,Théâtre des Champs-Élysées,Mercredi 10 Janvier : 19h30,15 avenue Montaigne,Paris 8e,28-79 €
+90,Les Surprises,Maison de la Radio et de la Musique,Mercredi 10 Janvier : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+91,Transfiguré - 12 vies de Schönberg,Grande salle Pierre Boulez - Philharmonie de Paris,"Mercredi 10 Janvier : 20h00, Jeudi 11 Janvier : 20h00",221 avenue Jean-Jaurès,Paris 19e,unknown
+92,Il Concerto delle donne,Cathédrale Sainte-Croix-des-Arméniens,Mercredi 10 Janvier : 20h00,13 rue du Perche,Paris 3e,unknown
+93,Trio Lunae,Institut National des Jeunes Aveugles,Jeudi 11 Janvier : 13h00,56 boulevard des Invalides,Paris 7e,unknown
+94,Carl Norgate,Théâtre de l'Île Saint-Louis,Jeu 11 Janvier : 18h30,39 quai d'Anjou,Paris 4e,unknown
+95,Michaël Levinas,Église luthérienne Saint-Marcel,Jeudi 11 Janvier : 19h00,24 rue Pierre-Nicole,Paris 5e,unknown
+96,Adrien Polycarpe,Église Saint-Éphrem,"Jeudi 11 Janvier : 19h30, Mardi 16 Janvier : 20h00",17 rue des Carmes,Paris 5e,16-25 €
+97,Orchestre de chambre de Paris et Roger Muraro,Théâtre des Champs-Élysées,Jeudi 11 Janvier : 20h00,15 avenue Montaigne,Paris 8e,unknown
+98,Orchestre Colonne et Roberto Alagna,Salle Gaveau,Jeudi 11 Janvier : 20h30,45 rue La Boétie,Paris 8e,unknown
+99,Fauré : Requiem,Auditorium Michel Laclotte - Musée du Louvre,Vendredi 12 Janvier : 20h00,Entrée principale : Pyramide (cour Napoléon),Paris 1er,unknown
+100,Mozart : Symphonie concertante,Maison de la Radio et de la Musique,Vendredi 12 Janvier : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+101,Poulenc : Concerto pour deux pianos,Opéra de Massy,Vendredi 12 Janvier : 20h00,1 place de France,Massy,unknown
+102,Antonin Bonnet,Église Saint-Éphrem,Vendredi 12 Janvier : 20h00,17 rue des Carmes,Paris 5e,16-25 €
+103,Orchestre de la Bastille,Église évangélique de Paris-Luxembourg,"Vendredi 12 Janvier : 20h30, Samedi 13 Janvier : 20h30",58 rue Madame,Paris 6e,unknown
+104,Clémence Guerrand,Salle Cortot,Vendredi 12 Janvier : 20h30,78 rue Cardinet,Paris 17e,unknown
+105,"Mathieu Salama, airs pour Farinelli",Église Sainte-Élisabeth-de-Hongrie,Samedi 13 Janvier : 16h00,195 rue du Temple,Paris 3e,20-28 €
+106,Axel Lebas,Église Saint-Thomas-d'Aquin,Samedi 13 Janvier : 16h00,1 place Saint-Thomas-d'Aquin,Paris 7e,unknown
+107,Natasha Kadyrova,Église Saint-Éphrem,Samedi 13 Janvier : 16h30,17 rue des Carmes,Paris 5e,16-25 €
+108,Bruno Helstroffer,La Scala Paris,Samedi 13 Janvier : 19h30,13 boulevard de Strasbourg,Paris 10e,unknown
+109,Chicago Symphony Orchestra,Grande salle Pierre Boulez - Philharmonie de Paris,Samedi 13 Janvier : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+110,Orchestre Les Violons de France et Cécile Besnard,Église de la Madeleine,Samedi 13 Janvier : 20h00,Place de la Madeleine,Paris 8e,22-33 €
+111,Au pays qui te ressemble,Archives nationales,Samedi 13 Janvier : 20h00,60 rue des Francs-Bourgeois Hôtel de Soubise,Paris 3e,unknown
+112,Orchestre Hélios et Glen Rouxel,Église Saint-Germain-des-Prés,Samedi 13 Janvier : 20h45,Place Saint-Germain des Prés,Paris 6e,22-44 €
+113,Roger Muraro,Théâtre des Champs-Élysées,Dimanche 14 Janvier : 11h00,15 avenue Montaigne,Paris 8e,16-28 €
+114,Georges Bériachvili,Théâtre de l'Île Saint-Louis,Dim 14 Janvier : 15h00,39 quai d'Anjou,Paris 4e,unknown
+115,Fauré : Requiem,Église Saint-Roch,Dimanche 14 Janvier : 15h00,296 rue Saint-Honoré,Paris 1er,unknown
+116,Quatuor Casals,Grande salle Pierre Boulez - Philharmonie de Paris,Dimanche 14 Janvier : 16h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+117,Philhar'intime,Maison de la Radio et de la Musique,Dimanche 14 Janvier : 16h00,116 avenue du Président Kennedy,Paris 16e,unknown
+118,"Mariko Akimoto, Henry Wyld et Armelle Choquard",Église évangélique de Courbevoie,Dimanche 14 Janvier : 16h00,12/14 rue Kilford,Courbevoie,unknown
+119,Jae Young Lim et Marie Vallin,Cathédrale Sainte-Geneviève,Dimanche 14 Janvier : 16h00,28 rue de l'Église,Nanterre,unknown
+120,Chœur grégorien de Brie-Comte-Robert et Michèle Guyard,Église Saint-Jean-Bosco,Dimanche 14 Janvier : 16h00,79 rue Alexandre-Dumas,Paris 20e,unknown
+121,Chœur de chambre Arthémys,Église Saint-Merry,Dimanche 14 Janvier : 16h00,76 rue de la Verrerie,Paris 4e,unknown
+122,Lorenzo Cipriani,Église Notre-Dame-de-Compassion,Dimanche 14 Janvier : 16h30,Place du Général-Koenig,Paris 17e,unknown
+123,Antonin Bonnet et Krzysztof Michalski,Église Saint-Éphrem,Dimanche 14 Janvier : 17h00,17 rue des Carmes,Paris 5e,16-25 €
+124,Axel de Marnhac,Église Saint-Eustache,Dimanche 14 Janvier : 17h00,Rue du Jour Forum des Halles,Paris 1er,unknown
+125,Christian Wachter,Fondation de l'Allemagne – Maison Heinrich Heine - Cité Internationale Universitaire,Dim 14 Janvier : 17h00,27 boulevard Jourdan,Paris 14e,unknown
+126,Kim Bernard et Na-Kyong Lee,L'Entrepôt,Dimanche 14 Janvier : 17h30,7 rue Francis de Pressensé,Paris 14e,unknown
+127,Quintette Pentagone,Église réformée de Port-Royal,Dimanche 14 Janvier : 18h00,18 boulevard Arago,Paris 13e,unknown
+128,Violette Erhart,Comédie Nation,Dimanche 14 Janvier : 19h00,77 rue de Montreuil,Paris 11e,16-22 €
+129,Pascal Mantin,Église Saint-Éphrem,Lundi 15 Janvier : 19h30,17 rue des Carmes,Paris 5e,16-25 €
+130,Grandeur et élégance,Grande salle Pierre Boulez - Philharmonie de Paris,Lundi 15 Janvier : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+131,Quatuor Confluence,Amphithéâtre - Cité de la Musique-Philharmonie,Lundi 15 Janvier : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+132,Bach : concertos pour violon(s),Chapelle royale - Château de Versailles,Lundi 15 Janvier : 20h00,Place d'Armes entrée par la Grille d'Honneur,Versailles,unknown
+133,Vivaldi : Sonates pour violoncelle,Théâtre des Bouffes du Nord,Lundi 15 Janvier : 20h00,37 bis bd de la Chapelle,Paris 10e,unknown
+134,Viktoria Postnikova,Théâtre des Champs-Élysées,Mardi 16 Janvier : 20h00,15 avenue Montaigne,Paris 8e,26-70 €
+135,Nemanja Radulović,Grande salle Pierre Boulez - Philharmonie de Paris,Mardi 16 Janvier : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+136,Orchestre de l'Opéra royal,Salle Gaveau,Mardi 16 Janvier : 20h30,45 rue La Boétie,Paris 8e,unknown
+137,Olga Jegunova,Salle Cortot,Mardi 16 Janvier : 20h30,78 rue Cardinet,Paris 17e,unknown
+138,Valérie Aimard,Collège des Bernardins,Mercredi 17 Janvier : 12h30,20 rue de Poissy,Paris 5e,unknown
+139,"Clara & Robert Schumann, deux trios en miroir",Église réformée de la Bastille - Temple du Foyer de l'Âme,Mercredi 17 Janvier : 12h30,7 bis rue du Pasteur Wagner,Paris 11e,unknown
+140,Loann Fourmental,Église Saint-Éphrem,Mercredi 17 Janvier : 19h00,17 rue des Carmes,Paris 5e,16-25 €
+141,Orchestre de Paris et Martin Fröst,Grande salle Pierre Boulez - Philharmonie de Paris,"Mercredi 17 Janvier : 20h00, Jeudi 18 Janvier : 20h00",221 avenue Jean-Jaurès,Paris 19e,unknown
+142,Quatuor Borodine,Salle des concerts - Cité de la Musique-Philharmonie,Mercredi 17 Janvier : 20h00,221 rue Jean-Jaurès,Paris 19e,unknown
+143,Berlioz : Symphonie fantastique,Maison de la Radio et de la Musique,Mercredi 17 Janvier : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+144,Félicien Brut et Édouard Macarez,Le Bal Blomet,Mercredi 17 Janvier : 20h00,33 rue Blomet,Paris 15e,unknown
+145,Théo Ould,Café de la Danse,Mercredi 17 Janvier : 20h00,5 passage Louis-Philippe,Paris 11e,unknown
+146,Maha Zahid,Institut National des Jeunes Aveugles,Jeudi 18 Janvier : 13h00,56 boulevard des Invalides,Paris 7e,unknown
+147,Elio di Tanna,Église Saint-Éphrem,Jeudi 18 Janvier : 19h30,17 rue des Carmes,Paris 5e,16-25 €
+148,Quatuor Belcea,Salle des concerts - Cité de la Musique-Philharmonie,Jeudi 18 Janvier : 20h00,221 rue Jean-Jaurès,Paris 19e,unknown
+149,Chœur de Grenelle,Église Saint-Roch,Jeudi 18 Janvier : 20h30,296 rue Saint-Honoré,Paris 1er,unknown
+150,Quatuor Leonkoro,Amphithéâtre - Cité de la Musique-Philharmonie,Vendredi 19 Janvier : 18h30,221 avenue Jean-Jaurès,Paris 19e,unknown
+151,Berlioz : Symphonie fantastique,Grande salle Pierre Boulez - Philharmonie de Paris,Vendredi 19 Janvier : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+152,Quatuor Modigliani,Salle des concerts - Cité de la Musique-Philharmonie,Vendredi 19 Janvier : 20h00,221 rue Jean-Jaurès,Paris 19e,unknown
+153,Krzysztof Michalski,Église Saint-Éphrem,Vendredi 19 Janvier : 20h00,17 rue des Carmes,Paris 5e,16-25 €
+154,Orchestre Les Violons de France,Église de la Madeleine,"Vendredi 19 Janvier : 20h30, Mardi 23 Janvier : 20h30",Place de la Madeleine,Paris 8e,22-33 €
+155,Marie Dumas,Église Saint-Pierre de Montmartre,Samedi 20 Janvier : 12h00,2 rue du Mont-Cenis,Paris 18e,unknown
+156,Empereur,Grande salle Pierre Boulez - Philharmonie de Paris,Samedi 20 Janvier : 15h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+157,Ensemble Beata Musica,Église évangélique de Paris-Luxembourg,Samedi 20 Janvier : 16h00,58 rue Madame,Paris 6e,unknown
+158,Chœur du cours Florent,Église de la Madeleine,Samedi 20 Janvier : 16h00,Place de la Madeleine,Paris 8e,unknown
+159,Pascal Mantin,Église Saint-Éphrem,Samedi 20 Janvier : 17h00,17 rue des Carmes,Paris 5e,16-25 €
+160,Requiem solaire,Théâtre de l'Aquarium - Cartoucherie,Samedi 20 Janvier : 18h00,route du Champ de Manœuvre (navette cartoucherie gratuite),Paris 12e,unknown
+161,Romantiques allemands,Église réformée de Pentemont,Samedi 20 Janvier : 18h00,106 rue de Grenelle,Paris 7e,unknown
+162,Jasmina Kulaglich et Aurelienne Brauner,Conservatoire Rachmaninoff,Samedi 20 Janvier : 19h00,26 avenue de New York,Paris 16e,unknown
+163,Mahler Chamber Orchestra et Yuja Wang ,Grande salle Pierre Boulez - Philharmonie de Paris,Samedi 20 Janvier : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+164,Quatuor Jérusalem,Salle des concerts - Cité de la Musique-Philharmonie,Samedi 20 Janvier : 20h00,221 rue Jean-Jaurès,Paris 19e,unknown
+165,Bertrand Cervera,Église Saint-Germain-des-Prés,Samedi 20 Janvier : 20h30,Place Saint-Germain des Prés,Paris 6e,unknown
+166,Orchestre Hélios et Glen Rouxel,Église de la Madeleine,Samedi 20 Janvier : 20h45,Place de la Madeleine,Paris 8e,22-44 €
+167,Quatuor Hanson,Théâtre des Champs-Élysées,Dimanche 21 Janvier : 11h00,15 avenue Montaigne,Paris 8e,16-28 €
+168,Monteverdi : Vêpres de la Vierge,Chapelle royale - Château de Versailles,Dimanche 21 Janvier : 15h00,Place d'Armes entrée par la Grille d'Honneur,Versailles,unknown
+169,Duo Y'voir,Cathédrale américaine,Dimanche 21 Janvier : 15h00,23 avenue George V,Paris 8e,unknown
+170,Quatuor Hagen,Salle des concerts - Cité de la Musique-Philharmonie,Dimanche 21 Janvier : 16h00,221 rue Jean-Jaurès,Paris 19e,unknown
+171,Umberto Realino,Église Saint-Merry,Dimanche 21 Janvier : 16h00,76 rue de la Verrerie,Paris 4e,unknown
+172,Adrien Polycarpe,Église Saint-Éphrem,Dimanche 21 Janvier : 16h30,17 rue des Carmes,Paris 5e,16-25 €
+173,Patrick Delabre,Église Sainte-Marie,Dimanche 21 Janvier : 16h30,2 rue de l'Abbaye,Antony,unknown
+174,"Sanae Rodière, Akie Kakehi, Marion Rodière et Akiko Takao",Église Notre-Dame-de-Compassion,Dimanche 21 Janvier : 16h30,Place du Général-Koenig,Paris 17e,unknown
+175,Orchestre du campus d'Orsay,Campus d'Orsay - Amphithéâtre Henri Cartan,Dimanche 21 Janvier : 17h00,598 rue André Rivière,Orsay,unknown
+176,Thomas Ospital,Église Saint-Eustache,Dimanche 21 Janvier : 17h00,Rue du Jour Forum des Halles,Paris 1er,unknown
+177,Pierre Hamon,Église Saint-Pierre de Montmartre,Dimanche 21 Janvier : 18h00,2 rue du Mont-Cenis,Paris 18e,unknown
+178,Quatuor Modigliani et Quatuor Leonkoro,Grande salle Pierre Boulez - Philharmonie de Paris,Dimanche 21 Janvier : 19h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+179,Orchestre Paris Classik et Bertrand Cervera,Église Saint-Germain-des-Prés,Dimanche 21 Janvier : 20h30,Place Saint-Germain des Prés,Paris 6e,unknown
+180,Natasha Kadyrova,Église Saint-Éphrem,Lundi 22 Janvier : 19h30,17 rue des Carmes,Paris 5e,16-25 €
+181,Royal Concertgebouw Orchestra et Emanuel Ax,Grande salle Pierre Boulez - Philharmonie de Paris,Lundi 22 Janvier : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+182,« Atys » de Lully,Opéra royal - Château de Versailles,Lundi 22 Janvier : 20h00,Place d'Armes entrée par la Grille d'Honneur,Versailles,83-128 €
+183,"Mozart, mon amour",Salle Gaveau,Lundi 22 Janvier : 20h30,45 rue La Boétie,Paris 8e,unknown
+184,Nouveaux Mondes,Grande salle Pierre Boulez - Philharmonie de Paris,Mardi 23 Janvier : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+185,Valérie Aimard,Collège des Bernardins,Mercredi 24 Janvier : 12h30,20 rue de Poissy,Paris 5e,unknown
+186,Adrien Polycarpe,Église Saint-Éphrem,"Mercredi 24 Janvier : 19h00, Mardi 30 Janvier : 19h30",17 rue des Carmes,Paris 5e,16-25 €
+187,Airs et ensembles d'opéra,Opéra Garnier,Mercredi 24 Janvier : 20h00,place de l'Opéra,Paris 9e,unknown
+188,Orchestre de Paris et Daniil Trifonov,Grande salle Pierre Boulez - Philharmonie de Paris,"Mercredi 24 Janvier : 20h00, Jeudi 25 Janvier : 20h00",221 avenue Jean-Jaurès,Paris 19e,unknown
+189,Les Affranchi.e.s,ECUJE,Mercredi 24 Janvier : 20h00,119 rue La Fayette,Paris 10e,unknown
+190,"L'art des études, rencontre entre l'artisanat européen et japonais",Musée Guimet,Mercredi 24 Janvier : 20h00,6 place d'Iéna,Paris 16e,unknown
+191,Gary Hoffman et David Selig,Église Saint-Paul de la Plaine,"Jeu 25 Janvier : 12h30, 20h00",29 rue du Landy,Saint-Denis,unknown
+192,Pascal Gallet,Institut National des Jeunes Aveugles,Jeudi 25 Janvier : 13h00,56 boulevard des Invalides,Paris 7e,unknown
+193,Carl Orff : Carmina Burana,Théâtre des Champs-Élysées,"Jeudi 25 Janvier : 19h30, Vendredi 26 Janvier : 19h30",15 avenue Montaigne,Paris 8e,unknown
+194,Elio di Tanna,Église Saint-Éphrem,Jeudi 25 Janvier : 19h30,17 rue des Carmes,Paris 5e,16-25 €
+195,Thomas Enhco et Vassilena Serafimova,Théâtre de l'Œuvre,Jeudi 25 Janvier : 20h00,55 rue de Clichy,Paris 9e,unknown
+196,Cyrille Dubois et Tristan Raës,Amphithéâtre - Cité de la Musique-Philharmonie,Jeudi 25 Janvier : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+197,David Lively et Busoni,Cathédrale Saint-Louis-des-Invalides - Hôtel National des Invalides,Jeudi 25 Janvier : 20h00,129 rue de Grenelle Hôtel National des Invalides,Paris 7e,unknown
+198,Orchestre philharmonique de Radio France et Renaud Capuçon,Grande salle Pierre Boulez - Philharmonie de Paris,Vendredi 26 Janvier : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+199,"Mathieu Salama, Bruno Angé et Olivier Pelmoine",Espace Jules Vallès,Vendredi 26 Janvier : 20h00,72 avenue Félix Faure,Paris 15e,unknown
+200,Maîtres de Notre-Dame,Auditorium Michel Laclotte - Musée du Louvre,Vendredi 26 Janvier : 20h00,Entrée principale : Pyramide (cour Napoléon),Paris 1er,unknown
+201,Martin Beau,Église Saint-Éphrem,Vendredi 26 Janvier : 20h00,17 rue des Carmes,Paris 5e,16-25 €
+202,Orchestre Hélios et Glen Rouxel,Église de la Madeleine,Vendredi 26 Janvier : 20h45,Place de la Madeleine,Paris 8e,22-44 €
+203,Secret d'instrument,Musée de la Musique - Cité de la Musique-Philharmonie,Samedi 27 Janvier : 15h30,221 avenue Jean-Jaurès,Paris 19e,unknown
+204,Antonin Bonnet et Krzysztof Michalski,Église Saint-Éphrem,Samedi 27 Janvier : 16h00,17 rue des Carmes,Paris 5e,16-25 €
+205,Ensemble Beata Musica,Église Sainte-Rosalie,Samedi 27 Janvier : 16h00,50 boulevard Auguste-Blanqui,Paris 13e,unknown
+206,Pelléas etc.,Salle des concerts - Cité de la Musique-Philharmonie,"Samedi 27 Janvier : 20h00, Dimanche 28 Janvier : 16h00",221 rue Jean-Jaurès,Paris 19e,unknown
+207,Quatuor Strada et Simon Zaoui,Le Studio - Philharmonie de Paris,Samedi 27 Janvier : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+208,Orchestre Les Violons de France et Cécile Besnard,Église de la Madeleine,Samedi 27 Janvier : 20h00,Place de la Madeleine,Paris 8e,22-33 €
+209,L'invitation au voyage,Archives nationales,Samedi 27 Janvier : 20h00,60 rue des Francs-Bourgeois Hôtel de Soubise,Paris 3e,unknown
+210,"Joseph Pernoo, Claire Thirion et Karine Sélo",L'Accord Parfait,Samedi 27 Janvier : 20h00,47 rue Ramey,Paris 18e,unknown
+211,Orchestre Paris Classik et Bertrand Cervera,Église Saint-Germain-des-Prés,Samedi 27 Janvier : 20h30,Place Saint-Germain des Prés,Paris 6e,unknown
+212,Ensemble vocal Largentière,Église Saint-Jean-Baptiste,Samedi 27 Janvier : 20h30,1 rue du Docteur Berger,Sceaux,unknown
+213,Orchestre Hélios et Glen Rouxel,Église Saint-Louis-en-l'Île,Sam 27 Janvier : 20h45,19 bis rue Saint-Louis-en-l'Île,Paris 4e,22-44 €
+214,"Joseph Pernoo, Vincent Penot, Claire Thirion et Karine Sélo",L'Accord Parfait,Dimanche 28 Janvier : 11h00,47 rue Ramey,Paris 18e,unknown
+215,Une après-midi avec Fauré,Musée de la Musique - Cité de la Musique-Philharmonie,"Dimanche 28 Janvier : 14h30, 15h30",221 avenue Jean-Jaurès,Paris 19e,unknown
+216,Jules Hemmi,Cathédrale américaine,Dimanche 28 Janvier : 15h00,23 avenue George V,Paris 8e,unknown
+217,Concert inaugural - 1873,Salle Gaveau,Dimanche 28 Janvier : 16h00,45 rue La Boétie,Paris 8e,unknown
+218,Nour Ayadi,La Scala Paris,Dimanche 28 Janvier : 16h00,13 boulevard de Strasbourg,Paris 10e,unknown
+219,Ensemble vocal Largentière,Église Saint-Jacques-du-Haut-Pas,Dimanche 28 Janvier : 16h00,252 rue Saint-Jacques,Paris 5e,unknown
+220,Chœur de Grenelle,Église Saint-Ferdinand-des-Ternes,Dimanche 28 Janvier : 16h00,25 rue d'Armaillé,Paris 17e,unknown
+221,Le Madrigal de Suresnes,Église Notre-Dame-de-Compassion,Dimanche 28 Janvier : 16h30,Place du Général-Koenig,Paris 17e,unknown
+222,Evgeny Kissin,Théâtre des Champs-Élysées,Dimanche 28 Janvier : 17h00,15 avenue Montaigne,Paris 8e,unknown
+223,Remi Masunaga,Église Saint-Éphrem,Dimanche 28 Janvier : 17h00,17 rue des Carmes,Paris 5e,16-25 €
+224,Baptiste-Florian Marle-Ouvrard,Église Saint-Eustache,Dimanche 28 Janvier : 17h00,Rue du Jour Forum des Halles,Paris 1er,unknown
+225,Alice Ferrière et Nicolas Royez,Fondation de l'Allemagne – Maison Heinrich Heine - Cité Internationale Universitaire,Dim 28 Janvier : 17h00,27 boulevard Jourdan,Paris 14e,unknown
+226,Alexandra Bartfeld,Église Saint-Pierre de Montmartre,Dimanche 28 Janvier : 18h00,2 rue du Mont-Cenis,Paris 18e,unknown
+227,« Les Soldats » de Zimmermann,Grande salle Pierre Boulez - Philharmonie de Paris,Dimanche 28 Janvier : 19h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+228,Loann Fourmental,Église Saint-Éphrem,Lundi 29 Janvier : 19h30,17 rue des Carmes,Paris 5e,16-25 €
+229,Les trois contre-ténors,Opéra royal - Château de Versailles,Lundi 29 Janvier : 20h00,Place d'Armes entrée par la Grille d'Honneur,Versailles,unknown
+230,Quatuor Cambini et Judith van Wanroij,Grand Salon du Musée de l'Armée - Musée de l'Armée,Lundi 29 Janvier : 20h00,129 rue de Grenelle,Paris 7e,unknown
+231,Jenny Daviet et Alphonse Cemin,Athénée Théâtre Louis-Jouvet,Lundi 29 Janvier : 20h00,7 rue Boudreau Square de l'Opéra Louis-Jouvet,Paris 9e,24-31 €
+232,Yusif Eyvazov et Murad Adigezalzade,Salle Gaveau,Lundi 29 Janvier : 20h30,45 rue La Boétie,Paris 8e,unknown
+233,Haendel : Aggripine,Auditorium Patrick Devedjian - La Seine Musicale,Mardi 30 Janvier : 19h30,1 île Seguin,Boulogne-Billancourt,unknown
+234,« Alceste » de Lully,Opéra royal - Château de Versailles,Mardi 30 Janvier : 20h00,Place d'Armes entrée par la Grille d'Honneur,Versailles,71-115 €
+235,Valérie Aimard,Collège des Bernardins,Mercredi 31 Janvier : 12h30,20 rue de Poissy,Paris 5e,unknown
+236,Martin Beau,Église Saint-Éphrem,Mercredi 31 Janvier : 19h30,17 rue des Carmes,Paris 5e,16-25 €
+237,"Sunwook Kim, Clara-Jumi Kang et Edgar Moreau",Théâtre des Champs-Élysées,Mercredi 31 Janvier : 20h00,15 avenue Montaigne,Paris 8e,26-70 €
+238,Orchestre de Paris,Grande salle Pierre Boulez - Philharmonie de Paris,"Mercredi 31 Janvier : 20h00, Jeudi 1er Février : 20h00",221 avenue Jean-Jaurès,Paris 19e,unknown
+239,Teva Mazoyer,Église Saint-Éphrem,"Jeudi 1er Février : 17h30, Mardi 6 Février : 18h00",17 rue des Carmes,Paris 5e,16-25 €
+240,« Alceste » de Lully,Théâtre des Champs-Élysées,Jeudi 1er Février : 19h30,15 avenue Montaigne,Paris 8e,28-89 €
+241,Beethoven : Symphonie n°7,Maison de la Radio et de la Musique,Jeudi 1er Février : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+242,Batailles et bruits de guerre,Cathédrale Saint-Louis-des-Invalides - Hôtel National des Invalides,Jeudi 1er Février : 20h00,129 rue de Grenelle Hôtel National des Invalides,Paris 7e,unknown
+243,Gershwin : Rhapsody in Blue,Auditorium Patrick Devedjian - La Seine Musicale,Jeudi 1er Février : 20h30,1 île Seguin,Boulogne-Billancourt,unknown
+244,Adrien Polycarpe,Église Saint-Éphrem,Vendredi 2 Février : 19h00,17 rue des Carmes,Paris 5e,16-25 €
+245,« Rinaldo » de Haendel,Théâtre des Champs-Élysées,Vendredi 2 Février : 19h30,15 avenue Montaigne,Paris 8e,28-61 €
+246,Brahms : Un Requiem allemand,Grande salle Pierre Boulez - Philharmonie de Paris,Vendredi 2 Février : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+247,Orchestre Hélios et Glen Rouxel,Église Saint-Germain-des-Prés,Vendredi 2 Février : 20h45,Place Saint-Germain des Prés,Paris 6e,22-44 €
+248,Pascal Mantin,Église Saint-Éphrem,Samedi 3 Février : 16h30,17 rue des Carmes,Paris 5e,16-25 €
+249,Singin' in the Rain,Amphithéâtre - Cité de la Musique-Philharmonie,Samedi 3 Février : 18h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+250,Vous trouvez ça classique ? Concerto pour piano n°2 de Rachmaninov,Auditorium Patrick Devedjian - La Seine Musicale,Samedi 3 Février : 19h00,1 île Seguin,Boulogne-Billancourt,unknown
+251,Le violon de Beethoven,Opéra de Massy,Samedi 3 Février : 20h00,1 place de France,Massy,unknown
+252,Orchestre Les Violons de France et Cécile Besnard,Église de la Madeleine,Samedi 3 Février : 20h00,Place de la Madeleine,Paris 8e,22-33 €
+253,Les frères Haydn,Église Saint-Roch,"Samedi 3 Février : 20h30, Dimanche 4 Février : 15h00",296 rue Saint-Honoré,Paris 1er,unknown
+254,Orchestre Hélios et Glen Rouxel,Église Saint-Germain-des-Prés,Samedi 3 Février : 20h45,Place Saint-Germain des Prés,Paris 6e,22-44 €
+255,« Didon et Énée » de Purcell,Théâtre des Champs-Élysées,Dimanche 4 Février : 11h00,15 avenue Montaigne,Paris 8e,16-28 €
+256,Ludwig m'a chanté,Théâtre de l'Aquarium - Cartoucherie,Dimanche 4 Février : 15h00,route du Champ de Manœuvre (navette cartoucherie gratuite),Paris 12e,13-24 €
+257,Jorge Garcia Herranz,Cathédrale américaine,Dimanche 4 Février : 15h00,23 avenue George V,Paris 8e,unknown
+258,Haydn : Les Sept Dernières Paroles du Christ en Croix,Grande salle Pierre Boulez - Philharmonie de Paris,Dimanche 4 Février : 16h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+259,Natasha Kadyrova et Marina Kolomitceva,Église Saint-Éphrem,Dimanche 4 Février : 16h00,17 rue des Carmes,Paris 5e,16-25 €
+260,Orchestre de l'Académie de l'île Saint-Louis,Église Saint-Louis-en-l'Île,Dim 4 Février : 16h00,19 bis rue Saint-Louis-en-l'Île,Paris 4e,unknown
+261,Musiques de Couronnement,Campus d'Orsay - Amphithéâtre Henri Cartan,Dimanche 4 Février : 16h00,598 rue André Rivière,Orsay,unknown
+262,Ensemble Beata Musica,Hôpital Tenon,Dimanche 4 Février : 16h00,4 rue de la Chine,Paris 20e,unknown
+263,Umberto Realino,Chapelle de l'Agneau de Dieu,Dimanche 4 Février : 17h00,2 place Henri-Frenay,Paris 12e,unknown
+264,Chœur de la Cathédrale américaine et Andrew Dewar,Cathédrale américaine,Dimanche 4 Février : 18h00,23 avenue George V,Paris 8e,unknown
+265,Olivier Schmitt,Église Saint-Pierre de Montmartre,Dimanche 4 Février : 18h00,2 rue du Mont-Cenis,Paris 18e,unknown
+266,« Don Giovanni » de Mozart,Théâtre des Champs-Élysées,Lundi 5 Février : 19h30,15 avenue Montaigne,Paris 8e,unknown
+267,Loann Fourmental,Église Saint-Éphrem,Lundi 5 Février : 19h30,17 rue des Carmes,Paris 5e,16-25 €
+268,Cuarteto Chagall et Angélica Rodríguez,Athénée Théâtre Louis-Jouvet,Lundi 5 Février : 20h00,7 rue Boudreau Square de l'Opéra Louis-Jouvet,Paris 9e,15-31 €
+269,Orchestre national du Capitole de Toulouse,Grande salle Pierre Boulez - Philharmonie de Paris,Lundi 5 Février : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+270,Elisabeth Leonskaja,Grande salle Pierre Boulez - Philharmonie de Paris,Mardi 6 Février : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+271,"Sonia Wieder-Atherton, Amaryllis Billet et Françoise Rivalland",Auditorium Patrick Devedjian - La Seine Musicale,Mardi 6 Février : 20h00,1 île Seguin,Boulogne-Billancourt,unknown
+272,Orchestre Les Violons de France,Église de la Madeleine,Mercredi 7 Février : 19h30,Place de la Madeleine,Paris 8e,22-33 €
+273,Orchestre de chambre de Paris et Christian Tetzlaff,Théâtre des Champs-Élysées,Mercredi 7 Février : 20h00,15 avenue Montaigne,Paris 8e,15-52 €
+274,Orchestre de Paris et Nina Stemme,Grande salle Pierre Boulez - Philharmonie de Paris,"Mercredi 7 Février : 20h00, Jeudi 8 Février : 20h00",221 avenue Jean-Jaurès,Paris 19e,unknown
+275,« Didon et Énée » de Purcell / « Jephté » de Carissimi,Théâtre des Champs-Élysées,Jeudi 8 Février : 19h30,15 avenue Montaigne,Paris 8e,unknown
+276,Maxime Sauze,Église Saint-Éphrem,Jeudi 8 Février : 19h30,17 rue des Carmes,Paris 5e,16-25 €
+277,Chœur de Grenelle,Église Saint-Roch,Jeudi 8 Février : 20h30,296 rue Saint-Honoré,Paris 1er,unknown
+278,Teva Mazoyer,Église Saint-Éphrem,Vendredi 9 Février : 19h30,17 rue des Carmes,Paris 5e,16-25 €
+279,Ballades musicales,Grande salle Pierre Boulez - Philharmonie de Paris,Samedi 10 Février : 15h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+280,Adrien Polycarpe,Église Saint-Éphrem,"Samedi 10 Février : 16h30, Mardi 13 Février : 19h00",17 rue des Carmes,Paris 5e,16-25 €
+281,Gautier Capuçon et Daniil Trifonov,Grande salle Pierre Boulez - Philharmonie de Paris,Samedi 10 Février : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+282,Orchestre Les Violons de France et Cécile Besnard,Église de la Madeleine,Samedi 10 Février : 20h00,Place de la Madeleine,Paris 8e,22-33 €
+283,Le Monde de Ravel,Auditorium Patrick Devedjian - La Seine Musicale,Samedi 10 Février : 20h30,1 île Seguin,Boulogne-Billancourt,unknown
+284,Orchestre Hélios et Glen Rouxel,Église Saint-Germain-des-Prés,Samedi 10 Février : 20h45,Place Saint-Germain des Prés,Paris 6e,22-44 €
+285,Adam Laloum,Théâtre des Champs-Élysées,Dimanche 11 Février : 11h00,15 avenue Montaigne,Paris 8e,16-28 €
+286,Remi Masunaga,Église Saint-Éphrem,Dimanche 11 Février : 16h00,17 rue des Carmes,Paris 5e,16-25 €
+287,West Side Story & Porgy and Bess,Auditorium Patrick Devedjian - La Seine Musicale,Dimanche 11 Février : 16h30,1 île Seguin,Boulogne-Billancourt,unknown
+288,Adriana von Franqué,Fondation de l'Allemagne – Maison Heinrich Heine - Cité Internationale Universitaire,Dim 11 Février : 17h00,27 boulevard Jourdan,Paris 14e,unknown
+289,Illya Amar,Église Saint-Pierre de Montmartre,Dimanche 11 Février : 18h00,2 rue du Mont-Cenis,Paris 18e,unknown
+290,Natasha Kadyrova,Église Saint-Éphrem,Lundi 12 Février : 19h30,17 rue des Carmes,Paris 5e,16-25 €
+291,"Anna Prohaska, Lars Eidinger et Eric Schneider",Athénée Théâtre Louis-Jouvet,Lundi 12 Février : 20h00,7 rue Boudreau Square de l'Opéra Louis-Jouvet,Paris 9e,24-31 €
+292,The Beggar's Ensemble,La Scala Paris,Mardi 13 Février : 19h30,13 boulevard de Strasbourg,Paris 10e,unknown
+293,Beatrice Rana,Grande salle Pierre Boulez - Philharmonie de Paris,Mardi 13 Février : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+294,Antonin Bonnet et Krzysztof Michalski,Église Saint-Éphrem,Mercredi 14 Février : 19h30,17 rue des Carmes,Paris 5e,16-25 €
+295,Stéphane Degout et Alain Planès,Opéra Comique,Mercredi 14 Février : 20h00,1 place Boïeldieu,Paris 2e,21-55 €
+296,« L'Orfeo » de Monteverdi,Grande salle Pierre Boulez - Philharmonie de Paris,Mercredi 14 Février : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+297,Orchestre Les Violons de France,Église de la Madeleine,Mercredi 14 Février : 20h00,Place de la Madeleine,Paris 8e,22-33 €
+298,Loann Fourmental,Église Saint-Éphrem,Jeudi 15 Février : 19h00,17 rue des Carmes,Paris 5e,16-25 €
+299,Mahler : Symphonie n°6,Maison de la Radio et de la Musique,Vendredi 16 Février : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+300,Antonin Bonnet,Église Saint-Éphrem,Vendredi 16 Février : 20h00,17 rue des Carmes,Paris 5e,16-25 €
+301,Adrien Polycarpe,Église Saint-Éphrem,"Samedi 17 Février : 17h30, Mardi 20 Février : 19h00",17 rue des Carmes,Paris 5e,16-25 €
+302,Orchestre Les Solistes français et Paul Rouger,Église Saint-Germain-des-Prés,Samedi 17 Février : 20h30,Place Saint-Germain des Prés,Paris 6e,unknown
+303,Orchestre Hélios et Glen Rouxel,Église de la Madeleine,Samedi 17 Février : 20h45,Place de la Madeleine,Paris 8e,22-44 €
+304,Métamorphoses,Opéra Garnier,Dimanche 18 Février : 12h00,place de l'Opéra,Paris 9e,39 €
+305,Orchestre Les Solistes français et Paul Rouger,Église Saint-Louis-en-l'Île,Dim 18 Février : 16h00,19 bis rue Saint-Louis-en-l'Île,Paris 4e,unknown
+306,Remi Masunaga,Église Saint-Éphrem,Dimanche 18 Février : 16h30,17 rue des Carmes,Paris 5e,16-25 €
+307,Émilie Clément-Planche et Anastasie Jeanne,Église Saint-Pierre de Montmartre,Dimanche 18 Février : 18h00,2 rue du Mont-Cenis,Paris 18e,unknown
+308,Remi Masunaga,Église Saint-Éphrem,Lundi 19 Février : 20h00,17 rue des Carmes,Paris 5e,16-25 €
+309,Plamena Mangova,Maison de la Radio et de la Musique,Mardi 20 Février : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+310,Elio di Tanna,Église Saint-Éphrem,Mercredi 21 Février : 17h30,17 rue des Carmes,Paris 5e,16-25 €
+311,Thibaut Maudry et Adrien Polycarpe,Église Saint-Éphrem,Jeudi 22 Février : 19h00,17 rue des Carmes,Paris 5e,16-25 €
+312,"Haendel, les grands airs d'opéra",Maison de la Radio et de la Musique,Jeudi 22 Février : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+313,Orchestre Les Violons de France,Église de la Madeleine,Vendredi 23 Février : 19h30,Place de la Madeleine,Paris 8e,22-33 €
+314,Pascal Mantin,Église Saint-Éphrem,Vendredi 23 Février : 20h00,17 rue des Carmes,Paris 5e,16-25 €
+315,Orchestre Hélios et Glen Rouxel,Église Saint-Germain-des-Prés,Vendredi 23 Février : 20h45,Place Saint-Germain des Prés,Paris 6e,22-44 €
+316,Antonin Bonnet,Église Saint-Éphrem,Samedi 24 Février : 16h30,17 rue des Carmes,Paris 5e,16-25 €
+317,Remi Masunaga,Église Saint-Éphrem,Samedi 24 Février : 19h00,17 rue des Carmes,Paris 5e,16-25 €
+318,Katia Weimann et Christian Hohn,L'Accord Parfait,Samedi 24 Février : 20h00,47 rue Ramey,Paris 18e,unknown
+319,Orchestre Paris Classik et Bertrand Cervera,Église Saint-Germain-des-Prés,Samedi 24 Février : 20h30,Place Saint-Germain des Prés,Paris 6e,unknown
+320,Orchestre Hélios et Chœur Hélios éphémère,Église de la Madeleine,Samedi 24 Février : 20h45,Place de la Madeleine,Paris 8e,22-44 €
+321,Les Matins du National,Maison de la Radio et de la Musique,Dimanche 25 Février : 11h00,116 avenue du Président Kennedy,Paris 16e,unknown
+322,Ensemble Hélios et Chœur Hélios éphémère,Église Saint-Louis-en-l'Île,Dim 25 Février : 15h00,19 bis rue Saint-Louis-en-l'Île,Paris 4e,22-44 €
+323,"Élisa Huteau, Thibaut Maudry et Adrien Polycarpe",Église Saint-Éphrem,Dimanche 25 Février : 17h00,17 rue des Carmes,Paris 5e,16-25 €
+324,Violette Erhart,Comédie Nation,Dimanche 25 Février : 19h00,77 rue de Montreuil,Paris 11e,16-22 €
+325,Natasha Kadyrova,Église Saint-Éphrem,Lundi 26 Février : 17h30,17 rue des Carmes,Paris 5e,16-25 €
+326,Piotr Anderszewski,Grande salle Pierre Boulez - Philharmonie de Paris,Lundi 26 Février : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+327,Airs italiens,Salle des concerts - Cité de la Musique-Philharmonie,Lundi 26 Février : 20h00,221 rue Jean-Jaurès,Paris 19e,unknown
+328,"Allan Clayton, George Humphreys, Christopher Lowrey et Julius Drake",Athénée Théâtre Louis-Jouvet,Lundi 26 Février : 20h00,7 rue Boudreau Square de l'Opéra Louis-Jouvet,Paris 9e,24-31 €
+329,Hungarian Rock,Théâtre des Bouffes du Nord,Lundi 26 Février : 20h00,37 bis bd de la Chapelle,Paris 10e,unknown
+330,Orchestre Lamoureux et Gautier Capuçon,L'Olympia,Lun 26 Février : 20h30,28 boulevard des Capucines,Paris 9e,unknown
+331,Adrien Polycarpe,Église Saint-Éphrem,Mardi 27 Février : 19h00,17 rue des Carmes,Paris 5e,16-25 €
+332,Sunwook Kim et Clara-Jumi Kang,Théâtre des Champs-Élysées,Mardi 27 Février : 20h00,15 avenue Montaigne,Paris 8e,26-70 €
+333,Camerata Salzburg et Janine Jansen,Grande salle Pierre Boulez - Philharmonie de Paris,Mardi 27 Février : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+334,Classicismes,Salle des concerts - Cité de la Musique-Philharmonie,Mardi 27 Février : 20h00,221 rue Jean-Jaurès,Paris 19e,unknown
+335,Franz Schubert / Emilie Mayer,Auditorium Patrick Devedjian - La Seine Musicale,Mardi 27 Février : 20h00,1 île Seguin,Boulogne-Billancourt,unknown
+336,Elio di Tanna,Église Saint-Éphrem,Mercredi 28 Février : 17h30,17 rue des Carmes,Paris 5e,16-25 €
+337,Franz Schubert / Emilie Mayer,Auditorium Patrick Devedjian - La Seine Musicale,Mercredi 28 Février : 19h30,1 île Seguin,Boulogne-Billancourt,unknown
+338,Ballets russes,Grande salle Pierre Boulez - Philharmonie de Paris,"Mercredi 28 Février : 20h00, Jeudi 29 Février : 20h00",221 avenue Jean-Jaurès,Paris 19e,unknown
+339,Quatuor Ébène,Maison de la Radio et de la Musique,Mercredi 28 Février : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+340,Maxime Sauze,Église Saint-Éphrem,"Jeudi 29 Février : 19h00, Mardi 5 Mars : 19h00",17 rue des Carmes,Paris 5e,16-25 €
+341,Orchestre Les Violons de France,Église de la Madeleine,Jeudi 29 Février : 19h30,Place de la Madeleine,Paris 8e,22-33 €
+342,Igor Levit,Théâtre des Champs-Élysées,Jeudi 29 Février : 20h00,15 avenue Montaigne,Paris 8e,24-61 €
+343,Avant-scènes,Salle des concerts - Cité de la Musique-Philharmonie,Jeudi 29 Février : 20h00,221 rue Jean-Jaurès,Paris 19e,unknown
+344,Holst : Les Planètes,Maison de la Radio et de la Musique,Jeudi 29 Février : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+345,Vous avez dit classique ?,Théâtre Victor-Hugo,Jeudi 29 Février : 20h30,14 avenue Victor-Hugo,Bagneux,7-31 €
+346,András Schiff,Grande salle Pierre Boulez - Philharmonie de Paris,Vendredi 1er Mars : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+347,Pascal Mantin,Église Saint-Éphrem,Vendredi 1er Mars : 20h00,17 rue des Carmes,Paris 5e,16-25 €
+348,Orchestre Hélios et Glen Rouxel,Église Saint-Germain-des-Prés,Vendredi 1er Mars : 20h45,Place Saint-Germain des Prés,Paris 6e,22-44 €
+349,Les Clefs de l'orchestre de Jean-François Zygel,Maison de la Radio et de la Musique,"Samedi 2 Mars : 14h30, 20h00",116 avenue du Président Kennedy,Paris 16e,unknown
+350,Con brio,Salle Gaveau,Samedi 2 Mars : 16h00,45 rue La Boétie,Paris 8e,unknown
+351,Natasha Kadyrova,Église Saint-Éphrem,Samedi 2 Mars : 16h30,17 rue des Carmes,Paris 5e,16-25 €
+352,Francesco Piemontesi,Théâtre des Champs-Élysées,Samedi 2 Mars : 20h00,15 avenue Montaigne,Paris 8e,26-70 €
+353,Gewandhausorchester Leipzig et Leonidas Kavakos,Grande salle Pierre Boulez - Philharmonie de Paris,Samedi 2 Mars : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+354,God Save the King!,Opéra de Massy,Samedi 2 Mars : 20h00,1 place de France,Massy,unknown
+355,André Rieu,Accor Arena,Samedi 2 Mars : 20h00,8 boulevard de Bercy,Paris 12e,unknown
+356,Orchestre Les Violons de France et Cécile Besnard,Église de la Madeleine,Samedi 2 Mars : 20h00,Place de la Madeleine,Paris 8e,22-33 €
+357,Orchestre Les Solistes français et Paul Rouger,Église Saint-Germain-des-Prés,Samedi 2 Mars : 20h30,Place Saint-Germain des Prés,Paris 6e,unknown
+358,Orchestre Hélios et Glen Rouxel,Église Saint-Louis-en-l'Île,Sam 2 Mars : 20h45,19 bis rue Saint-Louis-en-l'Île,Paris 4e,22-44 €
+359,"Quatuor Prazak, François Dumont et Frédéric Alcaraz",Théâtre des Champs-Élysées,Dimanche 3 Mars : 11h00,15 avenue Montaigne,Paris 8e,unknown
+360,Gewandhausorchester Leipzig,Grande salle Pierre Boulez - Philharmonie de Paris,Dimanche 3 Mars : 16h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+361,Umberto Realino,Chapelle Saint-Louis de la Salpêtrière,Dimanche 3 Mars : 16h00,83 boulevard de l'Hôpital,Paris 13e,unknown
+362,Timothée Marcel et Elio di Tanna,Église Saint-Éphrem,Dimanche 3 Mars : 17h00,17 rue des Carmes,Paris 5e,16-25 €
+363,Oxalis Quartett,Fondation de l'Allemagne – Maison Heinrich Heine - Cité Internationale Universitaire,Dim 3 Mars : 17h00,27 boulevard Jourdan,Paris 14e,unknown
+364,« Les Pêcheurs de perles » de Bizet,Théâtre des Champs-Élysées,Lundi 4 Mars : 19h30,15 avenue Montaigne,Paris 8e,unknown
+365,Denis Podalydès raconte les Invalides,Grand Salon du Musée de l'Armée - Musée de l'Armée,Lundi 4 Mars : 20h00,129 rue de Grenelle,Paris 7e,unknown
+366,Adrien Polycarpe,Église Saint-Éphrem,Lundi 4 Mars : 20h00,17 rue des Carmes,Paris 5e,16-25 €
+367,Mami Sakato,Maison de la Radio et de la Musique,Mardi 5 Mars : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+368,Elio di Tanna,Église Saint-Éphrem,"Mercredi 6 Mars : 19h30, Mardi 12 Mars : 20h00",17 rue des Carmes,Paris 5e,16-25 €
+369,Seong-Jin Cho,Théâtre des Champs-Élysées,Mercredi 6 Mars : 20h00,15 avenue Montaigne,Paris 8e,26-52 €
+370,Orchestre de Paris et Yunchan Lim,Grande salle Pierre Boulez - Philharmonie de Paris,"Mercredi 6 Mars : 20h00, Jeudi 7 Mars : 20h00",221 avenue Jean-Jaurès,Paris 19e,unknown
+371,Trio Goldberg,ECUJE,Mercredi 6 Mars : 20h00,119 rue La Fayette,Paris 10e,unknown
+372,Les grands chœurs d'opéra,Auditorium Patrick Devedjian - La Seine Musicale,Mercredi 6 Mars : 20h30,1 île Seguin,Boulogne-Billancourt,30-62 €
+373,Roger Muraro et Lambert Wilson,Auditorium Patrick Devedjian - La Seine Musicale,Jeudi 7 Mars : 20h00,1 île Seguin,Boulogne-Billancourt,unknown
+374,Orchestre Les Violons de France,Église de la Madeleine,Jeudi 7 Mars : 20h00,Place de la Madeleine,Paris 8e,22-33 €
+375,Orchestre du Conservatoire de Paris et Akiko Suwanai,Grande salle Pierre Boulez - Philharmonie de Paris,Vendredi 8 Mars : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+376,Ravel : Concerto en sol,Maison de la Radio et de la Musique,Vendredi 8 Mars : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+377,Adrien Polycarpe,Église Saint-Éphrem,Vendredi 8 Mars : 20h00,17 rue des Carmes,Paris 5e,16-25 €
+378,Orchestre Hélios et Glen Rouxel,Église Saint-Germain-des-Prés,Vendredi 8 Mars : 20h45,Place Saint-Germain des Prés,Paris 6e,22-44 €
+379,Secret d'instrument,Musée de la Musique - Cité de la Musique-Philharmonie,Samedi 9 Mars : 15h30,221 avenue Jean-Jaurès,Paris 19e,unknown
+380,Orane Donnadieu,Église Saint-Éphrem,Samedi 9 Mars : 18h00,17 rue des Carmes,Paris 5e,16-25 €
+381,Vous trouvez ça classique ? La Mer de Debussy,Auditorium Patrick Devedjian - La Seine Musicale,Samedi 9 Mars : 19h00,1 île Seguin,Boulogne-Billancourt,unknown
+382,London Symphony Orchestra et Kirill Gerstein,Grande salle Pierre Boulez - Philharmonie de Paris,Samedi 9 Mars : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+383,Chorus Line #3,Maison de la Radio et de la Musique,Samedi 9 Mars : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+384,Orchestre Hélios et Chœur Hélios éphémère,Église de la Madeleine,Samedi 9 Mars : 20h45,Place de la Madeleine,Paris 8e,22-44 €
+385,Maxim Emelyanychev et Aylen Pritchin,Théâtre des Champs-Élysées,Dimanche 10 Mars : 11h00,15 avenue Montaigne,Paris 8e,16-28 €
+386,Capriccio,Opéra Garnier,Dimanche 10 Mars : 12h00,place de l'Opéra,Paris 9e,39 €
+387,London Symphony Orchestra et Isabelle Faust,Grande salle Pierre Boulez - Philharmonie de Paris,Dimanche 10 Mars : 16h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+388,Philhar'intime,Maison de la Radio et de la Musique,Dimanche 10 Mars : 16h00,116 avenue du Président Kennedy,Paris 16e,unknown
+389,Natasha Kadyrova,Église Saint-Éphrem,Dimanche 10 Mars : 16h30,17 rue des Carmes,Paris 5e,16-25 €
+390,Charpentier : Missa Assumpta est Maria,Chapelle royale - Château de Versailles,Dimanche 10 Mars : 17h00,Place d'Armes entrée par la Grille d'Honneur,Versailles,71-115 €
+391,Duo Maloney-Olivieri,Fondation de l'Allemagne – Maison Heinrich Heine - Cité Internationale Universitaire,Dim 10 Mars : 17h00,27 boulevard Jourdan,Paris 14e,unknown
+392,Maxime Sauze,Église Saint-Éphrem,Lundi 11 Mars : 19h30,17 rue des Carmes,Paris 5e,16-25 €
+393,Orchestre symphonique de la Radio suédoise et Maria João Pires,Grande salle Pierre Boulez - Philharmonie de Paris,Lundi 11 Mars : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+394,Quella fiamma !,Château de Versailles,Lundi 11 Mars : 20h00,4 boulevard de la Reine,Versailles,unknown
+395,Béla par Bartók,Auditorium Patrick Devedjian - La Seine Musicale,Mardi 12 Mars : 19h00,1 île Seguin,Boulogne-Billancourt,unknown
+396,Orchestre national d'Île-de-France et Boris Giltburg,Grande salle Pierre Boulez - Philharmonie de Paris,Mardi 12 Mars : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+397,Duel Liszt / Thalberg,Cathédrale Saint-Louis-des-Invalides - Hôtel National des Invalides,Mardi 12 Mars : 20h00,129 rue de Grenelle Hôtel National des Invalides,Paris 7e,unknown
+398,Célia Oneto-Bensaïd,Auditorium de la Batterie,Mardi 12 Mars : 20h30,1 rue de la Redoute,Guyancourt,25 €
+399,Louis Lortie,Salle Gaveau,Mardi 12 Mars : 20h30,45 rue La Boétie,Paris 8e,unknown
+400,Adrien Polycarpe,Église Saint-Éphrem,"Mercredi 13 Mars : 19h00, Mardi 19 Mars : 20h00",17 rue des Carmes,Paris 5e,16-25 €
+401,Rameau : L'Entretien des muses ,La Scala Paris,Mercredi 13 Mars : 19h30,13 boulevard de Strasbourg,Paris 10e,unknown
+402,Rachmaninov : Leningrad,Grande salle Pierre Boulez - Philharmonie de Paris,Mercredi 13 Mars : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+403,Bach / Mozart / Pärt,Maison de la Radio et de la Musique,Mercredi 13 Mars : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+404,« Carmen » de Bizet,Grande salle Pierre Boulez - Philharmonie de Paris,Jeudi 14 Mars : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+405,Beethoven : Symphonie n°6,Maison de la Radio et de la Musique,Jeudi 14 Mars : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+406,"Patricia Petibon : l'Amour, la Mort, la Mer",Cathédrale Saint-Louis-des-Invalides - Hôtel National des Invalides,Jeudi 14 Mars : 20h00,129 rue de Grenelle Hôtel National des Invalides,Paris 7e,unknown
+407,Pascal Mantin,Église Saint-Éphrem,Vendredi 15 Mars : 20h00,17 rue des Carmes,Paris 5e,16-25 €
+408,Chœur Éphata,Église Saint-Roch,"Vendredi 15 Mars : 20h30, Samedi 16 Mars : 20h30",296 rue Saint-Honoré,Paris 1er,unknown
+409,Alexis Grizard,Église Saint-Pierre de Montmartre,Samedi 16 Mars : 12h00,2 rue du Mont-Cenis,Paris 18e,unknown
+410,Remi Masunaga,Église Saint-Éphrem,Samedi 16 Mars : 16h30,17 rue des Carmes,Paris 5e,16-25 €
+411,Purcell : Ode à sainte Cécile,Chapelle royale - Château de Versailles,Samedi 16 Mars : 19h00,Place d'Armes entrée par la Grille d'Honneur,Versailles,71-115 €
+412,Stravinsky : Petrouchka,Maison de la Radio et de la Musique,Samedi 16 Mars : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+413,Orchestre Les Violons de France et Cécile Besnard,Église de la Madeleine,Samedi 16 Mars : 20h00,Place de la Madeleine,Paris 8e,22-33 €
+414,Orchestre Hélios et Glen Rouxel,Église Saint-Germain-des-Prés,Samedi 16 Mars : 20h45,Place Saint-Germain des Prés,Paris 6e,22-44 €
+415,Benjamin Grosvenor,Théâtre des Champs-Élysées,Dimanche 17 Mars : 11h00,15 avenue Montaigne,Paris 8e,16-28 €
+416,« La Walkyrie » de Wagner,Opéra royal - Château de Versailles,Dimanche 17 Mars : 15h00,Place d'Armes entrée par la Grille d'Honneur,Versailles,unknown
+417,Umberto Realino,Chapelle Saint-Rémi,Dimanche 17 Mars : 16h00,28 rue de Charenton,Paris 12e,unknown
+418,"Mariko Akimoto, Henry Wyld et Armelle Choquard",Chapelle de l'Hôpital Lariboisière,Dimanche 17 Mars : 16h00,2 rue Ambroise Paré,Paris 10e,unknown
+419,Timothée Marcel et Elio di Tanna,Église Saint-Éphrem,Dimanche 17 Mars : 17h00,17 rue des Carmes,Paris 5e,16-25 €
+420,Daniel Propper,Fondation de l'Allemagne – Maison Heinrich Heine - Cité Internationale Universitaire,Dim 17 Mars : 17h00,27 boulevard Jourdan,Paris 14e,unknown
+421,Orane Donnadieu,Église Saint-Éphrem,Lundi 18 Mars : 19h30,17 rue des Carmes,Paris 5e,16-25 €
+422,Bach : Passion selon saint Jean,Grande salle Pierre Boulez - Philharmonie de Paris,Lundi 18 Mars : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+423,Beethoven : L'Empereur,Opéra royal - Château de Versailles,Lundi 18 Mars : 20h00,Place d'Armes entrée par la Grille d'Honneur,Versailles,unknown
+424,Julie Fuchs et Alphonse Cemin,Athénée Théâtre Louis-Jouvet,Lundi 18 Mars : 20h00,7 rue Boudreau Square de l'Opéra Louis-Jouvet,Paris 9e,24-31 €
+425,Elio di Tanna,Église Saint-Éphrem,Mercredi 20 Mars : 19h30,17 rue des Carmes,Paris 5e,16-25 €
+426,Orchestre de chambre de Paris et Nicolas Altstaedt,Théâtre des Champs-Élysées,Mercredi 20 Mars : 20h00,15 avenue Montaigne,Paris 8e,15-52 €
+427,Chœur Éphata,Église Saint-Roch,Mercredi 20 Mars : 20h30,296 rue Saint-Honoré,Paris 1er,unknown
+428,Orchestre du CRR de Paris et Aristo Sham,Salle Gaveau,Mercredi 20 Mars : 20h30,45 rue La Boétie,Paris 8e,unknown
+429,« La Damnation de Faust » de Berlioz,Théâtre des Champs-Élysées,Jeudi 21 Mars : 19h30,15 avenue Montaigne,Paris 8e,unknown
+430,Orchestre de la Musique de l'Air et de l'Espace et Paul Meyer,Cathédrale Saint-Louis-des-Invalides - Hôtel National des Invalides,Jeudi 21 Mars : 20h00,129 rue de Grenelle Hôtel National des Invalides,Paris 7e,unknown
+431,Maxime Sauze,Église Saint-Éphrem,Jeudi 21 Mars : 20h00,17 rue des Carmes,Paris 5e,16-25 €
+432,Bach : Passion selon saint Matthieu,Théâtre des Champs-Élysées,Vendredi 22 Mars : 19h30,15 avenue Montaigne,Paris 8e,unknown
+433,Maestro !,Opéra Comique,Vendredi 22 Mars : 19h30,1 place Boïeldieu,Paris 2e,unknown
+434,Czech Philharmonic et Pablo Ferrández,Grande salle Pierre Boulez - Philharmonie de Paris,Vendredi 22 Mars : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+435,Salon Poulenc,Amphithéâtre - Cité de la Musique-Philharmonie,Vendredi 22 Mars : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+436,Concerto contre piano et orchestre,Athénée Théâtre Louis-Jouvet,"Vendredi 22 Mars : 20h00, Samedi 23 Mars : 20h00, Dimanche 24 Mars : 16h00",7 rue Boudreau Square de l'Opéra Louis-Jouvet,Paris 9e,15-40 €
+437,America !,Maison de la Radio et de la Musique,Vendredi 22 Mars : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+438,Pascal Mantin,Église Saint-Éphrem,Vendredi 22 Mars : 20h00,17 rue des Carmes,Paris 5e,16-25 €
+439,Orchestre Hélios et Chœur Hélios éphémère,Église Saint-Louis-en-l'Île,Ven 22 Mars : 20h45,19 bis rue Saint-Louis-en-l'Île,Paris 4e,22-44 €
+440,Légendes,Grande salle Pierre Boulez - Philharmonie de Paris,Samedi 23 Mars : 15h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+441,Thibaut Maudry et Adrien Polycarpe,Église Saint-Éphrem,Samedi 23 Mars : 18h00,17 rue des Carmes,Paris 5e,16-25 €
+442,Bach : cantates,Chapelle royale - Château de Versailles,Samedi 23 Mars : 19h00,Place d'Armes entrée par la Grille d'Honneur,Versailles,71-115 €
+443,Les grandes voix lyriques d’Afrique,Théâtre des Champs-Élysées,Samedi 23 Mars : 20h00,15 avenue Montaigne,Paris 8e,unknown
+444,Czech Philharmonic et Bertrand Chamayou ,Grande salle Pierre Boulez - Philharmonie de Paris,Samedi 23 Mars : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+445,Voyage au pays de Maurice Ravel,Opéra Comique,Samedi 23 Mars : 20h00,1 place Boïeldieu,Paris 2e,unknown
+446,Orchestre Les Violons de France et Cécile Besnard,Église de la Madeleine,Samedi 23 Mars : 20h00,Place de la Madeleine,Paris 8e,22-33 €
+447,"Orchestre national d'Île-de-France, Shani Diluka et Séphora Pondi",Le POC,Samedi 23 Mars : 20h30,Parvis des Arts,Alfortville,19-24 €
+448,Orchestre Hélios et Glen Rouxel,Église Saint-Germain-des-Prés,Samedi 23 Mars : 20h45,Place Saint-Germain des Prés,Paris 6e,22-44 €
+449,Les Matins du National,Maison de la Radio et de la Musique,Dimanche 24 Mars : 11h00,116 avenue du Président Kennedy,Paris 16e,unknown
+450,Haendel : Israël en Égypte,Chapelle royale - Château de Versailles,Dimanche 24 Mars : 15h00,Place d'Armes entrée par la Grille d'Honneur,Versailles,117-149 €
+451,Renaud Capuçon et Alexandre Kantorow,Grande salle Pierre Boulez - Philharmonie de Paris,Dimanche 24 Mars : 16h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+452,Remi Masunaga,Église Saint-Éphrem,Dimanche 24 Mars : 16h30,17 rue des Carmes,Paris 5e,16-25 €
+453,Josquin Otal,La Scala Paris,Dimanche 24 Mars : 17h00,13 boulevard de Strasbourg,Paris 10e,unknown
+454,Violette Erhart,Comédie Nation,Dimanche 24 Mars : 19h00,77 rue de Montreuil,Paris 11e,16-22 €
+455,Le Chevalier de Saint-George,Grand Salon du Musée de l'Armée - Musée de l'Armée,Lundi 25 Mars : 12h15,129 rue de Grenelle,Paris 7e,unknown
+456,Les Siècles,Théâtre des Champs-Élysées,Lundi 25 Mars : 14h00,15 avenue Montaigne,Paris 8e,unknown
+457,"Les Siècles, Marie-Nicole Lemieux et Andrew Staples",Théâtre des Champs-Élysées,Lundi 25 Mars : 20h00,15 avenue Montaigne,Paris 8e,24-61 €
+458,Les Immortels,Grande salle Pierre Boulez - Philharmonie de Paris,Lundi 25 Mars : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+459,Florestan vs Eusebius,Théâtre des Bouffes du Nord,Lundi 25 Mars : 20h00,37 bis bd de la Chapelle,Paris 10e,unknown
+460,Natasha Kadyrova,Église Saint-Éphrem,Lundi 25 Mars : 20h00,17 rue des Carmes,Paris 5e,16-25 €
+461,Alexander Gadjiev,Salle Gaveau,Lundi 25 Mars : 20h30,45 rue La Boétie,Paris 8e,unknown
+462,« Atys » de Lully,Théâtre des Champs-Élysées,Mardi 26 Mars : 19h30,15 avenue Montaigne,Paris 8e,28-89 €
+463,Adrien Polycarpe,Église Saint-Éphrem,Mardi 26 Mars : 19h30,17 rue des Carmes,Paris 5e,16-25 €
+464,Jubilé du National,Grande salle Pierre Boulez - Philharmonie de Paris,Mardi 26 Mars : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+465,Bach : Passion selon saint Jean,Auditorium Patrick Devedjian - La Seine Musicale,Mardi 26 Mars : 20h00,1 île Seguin,Boulogne-Billancourt,unknown
+466,Simon Ghraichy et Marc-André,Salle Gaveau,Mardi 26 Mars : 20h30,45 rue La Boétie,Paris 8e,unknown
+467,Nikolaï Lugansky,Théâtre des Champs-Élysées,Mercredi 27 Mars : 20h00,15 avenue Montaigne,Paris 8e,26-70 €
+468,Concerto contre piano et orchestre,Athénée Théâtre Louis-Jouvet,"Mercredi 27 Mars : 20h00, Jeudi 28 Mars : 20h00, Vendredi 29 Mars : 20h00",7 rue Boudreau Square de l'Opéra Louis-Jouvet,Paris 9e,15-40 €
+469,Orane Donnadieu,Église Saint-Éphrem,Mercredi 27 Mars : 20h00,17 rue des Carmes,Paris 5e,16-25 €
+470,Couperin : Leçons de Ténèbres,Chapelle royale - Château de Versailles,Mercredi 27 Mars : 21h00,Place d'Armes entrée par la Grille d'Honneur,Versailles,71-115 €
+471,Matthias Goerne et Evgeny Kissin,Théâtre des Champs-Élysées,Jeudi 28 Mars : 20h00,15 avenue Montaigne,Paris 8e,unknown
+472,"Bach, de l'abîme à la lumière",Auditorium Patrick Devedjian - La Seine Musicale,"Jeudi 28 Mars : 20h00, Vendredi 29 Mars : 19h30",1 île Seguin,Boulogne-Billancourt,unknown
+473,Beethoven : Symphonie n°3,Maison de la Radio et de la Musique,Jeudi 28 Mars : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+474,Wagner : Le Ring sans paroles,Maison de la Radio et de la Musique,Vendredi 29 Mars : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+475,Jonathan Dunford et Jérôme Chaboseau,Espace Jules Vallès,Vendredi 29 Mars : 20h00,72 avenue Félix Faure,Paris 15e,unknown
+476,Orchestre Hélios et Glen Rouxel,Église Saint-Germain-des-Prés,Vendredi 29 Mars : 20h45,Place Saint-Germain des Prés,Paris 6e,22-44 €
+477,Stabat Mater pour deux castrats,Chapelle royale - Château de Versailles,Vendredi 29 Mars : 21h00,Place d'Armes entrée par la Grille d'Honneur,Versailles,unknown
+478,Adrien Polycarpe,Église Saint-Éphrem,Samedi 30 Mars : 16h30,17 rue des Carmes,Paris 5e,16-25 €
+479,Bach : Passion selon saint Jean,Chapelle royale - Château de Versailles,"Samedi 30 Mars : 19h00, Dimanche 31 Mars : 15h00",Place d'Armes entrée par la Grille d'Honneur,Versailles,100-139 €
+480,Magdalena Rebacz,Église Saint-Éphrem,Samedi 30 Mars : 19h00,17 rue des Carmes,Paris 5e,16-25 €
+481,Jubilé du National,Maison de la Radio et de la Musique,Samedi 30 Mars : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+482,Timothée Marcel et Elio di Tanna,Église Saint-Éphrem,Dimanche 31 Mars : 18h00,17 rue des Carmes,Paris 5e,16-25 €
+483,Orchestre Les Violons de France et Cécile Besnard,Église de la Madeleine,Dimanche 31 Mars : 20h00,Place de la Madeleine,Paris 8e,22-33 €
+484,Orchestre de l'Opéra national de Paris,Grande salle Pierre Boulez - Philharmonie de Paris,Mardi 2 Avril : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+485,Variations romantiques,Amphithéâtre - Cité de la Musique-Philharmonie,Mardi 2 Avril : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+486,"Orchestre de Paris, David Gaillard et Pascal Moraguès",Grande salle Pierre Boulez - Philharmonie de Paris,"Mercredi 3 Avril : 20h00, Jeudi 4 Avril : 20h00",221 avenue Jean-Jaurès,Paris 19e,unknown
+487,"Patricia Petibon, magicienne baroque",Auditorium Patrick Devedjian - La Seine Musicale,Jeudi 4 Avril : 20h00,1 île Seguin,Boulogne-Billancourt,unknown
+488,Joutes de violon et de violoncelle,Cathédrale Saint-Louis-des-Invalides - Hôtel National des Invalides,Jeudi 4 Avril : 20h00,129 rue de Grenelle Hôtel National des Invalides,Paris 7e,unknown
+489,Fauré : Requiem,Grande salle Pierre Boulez - Philharmonie de Paris,Vendredi 5 Avril : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+490,Secret d'instrument,Musée de la Musique - Cité de la Musique-Philharmonie,Samedi 6 Avril : 15h30,221 avenue Jean-Jaurès,Paris 19e,unknown
+491,Bach : Messe en si,Chapelle royale - Château de Versailles,Samedi 6 Avril : 19h00,Place d'Armes entrée par la Grille d'Honneur,Versailles,unknown
+492,Orchestre Hélios et Glen Rouxel,Église de la Madeleine,Samedi 6 Avril : 20h45,Place de la Madeleine,Paris 8e,22-44 €
+493,Grigory Sokolov,Théâtre des Champs-Élysées,Lundi 8 Avril : 20h00,15 avenue Montaigne,Paris 8e,unknown
+494,L'histoire du porte-étendard Rilke,Cathédrale Saint-Louis-des-Invalides - Hôtel National des Invalides,Lundi 8 Avril : 20h00,129 rue de Grenelle Hôtel National des Invalides,Paris 7e,unknown
+495,Opera Fuoco fête ses 20 ans,Théâtre des Champs-Élysées,Mardi 9 Avril : 20h00,15 avenue Montaigne,Paris 8e,28-79 €
+496,Chorus Line #4,Maison de la Radio et de la Musique,Mardi 9 Avril : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+497,Nobuyuki Tsujii,Théâtre des Champs-Élysées,Mercredi 10 Avril : 20h00,15 avenue Montaigne,Paris 8e,26-70 €
+498,Orchestre de Paris et Chœur de l'Orchestre de Paris,Salle des concerts - Cité de la Musique-Philharmonie,Mercredi 10 Avril : 20h00,221 rue Jean-Jaurès,Paris 19e,unknown
+499,Siblius : Symphonies n°1 et 2,Maison de la Radio et de la Musique,Mercredi 10 Avril : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+500,Liat Cohen,ECUJE,Mercredi 10 Avril : 20h00,119 rue La Fayette,Paris 10e,unknown
+501,Orchestre de chambre de Paris et Marie Jacquot,Théâtre des Champs-Élysées,Jeudi 11 Avril : 20h00,15 avenue Montaigne,Paris 8e,15-52 €
+502, Orchestre de Paris et solistes,Salle des concerts - Cité de la Musique-Philharmonie,Jeudi 11 Avril : 20h00,221 rue Jean-Jaurès,Paris 19e,unknown
+503,Siblius : Symphonies n°3 et 4,Maison de la Radio et de la Musique,Jeudi 11 Avril : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+504,Andreï Korobeinikov,Théâtre des Champs-Élysées,Vendredi 12 Avril : 20h00,15 avenue Montaigne,Paris 8e,24-61 €
+505,"Siblius : Symphonies n°5, 6 et 7",Maison de la Radio et de la Musique,Vendredi 12 Avril : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+506,Orchestre Hélios et Chœur Hélios éphémère,Église de la Madeleine,Vendredi 12 Avril : 20h45,Place de la Madeleine,Paris 8e,22-44 €
+507,Taiwan Phiharmonic Orchestra et Khatia Buniatishvili,Théâtre des Champs-Élysées,Samedi 13 Avril : 20h00,15 avenue Montaigne,Paris 8e,33-93 €
+508,Orchestre Hélios et Glen Rouxel,Église Saint-Germain-des-Prés,Samedi 13 Avril : 20h45,Place Saint-Germain des Prés,Paris 6e,22-44 €
+509,Elsa Dreisig et Romain Louveau,Athénée Théâtre Louis-Jouvet,Lundi 15 Avril : 20h00,7 rue Boudreau Square de l'Opéra Louis-Jouvet,Paris 9e,24-31 €
+510,Carnets de là-bas,Salle des concerts - Cité de la Musique-Philharmonie,Mardi 16 Avril : 20h00,221 rue Jean-Jaurès,Paris 19e,unknown
+511,"Bach : Le Clavier bien tempéré, livre I",Maison de la Radio et de la Musique,Mardi 16 Avril : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+512,Les Invalides selon les sœurs Berthollet,Cathédrale Saint-Louis-des-Invalides - Hôtel National des Invalides,Mardi 16 Avril : 20h00,129 rue de Grenelle Hôtel National des Invalides,Paris 7e,unknown
+513,Júlia Pusker,Amphithéâtre - Cité de la Musique-Philharmonie,Mercredi 17 Avril : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+514,"Bach : Le Clavier bien tempéré, livre II",Maison de la Radio et de la Musique,Mercredi 17 Avril : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+515,Sebastian Heindl,Amphithéâtre - Cité de la Musique-Philharmonie,Jeudi 18 Avril : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+516,Mozart : Concerto pour violon,Maison de la Radio et de la Musique,Jeudi 18 Avril : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+517,Münchner Philharmoniker et Renaud Capuçon,Grande salle Pierre Boulez - Philharmonie de Paris,Vendredi 19 Avril : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+518,Orchestre Hélios et Glen Rouxel,Église de la Madeleine,Vendredi 19 Avril : 20h45,Place de la Madeleine,Paris 8e,22-44 €
+519,Reprendre son souffle !,Maison de la Radio et de la Musique,Samedi 20 Avril : 17h00,116 avenue du Président Kennedy,Paris 16e,unknown
+520,Quatuor Belcea et Nicolas Altstaedt,Théâtre des Champs-Élysées,Dimanche 21 Avril : 11h00,15 avenue Montaigne,Paris 8e,16-28 €
+521,Musiciens de l'Orchestre de Paris,Amphithéâtre - Cité de la Musique-Philharmonie,Dimanche 21 Avril : 16h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+522,London Symphony Orchestra et Martha Argerich,Grande salle Pierre Boulez - Philharmonie de Paris,Lundi 22 Avril : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+523,Métamorphoses,Théâtre des Bouffes du Nord,Lundi 22 Avril : 20h00,37 bis bd de la Chapelle,Paris 10e,unknown
+524,Beethoven : Missa solemnis,Grande salle Pierre Boulez - Philharmonie de Paris,Mardi 23 Avril : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+525,unknown,Théâtre de Corbeil-Essonnes,Mardi 23 Avril : 20h30,20-22  rue Félicien Rops,Corbeil-Essonnes,10-28 €
+526,Yoav Levanon,Théâtre des Champs-Élysées,Mercredi 24 Avril : 20h00,15 avenue Montaigne,Paris 8e,26-70 €
+527,Orchestre de Paris,Grande salle Pierre Boulez - Philharmonie de Paris,"Mercredi 24 Avril : 20h00, Jeudi 25 Avril : 20h00",221 avenue Jean-Jaurès,Paris 19e,unknown
+528,Sabine Devieilhe et Mathieu Pordoy,Salle Gaveau,Mercredi 24 Avril : 20h30,45 rue La Boétie,Paris 8e,unknown
+529,Orchestre de chambre de Paris,Théâtre des Champs-Élysées,Jeudi 25 Avril : 20h00,15 avenue Montaigne,Paris 8e,15-52 €
+530,Debussy : La Mer,Maison de la Radio et de la Musique,Jeudi 25 Avril : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+531,Lisette Oropesa et Benjamin Bernheim,Théâtre des Champs-Élysées,Vendredi 26 Avril : 20h00,15 avenue Montaigne,Paris 8e,unknown
+532,Rachmaninov : Vêpres,Auditorium Patrick Devedjian - La Seine Musicale,Vendredi 26 Avril : 20h00,1 île Seguin,Boulogne-Billancourt,unknown
+533,Bruckner : Symphonie n°6,Grande salle Pierre Boulez - Philharmonie de Paris,Vendredi 26 Avril : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+534,Orchestre Hélios et Glen Rouxel,Église de la Madeleine,Vendredi 26 Avril : 20h45,Place de la Madeleine,Paris 8e,22-44 €
+535,"Mathieu Salama, airs pour Farinelli",Église Sainte-Élisabeth-de-Hongrie,Samedi 27 Avril : 16h00,195 rue du Temple,Paris 3e,20-28 €
+536,« Platée » de Rameau,Opéra royal - Château de Versailles,Samedi 27 Avril : 19h00,Place d'Armes entrée par la Grille d'Honneur,Versailles,83-128 €
+537,Vous trouvez ça classique ? Les Noces de Figaro de Mozart,Auditorium Patrick Devedjian - La Seine Musicale,Samedi 27 Avril : 19h00,1 île Seguin,Boulogne-Billancourt,unknown
+538,Yundi Li,Théâtre des Champs-Élysées,Samedi 27 Avril : 20h00,15 avenue Montaigne,Paris 8e,26-70 €
+539,Orchestre Hélios et Glen Rouxel,Église Saint-Germain-des-Prés,Samedi 27 Avril : 20h45,Place Saint-Germain des Prés,Paris 6e,22-44 €
+540,Monteverdi : Vêpres de San Marco,Chapelle royale - Château de Versailles,Dimanche 28 Avril : 15h00,Place d'Armes entrée par la Grille d'Honneur,Versailles,71-115 €
+541,Fabuleux,Auditorium Patrick Devedjian - La Seine Musicale,Dimanche 28 Avril : 16h00,1 île Seguin,Boulogne-Billancourt,unknown
+542,Violette Erhart,Comédie Nation,Dimanche 28 Avril : 19h00,77 rue de Montreuil,Paris 11e,16-22 €
+543,Orchestre Colonne et Mélanie Laurent,Théâtre des Champs-Élysées,Dimanche 28 Avril : 20h00,15 avenue Montaigne,Paris 8e,unknown
+544,« Elektra » de Strauss,Théâtre des Champs-Élysées,Lundi 29 Avril : 19h30,15 avenue Montaigne,Paris 8e,33-115 €
+545,"Les Siècles, Jean-Efflam Bavouzet et Renaud Capuçon",Théâtre des Champs-Élysées,Mardi 30 Avril : 20h00,15 avenue Montaigne,Paris 8e,24-61 €
+546,Schumann : Concerto pour violoncelle,Maison de la Radio et de la Musique,Mardi 30 Avril : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+547,Pascal Amoyel,Église Saint-Victor de Guyancourt,Mardi 30 Avril : 22h00,3 place de l'Église,Guyancourt,unknown
+548,Orchestre Hélios et Chœur Hélios éphémère,Église Saint-Sulpice,Mercredi 1er Mai : 20h45,Place Saint-Sulpice,Paris 6e,22-44 €
+549,Orchestre Hélios et Glen Rouxel,Église Saint-Germain-des-Prés,Vendredi 3 Mai : 20h45,Place Saint-Germain des Prés,Paris 6e,22-44 €
+550,« La Walkyrie » de Wagner,Théâtre des Champs-Élysées,Samedi 4 Mai : 18h00,15 avenue Montaigne,Paris 8e,unknown
+551,Orchestre Hélios et Glen Rouxel,Église Saint-Germain-des-Prés,Samedi 4 Mai : 20h45,Place Saint-Germain des Prés,Paris 6e,22-44 €
+552,Alexandra Dovgan,Théâtre des Champs-Élysées,Dimanche 5 Mai : 11h00,15 avenue Montaigne,Paris 8e,16-28 €
+553,Le piano de Schumann,Grand Salon du Musée de l'Armée - Musée de l'Armée,Lundi 6 Mai : 12h15,129 rue de Grenelle,Paris 7e,unknown
+554,Rafal Blechacz,Théâtre des Champs-Élysées,Lundi 6 Mai : 20h00,15 avenue Montaigne,Paris 8e,26-70 €
+555,Haendel : Dixit Dominus,Auditorium Patrick Devedjian - La Seine Musicale,Lundi 6 Mai : 20h00,1 île Seguin,Boulogne-Billancourt,unknown
+556,Orchestre de Paris et Chœur de l'Orchestre de Paris,Grande salle Pierre Boulez - Philharmonie de Paris,"Lundi 6 Mai : 20h00, Mardi 7 Mai : 20h00",221 avenue Jean-Jaurès,Paris 19e,unknown
+557,Mark Padmore et Julius Drake,Athénée Théâtre Louis-Jouvet,Lundi 6 Mai : 20h00,7 rue Boudreau Square de l'Opéra Louis-Jouvet,Paris 9e,24-31 €
+558,Bach / Brahms,Maison de la Radio et de la Musique,Mardi 7 Mai : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+559,Alla zingarese : le violon tzigane,Cathédrale Saint-Louis-des-Invalides - Hôtel National des Invalides,Mardi 7 Mai : 20h00,129 rue de Grenelle Hôtel National des Invalides,Paris 7e,unknown
+560,Orchestre Hélios et Chœur Hélios éphémère,Église de la Madeleine,Jeudi 9 Mai : 20h45,Place de la Madeleine,Paris 8e,22-44 €
+561,Orchestre Hélios et Glen Rouxel,Église Saint-Germain-des-Prés,Vendredi 10 Mai : 20h45,Place Saint-Germain des Prés,Paris 6e,22-44 €
+562,"Bach chez Cioran, une tragédie angélique",La Scala Paris,Lundi 13 Mai : 19h30,13 boulevard de Strasbourg,Paris 10e,unknown
+563,Elena Bashkirova,Théâtre des Champs-Élysées,Lundi 13 Mai : 20h00,15 avenue Montaigne,Paris 8e,26-70 €
+564,Alexandre Tharaud,Grande salle Pierre Boulez - Philharmonie de Paris,Lundi 13 Mai : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+565,Jouer Bach,Salle des concerts - Cité de la Musique-Philharmonie,Lundi 13 Mai : 20h00,221 rue Jean-Jaurès,Paris 19e,unknown
+566,Duels à l'opéra,Grand Salon du Musée de l'Armée - Musée de l'Armée,Lundi 13 Mai : 20h00,129 rue de Grenelle,Paris 7e,unknown
+567,Les Accents et solistes,Théâtre des Champs-Élysées,Mardi 14 Mai : 20h00,15 avenue Montaigne,Paris 8e,unknown
+568,Hélène Grimaud,Salle des concerts - Cité de la Musique-Philharmonie,Mardi 14 Mai : 20h00,221 rue Jean-Jaurès,Paris 19e,unknown
+569,Alice Sara Ott et Francesco Tristano,Maison de la Radio et de la Musique,Mardi 14 Mai : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+570,Romain Leleu et Thierry Escaich,Théâtre de Corbeil-Essonnes,Mardi 14 Mai : 20h30,20-22  rue Félicien Rops,Corbeil-Essonnes,6-16 €
+571,Fazil Say,Théâtre des Champs-Élysées,Mercredi 15 Mai : 20h00,15 avenue Montaigne,Paris 8e,26-70 €
+572,Orchestre de Paris et Christiane Karg,Grande salle Pierre Boulez - Philharmonie de Paris,Mercredi 15 Mai : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+573,Orchestre de chambre de Paris et Javier Perianes,Théâtre des Champs-Élysées,Jeudi 16 Mai : 20h00,15 avenue Montaigne,Paris 8e,15-52 €
+574,Orchestre des amateurs de la Philharmonie de Paris,Salle des concerts - Cité de la Musique-Philharmonie,Jeudi 16 Mai : 20h00,221 rue Jean-Jaurès,Paris 19e,unknown
+575,« L'Olimpiade » de Cimarosa,Opéra royal - Château de Versailles,Jeudi 16 Mai : 20h00,Place d'Armes entrée par la Grille d'Honneur,Versailles,71-115 €
+576,Chopin : Concerto pour piano n°2,Maison de la Radio et de la Musique,Jeudi 16 Mai : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+577,Mahler : Symphonie n°5,Grande salle Pierre Boulez - Philharmonie de Paris,Vendredi 17 Mai : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+578,Musiciens de l'Orchestre de Paris,Salle des concerts - Cité de la Musique-Philharmonie,Vendredi 17 Mai : 20h00,221 rue Jean-Jaurès,Paris 19e,unknown
+579,Orchestre Hélios et Glen Rouxel,Église Saint-Germain-des-Prés,Vendredi 17 Mai : 20h45,Place Saint-Germain des Prés,Paris 6e,22-44 €
+580,« Berenice » de Haendel,Théâtre des Champs-Élysées,Mardi 21 Mai : 19h30,15 avenue Montaigne,Paris 8e,28-89 €
+581,Mozart : Messe en ut,Grande salle Pierre Boulez - Philharmonie de Paris,Mardi 21 Mai : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+582,Sur la route de Buenos Aires,Cathédrale Saint-Louis-des-Invalides - Hôtel National des Invalides,Mardi 21 Mai : 20h00,129 rue de Grenelle Hôtel National des Invalides,Paris 7e,unknown
+583,Ravel et l'Espagne,Théâtre des Champs-Élysées,Mercredi 22 Mai : 20h00,15 avenue Montaigne,Paris 8e,24-61 €
+584,Orchestre de chambre de Paris et Johanna Wallroth,Théâtre des Champs-Élysées,Jeudi 23 Mai : 20h00,15 avenue Montaigne,Paris 8e,15-52 €
+585,Arcadi Volodos,Grande salle Pierre Boulez - Philharmonie de Paris,Jeudi 23 Mai : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+586,De Roméo et Juliette à West Side Story,Cathédrale Saint-Louis-des-Invalides - Hôtel National des Invalides,Jeudi 23 Mai : 20h00,129 rue de Grenelle Hôtel National des Invalides,Paris 7e,unknown
+587,Staatskapelle Dresden,Théâtre des Champs-Élysées,Vendredi 24 Mai : 20h00,15 avenue Montaigne,Paris 8e,28-89 €
+588,Beethoven : L'Empereur,Maison de la Radio et de la Musique,Vendredi 24 Mai : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+589,Duruflé : Requiem,Basilique Sainte-Clotilde,Vendredi 24 Mai : 20h00,23 bis rue Las Cases,Paris 7e,unknown
+590,Orchestre Hélios et Glen Rouxel,Église Saint-Germain-des-Prés,Vendredi 24 Mai : 20h45,Place Saint-Germain des Prés,Paris 6e,22-44 €
+591,Monteverdi Choir et Orchestre révolutionnaire et romantique,Grande salle Pierre Boulez - Philharmonie de Paris,Samedi 25 Mai : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+592,Orchestre Hélios et Chœur Hélios éphémère,Église de la Madeleine,Samedi 25 Mai : 20h45,Place de la Madeleine,Paris 8e,22-44 €
+593,Nature,Opéra Garnier,Dimanche 26 Mai : 12h00,place de l'Opéra,Paris 9e,39-44 €
+594,Monteverdi Choir et Orchestre révolutionnaire et romantique,Grande salle Pierre Boulez - Philharmonie de Paris,Dimanche 26 Mai : 16h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+595,Viva l'Orchestra !,Maison de la Radio et de la Musique,Dimanche 26 Mai : 16h00,116 avenue du Président Kennedy,Paris 16e,unknown
+596,Mozart : Grande Messe en ut,Chapelle royale - Château de Versailles,Dimanche 26 Mai : 18h00,Place d'Armes entrée par la Grille d'Honneur,Versailles,100-139 €
+597,Haydn : Les Saisons,Grande salle Pierre Boulez - Philharmonie de Paris,Lundi 27 Mai : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+598,Sheku Kanneh-Mason et Isata Kanneh-Mason,Salle des concerts - Cité de la Musique-Philharmonie,Lundi 27 Mai : 20h00,221 rue Jean-Jaurès,Paris 19e,unknown
+599,Bohême,Le Studio - Philharmonie de Paris,Lundi 27 Mai : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+600,Sarah et Deborah Nemtanu,Grand Salon du Musée de l'Armée - Musée de l'Armée,Lundi 27 Mai : 20h00,129 rue de Grenelle,Paris 7e,unknown
+601,Frederick Ballentine et Kunal Lahiri,Athénée Théâtre Louis-Jouvet,Lundi 27 Mai : 20h00,7 rue Boudreau Square de l'Opéra Louis-Jouvet,Paris 9e,24-31 €
+602,Orchestre révolutionnaire et romantique,Grande salle Pierre Boulez - Philharmonie de Paris,Mardi 28 Mai : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+603,Orchestre des lauréats du Conservatoire de Paris,Salle des concerts - Cité de la Musique-Philharmonie,Mardi 28 Mai : 20h00,221 rue Jean-Jaurès,Paris 19e,unknown
+604,Stephen Tharp,Maison de la Radio et de la Musique,Mardi 28 Mai : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+605,Orchestre révolutionnaire et romantique,Grande salle Pierre Boulez - Philharmonie de Paris,Mercredi 29 Mai : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+606,Los Angeles Philharmonic et Maria Dueñas,Grande salle Pierre Boulez - Philharmonie de Paris,Jeudi 30 Mai : 20h00,221 avenue Jean-Jaurès,Paris 19e,unknown
+607,Orchestre de chambre de Paris et Jonathan Biss,Salle des concerts - Cité de la Musique-Philharmonie,Jeudi 30 Mai : 20h00,221 rue Jean-Jaurès,Paris 19e,unknown
+608,unknown,Cathédrale Saint-Louis-des-Invalides - Hôtel National des Invalides,Jeudi 30 Mai : 20h00,129 rue de Grenelle Hôtel National des Invalides,Paris 7e,unknown
+609,« Tolomeo » de Haendel,Théâtre des Champs-Élysées,Vendredi 31 Mai : 19h30,15 avenue Montaigne,Paris 8e,28-89 €
+610,« Les Boréades » de Rameau,Opéra royal - Château de Versailles,Vendredi 31 Mai : 20h00,Place d'Armes entrée par la Grille d'Honneur,Versailles,83-128 €
+611,Ravel : La Valse,Maison de la Radio et de la Musique,Vendredi 31 Mai : 20h00,116 avenue du Président Kennedy,Paris 16e,unknown
+612,Verdi : Requiem,Opéra de Massy,Vendredi 31 Mai : 20h00,1 place de France,Massy,unknown
+613,Pergolèse : Stabat Mater,Auditorium Patrick Devedjian - La Seine Musicale,Vendredi 31 Mai : 20h30,1 île Seguin,Boulogne-Billancourt,30-60 €
+614,Orchestre Hélios et Glen Rouxel,Église Saint-Germain-des-Prés,Vendredi 31 Mai : 20h45,Place Saint-Germain des Prés,Paris 6e,22-44 €
