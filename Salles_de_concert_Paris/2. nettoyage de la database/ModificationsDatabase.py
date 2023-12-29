@@ -3,7 +3,7 @@ import Fonctions as fct
 
 ## Ajout des coordonnées ##
 
-df = pd.read_csv('DataMusiqueClassique.csv')
+df = pd.read_csv('/home/onyxia/work/Maps_cultural_life_Paris/Salles_de_concert_Paris/2. nettoyage de la database/DataMusiqueClassique.csv')
 
 df['adresse'] = df['adresse'] + ', Paris, France'
 df['coordonnees'] = df['adresse'].apply(fct.obtenir_coordonnees_adresse) 
@@ -12,6 +12,7 @@ df = df.dropna(subset=['coordonnees']).reset_index(drop=True)
 
 df = df.drop('Unnamed: 0', axis=1)
 
+df['coordonnees'] = df['coordonnees'].apply(lambda x : tuple(reversed(x)))
 
 
 ## Création d'un prix moyen ##
@@ -39,5 +40,5 @@ df['date datetime'] = df['Date'].apply(fct.conversion_datetime)
 df['heure'] = df['Date'].apply(lambda x : x[-5:])
 
 # Sauvegarde de la base de données au format csv
-df.to_csv('DataMusiqueClassique_v7.csv', index=False)
+df.to_csv('DataMusiqueClassique_v8.csv', index=False)
 

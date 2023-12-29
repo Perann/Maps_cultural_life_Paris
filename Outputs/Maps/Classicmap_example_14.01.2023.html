@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6554628febea07fa803ade11c8d6ca9d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6554628febea07fa803ade11c8d6ca9d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6554628febea07fa803ade11c8d6ca9d = L.map(
+                "map_6554628febea07fa803ade11c8d6ca9d",
+                {
+                    center: [48.8566, 2.3522],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cebf8438e32ba8aecfae5edf678f2133 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_cebf8438e32ba8aecfae5edf678f2133.addTo(map_6554628febea07fa803ade11c8d6ca9d);
+        
+    
+            var marker_0ca57378d75d28dd71b563024f585706 = L.marker(
+                [48.865672, 2.303279],
+                {}
+            ).addTo(map_6554628febea07fa803ade11c8d6ca9d);
+        
+    
+        var popup_b9b16e4941fcff03215dc0794822e3ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cad0fc728101a4c23c1155cd389a91fd = $(`<div id="html_cad0fc728101a4c23c1155cd389a91fd" style="width: 100.0%; height: 100.0%;"><b>Théâtre des Champs-Élysées</b><br>Adresse: 15 avenue Montaigne, Paris, France<br>Concert: Roger Muraro<br>Heure: 11h00<br>Prix moyen: 22.0 €</div>`)[0];
+                popup_b9b16e4941fcff03215dc0794822e3ec.setContent(html_cad0fc728101a4c23c1155cd389a91fd);
+            
+        
+
+        marker_0ca57378d75d28dd71b563024f585706.bindPopup(popup_b9b16e4941fcff03215dc0794822e3ec)
+        ;
+
+        
+    
+    
+            var marker_316f3cc51f97e9008f7fe943222c22fb = L.marker(
+                [48.852299, 2.357319],
+                {}
+            ).addTo(map_6554628febea07fa803ade11c8d6ca9d);
+        
+    
+        var popup_4075206d82a2867d659e1e8390587cbb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e683991a7ecd178b3a35e6b172244996 = $(`<div id="html_e683991a7ecd178b3a35e6b172244996" style="width: 100.0%; height: 100.0%;"><b>Théâtre de l'Île Saint-Louis</b><br>Adresse: 39 quai d'Anjou, Paris, France<br>Concert: Georges Bériachvili<br>Heure: 15h00<br>Prix moyen: unknown €</div>`)[0];
+                popup_4075206d82a2867d659e1e8390587cbb.setContent(html_e683991a7ecd178b3a35e6b172244996);
+            
+        
+
+        marker_316f3cc51f97e9008f7fe943222c22fb.bindPopup(popup_4075206d82a2867d659e1e8390587cbb)
+        ;
+
+        
+    
+    
+            var marker_5d34010f6bf5f342957d939b907cb29d = L.marker(
+                [48.864954, 2.332239],
+                {}
+            ).addTo(map_6554628febea07fa803ade11c8d6ca9d);
+        
+    
+        var popup_431658a43ab809842624a2b1d5965579 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4064aa2962782578df37e6dd3a16a1e8 = $(`<div id="html_4064aa2962782578df37e6dd3a16a1e8" style="width: 100.0%; height: 100.0%;"><b>Église Saint-Roch</b><br>Adresse: 296 rue Saint-Honoré, Paris, France<br>Concert: Fauré : Requiem<br>Heure: 15h00<br>Prix moyen: unknown €</div>`)[0];
+                popup_431658a43ab809842624a2b1d5965579.setContent(html_4064aa2962782578df37e6dd3a16a1e8);
+            
+        
+
+        marker_5d34010f6bf5f342957d939b907cb29d.bindPopup(popup_431658a43ab809842624a2b1d5965579)
+        ;
+
+        
+    
+    
+            var marker_f73ee3e5532b93f96f3047dc4d301f3a = L.marker(
+                [48.889311, 2.393824],
+                {}
+            ).addTo(map_6554628febea07fa803ade11c8d6ca9d);
+        
+    
+        var popup_b8898125d18e4ed642da6fa358a38daf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb06236bf1116e3d0388a48b4d61a4e5 = $(`<div id="html_cb06236bf1116e3d0388a48b4d61a4e5" style="width: 100.0%; height: 100.0%;"><b>Grande salle Pierre Boulez - Philharmonie de Paris</b><br>Adresse: 221 avenue Jean-Jaurès, Paris, France<br>Concert: Quatuor Casals<br>Heure: 16h00<br>Prix moyen: unknown €</div>`)[0];
+                popup_b8898125d18e4ed642da6fa358a38daf.setContent(html_cb06236bf1116e3d0388a48b4d61a4e5);
+            
+        
+
+        marker_f73ee3e5532b93f96f3047dc4d301f3a.bindPopup(popup_b8898125d18e4ed642da6fa358a38daf)
+        ;
+
+        
+    
+    
+            var marker_799b9fdb8da8e3a78803d745eb3248da = L.marker(
+                [48.852149, 2.279529],
+                {}
+            ).addTo(map_6554628febea07fa803ade11c8d6ca9d);
+        
+    
+        var popup_5dd40fa06c5026442cde4a236ac349d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c60877a4e487260913d93ad487998ef9 = $(`<div id="html_c60877a4e487260913d93ad487998ef9" style="width: 100.0%; height: 100.0%;"><b>Maison de la Radio et de la Musique</b><br>Adresse: 116 avenue du Président Kennedy, Paris, France<br>Concert: Philhar'intime<br>Heure: 16h00<br>Prix moyen: unknown €</div>`)[0];
+                popup_5dd40fa06c5026442cde4a236ac349d3.setContent(html_c60877a4e487260913d93ad487998ef9);
+            
+        
+
+        marker_799b9fdb8da8e3a78803d745eb3248da.bindPopup(popup_5dd40fa06c5026442cde4a236ac349d3)
+        ;
+
+        
+    
+    
+            var marker_4d561342ba04a0a08bc566aa82bceb84 = L.marker(
+                [48.900269, 2.251728],
+                {}
+            ).addTo(map_6554628febea07fa803ade11c8d6ca9d);
+        
+    
+        var popup_800a7553a9734f788056ac4a9e2613a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f44fbcd3e4912dac87fbb62ff8756d6 = $(`<div id="html_0f44fbcd3e4912dac87fbb62ff8756d6" style="width: 100.0%; height: 100.0%;"><b>Église évangélique de Courbevoie</b><br>Adresse: 12/14 rue Kilford, Paris, France<br>Concert: Mariko Akimoto, Henry Wyld et Armelle Choquard<br>Heure: 16h00<br>Prix moyen: unknown €</div>`)[0];
+                popup_800a7553a9734f788056ac4a9e2613a5.setContent(html_0f44fbcd3e4912dac87fbb62ff8756d6);
+            
+        
+
+        marker_4d561342ba04a0a08bc566aa82bceb84.bindPopup(popup_800a7553a9734f788056ac4a9e2613a5)
+        ;
+
+        
+    
+    
+            var marker_255f82bc3c68be39bb17ada471c5fb87 = L.marker(
+                [48.844691, 2.286545],
+                {}
+            ).addTo(map_6554628febea07fa803ade11c8d6ca9d);
+        
+    
+        var popup_b432d1a25d66495a73af92301f6a1aa8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81bbde66cdc15623d8592f87696567ae = $(`<div id="html_81bbde66cdc15623d8592f87696567ae" style="width: 100.0%; height: 100.0%;"><b>Cathédrale Sainte-Geneviève</b><br>Adresse: 28 rue de l'Église, Paris, France<br>Concert: Jae Young Lim et Marie Vallin<br>Heure: 16h00<br>Prix moyen: unknown €</div>`)[0];
+                popup_b432d1a25d66495a73af92301f6a1aa8.setContent(html_81bbde66cdc15623d8592f87696567ae);
+            
+        
+
+        marker_255f82bc3c68be39bb17ada471c5fb87.bindPopup(popup_b432d1a25d66495a73af92301f6a1aa8)
+        ;
+
+        
+    
+    
+            var marker_e72c26bf8becc887ea15e58a54705e29 = L.marker(
+                [48.855013, 2.398182],
+                {}
+            ).addTo(map_6554628febea07fa803ade11c8d6ca9d);
+        
+    
+        var popup_a00704415a6b19b48c5a7f968771755b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9063a5a386eb4b9215dfcce3e87ea13 = $(`<div id="html_a9063a5a386eb4b9215dfcce3e87ea13" style="width: 100.0%; height: 100.0%;"><b>Église Saint-Jean-Bosco</b><br>Adresse: 79 rue Alexandre-Dumas, Paris, France<br>Concert: Chœur grégorien de Brie-Comte-Robert et Michèle Guyard<br>Heure: 16h00<br>Prix moyen: unknown €</div>`)[0];
+                popup_a00704415a6b19b48c5a7f968771755b.setContent(html_a9063a5a386eb4b9215dfcce3e87ea13);
+            
+        
+
+        marker_e72c26bf8becc887ea15e58a54705e29.bindPopup(popup_a00704415a6b19b48c5a7f968771755b)
+        ;
+
+        
+    
+    
+            var marker_0004c0f850cfdc7f77d37f6d109ca4e4 = L.marker(
+                [48.858888, 2.350691],
+                {}
+            ).addTo(map_6554628febea07fa803ade11c8d6ca9d);
+        
+    
+        var popup_418b33133dccdae7118a9cf3a1eb0e71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff4c4fd778c51e81877fed3ae0444ed0 = $(`<div id="html_ff4c4fd778c51e81877fed3ae0444ed0" style="width: 100.0%; height: 100.0%;"><b>Église Saint-Merry</b><br>Adresse: 76 rue de la Verrerie, Paris, France<br>Concert: Chœur de chambre Arthémys<br>Heure: 16h00<br>Prix moyen: unknown €</div>`)[0];
+                popup_418b33133dccdae7118a9cf3a1eb0e71.setContent(html_ff4c4fd778c51e81877fed3ae0444ed0);
+            
+        
+
+        marker_0004c0f850cfdc7f77d37f6d109ca4e4.bindPopup(popup_418b33133dccdae7118a9cf3a1eb0e71)
+        ;
+
+        
+    
+    
+            var marker_af937ff7e9bfa464b91b20d698b36700 = L.marker(
+                [48.881029, 2.284212],
+                {}
+            ).addTo(map_6554628febea07fa803ade11c8d6ca9d);
+        
+    
+        var popup_2cfda9bdb4472287c1031a24b1c0dd2a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_436a7efc67c2fa1c90f45acd6bdadef0 = $(`<div id="html_436a7efc67c2fa1c90f45acd6bdadef0" style="width: 100.0%; height: 100.0%;"><b>Église Notre-Dame-de-Compassion</b><br>Adresse: Place du Général-Koenig, Paris, France<br>Concert: Lorenzo Cipriani<br>Heure: 16h30<br>Prix moyen: unknown €</div>`)[0];
+                popup_2cfda9bdb4472287c1031a24b1c0dd2a.setContent(html_436a7efc67c2fa1c90f45acd6bdadef0);
+            
+        
+
+        marker_af937ff7e9bfa464b91b20d698b36700.bindPopup(popup_2cfda9bdb4472287c1031a24b1c0dd2a)
+        ;
+
+        
+    
+    
+            var marker_dd2b81abb751cacba37edc5bd4cf8eb8 = L.marker(
+                [48.848424, 2.347335],
+                {}
+            ).addTo(map_6554628febea07fa803ade11c8d6ca9d);
+        
+    
+        var popup_c07f0bcc3e199591d984cab01470a2a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07cdde93561cd97f94fe63b70aad293a = $(`<div id="html_07cdde93561cd97f94fe63b70aad293a" style="width: 100.0%; height: 100.0%;"><b>Église Saint-Éphrem</b><br>Adresse: 17 rue des Carmes, Paris, France<br>Concert: Antonin Bonnet et Krzysztof Michalski<br>Heure: 17h00<br>Prix moyen: 20.5 €</div>`)[0];
+                popup_c07f0bcc3e199591d984cab01470a2a7.setContent(html_07cdde93561cd97f94fe63b70aad293a);
+            
+        
+
+        marker_dd2b81abb751cacba37edc5bd4cf8eb8.bindPopup(popup_c07f0bcc3e199591d984cab01470a2a7)
+        ;
+
+        
+    
+    
+            var marker_131f438c946e8893e7d280cfd9cc9628 = L.marker(
+                [48.859801, 2.346648],
+                {}
+            ).addTo(map_6554628febea07fa803ade11c8d6ca9d);
+        
+    
+        var popup_b7b1dc1ede931cde6f6b5ef0438657a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc8d2713283b97fdf692f938a7a124f6 = $(`<div id="html_dc8d2713283b97fdf692f938a7a124f6" style="width: 100.0%; height: 100.0%;"><b>Église Saint-Eustache</b><br>Adresse: Rue du Jour Forum des Halles, Paris, France<br>Concert: Axel de Marnhac<br>Heure: 17h00<br>Prix moyen: unknown €</div>`)[0];
+                popup_b7b1dc1ede931cde6f6b5ef0438657a5.setContent(html_dc8d2713283b97fdf692f938a7a124f6);
+            
+        
+
+        marker_131f438c946e8893e7d280cfd9cc9628.bindPopup(popup_b7b1dc1ede931cde6f6b5ef0438657a5)
+        ;
+
+        
+    
+    
+            var marker_afeb1508381b9058cef98112b402dfb5 = L.marker(
+                [48.820425, 2.337324],
+                {}
+            ).addTo(map_6554628febea07fa803ade11c8d6ca9d);
+        
+    
+        var popup_c260a4e7f3d78996159ea18b483a3714 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8510f50934c149cd944c65fcde32b213 = $(`<div id="html_8510f50934c149cd944c65fcde32b213" style="width: 100.0%; height: 100.0%;"><b>Fondation de l'Allemagne – Maison Heinrich Heine - Cité Internationale Universitaire</b><br>Adresse: 27 boulevard Jourdan, Paris, France<br>Concert: Christian Wachter<br>Heure: 17h00<br>Prix moyen: unknown €</div>`)[0];
+                popup_c260a4e7f3d78996159ea18b483a3714.setContent(html_8510f50934c149cd944c65fcde32b213);
+            
+        
+
+        marker_afeb1508381b9058cef98112b402dfb5.bindPopup(popup_c260a4e7f3d78996159ea18b483a3714)
+        ;
+
+        
+    
+    
+            var marker_57340734968adb4c0b88a6b8ec733f9b = L.marker(
+                [48.833947, 2.316516],
+                {}
+            ).addTo(map_6554628febea07fa803ade11c8d6ca9d);
+        
+    
+        var popup_0b8754f269fd25d807f3c7b62ba35cd4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d7a7e4098e5e6f7da559e0a7558157e = $(`<div id="html_0d7a7e4098e5e6f7da559e0a7558157e" style="width: 100.0%; height: 100.0%;"><b>L'Entrepôt</b><br>Adresse: 7 rue Francis de Pressensé, Paris, France<br>Concert: Kim Bernard et Na-Kyong Lee<br>Heure: 17h30<br>Prix moyen: unknown €</div>`)[0];
+                popup_0b8754f269fd25d807f3c7b62ba35cd4.setContent(html_0d7a7e4098e5e6f7da559e0a7558157e);
+            
+        
+
+        marker_57340734968adb4c0b88a6b8ec733f9b.bindPopup(popup_0b8754f269fd25d807f3c7b62ba35cd4)
+        ;
+
+        
+    
+    
+            var marker_5fa0a1a61d4e6b38fe147224c91de81e = L.marker(
+                [48.836162, 2.349222],
+                {}
+            ).addTo(map_6554628febea07fa803ade11c8d6ca9d);
+        
+    
+        var popup_0ea54d37929c185039a46579f1a2f0dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07e9312157ecb600bdf71f3e25154869 = $(`<div id="html_07e9312157ecb600bdf71f3e25154869" style="width: 100.0%; height: 100.0%;"><b>Église réformée de Port-Royal</b><br>Adresse: 18 boulevard Arago, Paris, France<br>Concert: Quintette Pentagone<br>Heure: 18h00<br>Prix moyen: unknown €</div>`)[0];
+                popup_0ea54d37929c185039a46579f1a2f0dc.setContent(html_07e9312157ecb600bdf71f3e25154869);
+            
+        
+
+        marker_5fa0a1a61d4e6b38fe147224c91de81e.bindPopup(popup_0ea54d37929c185039a46579f1a2f0dc)
+        ;
+
+        
+    
+    
+            var marker_f896542ec9be847435318177a6243b45 = L.marker(
+                [48.85716, 2.431276],
+                {}
+            ).addTo(map_6554628febea07fa803ade11c8d6ca9d);
+        
+    
+        var popup_3e9202088c736c482bea336bc2221812 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_922f650437ed0ea7b44d458e5300b2a8 = $(`<div id="html_922f650437ed0ea7b44d458e5300b2a8" style="width: 100.0%; height: 100.0%;"><b>Comédie Nation</b><br>Adresse: 77 rue de Montreuil, Paris, France<br>Concert: Violette Erhart<br>Heure: 19h00<br>Prix moyen: 19.0 €</div>`)[0];
+                popup_3e9202088c736c482bea336bc2221812.setContent(html_922f650437ed0ea7b44d458e5300b2a8);
+            
+        
+
+        marker_f896542ec9be847435318177a6243b45.bindPopup(popup_3e9202088c736c482bea336bc2221812)
+        ;
+
+        
+    
+</script>
+</html>
