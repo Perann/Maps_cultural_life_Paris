@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d640e7427e3f97a6ad9bda22e0fc3194 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d640e7427e3f97a6ad9bda22e0fc3194" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d640e7427e3f97a6ad9bda22e0fc3194 = L.map(
+                "map_d640e7427e3f97a6ad9bda22e0fc3194",
+                {
+                    center: [48.8566, 2.3522],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0b45a2f93d2447f1443776b77d9e1dbd = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_0b45a2f93d2447f1443776b77d9e1dbd.addTo(map_d640e7427e3f97a6ad9bda22e0fc3194);
+        
+    
+            var marker_18425534e9ae0832ca8acd2de3e2eeba = L.marker(
+                [2.347335, 48.848424],
+                {}
+            ).addTo(map_d640e7427e3f97a6ad9bda22e0fc3194);
+        
+    
+        var popup_9cc74a7c99552155074322d396b8081b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_694fc3528fe46e3219d4800f8c1b5984 = $(`<div id="html_694fc3528fe46e3219d4800f8c1b5984" style="width: 100.0%; height: 100.0%;"><b>Église Saint-Éphrem</b><br>Adresse: 17 rue des Carmes, Paris, France<br>Pièce: Adrien Polycarpe<br>Prix moyen: 20.5 €</div>`)[0];
+                popup_9cc74a7c99552155074322d396b8081b.setContent(html_694fc3528fe46e3219d4800f8c1b5984);
+            
+        
+
+        marker_18425534e9ae0832ca8acd2de3e2eeba.bindPopup(popup_9cc74a7c99552155074322d396b8081b)
+        ;
+
+        
+    
+    
+            var marker_be5feebf0636fc7e572062a7d0e2eb6d = L.marker(
+                [2.354572, 48.870299],
+                {}
+            ).addTo(map_d640e7427e3f97a6ad9bda22e0fc3194);
+        
+    
+        var popup_f56da26f1a6496decb8c8169536e0ec7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2733d05c6009b45d5f7d75ea30fca38a = $(`<div id="html_2733d05c6009b45d5f7d75ea30fca38a" style="width: 100.0%; height: 100.0%;"><b>La Scala Paris</b><br>Adresse: 13 boulevard de Strasbourg, Paris, France<br>Pièce: The Beggar's Ensemble<br>Prix moyen: unknown €</div>`)[0];
+                popup_f56da26f1a6496decb8c8169536e0ec7.setContent(html_2733d05c6009b45d5f7d75ea30fca38a);
+            
+        
+
+        marker_be5feebf0636fc7e572062a7d0e2eb6d.bindPopup(popup_f56da26f1a6496decb8c8169536e0ec7)
+        ;
+
+        
+    
+    
+            var marker_a097b9a3f0a26b77acafc0af5aa24f71 = L.marker(
+                [2.393824, 48.889311],
+                {}
+            ).addTo(map_d640e7427e3f97a6ad9bda22e0fc3194);
+        
+    
+        var popup_c04142af60bdb032caef9e4da8fe4938 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a13a300d85acc0be303b5d5308603de7 = $(`<div id="html_a13a300d85acc0be303b5d5308603de7" style="width: 100.0%; height: 100.0%;"><b>Grande salle Pierre Boulez - Philharmonie de Paris</b><br>Adresse: 221 avenue Jean-Jaurès, Paris, France<br>Pièce: Beatrice Rana<br>Prix moyen: unknown €</div>`)[0];
+                popup_c04142af60bdb032caef9e4da8fe4938.setContent(html_a13a300d85acc0be303b5d5308603de7);
+            
+        
+
+        marker_a097b9a3f0a26b77acafc0af5aa24f71.bindPopup(popup_c04142af60bdb032caef9e4da8fe4938)
+        ;
+
+        
+    
+</script>
+</html>
