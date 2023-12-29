@@ -55,104 +55,59 @@ def clean_price(price_string):
 
 ### fonction de création de dates exploitables ###
 
-
-###################################################
-
 from datetime import datetime
 
-def convertir_en_datetime_old(date_str):
-    """
-    Prend en argument une date selon le format de la database et le convertit en un tuple date et une heure exploitables en format datetime
 
-    """
-    liste = date_str.split()
-    liste.remove(':')
-    
-    mois_fr_to_en = {
-        'Janvier': 'January',
-        'Février': 'February',
-        'Mars': 'March',
-        'Avril': 'April',
-        'Mai': 'May',
-        'Juin': 'June',
-        'Juillet': 'July',
-        'Août': 'August',
-        'Septembre': 'September',
-        'Octobre': 'October',
-        'Novembre': 'November',
-        'Décembre': 'December'
+def conversion_datetime(date_str):
+    # Dictionnaire pour mapper les noms des jours de la semaine en français aux numéros de jours
+    jours_fr_to_num = {
+        'lundi': 1, 'mardi': 2, 'mercredi': 3, 'jeudi': 4,
+        'vendredi': 5, 'samedi': 6, 'dimanche': 0,
+        'lun': 1, 'mar': 2, 'mer': 3, 'jeu': 4,
+        'ven': 5, 'sam': 6, 'dim': 0
     }
 
- 
-    jour, jour_numero, mois_fr, heure = liste
-
-
-    mois_en = mois_fr_to_en[mois_fr]
-
-    date_str = f'{jour_numero} {mois_en} 2023 {heure}'
-    date_time_obj = datetime.strptime(date_str, '%d %B %Y %Hh%M')
-    return date_time_obj.date(), date_time_obj.time()
-
-
-def convertir_en_datetime(date_str):
-    mois_fr_to_en = {
-        'Janvier': 'January',
-        'Février': 'February',
-        'Mars': 'March',
-        'Avril': 'April',
-        'Mai': 'May',
-        'Juin': 'June',
-        'Juillet': 'July',
-        'Août': 'August',
-        'Septembre': 'September',
-        'Octobre': 'October',
-        'Novembre': 'November',
-        'Décembre': 'December'
+    # Dictionnaire pour mapper les noms des mois en français aux numéros de mois
+    mois_fr_to_num = {
+        'Janvier': 1, 'Février': 2, 'Mars': 3, 'Avril': 4,
+        'Mai': 5, 'Juin': 6, 'Juillet': 7, 'Août': 8,
+        'Septembre': 9, 'Octobre': 10, 'Novembre': 11, 'Décembre': 12
     }
 
-    # Utilisation d'une expression régulière pour extraire les composants de la date
-    match = re.match(r'(?P<jour>1er|\d{1,2})\s(?P<mois>\w+)\s(?P<annee>\d{4})\s(?P<heure>\d{2}h\d{2})', date_str)
-    
-    if match:
-        jour_numero = match.group('jour')
-        mois_fr = match.group('mois')
-        mois_en = mois_fr_to_en.get(mois_fr)
-        annee = match.group('annee')
-        heure = match.group('heure')
-        
-        date_str = f'{jour_numero} {mois_en} {annee} {heure}'
-        
-        # Utilisation du format flexible pour prendre en compte "1er"
-        date_time_obj = datetime.strptime(date_str, '%d %B %Y %Hh%M')
-        return date_time_obj.date(), date_time_obj.time()
+    # Séparation de la chaîne en composants
+    jour, jour_num, mois, heure_str = date_str.split()
 
-    # Si la date ne correspond pas au format attendu, retourner None
-    return None, None
+    # Conversion du jour de la semaine en français (en minuscules)
+    jour_fr = jour.lower()
+
+    jour_num = ''.join(char for char in jour_num if char.isdigit())
+
+    # Conversion du mois en numéro
+    mois_num = mois_fr_to_num.get(mois.capitalize(), 1)
+
+    # Détermination de l'année en fonction du mois
+    annee = 2023 if mois_num == 12 else 2024
+
+    # Création de la chaîne au format ISO 8601
+    iso_date_str = f"{jours_fr_to_num[jour_fr]} {jour_num} {mois_num:02d} {heure_str} {annee}"
+
+    # Analyse de la chaîne pour créer un objet datetime
+    date_obj = datetime.strptime(iso_date_str, "%w %d %m %Hh%M %Y")
+
+    return date_obj
 
 
-#############################################
 
 
-### fonction création date début date fin ###
 
-import dateparser
 
-def extract_dates(date_string):
-    if isinstance(date_string, str):
-        match = re.search(r'Du (\d+ \w+ \d+) au (\d+ \w+ \d+)', date_string)
-        if match:
-            start_date_str, end_date_str = match.groups()
 
-            start_date = dateparser.parse(start_date_str)
-            end_date = dateparser.parse(end_date_str)
 
-            return start_date.strftime('%Y-%m-%d'), end_date.strftime('%Y-%m-%d')
-        else:
-            matches_single_date = re.findall(r'Le (\d+ \w+ \d+)', date_string)
-            if matches_single_date:
-                single_date = dateparser.parse(matches_single_date[0])
-                return single_date.strftime('%Y-%m-%d'), single_date.strftime('%Y-%m-%d')
-            else:
-                return None, None
-    else:
-        return None, None
+
+
+
+
+
+
+
+
