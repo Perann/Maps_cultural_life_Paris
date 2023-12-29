@@ -7,8 +7,8 @@ import requests
 import unidecode
 from UnitScrap import UnitScrapCinema
 
-#This function will scrap the website using the function UnitScrapCinema in UnitScrap.py
 
+#Defining a Header to Datascrap (The site doesn't allow python request)
 HeadersDefault = {'User-Agent': 'Mozilla/5.0 (iPad; CPU OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148'}
 
 
@@ -30,7 +30,7 @@ def ScrapCinema(url,day,HEADERS = HeadersDefault):
     for name_cinema in LinksCinema.keys():
         dfList.append(pd.DataFrame(UnitScrapCinema(LinksCinema[name_cinema],day, name_cinema)))
 
-    DataCinema = pd.concat(dfList, axis=0, ignore_index=True)    #Creating only one DataFrame
+    DataCinema = pd.concat(dfList, axis=0, ignore_index=True)    #Creating an only DataFrame
 
     ref = pd.read_csv('Ressources\Data\ListeCinema.csv', sep = ';')          #Merging with an opendata list to get the coordinates
 

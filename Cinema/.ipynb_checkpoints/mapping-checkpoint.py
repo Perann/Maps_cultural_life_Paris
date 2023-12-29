@@ -4,28 +4,23 @@ from folium.plugins import MarkerCluster
 import webbrowser
 from datetime import datetime
 
-
-#Converting String in datetime object
-def HourConversion(string):                                           
+def HourConversion(string):
     return datetime.strptime(string, '%H:%M') 
 
-
-#This is the function that does and print the Map 
 def MovieMapping(data,MinHour,MaxHour):
     
-    HeureDebut = datetime.strptime(MinHour, "%Hh%M")                            #Converting String in datetime object
+    HeureDebut = datetime.strptime(MinHour, "%Hh%M")
     HeureFin = datetime.strptime(MaxHour, "%Hh%M")
     
     
-    data['time'] = data['heure'].apply(lambda x: HourConversion(x))             #Filtering the Data with the times given
+    data['time'] = data['heure'].apply(lambda x: HourConversion(x))
     AdjustedData = data[data['time']>= HeureDebut]
     AdjustedData = AdjustedData[AdjustedData['time'] <= HeureFin]
     
-    MovieMap = folium.Map(location=[48.8566, 2.3522], zoom_start=12)            #Initializing the Map
+    MovieMap = folium.Map(location=[48.8566, 2.3522], zoom_start=12)
     GeoVisited = {}
 
-    for index, row in AdjustedData.iterrows():                                  #Adding each marker, if we previously had a marker at that spot
-                                                                                #we create a cluster to print all the movie played in one                                                                                      #cinema
+    for index, row in AdjustedData.iterrows():
         lat = row['geo'].split(',')[0]
         lon = row['geo'].split(',')[1]
     
@@ -38,11 +33,10 @@ def MovieMapping(data,MinHour,MaxHour):
             folium.Marker(location=(lat,lon), popup = content, max_width=500).add_to(GeoVisited[(lat,lon)])
         else:
             folium.Marker(location=(lat,lon), popup = content, max_width=500).add_to(GeoVisited[(lat,lon)])
-    
-    MovieMap.save("Outputs/Maps/MovieMapToday.html")                            #Saving the Map
+    MovieMap.save("Outputs/Maps/MovieMapToday.html")
     
 
-    html_file_path = 'Outputs\Maps\MovieMapToday.html'                          #Opening the Map on your default browser 
+    html_file_path = 'Outputs\Maps\MovieMapToday.html'
     webbrowser.open_new(html_file_path)
 
 if __name__ == '__main__':
