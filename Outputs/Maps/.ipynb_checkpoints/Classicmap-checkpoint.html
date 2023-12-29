@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_dfcaa87bca394a5eec8f97fc69f82410 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_dfcaa87bca394a5eec8f97fc69f82410" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_dfcaa87bca394a5eec8f97fc69f82410 = L.map(
+                "map_dfcaa87bca394a5eec8f97fc69f82410",
+                {
+                    center: [48.8566, 2.3522],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5df55aaab5d787d18bad4b9359ac609f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_5df55aaab5d787d18bad4b9359ac609f.addTo(map_dfcaa87bca394a5eec8f97fc69f82410);
+        
+    
+            var marker_d30e8b1b45de14d4c85b564355d93643 = L.marker(
+                [48.85214, 2.346864],
+                {}
+            ).addTo(map_dfcaa87bca394a5eec8f97fc69f82410);
+        
+    
+        var popup_5a0b9782e0854d3cbcc515cc71fbc835 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_edba08fcc2ec7b4d4afdab0f62820687 = $(`<div id="html_edba08fcc2ec7b4d4afdab0f62820687" style="width: 100.0%; height: 100.0%;"><b>Église Saint-Julien-le-Pauvre</b><br>Adresse: 1 rue Saint-Julien-le-Pauvre, Paris, France<br>Concert: Ensemble royal de Paris<br>Heure: 17h30<br>Prix moyen: 32.0 €</div>`)[0];
+                popup_5a0b9782e0854d3cbcc515cc71fbc835.setContent(html_edba08fcc2ec7b4d4afdab0f62820687);
+            
+        
+
+        marker_d30e8b1b45de14d4c85b564355d93643.bindPopup(popup_5a0b9782e0854d3cbcc515cc71fbc835)
+        ;
+
+        
+    
+    
+            var marker_98635fb082159905428e0f4bfe1d9bca = L.marker(
+                [48.848424, 2.347335],
+                {}
+            ).addTo(map_dfcaa87bca394a5eec8f97fc69f82410);
+        
+    
+        var popup_007723b06b263c77eaeb4b26562a9b91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c6800020c38f3fb48dd641a66ba082a = $(`<div id="html_7c6800020c38f3fb48dd641a66ba082a" style="width: 100.0%; height: 100.0%;"><b>Église Saint-Éphrem</b><br>Adresse: 17 rue des Carmes, Paris, France<br>Concert: Orchestre Les Violons de France<br>Heure: 17h00<br>Prix moyen: unknown €</div>`)[0];
+                popup_007723b06b263c77eaeb4b26562a9b91.setContent(html_7c6800020c38f3fb48dd641a66ba082a);
+            
+        
+
+        marker_98635fb082159905428e0f4bfe1d9bca.bindPopup(popup_007723b06b263c77eaeb4b26562a9b91)
+        ;
+
+        
+    
+    
+            var marker_0dbc6b0b91d61c602dc9782d8a4af03b = L.marker(
+                [48.854843, 2.345141],
+                {}
+            ).addTo(map_dfcaa87bca394a5eec8f97fc69f82410);
+        
+    
+        var popup_00e6411d8566a5784c096fbf2e54fe1c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07a0d9706b64e87d570ed6802b338e74 = $(`<div id="html_07a0d9706b64e87d570ed6802b338e74" style="width: 100.0%; height: 100.0%;"><b>Sainte-Chapelle - Palais de la Cité</b><br>Adresse: 8 boulevard du Palais, Paris, France<br>Concert: Orchestre Les Solistes français et Paul Rouger<br>Heure: 18h00<br>Prix moyen: unknown €</div>`)[0];
+                popup_00e6411d8566a5784c096fbf2e54fe1c.setContent(html_07a0d9706b64e87d570ed6802b338e74);
+            
+        
+
+        marker_0dbc6b0b91d61c602dc9782d8a4af03b.bindPopup(popup_00e6411d8566a5784c096fbf2e54fe1c)
+        ;
+
+        
+    
+    
+            var marker_dfb91189421628b8b89ffb97007ccbc6 = L.marker(
+                [48.852299, 2.357319],
+                {}
+            ).addTo(map_dfcaa87bca394a5eec8f97fc69f82410);
+        
+    
+        var popup_2360af060e4c6d3f4cea3c70d43afe0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d7b813f49003bfde0f53c28b1bd3165 = $(`<div id="html_7d7b813f49003bfde0f53c28b1bd3165" style="width: 100.0%; height: 100.0%;"><b>Théâtre de l'Île Saint-Louis</b><br>Adresse: 39 quai d'Anjou, Paris, France<br>Concert: Georges Bériachvili<br>Heure: 18h30<br>Prix moyen: unknown €</div>`)[0];
+                popup_2360af060e4c6d3f4cea3c70d43afe0e.setContent(html_7d7b813f49003bfde0f53c28b1bd3165);
+            
+        
+
+        marker_dfb91189421628b8b89ffb97007ccbc6.bindPopup(popup_2360af060e4c6d3f4cea3c70d43afe0e)
+        ;
+
+        
+    
+    
+            var marker_b84147e9e955851aa03dc4f8c3ab49e9 = L.marker(
+                [48.848424, 2.347335],
+                {}
+            ).addTo(map_dfcaa87bca394a5eec8f97fc69f82410);
+        
+    
+        var popup_11dd9cb15af4e503a55559e18137cb76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c5a7bee70db540d8fe04706e618d9c9 = $(`<div id="html_7c5a7bee70db540d8fe04706e618d9c9" style="width: 100.0%; height: 100.0%;"><b>Église Saint-Éphrem</b><br>Adresse: 17 rue des Carmes, Paris, France<br>Concert: Pascal Mantin<br>Heure: 19h00<br>Prix moyen: 20.5 €</div>`)[0];
+                popup_11dd9cb15af4e503a55559e18137cb76.setContent(html_7c5a7bee70db540d8fe04706e618d9c9);
+            
+        
+
+        marker_b84147e9e955851aa03dc4f8c3ab49e9.bindPopup(popup_11dd9cb15af4e503a55559e18137cb76)
+        ;
+
+        
+    
+    
+            var marker_8c145c770d02f33152db2876c6fc0914 = L.marker(
+                [48.85214, 2.346864],
+                {}
+            ).addTo(map_dfcaa87bca394a5eec8f97fc69f82410);
+        
+    
+        var popup_b32f41a09e12735eebed4d44d14f4b3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_925fa7f972e7ea657aff9a0f4019d45e = $(`<div id="html_925fa7f972e7ea657aff9a0f4019d45e" style="width: 100.0%; height: 100.0%;"><b>Église Saint-Julien-le-Pauvre</b><br>Adresse: 1 rue Saint-Julien-le-Pauvre, Paris, France<br>Concert: Philippe Alègre<br>Heure: 20h00<br>Prix moyen: 22.0 €</div>`)[0];
+                popup_b32f41a09e12735eebed4d44d14f4b3d.setContent(html_925fa7f972e7ea657aff9a0f4019d45e);
+            
+        
+
+        marker_8c145c770d02f33152db2876c6fc0914.bindPopup(popup_b32f41a09e12735eebed4d44d14f4b3d)
+        ;
+
+        
+    
+    
+            var marker_a855ddf9c706908e2d31078a8867b692 = L.marker(
+                [48.870062, 2.324455],
+                {}
+            ).addTo(map_dfcaa87bca394a5eec8f97fc69f82410);
+        
+    
+        var popup_91684c14414bfbecd5f13959fcefffe4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3cbd901eec598e926300f5d6c86b5fd3 = $(`<div id="html_3cbd901eec598e926300f5d6c86b5fd3" style="width: 100.0%; height: 100.0%;"><b>Église de la Madeleine</b><br>Adresse: Place de la Madeleine, Paris, France<br>Concert: Orchestre Hélios et Chœur Hélios éphémère<br>Heure: 20h45<br>Prix moyen: 33.0 €</div>`)[0];
+                popup_91684c14414bfbecd5f13959fcefffe4.setContent(html_3cbd901eec598e926300f5d6c86b5fd3);
+            
+        
+
+        marker_a855ddf9c706908e2d31078a8867b692.bindPopup(popup_91684c14414bfbecd5f13959fcefffe4)
+        ;
+
+        
+    
+    
+            var marker_0cecabd2e81d86ffadb0c44d8f59010f = L.marker(
+                [48.854182, 2.333399],
+                {}
+            ).addTo(map_dfcaa87bca394a5eec8f97fc69f82410);
+        
+    
+        var popup_602680eeeedce201da0fca0210831818 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b030990577500b6899ce8adf30edc64 = $(`<div id="html_0b030990577500b6899ce8adf30edc64" style="width: 100.0%; height: 100.0%;"><b>Église Saint-Germain-des-Prés</b><br>Adresse: Place Saint-Germain des Prés, Paris, France<br>Concert: Orchestre Paul Kuentz<br>Heure: 20h45<br>Prix moyen: unknown €</div>`)[0];
+                popup_602680eeeedce201da0fca0210831818.setContent(html_0b030990577500b6899ce8adf30edc64);
+            
+        
+
+        marker_0cecabd2e81d86ffadb0c44d8f59010f.bindPopup(popup_602680eeeedce201da0fca0210831818)
+        ;
+
+        
+    
+</script>
+</html>

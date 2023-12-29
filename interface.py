@@ -12,6 +12,8 @@ from Cinema.mapping import MovieMapping
 dataCinema = pd.read_csv('Outputs/DataSets/DataCinema.csv')
 from TheatresOperas.mapping import TheaterMap
 DataTheater = pd.read_csv('Outputs/DataSets/DataTheatre_base_finale.csv', sep = ';')
+from Salles_de_concert_Paris.3. mapping.mappingclassic import ClassicalMap
+DataClassic = pd.read_csv('Outputs/DataSets/DataMusiqueClassique_v8.csv')
 
 
 #Defining the executive functions for the buttons 
@@ -27,8 +29,7 @@ def executer_carte_theatre():
 
 def executer_carte_concert():
     valeur4 = str(entry_arg4.get())
-    pass
-
+    ClassicalMap(DataClassic
 
 window  = Tk()
 window.title('Ou sortir à Paris ?')
