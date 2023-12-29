@@ -11,7 +11,7 @@ from PIL import Image, ImageTk
 from Cinema.mapping import MovieMapping
 dataCinema = pd.read_csv('Outputs/DataSets/DataCinema.csv')
 from TheatresOperas.mapping import TheaterMap
-DataTheater = pd.read_csv('Outputs/DataSets/DataTheatre_base_finale.csv', sep = ';')
+DataTheater = pd.read_csv('Outputs\DataSets\DataTheatre_base_finale.csv', sep = ';')
 
 
 #Defining the executive functions for the buttons 
