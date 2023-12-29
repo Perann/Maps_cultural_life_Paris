@@ -89,13 +89,16 @@ def conversion_datetime(date_str):
     ## ici on a besoin de rajouter l'année, on le fait à la main
     annee = 2023 if mois_num == 12 else 2024
 
-    # Création de la chaîne au format ISO 8601
+    ## on peut désormais créer une chaîne au format ISO 8601
     iso_date_str = f"{jours_fr_to_num[jour_fr]} {jour_num} {mois_num:02d} {heure_str} {annee}"
 
-    # Analyse de la chaîne pour créer un objet datetime
+    ## on peut dès lors la convertir en objet datetime
     date_obj = datetime.strptime(iso_date_str, "%w %d %m %Hh%M %Y")
 
     return date_obj
+
+
+if __name__ == '__main__':
 
 
 
