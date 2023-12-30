@@ -22,6 +22,8 @@ In the end it displays you a map of Paris with markers on the establishments tha
 
 # Structure of this github
 
+1 folder "Main" in which you will find all the essential code and statistics. You just have to run it to create maps and see our results
+
 4 folders are dedicated to the main kind of activities we help you to find: theatres, movie theatre, concert hall and musical bar. In each of them, you will find our code that scraps some websites to find the names of the establishments, their addresses and their schedule. If you are only interested in viewing the map, you will just have to go in the folder Map.
 
 Some folders are added to the previous:
