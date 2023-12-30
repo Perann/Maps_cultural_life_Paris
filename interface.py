@@ -1,7 +1,7 @@
 #This code launches an  Interface to enter the type of activity you want to do and sifferent information
 # Sadly, SSP cloud computers don't allow us to make that run ( it uses tkinter), you can either wait until the defense for a live demo
 # or make the code run on your personnal computer.
-# To run the functions used through this interface, you should use the Notebook MapsPlotter of the repository
+# To run the functions used through this interface, you should use the Notebook main.ipynb of the repository
 
 from tkinter import *  
 import pandas as pd
@@ -9,11 +9,11 @@ from PIL import Image, ImageTk
 
 #Downloading datas
 from Cinema.mapping import MovieMapping
-dataCinema = pd.read_csv('Outputs/DataSets/DataCinema.csv')
+dataCinema = pd.read_csv('Maps_cultural_life_Paris/Outputs/DataSets/DataCinema.csv')
 from TheatresOperas.mapping import TheaterMap
-DataTheater = pd.read_csv('Outputs/DataSets/DataTheatre_base_finale.csv', sep = ';')
+DataTheater = pd.read_csv('Maps_cultural_life_Paris/Outputs/DataSets/DataTheatre_base_finale.csv', sep = ';')
 from Salles_de_concert_Paris.Mapping.mappingclassic import ClassicalMap
-DataClassic = pd.read_csv('Outputs/DataSets/DataMusiqueClassique_v8.csv')
+DataClassic = pd.read_csv('Maps_cultural_life_Paris/Outputs/DataSets/DataMusiqueClassique_v8.csv')
 
 
 
@@ -35,7 +35,7 @@ def executer_carte_concert():
 window  = Tk()
 window.title('Ou sortir à Paris ?')
 
-image = Image.open("Ressources/Pictures/leonard-cotte-R5scocnOOdM-unsplash.jpg") 
+image = Image.open("Maps_cultural_life_Paris/Ressources/Pictures/leonard-cotte-R5scocnOOdM-unsplash.jpg") 
 photo = ImageTk.PhotoImage(image)
 canvas = Canvas(window, width=image.width, height=image.height)
 canvas.pack()
