@@ -36,7 +36,7 @@ def UnitScrapCinema(url, date, cinema,HEADERS = HEADERS_IOS):
 
 if __name__ == '__main__':                                          
     HEADERS_IOS = {'User-Agent': 'Mozilla/5.0 (iPad; CPU OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148'}
-    url = 'https://www.cinefil.com/cinema/ugc-cine-cite-les-halles-paris/programmation
+    url = 'https://www.cinefil.com/cinema/ugc-cine-cite-les-halles-paris/programmation'
     DataUgc = pd.DataFrame(UnitScrapCinema(url,'ajd','ugc chatelet'))
     print(DataUgc.head())
     
