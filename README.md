@@ -9,7 +9,9 @@ Our project aims at helping you to visualize all the cultural activities you can
 We are three passionate students from ENSAE, all lovers of Paris and its cultural life. We wanted to help you find what you love, and what fits your budget to enjoy your evening. 
 
 Perann 
+
 Nicolas
+
 Grégoire
 
 
