@@ -48,7 +48,7 @@ Once you've done that, you can navigate, click and get further details on your f
  
 ![Cartedemo](https://github.com/Perann/Maps_cultural_life_Paris/assets/125759494/cd8679d4-69d3-415d-b086-ddab85bc87ec)
 
-# What to run ?
+# How to run without interface ?
 
 If you want to run the functions without the interface you can run the main notebook. There you'll find functions we used in the interface and will be able to run them by specifying the arguments. The cards generated will be automatically registered in the following section: 'Output/Maps', you'll have to open them in a webbrowser to see them. JupyterLab does it by itself, VS code requiers the extension 'Open in browser' to do so. You'll be guided through your use of it and explanatations and details o the project are given in it. Moreover the main notebook entails all the statistics we did about activities in Paris. We recommend you to run it if you wanna know how the project has been developped. 
 
